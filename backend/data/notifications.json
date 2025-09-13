@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ba23b613-6893-491d-b5fe-2d069617b5ef",
+    "event_id": "ma_-9133997510622538055_1757799137",
+    "notification_type": "new_event",
+    "title": "New Merger Acquisition Detected",
+    "message": "Equal Parts Innovation - EqualParts | Reshaping Insurance - Equal Parts Innovation and Relationships",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.341768",
+    "read": false
+  },
+  {
+    "id": "c3356873-e6c3-4ddd-b2dd-985266af4e3f",
+    "event_id": "ma_8529014537804169019_1757799141",
+    "notification_type": "new_event",
+    "title": "New Business Partnership Detected",
+    "message": "Clarity - Clarity and Company",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.341943",
+    "read": false
+  },
+  {
+    "id": "13bb025a-9c7f-4e01-adaa-3e158d1cd4f4",
+    "event_id": "ma_6752473708757352430_1757799147",
+    "notification_type": "new_event",
+    "title": "New Merger Acquisition Detected",
+    "message": "Equip Teams - Firstbase - A Single Platform to Equip Teams and Manage Assets Globally",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.341978",
+    "read": false
+  },
+  {
+    "id": "82f65a7a-406b-45ee-b79d-c3ca2a471937",
+    "event_id": "ma_6752473708757352430_1757799162",
+    "notification_type": "new_event",
+    "title": "New Business Partnership Detected",
+    "message": "Equip Teams - Firstbase - A Single Platform to Equip Teams and Manage Assets Globally",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.341995",
+    "read": false
+  },
+  {
+    "id": "01479b18-e522-44ab-8547-5d01eefb40f1",
+    "event_id": "ma_-7222509958442768819_1757799144",
+    "notification_type": "new_event",
+    "title": "New Merger Acquisition Detected",
+    "message": "Centered Care - Phreesia Acquires MediFind, Reinforcing its Commitment to Patient-Centered Care and Expanding its Offerings to Consumers",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.342009",
+    "read": false
+  },
+  {
+    "id": "224fa546-93d2-48de-a97a-3739a6c47afe",
+    "event_id": "ma_-8353875121165094398_1757799159",
+    "notification_type": "new_event",
+    "title": "New Consolidation Detected",
+    "message": "Acernis Technology Solutions - Acernis Technology Solutions and Consulting",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.342024",
+    "read": false
+  },
+  {
+    "id": "ccbb1887-31c0-4706-8370-69db259fcde9",
+    "event_id": "ma_-8924799615469678140_1757799144",
+    "notification_type": "new_event",
+    "title": "New Merger Acquisition Detected",
+    "message": "American Infrastructure Holding - American Infrastructure Holding Corporation (Ticker:CGRA)",
+    "priority": "medium",
+    "created_at": "2025-09-13 17:32:43.342053",
+    "read": false
+  },
+  {
+    "id": "567ded5c-91b9-435a-8de1-f3fdd7de23f5",
+    "event_id": "ma_-2615009064498100652_1757799150",
+    "notification_type": "new_event",
+    "title": "New Business Partnership Detected",
+    "message": "Genelux - Genelux Corporation | Partners",
+    "priority": "medium",
+    "created_at": "2025-09-13 17:32:43.342064",
+    "read": false
+  },
+  {
+    "id": "aa2c6123-3014-466f-9afc-6a60198958b5",
+    "event_id": "ma_-9133997510622538055_1757799137",
+    "notification_type": "impact_analysis",
+    "title": "Significant Ecosystem Impact Detected",
+    "message": "Impact on 30 companies: Acquisition of Relationships by Equal Parts Innovation may affect competitive landscape",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.350866",
+    "read": false
+  },
+  {
+    "id": "75c1fbc1-d3fd-4caf-9344-f7fc55c2bc70",
+    "event_id": "ma_8529014537804169019_1757799141",
+    "notification_type": "impact_analysis",
+    "title": "Significant Ecosystem Impact Detected",
+    "message": "Impact on 30 companies: Business Partnership involving Clarity may influence industry dynamics",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.350876",
+    "read": false
+  },
+  {
+    "id": "f99e868d-6026-41ba-b701-1ad552fca091",
+    "event_id": "ma_6752473708757352430_1757799147",
+    "notification_type": "impact_analysis",
+    "title": "Significant Ecosystem Impact Detected",
+    "message": "Impact on 30 companies: Acquisition of Manage Assets Globally by Equip Teams may affect competitive landscape",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.350884",
+    "read": false
+  },
+  {
+    "id": "2be83d77-33b0-4e60-a005-879b7ea2d7b8",
+    "event_id": "ma_6752473708757352430_1757799162",
+    "notification_type": "impact_analysis",
+    "title": "Significant Ecosystem Impact Detected",
+    "message": "Impact on 30 companies: Business Partnership involving Equip Teams may influence industry dynamics",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.350890",
+    "read": false
+  },
+  {
+    "id": "a6df19c7-90a6-493c-bb04-a9518a33c5e0",
+    "event_id": "ma_-7222509958442768819_1757799144",
+    "notification_type": "impact_analysis",
+    "title": "Significant Ecosystem Impact Detected",
+    "message": "Impact on 30 companies: Acquisition of Expanding by Centered Care may affect competitive landscape",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.350897",
+    "read": false
+  },
+  {
+    "id": "8b38d1ca-90db-4ad8-97b1-27f41829593e",
+    "event_id": "ma_-8353875121165094398_1757799159",
+    "notification_type": "impact_analysis",
+    "title": "Significant Ecosystem Impact Detected",
+    "message": "Impact on 30 companies: Consolidation involving Acernis Technology Solutions may influence industry dynamics",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.350903",
+    "read": false
+  },
+  {
+    "id": "914b0d95-f7d2-4abf-a814-5bdf44589d3d",
+    "event_id": "ma_-8924799615469678140_1757799144",
+    "notification_type": "impact_analysis",
+    "title": "Significant Ecosystem Impact Detected",
+    "message": "Impact on 15 companies: Acquisition of target company by American Infrastructure Holding may affect competitive landscape",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.350908",
+    "read": false
+  },
+  {
+    "id": "99db8a87-21a5-4393-80dd-4df6c69649a1",
+    "event_id": "ma_-2615009064498100652_1757799150",
+    "notification_type": "impact_analysis",
+    "title": "Significant Ecosystem Impact Detected",
+    "message": "Impact on 15 companies: Business Partnership involving Genelux may influence industry dynamics",
+    "priority": "high",
+    "created_at": "2025-09-13 17:32:43.350914",
+    "read": false
+  },
+  {
+    "id": "7250a350-2041-4403-be80-d57996fc51e4",
+    "event_id": "ma_8529014537804169019_1757799314",
+    "notification_type": "new_event",
+    "title": "New Merger Acquisition Detected",
+    "message": "Clarity - Clarity and Company",
+    "priority": "high",
+    "created_at": "2025-09-13 17:35:34.047940",
+    "read": false
+  },
+  {
+    "id": "42f170d0-5907-42aa-b917-428d0b5781dc",
+    "event_id": "ma_8529014537804169019_1757799314",
+    "notification_type": "impact_analysis",
+    "title": "Significant Ecosystem Impact Detected",
+    "message": "Impact on 30 companies: Acquisition of Company by Clarity may affect competitive landscape",
+    "priority": "high",
+    "created_at": "2025-09-13 17:35:34.049475",
+    "read": false
+  }
+]

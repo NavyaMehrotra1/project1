@@ -1,0 +1,350 @@
+[
+  {
+    "id": "ma_-9133997510622538055_1757799137",
+    "event_type": "merger_acquisition",
+    "status": "announced",
+    "primary_company": {
+      "name": "Equal Parts Innovation",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": {
+      "name": "Relationships",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "other_companies": [],
+    "title": "EqualParts | Reshaping Insurance - Equal Parts Innovation and Relationships",
+    "description": "EqualParts, a forward-thinking insurance platform founded by experienced entrepreneurs including Mike Witte, Graham Yennie, and Mike Meller, is leveraging AI and innovative technology to reshape the insurance industry. While the webpage does not explicitly mention a recent merger or acquisition, it highlights the company's growth strategy of acquiring top-tier agencies and its mission to become a top-5 insurance distributor within a decade. The platform focuses on combining strong client relatio",
+    "deal_value": 3000000000.0,
+    "deal_currency": "USD",
+    "announced_date": "2025-12-04 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://www.equalparts.ai/",
+        "title": "EqualParts | Reshaping Insurance - Equal Parts Innovation and Relationships",
+        "published_date": "2025-12-04T00:00:00.000Z",
+        "query_used": "merger acquisition startup tech company announced"
+      }
+    ],
+    "confidence_score": 0.8999999999999999,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:32:17.369242",
+    "last_updated": "2025-09-13 17:32:17.369243"
+  },
+  {
+    "id": "ma_8529014537804169019_1757799141",
+    "event_type": "business_partnership",
+    "status": "announced",
+    "primary_company": {
+      "name": "Clarity",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": {
+      "name": "Company",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "other_companies": [],
+    "title": "Clarity and Company",
+    "description": "Clarity and Company specializes in advising startups on forming strategic partnerships and joint ventures to accelerate growth. They assist in identifying and evaluating potential partners, conducting due diligence, structuring deals, and negotiating agreements. With extensive experience in M&A and operational restructuring, Clarity helps startups create synergistic alliances that unlock value, enhance market positioning, and support scalable expansion. Their services include strategic planning,",
+    "deal_value": 100.0,
+    "deal_currency": "USD",
+    "announced_date": "2026-05-02 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://www.clarityandcompany.com/",
+        "title": "Clarity and Company",
+        "published_date": "2026-05-02T00:00:00.000Z",
+        "query_used": "strategic partnership joint venture startup"
+      }
+    ],
+    "confidence_score": 0.8999999999999999,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:32:21.042644",
+    "last_updated": "2025-09-13 17:32:21.042645"
+  },
+  {
+    "id": "ma_6752473708757352430_1757799147",
+    "event_type": "merger_acquisition",
+    "status": "announced",
+    "primary_company": {
+      "name": "Equip Teams",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": {
+      "name": "Manage Assets Globally",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "other_companies": [],
+    "title": "Firstbase - A Single Platform to Equip Teams and Manage Assets Globally",
+    "description": "The webpage for Firstbase focuses on its platform's capabilities for managing team assets and equipment logistics, particularly for growing and distributed organizations. It highlights features such as automating onboarding, asset tracking, secure offboarding, and sustainability efforts through device lifecycle management. While it emphasizes cost savings, efficiency, security, and global scalability, it does not provide specific information about startup merger deals or their value. Therefore, ",
+    "deal_value": 100000.0,
+    "deal_currency": "USD",
+    "announced_date": "2026-06-01 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://firstbasehq.com",
+        "title": "Firstbase - A Single Platform to Equip Teams and Manage Assets Globally",
+        "published_date": "2026-06-01T00:00:00.000Z",
+        "query_used": "startup acquired merger deal value"
+      }
+    ],
+    "confidence_score": 0.8999999999999999,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:32:27.333644",
+    "last_updated": "2025-09-13 17:32:27.333645"
+  },
+  {
+    "id": "ma_6752473708757352430_1757799162",
+    "event_type": "business_partnership",
+    "status": "announced",
+    "primary_company": {
+      "name": "Equip Teams",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": {
+      "name": "Manage Assets Globally",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "other_companies": [],
+    "title": "Firstbase - A Single Platform to Equip Teams and Manage Assets Globally",
+    "description": "The provided webpage for Firstbase primarily details its platform\u2019s capabilities for global asset management, team onboarding, security, sustainability, and automation, emphasizing its value for growing and distributed teams. While it highlights benefits such as cost savings ($100,000 annually), time efficiency (5,000 hours saved per year), and high customer satisfaction (99%), it does not specifically address startup partnerships or strategic deals.\n\nIf your focus is on establishing a strategic",
+    "deal_value": 100000.0,
+    "deal_currency": "USD",
+    "announced_date": "2026-06-01 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://firstbasehq.com",
+        "title": "Firstbase - A Single Platform to Equip Teams and Manage Assets Globally",
+        "published_date": "2026-06-01T00:00:00.000Z",
+        "query_used": "startup partnership strategic deal"
+      }
+    ],
+    "confidence_score": 0.8999999999999999,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:32:42.838925",
+    "last_updated": "2025-09-13 17:32:42.838926"
+  },
+  {
+    "id": "ma_-7222509958442768819_1757799144",
+    "event_type": "merger_acquisition",
+    "status": "announced",
+    "primary_company": {
+      "name": "Centered Care",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": {
+      "name": "Expanding",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "other_companies": [],
+    "title": "Phreesia Acquires MediFind, Reinforcing its Commitment to Patient-Centered Care and Expanding its Offerings to Consumers",
+    "description": "Phreesia has acquired MediFind, a health technology company specializing in advanced analytics to help patients, especially those with serious or rare diseases, find expert care quickly. MediFind uses machine learning to identify top doctors based on research, patient volume, and peer recognition, categorizing them into four expertise levels. This acquisition reinforces Phreesia\u2019s commitment to patient-centered care by expanding its offerings to provide reliable, fact-based information to consum",
+    "deal_value": null,
+    "deal_currency": "USD",
+    "announced_date": "2025-11-07 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://ir.phreesia.com/news/news-details/2023/Phreesia-Acquires-MediFind-Reinforcing-its-Commitment-to-Patient-Centered-Care-and-Expanding-its-Offerings-to-Consumers/default.aspx",
+        "title": "Phreesia Acquires MediFind, Reinforcing its Commitment to Patient-Centered Care and Expanding its Offerings to Consumers",
+        "published_date": "2025-11-07T00:00:00.000Z",
+        "query_used": "business consolidation acquisition deal"
+      }
+    ],
+    "confidence_score": 0.7999999999999999,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:32:24.189208",
+    "last_updated": "2025-09-13 17:32:24.189208"
+  },
+  {
+    "id": "ma_-8353875121165094398_1757799159",
+    "event_type": "consolidation",
+    "status": "announced",
+    "primary_company": {
+      "name": "Acernis Technology Solutions",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": {
+      "name": "Consulting",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "other_companies": [],
+    "title": "Acernis Technology Solutions and Consulting",
+    "description": "Acernis Technology Solutions and Consulting specializes in helping organizations navigate technology-driven mergers and consolidations. They offer expertise in procurement, program management, and technology enablement to streamline integration processes, maximize ROI, and ensure secure adoption of new technologies. Their tailored solutions focus on transforming operations, leveraging data assets, and managing change effectively, supporting clients in achieving operational excellence and future-",
+    "deal_value": null,
+    "deal_currency": "USD",
+    "announced_date": "2026-03-31 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://acernis.ca/",
+        "title": "Acernis Technology Solutions and Consulting",
+        "published_date": "2026-03-31T00:00:00.000Z",
+        "query_used": "tech company merger consolidation"
+      }
+    ],
+    "confidence_score": 0.7999999999999999,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:32:39.153608",
+    "last_updated": "2025-09-13 17:32:39.153609"
+  },
+  {
+    "id": "ma_-8924799615469678140_1757799144",
+    "event_type": "merger_acquisition",
+    "status": "announced",
+    "primary_company": {
+      "name": "American Infrastructure Holding",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": null,
+    "other_companies": [],
+    "title": "American Infrastructure Holding Corporation (Ticker:CGRA)",
+    "description": "American Infrastructure Holding Corporation (CGRA) is actively pursuing growth through strategic acquisitions and consolidation within the raw materials sector supporting global infrastructure. The company focuses on acquiring stable operations and turnaround projects with high return potential, leveraging its asset base to maximize investor returns across market cycles. Key assets include diversified mineral assets (TR Mining), and multiple mining operations in Kentucky, West Virginia, and beyo",
+    "deal_value": null,
+    "deal_currency": "USD",
+    "announced_date": "2026-06-01 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://www.americaninfracorp.com/",
+        "title": "American Infrastructure Holding Corporation (Ticker:CGRA)",
+        "published_date": "2026-06-01T00:00:00.000Z",
+        "query_used": "business consolidation acquisition deal"
+      }
+    ],
+    "confidence_score": 0.6,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:32:24.187041",
+    "last_updated": "2025-09-13 17:32:24.187041"
+  },
+  {
+    "id": "ma_-2615009064498100652_1757799150",
+    "event_type": "business_partnership",
+    "status": "announced",
+    "primary_company": {
+      "name": "Genelux",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": null,
+    "other_companies": [],
+    "title": "Genelux Corporation | Partners",
+    "description": "Genelux Corporation actively seeks strategic alliances and partnerships to advance its innovative immunotherapy technologies. Notable collaborations include an exclusive rights agreement with Newsoara Biopharma for Olvi-Vec and its oncolytic virus library in Greater China, aiming to expand regional access and development. Additionally, Genelux formed a joint venture, V2ACT Therapeutics, with TVAX Biomedical to develop combined oncolytic virotherapy and adoptive cell therapy for solid tumors like",
+    "deal_value": null,
+    "deal_currency": "USD",
+    "announced_date": "2026-03-19 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://genelux.com/partners/",
+        "title": "Genelux Corporation | Partners",
+        "published_date": "2026-03-19T00:00:00.000Z",
+        "query_used": "strategic alliance partnership agreement"
+      }
+    ],
+    "confidence_score": 0.6,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:32:30.651172",
+    "last_updated": "2025-09-13 17:32:30.651173"
+  },
+  {
+    "id": "ma_8529014537804169019_1757799314",
+    "event_type": "merger_acquisition",
+    "status": "announced",
+    "primary_company": {
+      "name": "Clarity",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": {
+      "name": "Company",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "other_companies": [],
+    "title": "Clarity and Company",
+    "description": "Clarity and Company specializes in supporting startups and established healthcare companies through strategic partnerships and joint ventures. They assist in assessing and identifying synergistic partnership opportunities, conducting due diligence, structuring deals, and negotiating terms to maximize value. Their services include strategic positioning, operational restructuring, and capital-raising support to ensure successful collaborations that drive growth and market expansion. With extensive",
+    "deal_value": 100.0,
+    "deal_currency": "USD",
+    "announced_date": "2026-05-02 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://www.clarityandcompany.com/",
+        "title": "Clarity and Company",
+        "published_date": "2026-05-02T00:00:00.000Z",
+        "query_used": "strategic partnership joint venture startup"
+      }
+    ],
+    "confidence_score": 0.8999999999999999,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:35:14.991193",
+    "last_updated": "2025-09-13 17:35:14.991194"
+  }
+]

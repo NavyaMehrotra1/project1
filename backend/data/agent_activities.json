@@ -1,0 +1,109 @@
+[
+  {
+    "id": "68917d37-69b4-44b3-b097-da59293ece85",
+    "timestamp": "2025-09-13 17:32:13.851093",
+    "activity_type": "startup",
+    "description": "M&A Monitoring Agent started",
+    "events_found": 0,
+    "events_updated": 0,
+    "sources_checked": [],
+    "execution_time": 0.0,
+    "status": "completed"
+  },
+  {
+    "id": "5ee52271-5b2e-4cc5-83ad-9b570bac2555",
+    "timestamp": "2025-09-13 17:32:43.341366",
+    "activity_type": "search",
+    "description": "Searched for M&A events in last 24 hours",
+    "events_found": 8,
+    "events_updated": 8,
+    "sources_checked": [
+      "Exa API"
+    ],
+    "execution_time": 29.489694,
+    "status": "completed"
+  },
+  {
+    "id": "8899cb1b-3251-4845-a061-607df5c6f5a2",
+    "timestamp": "2025-09-13 17:32:43.350844",
+    "activity_type": "analysis",
+    "description": "Analyzed ecosystem impacts for 8 recent events",
+    "events_found": 8,
+    "events_updated": 0,
+    "sources_checked": [],
+    "execution_time": 0.008727,
+    "status": "completed"
+  },
+  {
+    "id": "50994e49-f3dd-4c2a-9b2b-9a4d01434e54",
+    "timestamp": "2025-09-13 17:34:08.749972",
+    "activity_type": "search",
+    "description": "Searched for M&A events in last 1 hours",
+    "events_found": 7,
+    "events_updated": 0,
+    "sources_checked": [
+      "Exa API"
+    ],
+    "execution_time": 25.39411,
+    "status": "completed"
+  },
+  {
+    "id": "e17f2a9e-4871-4b9c-bb29-e6847beaf130",
+    "timestamp": "2025-09-13 17:34:08.753461",
+    "activity_type": "analysis",
+    "description": "Analyzed ecosystem impacts for 8 recent events",
+    "events_found": 0,
+    "events_updated": 0,
+    "sources_checked": [],
+    "execution_time": 0.003373,
+    "status": "completed"
+  },
+  {
+    "id": "7f28d3a5-ee43-45aa-b67d-409990d9943f",
+    "timestamp": "2025-09-13 17:35:34.047880",
+    "activity_type": "search",
+    "description": "Searched for M&A events in last 1 hours",
+    "events_found": 7,
+    "events_updated": 1,
+    "sources_checked": [
+      "Exa API"
+    ],
+    "execution_time": 25.29003,
+    "status": "completed"
+  },
+  {
+    "id": "0a54cc04-24c0-454e-b80b-1764c6015920",
+    "timestamp": "2025-09-13 17:35:34.049463",
+    "activity_type": "analysis",
+    "description": "Analyzed ecosystem impacts for 9 recent events",
+    "events_found": 1,
+    "events_updated": 0,
+    "sources_checked": [],
+    "execution_time": 0.001495,
+    "status": "completed"
+  },
+  {
+    "id": "4a1c1694-af54-4977-8eb3-8b56373888e3",
+    "timestamp": "2025-09-13 17:37:08.573151",
+    "activity_type": "search",
+    "description": "Searched for M&A events in last 1 hours",
+    "events_found": 7,
+    "events_updated": 0,
+    "sources_checked": [
+      "Exa API"
+    ],
+    "execution_time": 34.520115,
+    "status": "completed"
+  },
+  {
+    "id": "a590a4b5-1aa3-4b17-9bf4-32481521b485",
+    "timestamp": "2025-09-13 17:37:08.576076",
+    "activity_type": "analysis",
+    "description": "Analyzed ecosystem impacts for 9 recent events",
+    "events_found": 0,
+    "events_updated": 0,
+    "sources_checked": [],
+    "execution_time": 0.002795,
+    "status": "completed"
+  }
+]

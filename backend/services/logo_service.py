@@ -15,8 +15,8 @@ class LogoService:
     def __init__(self):
         self.session = None
         self.logo_apis = [
-            "https://logo.clearbit.com/{domain}",
-            "https://img.logo.dev/{domain}?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ",  # Logo.dev API
+            "https://img.logo.dev/{domain}?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ",  # Logo.dev API (Primary)
+            "https://logo.clearbit.com/{domain}",  # Clearbit (Fallback)
             "https://api.brandfetch.io/v2/brands/{domain}",  # Brandfetch API
         ]
         
@@ -114,10 +114,21 @@ class LogoService:
     async def fetch_logo_from_logodev(self, domain: str) -> Optional[str]:
         """Fetch logo from Logo.dev API"""
         try:
-            url = f"https://img.logo.dev/{domain}?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ"
-            async with self.session.get(url) as response:
-                if response.status == 200:
-                    return url
+            # Try multiple Logo.dev formats for better coverage
+            logo_formats = [
+                f"https://img.logo.dev/{domain}?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200",
+                f"https://img.logo.dev/{domain}?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ",
+                f"https://img.logo.dev/www.{domain}?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ"
+            ]
+            
+            for url in logo_formats:
+                try:
+                    async with self.session.get(url) as response:
+                        if response.status == 200:
+                            return url
+                except:
+                    continue
+                    
         except Exception as e:
             logger.debug(f"Logo.dev failed for {domain}: {e}")
         return None
@@ -169,10 +180,10 @@ class LogoService:
         else:
             domain = self.extract_domain_from_company(company_name)
         
-        # Try different logo sources
+        # Try different logo sources (Logo.dev first)
         logo_methods = [
-            self.fetch_logo_from_clearbit,
             self.fetch_logo_from_logodev,
+            self.fetch_logo_from_clearbit,
             self.fetch_logo_from_brandfetch,
             self.fetch_favicon
         ]

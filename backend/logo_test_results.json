@@ -3,60 +3,60 @@
     "id": "openai",
     "name": "OpenAI",
     "website": "https://openai.com",
-    "logo_url": "https://logo.clearbit.com/openai.com"
+    "logo_url": "https://img.logo.dev/openai.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200"
   },
   {
     "id": "stripe",
     "name": "Stripe",
     "website": "https://stripe.com",
-    "logo_url": "https://logo.clearbit.com/stripe.com"
+    "logo_url": "https://img.logo.dev/stripe.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200"
   },
   {
     "id": "airbnb",
     "name": "Airbnb",
     "website": "https://airbnb.com",
-    "logo_url": "https://logo.clearbit.com/airbnb.com"
+    "logo_url": "https://img.logo.dev/airbnb.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200"
   },
   {
     "id": "microsoft",
     "name": "Microsoft Corporation",
     "website": "https://microsoft.com",
-    "logo_url": "https://logo.clearbit.com/microsoft.com"
+    "logo_url": "https://img.logo.dev/microsoft.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200"
   },
   {
     "id": "google",
     "name": "Alphabet Inc.",
     "website": "https://google.com",
-    "logo_url": "https://logo.clearbit.com/google.com"
+    "logo_url": "https://img.logo.dev/google.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200"
   },
   {
     "id": "meta",
     "name": "Meta Platforms",
     "website": "https://meta.com",
-    "logo_url": "https://logo.clearbit.com/meta.com"
+    "logo_url": "https://img.logo.dev/meta.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200"
   },
   {
     "id": "anthropic",
     "name": "Anthropic",
     "website": "https://anthropic.com",
-    "logo_url": "https://logo.clearbit.com/anthropic.com"
+    "logo_url": "https://img.logo.dev/anthropic.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200"
   },
   {
     "id": "apple",
     "name": "Apple Inc.",
     "website": "https://apple.com",
-    "logo_url": "https://logo.clearbit.com/apple.com"
+    "logo_url": "https://img.logo.dev/apple.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200"
   },
   {
     "id": "tesla",
     "name": "Tesla",
     "website": "https://tesla.com",
-    "logo_url": "https://logo.clearbit.com/tesla.com"
+    "logo_url": "https://img.logo.dev/tesla.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200"
   },
   {
     "id": "netflix",
     "name": "Netflix",
     "website": "https://netflix.com",
-    "logo_url": "https://logo.clearbit.com/netflix.com"
+    "logo_url": "https://img.logo.dev/netflix.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ&format=png&size=200"
   }
 ]
