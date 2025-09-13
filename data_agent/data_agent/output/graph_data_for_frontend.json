@@ -4,7 +4,7 @@
       "id": "stripe",
       "label": "Stripe",
       "size": 80,
-      "color": "#10b981",
+      "color": "#4ecdc4",
       "data": {
         "name": "Stripe",
         "industry": "Fintech",
@@ -12,15 +12,18 @@
         "status": "Private",
         "valuation": 95000000000,
         "deal_activity_count": 12,
-        "extraordinary_score": 95.0,
-        "logo_url": null
+        "extraordinary_score": 55,
+        "logo_url": "https://images.ctfassets.net/fzn2n1nzq965/HTTOloNPhisV9P4hlMPNA/cacf1bb88b9fc492dfad34378d844280/Stripe_icon_-_square.svg",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803705.034213,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "openai",
       "label": "OpenAI",
       "size": 80,
-      "color": "#8b5cf6",
+      "color": "#4ecdc4",
       "data": {
         "name": "OpenAI",
         "industry": "AI",
@@ -28,15 +31,17 @@
         "status": "Private",
         "valuation": 80000000000,
         "deal_activity_count": 20,
-        "extraordinary_score": 80.0,
-        "logo_url": null
+        "extraordinary_score": 55,
+        "logo_url": "https://logo.clearbit.com/openai.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803446.910902
       }
     },
     {
       "id": "airbnb",
       "label": "Airbnb",
       "size": 65,
-      "color": "#64748b",
+      "color": "#4ecdc4",
       "data": {
         "name": "Airbnb",
         "industry": "Travel",
@@ -44,15 +49,18 @@
         "status": "Public",
         "valuation": 75000000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 75.0,
-        "logo_url": null
+        "extraordinary_score": 50,
+        "logo_url": "https://a0.muscache.com/airbnb/static/logos/belo-200.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803705.535709,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "coinbase",
       "label": "Coinbase",
       "size": 60,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Coinbase",
         "industry": "Crypto",
@@ -60,15 +68,18 @@
         "status": "Public",
         "valuation": 60000000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 60.0,
-        "logo_url": null
+        "extraordinary_score": 35,
+        "logo_url": "https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803706.037148,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "doordash",
       "label": "DoorDash",
       "size": 65,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "DoorDash",
         "industry": "Food Delivery",
@@ -76,15 +87,18 @@
         "status": "Public",
         "valuation": 50000000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 50.0,
-        "logo_url": null
+        "extraordinary_score": 35,
+        "logo_url": "https://cdn.doordash.com/media/consumer/home/landing/new/DoorDash_Logo_Red.svg",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803706.538419,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "canva",
       "label": "Canva",
       "size": 80,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Canva",
         "industry": "Design",
@@ -92,15 +106,17 @@
         "status": "Private",
         "valuation": 40000000000,
         "deal_activity_count": 4,
-        "extraordinary_score": 40.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/canva.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803452.643977
       }
     },
     {
       "id": "instacart",
       "label": "Instacart",
       "size": 75,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Instacart",
         "industry": "Grocery",
@@ -108,15 +124,18 @@
         "status": "Private",
         "valuation": 39000000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 39.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/instacart.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803707.201859,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "cruise",
       "label": "Cruise",
       "size": 60,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Cruise",
         "industry": "Autonomous Vehicles",
@@ -124,15 +143,18 @@
         "status": "Private",
         "valuation": 30000000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 30.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/cruise.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803707.716682,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "figma",
       "label": "Figma",
       "size": 54,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Figma",
         "industry": "Design",
@@ -140,15 +162,17 @@
         "status": "Acquired",
         "valuation": 20000000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 20.0,
-        "logo_url": null
+        "extraordinary_score": 35,
+        "logo_url": "https://logo.clearbit.com/figma.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803457.049703
       }
     },
     {
       "id": "miro",
       "label": "Miro",
       "size": 62,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Miro",
         "industry": "Collaboration",
@@ -156,15 +180,17 @@
         "status": "Private",
         "valuation": 17500000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 17.5,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/miro.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803459.779781
       }
     },
     {
       "id": "gitlab",
       "label": "GitLab",
       "size": 80,
-      "color": "#3b82f6",
+      "color": "#95a5a6",
       "data": {
         "name": "GitLab",
         "industry": "DevTools",
@@ -172,15 +198,18 @@
         "status": "Public",
         "valuation": 15000000000,
         "deal_activity_count": 20,
-        "extraordinary_score": 15.0,
-        "logo_url": null
+        "extraordinary_score": 35,
+        "logo_url": "https://about.gitlab.com/images/press/logo/svg/gitlab-logo-gray-rgb.svg",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803708.217984,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "discord",
       "label": "Discord",
       "size": 55,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Discord",
         "industry": "Communication",
@@ -188,15 +217,17 @@
         "status": "Private",
         "valuation": 15000000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 15.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/discord.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803463.69505
       }
     },
     {
       "id": "samsara",
       "label": "Samsara",
       "size": 50,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Samsara",
         "industry": "IoT",
@@ -204,15 +235,17 @@
         "status": "Public",
         "valuation": 15000000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 15.0,
-        "logo_url": null
+        "extraordinary_score": 35,
+        "logo_url": "https://logo.clearbit.com/samsara.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803466.157583
       }
     },
     {
       "id": "anthropic",
       "label": "Anthropic",
       "size": 80,
-      "color": "#8b5cf6",
+      "color": "#4ecdc4",
       "data": {
         "name": "Anthropic",
         "industry": "AI",
@@ -220,15 +253,17 @@
         "status": "Private",
         "valuation": 15000000000,
         "deal_activity_count": 18,
-        "extraordinary_score": 15.0,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://logo.clearbit.com/anthropic.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803469.0432582
       }
     },
     {
       "id": "plaid",
       "label": "Plaid",
       "size": 80,
-      "color": "#10b981",
+      "color": "#4ecdc4",
       "data": {
         "name": "Plaid",
         "industry": "Fintech",
@@ -236,15 +271,17 @@
         "status": "Private",
         "valuation": 13400000000,
         "deal_activity_count": 14,
-        "extraordinary_score": 13.4,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://logo.clearbit.com/plaid.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803471.508715
       }
     },
     {
       "id": "faire",
       "label": "Faire",
-      "size": 47,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Faire",
         "industry": "B2B Marketplace",
@@ -252,15 +289,18 @@
         "status": "Private",
         "valuation": 12400000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 12.4,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/faire.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803708.735759,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "brex",
       "label": "Brex",
       "size": 80,
-      "color": "#10b981",
+      "color": "#4ecdc4",
       "data": {
         "name": "Brex",
         "industry": "Fintech",
@@ -268,15 +308,18 @@
         "status": "Private",
         "valuation": 12300000000,
         "deal_activity_count": 8,
-        "extraordinary_score": 12.3,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://logo.clearbit.com/brex.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803709.2530491,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "deel",
       "label": "Deel",
       "size": 52,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Deel",
         "industry": "HR Tech",
@@ -284,15 +327,18 @@
         "status": "Private",
         "valuation": 12000000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 12.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/deel.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803709.7724538,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "rippling",
       "label": "Rippling",
       "size": 56,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Rippling",
         "industry": "HR Tech",
@@ -300,15 +346,18 @@
         "status": "Private",
         "valuation": 11250000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 11.25,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/rippling.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803710.285888,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "airtable",
       "label": "Airtable",
       "size": 80,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Airtable",
         "industry": "Database",
@@ -316,15 +365,17 @@
         "status": "Private",
         "valuation": 11000000000,
         "deal_activity_count": 13,
-        "extraordinary_score": 11.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/airtable.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803477.5308301
       }
     },
     {
       "id": "notion",
       "label": "Notion",
-      "size": 39,
-      "color": "#64748b",
+      "size": 60,
+      "color": "#4ecdc4",
       "data": {
         "name": "Notion",
         "industry": "Productivity",
@@ -332,15 +383,17 @@
         "status": "Private",
         "valuation": 10000000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 10.0,
-        "logo_url": null
+        "extraordinary_score": 45,
+        "logo_url": "https://logo.clearbit.com/notion.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803479.979845
       }
     },
     {
       "id": "reddit",
       "label": "Reddit",
-      "size": 44,
-      "color": "#ef4444",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Reddit",
         "industry": "Social Media",
@@ -348,15 +401,18 @@
         "status": "Public",
         "valuation": 10000000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 10.0,
-        "logo_url": null
+        "extraordinary_score": 35,
+        "logo_url": "https://www.redditstatic.com/shreddit/assets/favicon/192x192.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803710.787137,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "gusto",
       "label": "Gusto",
       "size": 54,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Gusto",
         "industry": "HR Tech",
@@ -364,15 +420,18 @@
         "status": "Private",
         "valuation": 9500000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 9.5,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/gusto.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803711.306205,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "ramp",
       "label": "Ramp",
-      "size": 47,
-      "color": "#10b981",
+      "size": 60,
+      "color": "#4ecdc4",
       "data": {
         "name": "Ramp",
         "industry": "Fintech",
@@ -380,15 +439,17 @@
         "status": "Private",
         "valuation": 8100000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 8.1,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/d5d9ef305fdb2a6449bfa11545604de1f338a4ff.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803482.278807
       }
     },
     {
       "id": "flexport",
       "label": "Flexport",
-      "size": 47,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Flexport",
         "industry": "Logistics",
@@ -396,15 +457,18 @@
         "status": "Private",
         "valuation": 8000000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 8.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/flexport.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803711.827965,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "dropbox",
       "label": "Dropbox",
-      "size": 47,
-      "color": "#64748b",
+      "size": 70,
+      "color": "#ff6b6b",
       "data": {
         "name": "Dropbox",
         "industry": "Cloud Storage",
@@ -412,15 +476,18 @@
         "status": "Public",
         "valuation": 8000000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 8.0,
-        "logo_url": null
+        "extraordinary_score": 60,
+        "logo_url": "https://cfl.dropboxstatic.com/static/images/logo_catalog/dropbox_logo_glyph_blue_m1@2x-vflJ5vCl4.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803712.329172,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "razorpay",
       "label": "Razorpay",
       "size": 66,
-      "color": "#10b981",
+      "color": "#4ecdc4",
       "data": {
         "name": "Razorpay",
         "industry": "Fintech",
@@ -428,15 +495,18 @@
         "status": "Private",
         "valuation": 7500000000,
         "deal_activity_count": 6,
-        "extraordinary_score": 7.5,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://logo.clearbit.com/razorpay.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803712.846572,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "razorpay",
       "label": "Razorpay",
       "size": 66,
-      "color": "#10b981",
+      "color": "#4ecdc4",
       "data": {
         "name": "Razorpay",
         "industry": "Fintech",
@@ -444,15 +514,18 @@
         "status": "Private",
         "valuation": 7500000000,
         "deal_activity_count": 6,
-        "extraordinary_score": 7.5,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://logo.clearbit.com/razorpay.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803713.360467,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "scale_ai",
       "label": "Scale AI",
       "size": 80,
-      "color": "#8b5cf6",
+      "color": "#4ecdc4",
       "data": {
         "name": "Scale AI",
         "industry": "AI",
@@ -460,15 +533,18 @@
         "status": "Private",
         "valuation": 7300000000,
         "deal_activity_count": 14,
-        "extraordinary_score": 7.3,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://img.logo.dev/scaleai.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803716.171606,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "benchling",
       "label": "Benchling",
-      "size": 34,
-      "color": "#64748b",
+      "size": 60,
+      "color": "#4ecdc4",
       "data": {
         "name": "Benchling",
         "industry": "Biotech",
@@ -476,15 +552,18 @@
         "status": "Private",
         "valuation": 6100000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 6.1,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://logo.clearbit.com/benchling.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803716.7880929,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "fivetran",
       "label": "Fivetran",
-      "size": 33,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Fivetran",
         "industry": "Data",
@@ -492,15 +571,18 @@
         "status": "Private",
         "valuation": 5600000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 5.6,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/fivetran.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803717.379309,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "rappi",
       "label": "Rappi",
-      "size": 47,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Rappi",
         "industry": "Delivery",
@@ -508,15 +590,18 @@
         "status": "Private",
         "valuation": 5250000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 5.25,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/rappi.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803717.965222,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "rappi",
       "label": "Rappi",
-      "size": 47,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Rappi",
         "industry": "Delivery",
@@ -524,15 +609,18 @@
         "status": "Private",
         "valuation": 5250000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 5.25,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/rappi.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803718.566114,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "checkr",
       "label": "Checkr",
-      "size": 42,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Checkr",
         "industry": "HR Tech",
@@ -540,15 +628,18 @@
         "status": "Private",
         "valuation": 5000000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 5.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/checkr.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803719.1348522,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "zapier",
       "label": "Zapier",
-      "size": 32,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Zapier",
         "industry": "Automation",
@@ -556,15 +647,18 @@
         "status": "Private",
         "valuation": 5000000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 5.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/zapier.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803719.956332,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "zenefits",
       "label": "Zenefits",
-      "size": 41,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Zenefits",
         "industry": "HR Tech",
@@ -572,15 +666,18 @@
         "status": "Private",
         "valuation": 4500000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 4.5,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/zenefits.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803720.575563,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "dbt_labs",
       "label": "dbt Labs",
-      "size": 45,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "dbt Labs",
         "industry": "Data",
@@ -588,15 +685,17 @@
         "status": "Private",
         "valuation": 4200000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 4.2,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/dbtlabs.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803493.5345001
       }
     },
     {
       "id": "clubhouse",
       "label": "Clubhouse",
-      "size": 30,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Clubhouse",
         "industry": "Social Audio",
@@ -604,15 +703,17 @@
         "status": "Private",
         "valuation": 4000000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 4.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/clubhouse.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803495.987534
       }
     },
     {
       "id": "boom_supersonic",
       "label": "Boom Supersonic",
-      "size": 30,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Boom Supersonic",
         "industry": "Aerospace",
@@ -620,15 +721,17 @@
         "status": "Private",
         "valuation": 4000000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 4.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/boomsupersonic.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803498.40331
       }
     },
     {
       "id": "webflow",
       "label": "Webflow",
-      "size": 35,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Webflow",
         "industry": "Web Building",
@@ -636,15 +739,18 @@
         "status": "Private",
         "valuation": 4000000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 4.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/webflow.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803721.2641978,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "patreon",
       "label": "Patreon",
-      "size": 30,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Patreon",
         "industry": "Creator Economy",
@@ -652,15 +758,17 @@
         "status": "Private",
         "valuation": 4000000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 4.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/patreon.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803501.7649128
       }
     },
     {
       "id": "amplitude",
       "label": "Amplitude",
       "size": 80,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Amplitude",
         "industry": "Analytics",
@@ -668,15 +776,18 @@
         "status": "Public",
         "valuation": 4000000000,
         "deal_activity_count": 12,
-        "extraordinary_score": 4.0,
-        "logo_url": null
+        "extraordinary_score": 35,
+        "logo_url": "https://logo.clearbit.com/amplitude.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803721.8794482,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "retool",
       "label": "Retool",
       "size": 80,
-      "color": "#3b82f6",
+      "color": "#95a5a6",
       "data": {
         "name": "Retool",
         "industry": "DevTools",
@@ -684,15 +795,17 @@
         "status": "Private",
         "valuation": 3200000000,
         "deal_activity_count": 21,
-        "extraordinary_score": 3.2,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ecc14f4467de840a1f3cab7b6be0c2d1c0ab785c.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803504.113007
       }
     },
     {
       "id": "retool",
       "label": "Retool",
       "size": 80,
-      "color": "#3b82f6",
+      "color": "#95a5a6",
       "data": {
         "name": "Retool",
         "industry": "DevTools",
@@ -700,15 +813,17 @@
         "status": "Private",
         "valuation": 3200000000,
         "deal_activity_count": 21,
-        "extraordinary_score": 3.2,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/ecc14f4467de840a1f3cab7b6be0c2d1c0ab785c.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803504.113007
       }
     },
     {
       "id": "verkada",
       "label": "Verkada",
-      "size": 38,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Verkada",
         "industry": "Security",
@@ -716,15 +831,17 @@
         "status": "Private",
         "valuation": 3200000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 3.2,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/verkada.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803506.5809631
       }
     },
     {
       "id": "ironclad",
       "label": "Ironclad",
-      "size": 28,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Ironclad",
         "industry": "Legal Tech",
@@ -732,15 +849,18 @@
         "status": "Private",
         "valuation": 3200000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 3.2,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/ironclad.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803722.520712,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "zymergen",
       "label": "Zymergen",
-      "size": 33,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Zymergen",
         "industry": "Biotech",
@@ -748,15 +868,17 @@
         "status": "Acquired",
         "valuation": 3200000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 3.2,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/zymergen.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803509.795846
       }
     },
     {
       "id": "segment",
       "label": "Segment",
       "size": 80,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Segment",
         "industry": "Analytics",
@@ -764,15 +886,18 @@
         "status": "Acquired",
         "valuation": 3200000000,
         "deal_activity_count": 13,
-        "extraordinary_score": 3.2,
-        "logo_url": null
+        "extraordinary_score": 20,
+        "logo_url": "https://logo.clearbit.com/segment.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803723.388757,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "launchdarkly",
       "label": "LaunchDarkly",
       "size": 62,
-      "color": "#3b82f6",
+      "color": "#95a5a6",
       "data": {
         "name": "LaunchDarkly",
         "industry": "DevTools",
@@ -780,15 +905,17 @@
         "status": "Private",
         "valuation": 3000000000,
         "deal_activity_count": 7,
-        "extraordinary_score": 3.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/launchdarkly.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803512.995012
       }
     },
     {
       "id": "calendly",
       "label": "Calendly",
-      "size": 27,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Calendly",
         "industry": "Scheduling",
@@ -796,15 +923,17 @@
         "status": "Private",
         "valuation": 3000000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 3.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/calendly.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803515.402493
       }
     },
     {
       "id": "lattice",
       "label": "Lattice",
-      "size": 42,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Lattice",
         "industry": "HR Tech",
@@ -812,15 +941,18 @@
         "status": "Private",
         "valuation": 3000000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 3.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/lattice.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803724.020649,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "postmates",
       "label": "Postmates",
-      "size": 36,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Postmates",
         "industry": "Delivery",
@@ -828,15 +960,17 @@
         "status": "Acquired",
         "valuation": 2650000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 2.65,
-        "logo_url": null
+        "extraordinary_score": 20,
+        "logo_url": "https://logo.clearbit.com/postmates.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803518.527309
       }
     },
     {
       "id": "sourcegraph",
       "label": "Sourcegraph",
       "size": 66,
-      "color": "#3b82f6",
+      "color": "#95a5a6",
       "data": {
         "name": "Sourcegraph",
         "industry": "DevTools",
@@ -844,15 +978,17 @@
         "status": "Private",
         "valuation": 2600000000,
         "deal_activity_count": 8,
-        "extraordinary_score": 2.6,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/sourcegraph.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803520.937946
       }
     },
     {
       "id": "vercel",
       "label": "Vercel",
       "size": 76,
-      "color": "#3b82f6",
+      "color": "#95a5a6",
       "data": {
         "name": "Vercel",
         "industry": "DevTools",
@@ -860,15 +996,17 @@
         "status": "Private",
         "valuation": 2500000000,
         "deal_activity_count": 10,
-        "extraordinary_score": 2.5,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/vercel.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803523.410354
       }
     },
     {
       "id": "ginkgo_bioworks",
       "label": "Ginkgo Bioworks",
-      "size": 31,
-      "color": "#64748b",
+      "size": 60,
+      "color": "#4ecdc4",
       "data": {
         "name": "Ginkgo Bioworks",
         "industry": "Biotech",
@@ -876,15 +1014,18 @@
         "status": "Public",
         "valuation": 2500000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 2.5,
-        "logo_url": null
+        "extraordinary_score": 45,
+        "logo_url": "https://img.logo.dev/ginkgobioworks.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803725.7265012,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "pagerduty",
       "label": "PagerDuty",
-      "size": 31,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "PagerDuty",
         "industry": "DevOps",
@@ -892,15 +1033,17 @@
         "status": "Public",
         "valuation": 2500000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 2.5,
-        "logo_url": null
+        "extraordinary_score": 35,
+        "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/18fd6f870541d2398827dedc9e57678e8770c424.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803524.891867
       }
     },
     {
       "id": "algolia",
       "label": "Algolia",
-      "size": 30,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Algolia",
         "industry": "Search",
@@ -908,15 +1051,18 @@
         "status": "Private",
         "valuation": 2250000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 2.25,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/algolia.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803726.298622,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "clipboard_health",
       "label": "Clipboard Health",
       "size": 54,
-      "color": "#f59e0b",
+      "color": "#95a5a6",
       "data": {
         "name": "Clipboard Health",
         "industry": "Healthcare",
@@ -924,15 +1070,18 @@
         "status": "Private",
         "valuation": 2000000000,
         "deal_activity_count": 6,
-        "extraordinary_score": 2.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/clipboardhealth.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803726.834526,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "supabase",
       "label": "Supabase",
       "size": 74,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "Supabase",
         "industry": "Database",
@@ -940,15 +1089,18 @@
         "status": "Private",
         "valuation": 2000000000,
         "deal_activity_count": 10,
-        "extraordinary_score": 2.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/supabase.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803727.380078,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "docker",
       "label": "Docker",
-      "size": 44,
-      "color": "#3b82f6",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Docker",
         "industry": "DevTools",
@@ -956,15 +1108,17 @@
         "status": "Private",
         "valuation": 2000000000,
         "deal_activity_count": 4,
-        "extraordinary_score": 2.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/8f74c3796e1b7675bab6c99118bcf9dd7b94ceec.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803528.3460999
       }
     },
     {
       "id": "mercury",
       "label": "Mercury",
-      "size": 33,
-      "color": "#10b981",
+      "size": 60,
+      "color": "#4ecdc4",
       "data": {
         "name": "Mercury",
         "industry": "Fintech",
@@ -972,15 +1126,17 @@
         "status": "Private",
         "valuation": 1600000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 1.6,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://logo.clearbit.com/mercury.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803530.799275
       }
     },
     {
       "id": "airbyte",
       "label": "Airbyte",
-      "size": 42,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Airbyte",
         "industry": "Data",
@@ -988,15 +1144,18 @@
         "status": "Private",
         "valuation": 1500000000,
         "deal_activity_count": 4,
-        "extraordinary_score": 1.5,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/airbyte.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803727.901673,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "pilot",
       "label": "Pilot",
-      "size": 31,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Pilot",
         "industry": "Accounting",
@@ -1004,15 +1163,18 @@
         "status": "Private",
         "valuation": 1200000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 1.2,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/pilot.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803728.44546,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "mixpanel",
       "label": "Mixpanel",
-      "size": 35,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Mixpanel",
         "industry": "Analytics",
@@ -1020,15 +1182,18 @@
         "status": "Private",
         "valuation": 1050000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 1.05,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/mixpanel.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803729.024588,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "weights_&_biases",
       "label": "Weights & Biases",
-      "size": 45,
-      "color": "#64748b",
+      "size": 60,
+      "color": "#4ecdc4",
       "data": {
         "name": "Weights & Biases",
         "industry": "AI/ML",
@@ -1036,15 +1201,18 @@
         "status": "Private",
         "valuation": 1000000000,
         "deal_activity_count": 5,
-        "extraordinary_score": 1.0,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://img.logo.dev/weights&biases.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803730.8990211,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "sendbird",
       "label": "Sendbird",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Sendbird",
         "industry": "Communication",
@@ -1052,15 +1220,18 @@
         "status": "Private",
         "valuation": 1000000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 1.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/sendbird.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803731.425803,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "optimizely",
       "label": "Optimizely",
-      "size": 40,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Optimizely",
         "industry": "Analytics",
@@ -1068,15 +1239,17 @@
         "status": "Private",
         "valuation": 1000000000,
         "deal_activity_count": 4,
-        "extraordinary_score": 1.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/0d8d48fc3d7aa043a1e1d86d30f84a388f342454.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803537.728431
       }
     },
     {
       "id": "23andme",
       "label": "23andMe",
       "size": 65,
-      "color": "#f59e0b",
+      "color": "#95a5a6",
       "data": {
         "name": "23andMe",
         "industry": "Healthcare",
@@ -1084,15 +1257,17 @@
         "status": "Public",
         "valuation": 1000000000,
         "deal_activity_count": 9,
-        "extraordinary_score": 1.0,
-        "logo_url": null
+        "extraordinary_score": 35,
+        "logo_url": "https://www.ycombinator.com/logos/medium/missing.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803538.9063349
       }
     },
     {
       "id": "planetscale",
       "label": "PlanetScale",
       "size": 65,
-      "color": "#64748b",
+      "color": "#95a5a6",
       "data": {
         "name": "PlanetScale",
         "industry": "Database",
@@ -1100,15 +1275,17 @@
         "status": "Private",
         "valuation": 1000000000,
         "deal_activity_count": 9,
-        "extraordinary_score": 1.0,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/planetscale.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803541.6901388
       }
     },
     {
       "id": "loom",
       "label": "Loom",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Loom",
         "industry": "Video",
@@ -1116,15 +1293,17 @@
         "status": "Acquired",
         "valuation": 975000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 0.975,
-        "logo_url": null
+        "extraordinary_score": 20,
+        "logo_url": "https://www.ycombinator.com/logos/medium/missing.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803542.422335
       }
     },
     {
       "id": "twitch",
       "label": "Twitch",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Twitch",
         "industry": "Gaming",
@@ -1132,15 +1311,18 @@
         "status": "Acquired",
         "valuation": 970000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 0.97,
-        "logo_url": null
+        "extraordinary_score": 20,
+        "logo_url": "https://logo.clearbit.com/twitch.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803731.984108,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "superhuman",
       "label": "Superhuman",
-      "size": 23,
-      "color": "#64748b",
+      "size": 60,
+      "color": "#4ecdc4",
       "data": {
         "name": "Superhuman",
         "industry": "Email",
@@ -1148,15 +1330,17 @@
         "status": "Private",
         "valuation": 825000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 0.825,
-        "logo_url": null
+        "extraordinary_score": 40,
+        "logo_url": "https://logo.clearbit.com/superhuman.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803545.501448
       }
     },
     {
       "id": "front",
       "label": "Front",
-      "size": 23,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Front",
         "industry": "Communication",
@@ -1164,15 +1348,18 @@
         "status": "Private",
         "valuation": 800000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 0.8,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/front.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803732.675529,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "substack",
       "label": "Substack",
-      "size": 27,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Substack",
         "industry": "Publishing",
@@ -1180,15 +1367,18 @@
         "status": "Private",
         "valuation": 650000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 0.65,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/substack.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803733.3477209,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "shipt",
       "label": "Shipt",
-      "size": 31,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Shipt",
         "industry": "Grocery",
@@ -1196,15 +1386,17 @@
         "status": "Acquired",
         "valuation": 550000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 0.55,
-        "logo_url": null
+        "extraordinary_score": 20,
+        "logo_url": "https://logo.clearbit.com/shipt.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803549.443955
       }
     },
     {
       "id": "posthog",
       "label": "PostHog",
-      "size": 35,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "PostHog",
         "industry": "Analytics",
@@ -1212,15 +1404,18 @@
         "status": "Private",
         "valuation": 400000000,
         "deal_activity_count": 4,
-        "extraordinary_score": 0.4,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/posthog.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803734.0400572,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "hightouch",
       "label": "Hightouch",
-      "size": 40,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Hightouch",
         "industry": "Data",
@@ -1228,15 +1423,18 @@
         "status": "Private",
         "valuation": 400000000,
         "deal_activity_count": 5,
-        "extraordinary_score": 0.4,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/hightouch.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803734.7485409,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "linear",
       "label": "Linear",
-      "size": 30,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Linear",
         "industry": "Project Management",
@@ -1244,15 +1442,17 @@
         "status": "Private",
         "valuation": 400000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 0.4,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/linear.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803553.6283488
       }
     },
     {
       "id": "hex",
       "label": "Hex",
-      "size": 30,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Hex",
         "industry": "Data",
@@ -1260,15 +1460,17 @@
         "status": "Private",
         "valuation": 400000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 0.4,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/hex.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803556.016922
       }
     },
     {
       "id": "weebly",
       "label": "Weebly",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Weebly",
         "industry": "Web Building",
@@ -1276,15 +1478,18 @@
         "status": "Acquired",
         "valuation": 365000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 0.365,
-        "logo_url": null
+        "extraordinary_score": 20,
+        "logo_url": "https://logo.clearbit.com/weebly.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803735.4913988,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "modern_fertility",
       "label": "Modern Fertility",
       "size": 62,
-      "color": "#f59e0b",
+      "color": "#95a5a6",
       "data": {
         "name": "Modern Fertility",
         "industry": "Healthcare",
@@ -1292,15 +1497,18 @@
         "status": "Acquired",
         "valuation": 225000000,
         "deal_activity_count": 10,
-        "extraordinary_score": 0.225,
-        "logo_url": null
+        "extraordinary_score": 20,
+        "logo_url": "https://logo.clearbit.com/modernfertility.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803736.2160242,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "heroku",
       "label": "Heroku",
-      "size": 22,
-      "color": "#3b82f6",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Heroku",
         "industry": "DevTools",
@@ -1308,15 +1516,18 @@
         "status": "Acquired",
         "valuation": 212000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 0.212,
-        "logo_url": null
+        "extraordinary_score": 20,
+        "logo_url": "https://logo.clearbit.com/heroku.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803736.7544682,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "temporal",
       "label": "Temporal",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Temporal",
         "industry": "Infrastructure",
@@ -1324,15 +1535,17 @@
         "status": "Private",
         "valuation": 200000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 0.2,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/temporal.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803560.710631
       }
     },
     {
       "id": "buildkite",
       "label": "Buildkite",
-      "size": 27,
-      "color": "#3b82f6",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Buildkite",
         "industry": "DevTools",
@@ -1340,15 +1553,17 @@
         "status": "Private",
         "valuation": 200000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 0.2,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/buildkite.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803563.418874
       }
     },
     {
       "id": "metabase",
       "label": "Metabase",
-      "size": 22,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Metabase",
         "industry": "Analytics",
@@ -1356,15 +1571,17 @@
         "status": "Private",
         "valuation": 200000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 0.2,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/metabase.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803565.8068962
       }
     },
     {
       "id": "clearbit",
       "label": "Clearbit",
-      "size": 32,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Clearbit",
         "industry": "Data",
@@ -1372,15 +1589,17 @@
         "status": "Acquired",
         "valuation": 200000000,
         "deal_activity_count": 4,
-        "extraordinary_score": 0.2,
-        "logo_url": null
+        "extraordinary_score": 20,
+        "logo_url": "https://logo.clearbit.com/clearbit.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803568.196209
       }
     },
     {
       "id": "preset",
       "label": "Preset",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Preset",
         "industry": "Analytics",
@@ -1388,15 +1607,17 @@
         "status": "Private",
         "valuation": 100000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 0.1,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/preset.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803571.70812
       }
     },
     {
       "id": "hasura",
       "label": "Hasura",
-      "size": 30,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Hasura",
         "industry": "Database",
@@ -1404,15 +1625,17 @@
         "status": "Private",
         "valuation": 100000000,
         "deal_activity_count": 4,
-        "extraordinary_score": 0.1,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/hasura.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803574.4938009
       }
     },
     {
       "id": "fly.io",
       "label": "Fly.io",
-      "size": 40,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Fly.io",
         "industry": "Infrastructure",
@@ -1420,15 +1643,17 @@
         "status": "Private",
         "valuation": 100000000,
         "deal_activity_count": 6,
-        "extraordinary_score": 0.1,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/fly.io.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803577.2317069
       }
     },
     {
       "id": "healthtap",
       "label": "Healthtap",
-      "size": 25,
-      "color": "#f59e0b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Healthtap",
         "industry": "Healthcare",
@@ -1436,15 +1661,17 @@
         "status": "Private",
         "valuation": 100000000,
         "deal_activity_count": 3,
-        "extraordinary_score": 0.1,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/healthtap.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803579.646404
       }
     },
     {
       "id": "neon",
       "label": "Neon",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Neon",
         "industry": "Database",
@@ -1452,15 +1679,17 @@
         "status": "Private",
         "valuation": 100000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 0.1,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/neon.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803582.397011
       }
     },
     {
       "id": "render",
       "label": "Render",
-      "size": 35,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Render",
         "industry": "Infrastructure",
@@ -1468,15 +1697,17 @@
         "status": "Private",
         "valuation": 100000000,
         "deal_activity_count": 5,
-        "extraordinary_score": 0.1,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/render.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803584.830456
       }
     },
     {
       "id": "rudderstack",
       "label": "Rudderstack",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Rudderstack",
         "industry": "Data",
@@ -1484,15 +1715,17 @@
         "status": "Private",
         "valuation": 100000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 0.1,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/rudderstack.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803587.286748
       }
     },
     {
       "id": "census",
       "label": "Census",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Census",
         "industry": "Data",
@@ -1500,15 +1733,17 @@
         "status": "Private",
         "valuation": 100000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 0.1,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/census.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803589.91258
       }
     },
     {
       "id": "teespring",
       "label": "Teespring",
       "size": 60,
-      "color": "#ec4899",
+      "color": "#95a5a6",
       "data": {
         "name": "Teespring",
         "industry": "E-commerce",
@@ -1516,15 +1751,18 @@
         "status": "Private",
         "valuation": 100000000,
         "deal_activity_count": 10,
-        "extraordinary_score": 0.1,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/teespring.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803737.3079429,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "gumroad",
       "label": "Gumroad",
-      "size": 40,
-      "color": "#ec4899",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Gumroad",
         "industry": "E-commerce",
@@ -1532,15 +1770,17 @@
         "status": "Private",
         "valuation": 100000000,
         "deal_activity_count": 6,
-        "extraordinary_score": 0.1,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/gumroad.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803593.3197849
       }
     },
     {
       "id": "luma",
       "label": "Luma",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Luma",
         "industry": "Events",
@@ -1548,15 +1788,17 @@
         "status": "Private",
         "valuation": 50000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 0.05,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/luma.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803595.7476108
       }
     },
     {
       "id": "cube",
       "label": "Cube",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Cube",
         "industry": "Analytics",
@@ -1564,15 +1806,17 @@
         "status": "Private",
         "valuation": 50000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 0.05,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://bookface-images.s3.amazonaws.com/small_logos/39ebc48cd35c22d4c08ba48f40dd02101c10e35a.png",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803596.711322
       }
     },
     {
       "id": "observable",
       "label": "Observable",
-      "size": 20,
-      "color": "#64748b",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Observable",
         "industry": "Analytics",
@@ -1580,15 +1824,18 @@
         "status": "Private",
         "valuation": 50000000,
         "deal_activity_count": 2,
-        "extraordinary_score": 0.05,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://img.logo.dev/observable.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803738.560246,
+        "logo_source": "improved_scraper"
       }
     },
     {
       "id": "railway",
       "label": "Railway",
-      "size": 28,
-      "color": "#3b82f6",
+      "size": 50,
+      "color": "#95a5a6",
       "data": {
         "name": "Railway",
         "industry": "DevTools",
@@ -1596,8 +1843,10 @@
         "status": "Private",
         "valuation": 50000000,
         "deal_activity_count": 4,
-        "extraordinary_score": 0.05,
-        "logo_url": null
+        "extraordinary_score": 30,
+        "logo_url": "https://logo.clearbit.com/railway.com",
+        "last_extraordinary_update": "2024-01-13T18:30:00",
+        "logo_updated": 1757803601.80559
       }
     }
   ],
