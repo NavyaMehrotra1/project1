@@ -1,0 +1,150 @@
+{
+  "concepts": [
+    {
+      "id": "basic_math",
+      "name": "Basic Mathematics",
+      "description": "Fundamental arithmetic operations",
+      "difficulty_level": 1,
+      "prerequisites": [],
+      "examples": [
+        "2 + 2 = 4",
+        "5 \u00d7 3 = 15"
+      ],
+      "related_concepts": [
+        "algebra"
+      ],
+      "learning_objectives": [
+        "Perform basic arithmetic",
+        "Understand number relationships"
+      ]
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra",
+      "description": "Mathematical operations with variables",
+      "difficulty_level": 3,
+      "prerequisites": [
+        "basic_math"
+      ],
+      "examples": [
+        "x + 5 = 10",
+        "2y = 8"
+      ],
+      "related_concepts": [
+        "calculus",
+        "geometry"
+      ],
+      "learning_objectives": [
+        "Solve for variables",
+        "Manipulate equations"
+      ]
+    },
+    {
+      "id": "calculus",
+      "name": "Calculus",
+      "description": "Study of rates of change and accumulation",
+      "difficulty_level": 7,
+      "prerequisites": [
+        "algebra",
+        "geometry"
+      ],
+      "examples": [
+        "d/dx(x\u00b2) = 2x",
+        "\u222bx dx = x\u00b2/2 + C"
+      ],
+      "related_concepts": [
+        "differential_equations"
+      ],
+      "learning_objectives": [
+        "Understand derivatives",
+        "Compute integrals"
+      ]
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "description": "Study of shapes, sizes, and spatial relationships",
+      "difficulty_level": 4,
+      "prerequisites": [
+        "basic_math"
+      ],
+      "examples": [
+        "Area of circle = \u03c0r\u00b2",
+        "Pythagorean theorem: a\u00b2 + b\u00b2 = c\u00b2"
+      ],
+      "related_concepts": [
+        "trigonometry",
+        "calculus"
+      ],
+      "learning_objectives": [
+        "Calculate areas and volumes",
+        "Understand spatial relationships"
+      ]
+    },
+    {
+      "id": "programming_basics",
+      "name": "Programming Fundamentals",
+      "description": "Basic programming concepts and logic",
+      "difficulty_level": 2,
+      "prerequisites": [],
+      "examples": [
+        "Variables",
+        "Loops",
+        "Functions"
+      ],
+      "related_concepts": [
+        "data_structures",
+        "algorithms"
+      ],
+      "learning_objectives": [
+        "Write simple programs",
+        "Understand control flow"
+      ]
+    },
+    {
+      "id": "data_structures",
+      "name": "Data Structures",
+      "description": "Ways to organize and store data efficiently",
+      "difficulty_level": 5,
+      "prerequisites": [
+        "programming_basics"
+      ],
+      "examples": [
+        "Arrays",
+        "Linked Lists",
+        "Trees",
+        "Hash Tables"
+      ],
+      "related_concepts": [
+        "algorithms",
+        "databases"
+      ],
+      "learning_objectives": [
+        "Choose appropriate data structures",
+        "Implement basic structures"
+      ]
+    },
+    {
+      "id": "algorithms",
+      "name": "Algorithms",
+      "description": "Step-by-step procedures for solving problems",
+      "difficulty_level": 6,
+      "prerequisites": [
+        "programming_basics",
+        "data_structures"
+      ],
+      "examples": [
+        "Binary Search",
+        "Merge Sort",
+        "Dijkstra's Algorithm"
+      ],
+      "related_concepts": [
+        "complexity_analysis"
+      ],
+      "learning_objectives": [
+        "Design efficient algorithms",
+        "Analyze algorithm performance"
+      ]
+    }
+  ]
+}
