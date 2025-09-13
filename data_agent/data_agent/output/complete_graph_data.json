@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "companies",
+      "label": "companies",
+      "size": 20,
+      "color": "#6366f1",
+      "data": {
+        "name": "companies",
+        "industry": "Technology",
+        "batch": "Unknown",
+        "status": "Unknown",
+        "valuation": 0,
+        "deal_activity_count": 0,
+        "extraordinary_score": 0
+      }
+    },
+    {
+      "id": "nextpage",
+      "label": "nextPage",
+      "size": 20,
+      "color": "#6366f1",
+      "data": {
+        "name": "nextPage",
+        "industry": "Technology",
+        "batch": "Unknown",
+        "status": "Unknown",
+        "valuation": 0,
+        "deal_activity_count": 0,
+        "extraordinary_score": 0
+      }
+    },
+    {
+      "id": "page",
+      "label": "page",
+      "size": 20,
+      "color": "#6366f1",
+      "data": {
+        "name": "page",
+        "industry": "Technology",
+        "batch": "Unknown",
+        "status": "Unknown",
+        "valuation": 0,
+        "deal_activity_count": 0,
+        "extraordinary_score": 0
+      }
+    },
+    {
+      "id": "totalpages",
+      "label": "totalPages",
+      "size": 20,
+      "color": "#6366f1",
+      "data": {
+        "name": "totalPages",
+        "industry": "Technology",
+        "batch": "Unknown",
+        "status": "Unknown",
+        "valuation": 0,
+        "deal_activity_count": 0,
+        "extraordinary_score": 0
+      }
+    }
+  ],
+  "edges": [],
+  "metadata": {
+    "total_companies": 4,
+    "total_deals": 0,
+    "industries": [
+      "Technology"
+    ],
+    "deal_types": [],
+    "date_range": {
+      "start": "",
+      "end": ""
+    },
+    "total_deal_value": 0,
+    "extraction_timestamp": "2025-09-13T13:28:59.741306"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "extraction_metadata": {
+    "start_time": "2025-09-13T13:28:39.902817",
+    "end_time": "2025-09-13T13:28:59.743317",
+    "duration_seconds": 19.8405,
+    "extraction_date": "2025-09-13"
+  },
+  "yc_companies_stats": {
+    "total_companies": 4,
+    "total_valuation": 0,
+    "average_valuation": 0,
+    "industry_breakdown": {
+      "Technology": 4
+    },
+    "top_5_by_valuation": [
+      {
+        "name": "companies",
+        "batch": "Unknown",
+        "status": "Unknown",
+        "valuation": 0,
+        "industry": "Technology"
+      },
+      {
+        "name": "nextPage",
+        "batch": "Unknown",
+        "status": "Unknown",
+        "valuation": 0,
+        "industry": "Technology"
+      },
+      {
+        "name": "page",
+        "batch": "Unknown",
+        "status": "Unknown",
+        "valuation": 0,
+        "industry": "Technology"
+      },
+      {
+        "name": "totalPages",
+        "batch": "Unknown",
+        "status": "Unknown",
+        "valuation": 0,
+        "industry": "Technology"
+      }
+    ]
+  },
+  "news_collection_stats": {
+    "total_news_items": 0,
+    "source_breakdown": {},
+    "unique_companies_mentioned": 0
+  },
+  "deals_stats": {
+    "total_deals_found": 0,
+    "total_deal_value": 0,
+    "average_deal_value": 0,
+    "deal_type_breakdown": {},
+    "largest_deals": []
+  }
+}

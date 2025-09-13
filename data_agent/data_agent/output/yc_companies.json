@@ -1,0 +1,30 @@
+[
+  {
+    "name": "companies",
+    "batch": "Unknown",
+    "status": "Unknown",
+    "valuation": 0,
+    "industry": "Technology"
+  },
+  {
+    "name": "nextPage",
+    "batch": "Unknown",
+    "status": "Unknown",
+    "valuation": 0,
+    "industry": "Technology"
+  },
+  {
+    "name": "page",
+    "batch": "Unknown",
+    "status": "Unknown",
+    "valuation": 0,
+    "industry": "Technology"
+  },
+  {
+    "name": "totalPages",
+    "batch": "Unknown",
+    "status": "Unknown",
+    "valuation": 0,
+    "industry": "Technology"
+  }
+]
