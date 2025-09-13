@@ -13,6 +13,7 @@ from services.graph_service import GraphService
 from services.logo_service import LogoService
 from api.exa_routes import router as exa_router
 from api.ma_agent_routes import router as ma_agent_router
+from api.extraordinary_routes import router as extraordinary_router
 from models.schemas import (
     Company, Deal, GraphData, PredictionRequest, 
     WhatIfRequest, EducationRequest, NewsData
@@ -39,6 +40,7 @@ graph_service = GraphService()
 # Include routers
 app.include_router(exa_router)
 app.include_router(ma_agent_router)
+app.include_router(extraordinary_router)
 
 @app.get("/")
 async def root():
