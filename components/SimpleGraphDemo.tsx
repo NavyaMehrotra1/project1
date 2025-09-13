@@ -2,10 +2,12 @@
 
 import React, { useState, useEffect } from 'react'
 import { GraphVisualization } from './GraphVisualization'
+import { GraphIntegration } from './GraphIntegration'
 import { GraphData } from '@/types'
 import { apiService } from '@/services/api'
+import { aiTeachService, UserProfile } from '@/services/ai-teach-service'
 import { motion } from 'framer-motion'
-import { RefreshCw, Eye, EyeOff, Zap } from 'lucide-react'
+import { RefreshCw, Eye, EyeOff, Zap, Brain } from 'lucide-react'
 import toast from 'react-hot-toast'
 
 export const SimpleGraphDemo: React.FC = () => {
@@ -13,10 +15,25 @@ export const SimpleGraphDemo: React.FC = () => {
   const [loading, setLoading] = useState(true)
   const [showPredictions, setShowPredictions] = useState(true)
   const [refreshing, setRefreshing] = useState(false)
+  const [showAITeach, setShowAITeach] = useState(false)
+  const [userProfile, setUserProfile] = useState<UserProfile | null>(null)
 
   useEffect(() => {
     loadGraphData()
+    loadUserProfile()
   }, [])
+
+  const loadUserProfile = async () => {
+    try {
+      // Try to load existing profile from localStorage
+      const savedProfile = localStorage.getItem('ai-teach-profile')
+      if (savedProfile) {
+        setUserProfile(JSON.parse(savedProfile))
+      }
+    } catch (error) {
+      console.error('Error loading user profile:', error)
+    }
+  }
 
   const loadGraphData = async () => {
     try {
@@ -42,6 +59,17 @@ export const SimpleGraphDemo: React.FC = () => {
   const handleNodeClick = (nodeId: string) => {
     console.log('Node clicked:', nodeId)
     toast.success(`Selected: ${nodeId}`)
+  }
+
+  const handleConceptExplain = async (concept: string, context: any) => {
+    try {
+      toast.success(`Learning about: ${concept.replace('_', ' ')}`)
+      // In a real implementation, this would open the AI-Teach concept explorer
+      // or provide an inline explanation
+    } catch (error) {
+      console.error('Error explaining concept:', error)
+      toast.error('Failed to explain concept')
+    }
   }
 
   if (loading) {
@@ -93,6 +121,20 @@ export const SimpleGraphDemo: React.FC = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() => setShowAITeach(!showAITeach)}
+              className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
+                showAITeach 
+                  ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30' 
+                  : 'bg-white/10 text-white border border-white/20'
+              }`}
+            >
+              <Brain size={18} />
+              AI Teacher
+            </motion.button>
+
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               onClick={handleRefresh}
               disabled={refreshing}
               className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-lg border border-white/20 transition-all"
@@ -124,18 +166,53 @@ export const SimpleGraphDemo: React.FC = () => {
         </div>
       </div>
 
-      {/* Graph Container */}
-      <div className="relative z-10 h-[calc(100vh-280px)] mx-6 mb-6">
-        <div className="h-full bg-black/20 backdrop-blur-md rounded-xl border border-white/10 overflow-hidden">
-          {graphData && (
-            <GraphVisualization
-              data={graphData}
-              onNodeClick={handleNodeClick}
-              showPredictions={showPredictions}
-              className="w-full h-full"
-            />
-          )}
+      {/* Main Content */}
+      <div className="flex gap-6">
+        {/* Graph Container */}
+        <div className={showAITeach ? "flex-1" : "w-full"}>
+          <div className="bg-black/20 backdrop-blur-md rounded-xl border border-white/10 overflow-hidden">
+            {graphData && (
+              <GraphVisualization
+                data={graphData}
+                onNodeClick={handleNodeClick}
+                showPredictions={showPredictions}
+              />
+            )}
+          </div>
         </div>
+
+        {/* AI Teacher Integration Panel */}
+        {showAITeach && userProfile && (
+          <div className="w-96">
+            <GraphIntegration
+              graphData={graphData}
+              userProfile={userProfile}
+              onConceptExplain={handleConceptExplain}
+            />
+          </div>
+        )}
+
+        {/* AI Teacher Setup Panel */}
+        {showAITeach && !userProfile && (
+          <div className="w-96">
+            <div className="bg-black/20 backdrop-blur-md rounded-xl p-6 border border-white/10">
+              <div className="text-center">
+                <Brain className="w-12 h-12 text-blue-400 mx-auto mb-4" />
+                <h3 className="text-white font-semibold mb-2">AI Teacher Setup</h3>
+                <p className="text-gray-300 text-sm mb-4">
+                  Complete your background assessment to unlock AI-powered learning from the graph data.
+                </p>
+                <a
+                  href="/ai-teach"
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-2 rounded-lg hover:from-blue-600 hover:to-purple-600 transition-all"
+                >
+                  <Brain className="w-4 h-4" />
+                  Start AI Teacher
+                </a>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Legend */}
