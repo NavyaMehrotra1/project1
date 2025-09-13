@@ -451,7 +451,7 @@ async def main():
     Example of how to use the Multi-Source Data Agent
     """
     # Initialize agent (add your NewsAPI key if available)
-    agent = MultiSourceDataAgent(newsapi_key=None)  # Add your key here
+    agent = MultiSourceDataAgent(newsapi_key= "1014972b4176494696a58168fcc176fe")  # Add your key here
     
     # Example company names (subset for testing)
     test_companies = [
