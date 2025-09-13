@@ -88,3 +88,22 @@ export interface CompanyProfile {
   news_sentiment: number
   extraordinary_factors: string[]
 }
+
+export interface WebSocketMessage {
+  type: string
+  data: any
+  timestamp: string
+}
+
+export interface GraphUpdateEvent {
+  type: 'node_added' | 'node_removed' | 'edge_added' | 'edge_removed' | 'graph_updated'
+  payload: any
+}
+
+export interface CitationTooltip {
+  id: string
+  content: string
+  source: string
+  url?: string
+  confidence: number
+}

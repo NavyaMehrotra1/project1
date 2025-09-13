@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { GraphData, PredictionRequest, WhatIfRequest, EducationRequest, SimulationResult, CompanyProfile } from '@/types'
+import { generateMockGraphData, getMockCompanyProfile, getMockSimulationResult, mockCompanies } from './mockData'
 
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
   ? 'https://your-backend-url.com' 
@@ -10,40 +11,108 @@ const api = axios.create({
   timeout: 30000,
 })
 
+// Development mode flag
+const USE_MOCK_DATA = false; // Now using real backend
+
 export const apiService = {
   // Graph data
   async getGraphData(): Promise<GraphData> {
-    const response = await api.get('/api/graph-data')
-    return response.data
+    if (USE_MOCK_DATA) {
+      // Simulate network delay
+      await new Promise(resolve => setTimeout(resolve, 500))
+      return generateMockGraphData(false)
+    }
+    
+    try {
+      const response = await api.get('/api/graph-data')
+      return response.data
+    } catch (error) {
+      console.warn('Backend unavailable, using mock data')
+      return generateMockGraphData(false)
+    }
   },
 
   // Companies
   async getCompanies() {
-    const response = await api.get('/api/companies')
-    return response.data.companies
+    if (USE_MOCK_DATA) {
+      await new Promise(resolve => setTimeout(resolve, 300))
+      return mockCompanies
+    }
+    
+    try {
+      const response = await api.get('/api/companies')
+      return response.data.companies
+    } catch (error) {
+      console.warn('Backend unavailable, using mock companies')
+      return mockCompanies
+    }
   },
 
   async getCompanyProfile(companyId: string): Promise<CompanyProfile> {
-    const response = await api.get(`/api/company/${companyId}`)
-    return response.data
+    if (USE_MOCK_DATA) {
+      await new Promise(resolve => setTimeout(resolve, 400))
+      return getMockCompanyProfile(companyId)
+    }
+    
+    try {
+      const response = await api.get(`/api/company/${companyId}`)
+      return response.data
+    } catch (error) {
+      console.warn('Backend unavailable, using mock company profile')
+      return getMockCompanyProfile(companyId)
+    }
   },
 
   // Deals
   async getDeals() {
-    const response = await api.get('/api/deals')
-    return response.data.deals
+    if (USE_MOCK_DATA) {
+      await new Promise(resolve => setTimeout(resolve, 300))
+      return generateMockGraphData(false).edges.map(edge => edge.data)
+    }
+    
+    try {
+      const response = await api.get('/api/deals')
+      return response.data.deals
+    } catch (error) {
+      console.warn('Backend unavailable, using mock deals')
+      return generateMockGraphData(false).edges.map(edge => edge.data)
+    }
   },
 
   // Predictions
   async predictDeals(request: PredictionRequest) {
-    const response = await api.post('/api/predict-deals', request)
-    return response.data.predictions
+    if (USE_MOCK_DATA) {
+      await new Promise(resolve => setTimeout(resolve, 1000))
+      return generateMockGraphData(true).edges
+        .filter(edge => edge.data?.is_predicted)
+        .map(edge => edge.data)
+    }
+    
+    try {
+      const response = await api.post('/api/predict-deals', request)
+      return response.data.predictions
+    } catch (error) {
+      console.warn('Backend unavailable, using mock predictions')
+      return generateMockGraphData(true).edges
+        .filter(edge => edge.data?.is_predicted)
+        .map(edge => edge.data)
+    }
   },
 
   // What-if simulations
   async simulateScenario(request: WhatIfRequest): Promise<SimulationResult> {
-    const response = await api.post('/api/what-if', request)
-    return response.data
+    if (USE_MOCK_DATA) {
+      await new Promise(resolve => setTimeout(resolve, 1500))
+      return getMockSimulationResult(request.scenario)
+    }
+    
+    try {
+      const response = await api.post('/api/what-if', request)
+      return response.data
+    } catch (error) {
+      console.warn('Backend unavailable, using mock simulation')
+      return getMockSimulationResult(request.scenario)
+    }
   },
 
   // Education
