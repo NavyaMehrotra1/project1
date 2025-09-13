@@ -346,5 +346,159 @@
     "affected_companies": [],
     "discovered_at": "2025-09-13 17:35:14.991193",
     "last_updated": "2025-09-13 17:35:14.991194"
+  },
+  {
+    "id": "ma_8171786066158407529_1757800098",
+    "event_type": "merger_acquisition",
+    "status": "announced",
+    "primary_company": {
+      "name": "Equal Parts Innovation",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": {
+      "name": "Relationships",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "other_companies": [],
+    "title": "EqualParts | Reshaping Insurance - Equal Parts Innovation and Relationships",
+    "description": "EqualParts, a forward-thinking insurance platform founded by industry veterans including Mike Witte, Graham Yennie, and Mike Meller, is leveraging innovative AI technology to reshape the insurance distribution landscape. Although there is no specific announcement of a merger or acquisition in the provided content, the company is actively expanding its reach through agency partnerships and growth initiatives. Their mission is to become a top-5 insurance distributor within the next decade by acqui",
+    "deal_value": 3000000000.0,
+    "deal_currency": "USD",
+    "announced_date": "2025-12-04 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://www.equalparts.ai/",
+        "title": "EqualParts | Reshaping Insurance - Equal Parts Innovation and Relationships",
+        "published_date": "2025-12-04T00:00:00.000Z",
+        "query_used": "merger acquisition startup tech company announced"
+      }
+    ],
+    "confidence_score": 1.0,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:48:18.506539",
+    "last_updated": "2025-09-13 17:48:18.506540"
+  },
+  {
+    "id": "ma_9020038300771942527_1757800103",
+    "event_type": "merger_acquisition",
+    "status": "announced",
+    "primary_company": {
+      "name": "Clarity",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": {
+      "name": "Company",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "other_companies": [],
+    "title": "Clarity and Company",
+    "description": "Clarity and Co. specializes in guiding healthcare and growth-stage companies through strategic partnerships and joint ventures. They assist in assessing partnership opportunities, conducting due diligence, structuring deals, and negotiating to maximize value. With extensive experience in M&A and operational restructuring, they help startups and established firms develop strategic blueprints, optimize resource allocation, and expand through collaborative ventures. Their services include corporate",
+    "deal_value": 100.0,
+    "deal_currency": "USD",
+    "announced_date": "2026-05-02 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://www.clarityandcompany.com/",
+        "title": "Clarity and Company",
+        "published_date": "2026-05-02T00:00:00.000Z",
+        "query_used": "strategic partnership joint venture startup"
+      }
+    ],
+    "confidence_score": 1.0,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:48:23.936669",
+    "last_updated": "2025-09-13 17:48:23.936670"
+  },
+  {
+    "id": "ma_3550660487896138902_1757800108",
+    "event_type": "merger_acquisition",
+    "status": "announced",
+    "primary_company": {
+      "name": "American Infrastructure Holding",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": null,
+    "other_companies": [],
+    "title": "American Infrastructure Holding Corporation (Ticker:CGRA)",
+    "description": "American Infrastructure Holding Corporation (CGRA) is a growth-oriented company specializing in consolidating and streaming raw materials essential for global infrastructure development, including steel and alloy production. The company operates multiple mineral assets and mining projects across Kentucky, West Virginia, and other locations, focusing on iron ore, titanium, vanadium, and metallurgical carbon. CGRA emphasizes efficiency, safety, and disruptive technology to maximize investor return",
+    "deal_value": null,
+    "deal_currency": "USD",
+    "announced_date": "2026-06-01 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://www.americaninfracorp.com/",
+        "title": "American Infrastructure Holding Corporation (Ticker:CGRA)",
+        "published_date": "2026-06-01T00:00:00.000Z",
+        "query_used": "business consolidation acquisition deal"
+      }
+    ],
+    "confidence_score": 1.0,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:48:28.011023",
+    "last_updated": "2025-09-13 17:48:28.011024"
+  },
+  {
+    "id": "ma_8871319929000258976_1757800108",
+    "event_type": "merger_acquisition",
+    "status": "announced",
+    "primary_company": {
+      "name": "Centered Care",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "secondary_company": {
+      "name": "Expanding",
+      "industry": null,
+      "valuation": null,
+      "batch": null,
+      "status": null
+    },
+    "other_companies": [],
+    "title": "Phreesia Acquires MediFind, Reinforcing its Commitment to Patient-Centered Care and Expanding its Offerings to Consumers",
+    "description": "Phreesia has acquired MediFind, a health technology company specializing in advanced analytics to help patients, especially those with serious or rare diseases, find expert care quickly. MediFind uses machine learning to identify top doctors based on research, patient volume, and peer recognition, categorizing their expertise levels. This acquisition strengthens Phreesia\u2019s commitment to patient-centered care by expanding its offerings to consumers and improving access to high-quality medical pro",
+    "deal_value": null,
+    "deal_currency": "USD",
+    "announced_date": "2025-11-07 00:00:00",
+    "expected_completion": null,
+    "actual_completion": null,
+    "sources": [
+      {
+        "url": "https://ir.phreesia.com/news/news-details/2023/Phreesia-Acquires-MediFind-Reinforcing-its-Commitment-to-Patient-Centered-Care-and-Expanding-its-Offerings-to-Consumers/default.aspx",
+        "title": "Phreesia Acquires MediFind, Reinforcing its Commitment to Patient-Centered Care and Expanding its Offerings to Consumers",
+        "published_date": "2025-11-07T00:00:00.000Z",
+        "query_used": "business consolidation acquisition deal"
+      }
+    ],
+    "confidence_score": 1.0,
+    "ecosystem_impact": {},
+    "affected_companies": [],
+    "discovered_at": "2025-09-13 17:48:28.014180",
+    "last_updated": "2025-09-13 17:48:28.014181"
   }
 ]

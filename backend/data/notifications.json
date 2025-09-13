@@ -178,5 +178,25 @@
     "priority": "high",
     "created_at": "2025-09-13 17:35:34.049475",
     "read": false
+  },
+  {
+    "id": "abee8676-2fab-46f6-9e64-7f327689d68d",
+    "event_id": "ma_8171786066158407529_1757800098",
+    "notification_type": "new_event",
+    "title": "New Merger Acquisition Detected",
+    "message": "Equal Parts Innovation - EqualParts | Reshaping Insurance - Equal Parts Inn...",
+    "priority": "high",
+    "created_at": "2025-09-13 17:48:29.019279",
+    "read": false
+  },
+  {
+    "id": "96e8d05f-5e4e-4787-b3e0-aecabd71ffb2",
+    "event_id": "ma_9020038300771942527_1757800103",
+    "notification_type": "new_event",
+    "title": "New Merger Acquisition Detected",
+    "message": "Clarity - Clarity and Company...",
+    "priority": "high",
+    "created_at": "2025-09-13 17:48:29.019305",
+    "read": false
   }
 ]
