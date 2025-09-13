@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DealFlow - AI-Powered VC Intelligence</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles/exa-enhanced.css" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -547,39 +548,79 @@
             font-size: 24px;
             font-weight: 600;
             color: #ffffff;
-        }
 
-        .graph-controls {
-            display: flex;
-            gap: 15px;
-        }
+.graph-controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-        .control-btn {
-            background: #2d2d2d;
-            border: 1px solid #444;
-            padding: 8px 16px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            font-size: 14px;
-            color: #ccc;
-        }
+.search-container {
+    position: relative;
+    min-width: 200px;
+}
 
-        .control-btn:hover {
-            background: #3d3d3d;
-            border-color: #555;
-            color: white;
-        }
+.search-input {
+    width: 100%;
+    padding: 8px 35px 8px 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+}
 
-        .control-btn.active {
-            background: #ff6b35;
-            color: white;
-            border-color: #ff6b35;
-        }
+.search-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
 
-        .graph-placeholder {
-            height: calc(100% - 80px);
-            background: linear-gradient(45deg, #0a0a0a 25%, transparent 25%), 
+.search-input:focus {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #00ff88;
+}
+
+.search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.6);
+    pointer-events: none;
+}
+
+.filter-container {
+    min-width: 140px;
+}
+
+.filter-select {
+    width: 100%;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.filter-select:focus {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #00ff88;
+}
+
+.filter-select option {
+    background: #1a1a1a;
+    color: #ffffff;
+}
+
+.graph-placeholder {
+    background: 
+                        linear-gradient(45deg, #0a0a0a 25%, transparent 25%), 
                         linear-gradient(-45deg, #0a0a0a 25%, transparent 25%), 
                         linear-gradient(45deg, transparent 75%, #0a0a0a 75%), 
                         linear-gradient(-45deg, transparent 75%, #0a0a0a 75%);
@@ -1187,22 +1228,48 @@
                 <div class="graph-header">
                     <h2 class="graph-title">YC Company Network</h2>
                     <div class="graph-controls">
-                        <button class="control-btn active">
-                            <i class="fas fa-eye"></i> View
-                        </button>
-                        <button class="control-btn">
-                            <i class="fas fa-filter"></i> Filter
-                        </button>
-                        <button class="control-btn">
-                            <i class="fas fa-search-plus"></i> Zoom
+                        <div class="search-container">
+                            <input type="text" id="companySearch" placeholder="Search companies..." class="search-input">
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                        <div class="filter-container">
+                            <select id="categoryFilter" class="filter-select">
+                                <option value="">All Categories</option>
+                                <option value="AI/ML">AI/ML</option>
+                                <option value="Fintech">Fintech</option>
+                                <option value="Healthcare">Healthcare</option>
+                                <option value="E-commerce">E-commerce</option>
+                                <option value="SaaS">SaaS</option>
+                                <option value="Consumer">Consumer</option>
+                                <option value="Enterprise">Enterprise</option>
+                                <option value="Hardware">Hardware</option>
+                            </select>
+                        </div>
+                        <div class="filter-container">
+                            <select id="fundingFilter" class="filter-select">
+                                <option value="">All Stages</option>
+                                <option value="Pre-seed">Pre-seed</option>
+                                <option value="Seed">Seed</option>
+                                <option value="Series A">Series A</option>
+                                <option value="Series B">Series B</option>
+                                <option value="Series C">Series C</option>
+                                <option value="Series C+">Series C+</option>
+                                <option value="Public">Public</option>
+                                <option value="Acquired">Acquired</option>
+                            </select>
+                        </div>
+                        <button class="control-btn" id="resetFilters">
+                            <i class="fas fa-undo"></i> Reset
                         </button>
                     </div>
                 </div>
-                <div class="graph-placeholder">
-                    <div class="placeholder-content">
-                        <i class="fas fa-sitemap"></i>
-                        <h3>Interactive Network Graph</h3>
-                        <p>100 YC companies • 200 relationships • Real-time updates</p>
+                <div class="graph-placeholder" id="networkGraphContainer">
+                    <div class="loading-state" id="graphLoading">
+                        <div class="loading-spinner">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </div>
+                        <h3>Loading Enhanced Network Graph</h3>
+                        <p>Fetching YC companies with Exa insights...</p>
                     </div>
                 </div>
             </div>
@@ -1665,6 +1732,494 @@
             }
         }
 
+        // Global variables for filtering
+        let allNodes = [];
+        let allLinks = [];
+        let currentSimulation = null;
+        let currentSvg = null;
+
+        // Load enhanced network graph
+        async function loadEnhancedNetworkGraph() {
+            const container = document.getElementById('networkGraphContainer');
+            const loading = document.getElementById('graphLoading');
+            
+            if (!container || !loading) return;
+            
+            try {
+                // Load D3.js if not already loaded
+                if (typeof d3 === 'undefined') {
+                    await loadScript('https://d3js.org/d3.v7.min.js');
+                }
+                
+                // Fetch company data from backend
+                const response = await fetch('http://localhost:8000/api/companies-with-logos');
+                const data = await response.json();
+                const companies = data.companies;
+                
+                console.log('Loaded companies with logos:', companies.length);
+                
+                // Process companies for visualization
+                allNodes = companies.map((company, index) => ({
+                    id: company.id || `company-${index}`,
+                    name: company.name || `Company ${index + 1}`,
+                    category: company.category || inferCategory(company.description || ''),
+                    batch: company.batch,
+                    description: company.description,
+                    website: company.website,
+                    founders: company.founders,
+                    location: company.location,
+                    funding_stage: company.funding_stage || 'Unknown',
+                    exa_insights: company.exa_insights,
+                    logo_url: company.logo_url
+                }));
+
+                // Generate connections
+                allLinks = generateConnections(allNodes);
+
+                // Clear loading state
+                loading.style.display = 'none';
+
+                // Create D3 visualization
+                createD3NetworkGraph(container, { nodes: allNodes, links: allLinks });
+
+                // Initialize filtering controls
+                initializeFilterControls();
+
+            } catch (error) {
+                console.error('Error loading enhanced network:', error);
+                // Fallback to basic visualization
+                loading.innerHTML = `
+                    <div class="error-state">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h3>Loading Mock Network</h3>
+                        <p>Backend unavailable - showing demo data</p>
+                    </div>
+                `;
+                
+                setTimeout(() => {
+                    const mockData = { nodes: getMockCompanies(), links: [] };
+                    mockData.links = generateConnections(mockData.nodes);
+                    allNodes = mockData.nodes;
+                    allLinks = mockData.links;
+                    loading.style.display = 'none';
+                    createD3NetworkGraph(container, mockData);
+                    initializeFilterControls();
+                }, 2000);
+            }
+        }
+
+        // Initialize filtering controls
+        function initializeFilterControls() {
+            const searchInput = document.getElementById('companySearch');
+            const categoryFilter = document.getElementById('categoryFilter');
+            const fundingFilter = document.getElementById('fundingFilter');
+            const resetButton = document.getElementById('resetFilters');
+
+            if (searchInput) {
+                searchInput.addEventListener('input', applyFilters);
+            }
+            if (categoryFilter) {
+                categoryFilter.addEventListener('change', applyFilters);
+            }
+            if (fundingFilter) {
+                fundingFilter.addEventListener('change', applyFilters);
+            }
+            if (resetButton) {
+                resetButton.addEventListener('click', resetFilters);
+            }
+        }
+
+        // Apply filters to the graph
+        function applyFilters() {
+            const searchTerm = document.getElementById('companySearch')?.value.toLowerCase() || '';
+            const categoryFilter = document.getElementById('categoryFilter')?.value || '';
+            const fundingFilter = document.getElementById('fundingFilter')?.value || '';
+
+            // Filter nodes
+            const filteredNodes = allNodes.filter(node => {
+                const matchesSearch = !searchTerm || 
+                    node.name.toLowerCase().includes(searchTerm) ||
+                    (node.description && node.description.toLowerCase().includes(searchTerm));
+                
+                const matchesCategory = !categoryFilter || node.category === categoryFilter;
+                const matchesFunding = !fundingFilter || node.funding_stage === fundingFilter;
+
+                return matchesSearch && matchesCategory && matchesFunding;
+            });
+
+            // Filter links to only include connections between visible nodes
+            const visibleNodeIds = new Set(filteredNodes.map(n => n.id));
+            const filteredLinks = allLinks.filter(link => 
+                visibleNodeIds.has(link.source.id || link.source) && 
+                visibleNodeIds.has(link.target.id || link.target)
+            );
+
+            // Update the graph
+            updateGraph(filteredNodes, filteredLinks);
+        }
+
+        // Reset all filters
+        function resetFilters() {
+            document.getElementById('companySearch').value = '';
+            document.getElementById('categoryFilter').value = '';
+            document.getElementById('fundingFilter').value = '';
+            updateGraph(allNodes, allLinks);
+        }
+
+        // Update the graph with filtered data
+        function updateGraph(nodes, links) {
+            if (!currentSvg || !currentSimulation) return;
+
+            // Update simulation with new data
+            currentSimulation.nodes(nodes);
+            currentSimulation.force('link').links(links);
+            currentSimulation.alpha(0.3).restart();
+        }
+
+        // Helper function to load external scripts
+        function loadScript(src) {
+            return new Promise((resolve, reject) => {
+                const script = document.createElement('script');
+                script.src = src;
+                script.onload = resolve;
+                script.onerror = reject;
+                document.head.appendChild(script);
+            });
+        }
+
+        // Mock companies data
+        function getMockCompanies() {
+            return [
+                { id: 'openai', name: 'OpenAI', category: 'AI/ML', batch: 'W16', description: 'AI research and deployment', location: 'San Francisco, CA', funding_stage: 'Series C+' },
+                { id: 'stripe', name: 'Stripe', category: 'Fintech', batch: 'S09', description: 'Online payment processing', location: 'San Francisco, CA', funding_stage: 'Series C+' },
+                { id: 'airbnb', name: 'Airbnb', category: 'Consumer', batch: 'W08', description: 'Online marketplace for lodging', location: 'San Francisco, CA', funding_stage: 'Public' },
+                { id: 'dropbox', name: 'Dropbox', category: 'SaaS', batch: 'S07', description: 'Cloud storage service', location: 'San Francisco, CA', funding_stage: 'Public' },
+                { id: 'coinbase', name: 'Coinbase', category: 'Fintech', batch: 'S12', description: 'Cryptocurrency exchange', location: 'San Francisco, CA', funding_stage: 'Public' },
+                { id: 'instacart', name: 'Instacart', category: 'Consumer', batch: 'S12', description: 'Grocery delivery service', location: 'San Francisco, CA', funding_stage: 'Public' },
+                { id: 'reddit', name: 'Reddit', category: 'Consumer', batch: 'S05', description: 'Social news platform', location: 'San Francisco, CA', funding_stage: 'Public' },
+                { id: 'twitch', name: 'Twitch', category: 'Consumer', batch: 'S07', description: 'Live streaming platform', location: 'San Francisco, CA', funding_stage: 'Acquired' }
+            ];
+        }
+
+        // Infer category from description
+        function inferCategory(description) {
+            const categories = {
+                'AI/ML': ['ai', 'artificial intelligence', 'machine learning', 'ml', 'neural'],
+                'Fintech': ['finance', 'fintech', 'payment', 'banking', 'crypto'],
+                'Healthcare': ['health', 'medical', 'healthcare', 'biotech'],
+                'E-commerce': ['ecommerce', 'marketplace', 'retail', 'shopping'],
+                'SaaS': ['saas', 'software', 'platform', 'tool', 'service'],
+                'Consumer': ['consumer', 'social', 'mobile app', 'gaming'],
+                'Enterprise': ['enterprise', 'b2b', 'business'],
+                'Hardware': ['hardware', 'iot', 'robotics', 'device']
+            };
+
+            const lowerDesc = description.toLowerCase();
+            for (const [category, keywords] of Object.entries(categories)) {
+                if (keywords.some(keyword => lowerDesc.includes(keyword))) {
+                    return category;
+                }
+            }
+            return 'Other';
+        }
+
+        // Generate connections between companies
+        function generateConnections(companies) {
+            const links = [];
+            
+            for (let i = 0; i < companies.length; i++) {
+                for (let j = i + 1; j < companies.length; j++) {
+                    const company1 = companies[i];
+                    const company2 = companies[j];
+                    
+                    let connectionType = null;
+                    let strength = 0;
+                    
+                    // Same category connections
+                    if (company1.category === company2.category) {
+                        connectionType = 'similar';
+                        strength += 0.3;
+                    }
+                    
+                    // Same batch connections
+                    if (company1.batch === company2.batch && company1.batch) {
+                        connectionType = 'partnership';
+                        strength += 0.4;
+                    }
+                    
+                    // Same location connections
+                    if (company1.location === company2.location) {
+                        strength += 0.2;
+                    }
+                    
+                    // Create connection if strength is sufficient
+                    if (strength > 0.3 && Math.random() > 0.6) {
+                        links.push({
+                            source: company1.id,
+                            target: company2.id,
+                            type: connectionType || 'similar',
+                            strength: Math.min(strength, 1)
+                        });
+                    }
+                }
+            }
+            
+            return links;
+        }
+
+        // Create D3.js network visualization
+        function createD3NetworkGraph(container, data) {
+            // Clear container
+            container.innerHTML = '';
+            
+            const width = container.offsetWidth;
+            const height = container.offsetHeight;
+            
+            // Create SVG
+            const svg = d3.select(container)
+                .append('svg')
+                .attr('width', width)
+                .attr('height', height)
+                .style('background', 'transparent');
+            
+            // Create simulation
+            const simulation = d3.forceSimulation(data.nodes)
+                .force('link', d3.forceLink(data.links).id(d => d.id).distance(150))
+                .force('charge', d3.forceManyBody().strength(-300))
+                .force('center', d3.forceCenter(width / 2, height / 2))
+                .force('collision', d3.forceCollide().radius(40));
+            
+            // Create zoom behavior
+            const zoom = d3.zoom()
+                .scaleExtent([0.1, 4])
+                .on('zoom', (event) => {
+                    g.attr('transform', event.transform);
+                });
+            
+            svg.call(zoom);
+            
+            // Create main group
+            const g = svg.append('g');
+            
+            // Color scales
+            const categoryColors = {
+                'AI/ML': '#00ff88',
+                'Fintech': '#4a9eff',
+                'Healthcare': '#ff6b35',
+                'E-commerce': '#9b59b6',
+                'SaaS': '#f39c12',
+                'Consumer': '#e74c3c',
+                'Enterprise': '#34495e',
+                'Hardware': '#95a5a6',
+                'Other': '#7f8c8d'
+            };
+            
+            const linkColors = {
+                'partnership': '#4a9eff',
+                'acquisition': '#ff6b35',
+                'investment': '#00ff88',
+                'competitor': '#e74c3c',
+                'similar': '#95a5a6'
+            };
+            
+            // Create links
+            const link = g.append('g')
+                .selectAll('line')
+                .data(data.links)
+                .enter().append('line')
+                .attr('stroke', d => linkColors[d.type] || '#95a5a6')
+                .attr('stroke-width', d => Math.max(1, d.strength * 3))
+                .attr('stroke-opacity', 0.6);
+            
+            // Create node groups for circles and logos
+            const nodeGroup = g.append('g')
+                .selectAll('g')
+                .data(data.nodes)
+                .enter().append('g')
+                .style('cursor', 'pointer')
+                .call(d3.drag()
+                    .on('start', dragstarted)
+                    .on('drag', dragged)
+                    .on('end', dragended));
+            
+            // Create background circles
+            const node = nodeGroup.append('circle')
+                .attr('r', d => {
+                    const sizes = { 'Pre-seed': 20, 'Seed': 22, 'Series A': 24, 'Series B': 26, 'Series C': 28, 'Series C+': 30, 'Public': 32, 'Acquired': 28, 'Unknown': 22 };
+                    return sizes[d.funding_stage] || 22;
+                })
+                .attr('fill', d => categoryColors[d.category] || categoryColors['Other'])
+                .attr('stroke', '#fff')
+                .attr('stroke-width', d => d.exa_insights ? 3 : 2)
+                .attr('opacity', 0.8);
+            
+            // Create logo images
+            const logos = nodeGroup.append('image')
+                .attr('href', d => d.logo_url || '')
+                .attr('width', d => {
+                    const sizes = { 'Pre-seed': 32, 'Seed': 36, 'Series A': 40, 'Series B': 44, 'Series C': 48, 'Series C+': 52, 'Public': 56, 'Acquired': 48, 'Unknown': 36 };
+                    return sizes[d.funding_stage] || 36;
+                })
+                .attr('height', d => {
+                    const sizes = { 'Pre-seed': 32, 'Seed': 36, 'Series A': 40, 'Series B': 44, 'Series C': 48, 'Series C+': 52, 'Public': 56, 'Acquired': 48, 'Unknown': 36 };
+                    return sizes[d.funding_stage] || 36;
+                })
+                .attr('x', d => {
+                    const sizes = { 'Pre-seed': -16, 'Seed': -18, 'Series A': -20, 'Series B': -22, 'Series C': -24, 'Series C+': -26, 'Public': -28, 'Acquired': -24, 'Unknown': -18 };
+                    return sizes[d.funding_stage] || -18;
+                })
+                .attr('y', d => {
+                    const sizes = { 'Pre-seed': -16, 'Seed': -18, 'Series A': -20, 'Series B': -22, 'Series C': -24, 'Series C+': -26, 'Public': -28, 'Acquired': -24, 'Unknown': -18 };
+                    return sizes[d.funding_stage] || -18;
+                })
+                .style('border-radius', '50%')
+                .style('clip-path', 'circle(50%)')
+                .on('error', function(event, d) {
+                    // Hide broken images and show fallback
+                    d3.select(this).style('display', 'none');
+                });
+            
+            // Create labels
+            const labels = g.append('g')
+                .selectAll('text')
+                .data(data.nodes)
+                .enter().append('text')
+                .attr('dy', d => {
+                    const sizes = { 'Pre-seed': 8, 'Seed': 10, 'Series A': 12, 'Series B': 14, 'Series C': 16, 'Series C+': 18, 'Public': 20, 'Acquired': 16, 'Unknown': 10 };
+                    return (sizes[d.funding_stage] || 10) + 15;
+                })
+                .attr('text-anchor', 'middle')
+                .style('font-size', '12px')
+                .style('font-weight', d => d.exa_insights ? 'bold' : 'normal')
+                .style('fill', '#fff')
+                .text(d => d.name);
+            
+            // Add tooltips and click handlers to node groups
+            nodeGroup.on('mouseover', function(event, d) {
+                    // Show tooltip
+                    const tooltip = d3.select('body').append('div')
+                        .attr('class', 'graph-tooltip')
+                        .style('position', 'absolute')
+                        .style('background', 'rgba(0,0,0,0.9)')
+                        .style('color', 'white')
+                        .style('padding', '8px')
+                        .style('border-radius', '4px')
+                        .style('font-size', '12px')
+                        .style('pointer-events', 'none')
+                        .style('z-index', '1000')
+                        .html(`<strong>${d.name}</strong><br/>Category: ${d.category}<br/>Batch: ${d.batch || 'N/A'}<br/>Location: ${d.location || 'N/A'}${d.logo_url ? '<br/>✓ Logo Available' : ''}`);
+                    
+                    tooltip.style('left', (event.pageX + 10) + 'px')
+                           .style('top', (event.pageY - 10) + 'px');
+                })
+                .on('mouseout', function() {
+                    d3.selectAll('.graph-tooltip').remove();
+                })
+                .on('click', function(event, d) {
+                    // Show enhanced company profile
+                    showCompanyProfile(d);
+                });
+            
+            // Simulation tick
+            simulation.on('tick', () => {
+                link
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+                
+                nodeGroup
+                    .attr('transform', d => `translate(${d.x},${d.y})`);
+                
+                labels
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y);
+            });
+            
+            // Drag functions
+            function dragstarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+            
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+            
+            function dragended(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+        }
+
+        // Show enhanced company profile
+        function showCompanyProfile(company) {
+            // Create modal overlay
+            const modal = document.createElement('div');
+            modal.className = 'company-modal-overlay';
+            modal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.8);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1000;
+            `;
+            
+            const modalContent = document.createElement('div');
+            modalContent.className = 'company-modal-content';
+            modalContent.style.cssText = `
+                background: #1a1a1a;
+                border-radius: 15px;
+                padding: 30px;
+                max-width: 600px;
+                max-height: 80vh;
+                overflow-y: auto;
+                color: white;
+                border: 1px solid #333;
+            `;
+            
+            modalContent.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <h2 style="color: #00ff88; margin: 0;">${company.name}</h2>
+                    <button onclick="this.closest('.company-modal-overlay').remove()" style="background: none; border: none; color: #888; font-size: 24px; cursor: pointer;">&times;</button>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <strong>Category:</strong> ${company.category || 'Unknown'}
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <strong>YC Batch:</strong> ${company.batch || 'N/A'}
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <strong>Location:</strong> ${company.location || 'N/A'}
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <strong>Funding Stage:</strong> ${company.funding_stage || 'Unknown'}
+                </div>
+                ${company.description ? `<div style="margin-bottom: 15px;"><strong>Description:</strong> ${company.description}</div>` : ''}
+                ${company.website ? `<div style="margin-bottom: 15px;"><strong>Website:</strong> <a href="${company.website}" target="_blank" style="color: #4a9eff;">${company.website}</a></div>` : ''}
+                ${company.founders ? `<div style="margin-bottom: 15px;"><strong>Founders:</strong> ${company.founders.join(', ')}</div>` : ''}
+                ${company.exa_insights ? '<div style="background: rgba(0,255,136,0.1); padding: 15px; border-radius: 8px; margin-top: 20px;"><strong style="color: #00ff88;">✨ Enhanced with Exa Insights</strong><br/>This company has additional AI-powered intelligence available.</div>' : ''}
+            `;
+            
+            modal.appendChild(modalContent);
+            document.body.appendChild(modal);
+            
+            // Close on overlay click
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.remove();
+                }
+            });
+        }
+
         // Start all animations
         function startAnimations() {
             // Animate hero stats
@@ -1683,6 +2238,9 @@
             
             // Generate network
             setTimeout(generateNetwork, 1500);
+            
+            // Load enhanced network graph
+            setTimeout(loadEnhancedNetworkGraph, 2000);
         }
 
         // Scroll to graph function

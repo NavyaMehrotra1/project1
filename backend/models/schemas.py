@@ -30,6 +30,7 @@ class Company(BaseModel):
     revenue: Optional[float] = None
     is_public: bool = True
     extraordinary_score: Optional[float] = None
+    logo_url: Optional[str] = None
 
 class Deal(BaseModel):
     id: str

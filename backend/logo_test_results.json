@@ -1,0 +1,62 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "website": "https://openai.com",
+    "logo_url": "https://logo.clearbit.com/openai.com"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "website": "https://stripe.com",
+    "logo_url": "https://logo.clearbit.com/stripe.com"
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb",
+    "website": "https://airbnb.com",
+    "logo_url": "https://logo.clearbit.com/airbnb.com"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft Corporation",
+    "website": "https://microsoft.com",
+    "logo_url": "https://logo.clearbit.com/microsoft.com"
+  },
+  {
+    "id": "google",
+    "name": "Alphabet Inc.",
+    "website": "https://google.com",
+    "logo_url": "https://logo.clearbit.com/google.com"
+  },
+  {
+    "id": "meta",
+    "name": "Meta Platforms",
+    "website": "https://meta.com",
+    "logo_url": "https://logo.clearbit.com/meta.com"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "website": "https://anthropic.com",
+    "logo_url": "https://logo.clearbit.com/anthropic.com"
+  },
+  {
+    "id": "apple",
+    "name": "Apple Inc.",
+    "website": "https://apple.com",
+    "logo_url": "https://logo.clearbit.com/apple.com"
+  },
+  {
+    "id": "tesla",
+    "name": "Tesla",
+    "website": "https://tesla.com",
+    "logo_url": "https://logo.clearbit.com/tesla.com"
+  },
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "website": "https://netflix.com",
+    "logo_url": "https://logo.clearbit.com/netflix.com"
+  }
+]

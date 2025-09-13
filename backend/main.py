@@ -10,6 +10,8 @@ from datetime import datetime, timedelta
 from services.data_ingestion import DataIngestionService
 from services.llm_service import LLMService
 from services.graph_service import GraphService
+from services.logo_service import LogoService
+from api.exa_routes import router as exa_router
 from models.schemas import (
     Company, Deal, GraphData, PredictionRequest, 
     WhatIfRequest, EducationRequest, NewsData
@@ -32,6 +34,9 @@ app.add_middleware(
 data_service = DataIngestionService()
 llm_service = LLMService()
 graph_service = GraphService()
+
+# Include routers
+app.include_router(exa_router)
 
 @app.get("/")
 async def root():
@@ -57,11 +62,50 @@ async def ingest_news(query: str = "merger acquisition", days_back: int = 30):
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/api/companies")
-async def get_companies():
+async def get_companies(include_logos: bool = False):
     """Get all companies in the system"""
     try:
         companies = await data_service.get_companies()
+        
+        if include_logos:
+            async with LogoService() as logo_service:
+                companies = await logo_service.enrich_companies_with_logos(companies)
+        
         return {"companies": companies}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/companies-with-logos")
+async def get_companies_with_logos():
+    """Get all companies enriched with logo URLs"""
+    try:
+        companies = await data_service.get_companies()
+        
+        # Convert Company objects to dictionaries
+        companies_dict = []
+        for company in companies:
+            company_dict = {
+                "id": company.id,
+                "name": company.name,
+                "industry": company.industry,
+                "market_cap": company.market_cap,
+                "founded_year": company.founded_year,
+                "headquarters": company.headquarters,
+                "description": company.description,
+                "website": company.website,
+                "ticker_symbol": company.ticker_symbol,
+                "employee_count": company.employee_count,
+                "revenue": company.revenue,
+                "is_public": company.is_public,
+                "extraordinary_score": company.extraordinary_score
+            }
+            companies_dict.append(company_dict)
+        
+        # Enrich with logos
+        async with LogoService() as logo_service:
+            enriched_companies = await logo_service.enrich_companies_with_logos(companies_dict)
+        
+        return {"companies": enriched_companies}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

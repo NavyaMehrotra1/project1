@@ -2,20 +2,43 @@
 
 import { useEffect, useRef, useState } from 'react'
 import * as d3 from 'd3'
-import { GraphData, GraphNode, GraphEdge } from '@/types'
+import { dataService, CompanyNode, CompanyLink, GraphData } from '../services/data-service'
+import { EnhancedCompanyProfile } from './EnhancedCompanyProfile'
 
 interface NetworkGraphProps {
-  data: GraphData | null
-  onNodeClick: (nodeId: string) => void
-  showPredictions: boolean
+  onNodeClick?: (nodeId: string) => void
+  showEnhancedData?: boolean
 }
 
-export function NetworkGraph({ data, onNodeClick, showPredictions }: NetworkGraphProps) {
+export function NetworkGraph({ onNodeClick, showEnhancedData = true }: NetworkGraphProps) {
   const svgRef = useRef<SVGSVGElement>(null)
   const [tooltip, setTooltip] = useState<{ x: number; y: number; content: string } | null>(null)
+  const [data, setData] = useState<GraphData | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [selectedCompany, setSelectedCompany] = useState<string | null>(null)
 
+  // Load data on component mount
   useEffect(() => {
-    if (!data || !svgRef.current) return
+    const loadData = async () => {
+      setLoading(true)
+      try {
+        const graphData = showEnhancedData 
+          ? await dataService.getEnhancedGraphData()
+          : await dataService.getGraphData()
+        setData(graphData)
+      } catch (error) {
+        console.error('Error loading graph data:', error)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    loadData()
+  }, [showEnhancedData])
+
+  // D3 visualization effect
+  useEffect(() => {
+    if (!data || !svgRef.current || loading) return
 
     const svg = d3.select(svgRef.current)
     svg.selectAll('*').remove()
@@ -23,17 +46,12 @@ export function NetworkGraph({ data, onNodeClick, showPredictions }: NetworkGrap
     const width = svgRef.current.clientWidth
     const height = svgRef.current.clientHeight
 
-    // Filter data based on showPredictions
-    const filteredEdges = showPredictions 
-      ? data.edges 
-      : data.edges.filter(edge => !edge.data.is_predicted)
-
     // Create simulation
     const simulation = d3.forceSimulation(data.nodes as any)
-      .force('link', d3.forceLink(filteredEdges).id((d: any) => d.id).distance(150))
+      .force('link', d3.forceLink(data.links).id((d: any) => d.id).distance(150))
       .force('charge', d3.forceManyBody().strength(-300))
       .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius(30))
+      .force('collision', d3.forceCollide().radius(40))
 
     // Create zoom behavior
     const zoom = d3.zoom()
@@ -50,13 +68,21 @@ export function NetworkGraph({ data, onNodeClick, showPredictions }: NetworkGrap
     // Create links
     const link = g.append('g')
       .selectAll('line')
-      .data(filteredEdges)
+      .data(data.links)
       .enter().append('line')
       .attr('class', 'link')
-      .attr('stroke', d => d.color)
-      .attr('stroke-width', d => Math.max(1, d.weight * 2))
-      .attr('stroke-opacity', d => d.data.is_predicted ? 0.6 : 0.8)
-      .style('stroke-dasharray', d => d.data.is_predicted ? '5,5' : 'none')
+      .attr('stroke', (d: CompanyLink) => {
+        const colors = {
+          'partnership': '#4a9eff',
+          'acquisition': '#ff6b35',
+          'investment': '#00ff88',
+          'competitor': '#e74c3c',
+          'similar': '#95a5a6'
+        }
+        return colors[d.type] || '#95a5a6'
+      })
+      .attr('stroke-width', (d: CompanyLink) => Math.max(1, d.strength * 3))
+      .attr('stroke-opacity', 0.6)
 
     // Create nodes
     const node = g.append('g')
@@ -64,12 +90,12 @@ export function NetworkGraph({ data, onNodeClick, showPredictions }: NetworkGrap
       .data(data.nodes)
       .enter().append('circle')
       .attr('class', 'node')
-      .attr('r', d => d.size)
-      .attr('fill', d => d.color)
+      .attr('r', (d: CompanyNode) => dataService.getFundingStageSize(d.funding_stage || 'Unknown'))
+      .attr('fill', (d: CompanyNode) => dataService.getCategoryColor(d.category || 'Other'))
       .attr('stroke', '#fff')
-      .attr('stroke-width', d => d.data.extraordinary_score > 0.8 ? 4 : 2)
+      .attr('stroke-width', (d: CompanyNode) => d.exa_insights ? 3 : 2)
       .style('cursor', 'pointer')
-      .call(d3.drag<SVGCircleElement, GraphNode>()
+      .call(d3.drag<SVGCircleElement, CompanyNode>()
         .on('start', dragstarted)
         .on('drag', dragged)
         .on('end', dragended) as any)
@@ -80,24 +106,26 @@ export function NetworkGraph({ data, onNodeClick, showPredictions }: NetworkGrap
       .data(data.nodes)
       .enter().append('text')
       .attr('class', 'node-label')
-      .attr('dy', d => d.size + 15)
+      .attr('dy', (d: CompanyNode) => dataService.getFundingStageSize(d.funding_stage || 'Unknown') + 15)
       .attr('text-anchor', 'middle')
       .style('font-size', '12px')
-      .style('font-weight', d => d.data.extraordinary_score > 0.8 ? 'bold' : 'normal')
-      .text(d => d.label)
+      .style('font-weight', (d: CompanyNode) => d.exa_insights ? 'bold' : 'normal')
+      .style('fill', '#fff')
+      .text((d: CompanyNode) => d.name)
 
     // Add event listeners
     node
-      .on('click', (event, d) => {
+      .on('click', (event, d: CompanyNode) => {
         event.stopPropagation()
-        onNodeClick(d.id)
+        setSelectedCompany(d.name)
+        onNodeClick?.(d.id)
       })
-      .on('mouseover', (event, d) => {
+      .on('mouseover', (event, d: CompanyNode) => {
         const [x, y] = d3.pointer(event, svg.node())
         setTooltip({
           x,
           y,
-          content: `${d.label}\nIndustry: ${d.data.industry}\nMarket Cap: $${d.data.market_cap ? (d.data.market_cap / 1e9).toFixed(1) + 'B' : 'N/A'}`
+          content: `${d.name}\nCategory: ${d.category || 'Unknown'}\nBatch: ${d.batch || 'N/A'}\nLocation: ${d.location || 'N/A'}`
         })
       })
       .on('mouseout', () => {
@@ -105,12 +133,12 @@ export function NetworkGraph({ data, onNodeClick, showPredictions }: NetworkGrap
       })
 
     link
-      .on('mouseover', (event, d) => {
+      .on('mouseover', (event, d: CompanyLink) => {
         const [x, y] = d3.pointer(event, svg.node())
         setTooltip({
           x,
           y,
-          content: `${d.label}\nValue: $${d.data.deal_value ? (d.data.deal_value / 1e9).toFixed(1) + 'B' : 'N/A'}\nConfidence: ${d.data.confidence_score ? (d.data.confidence_score * 100).toFixed(0) + '%' : 'N/A'}`
+          content: `Connection: ${d.type}\nStrength: ${(d.strength * 100).toFixed(0)}%`
         })
       })
       .on('mouseout', () => {
@@ -154,19 +182,30 @@ export function NetworkGraph({ data, onNodeClick, showPredictions }: NetworkGrap
     return () => {
       simulation.stop()
     }
-  }, [data, showPredictions, onNodeClick])
+  }, [data, loading, onNodeClick])
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center w-full h-full">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#00ff88] mx-auto mb-4"></div>
+          <p className="text-gray-400">Loading company network...</p>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="relative w-full h-full">
       <svg
         ref={svgRef}
         className="w-full h-full"
-        style={{ background: '#fafafa' }}
+        style={{ background: 'transparent' }}
       />
       
       {tooltip && (
         <div
-          className="tooltip"
+          className="absolute bg-black bg-opacity-90 text-white p-2 rounded text-sm pointer-events-none z-10"
           style={{
             left: tooltip.x + 10,
             top: tooltip.y - 10,
@@ -178,30 +217,70 @@ export function NetworkGraph({ data, onNodeClick, showPredictions }: NetworkGrap
         </div>
       )}
 
+      {/* Enhanced Company Profile Modal */}
+      {selectedCompany && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="max-w-4xl max-h-[90vh] overflow-y-auto">
+            <EnhancedCompanyProfile 
+              companyName={selectedCompany}
+              onClose={() => setSelectedCompany(null)}
+            />
+          </div>
+        </div>
+      )}
+
       {/* Legend */}
-      <div className="graph-legend">
-        <h3 className="font-semibold mb-2">Legend</h3>
-        <div className="space-y-1 text-sm">
+      <div className="absolute top-4 right-4 bg-black bg-opacity-80 p-4 rounded-lg text-white">
+        <h3 className="font-semibold mb-2 text-[#00ff88]">Legend</h3>
+        <div className="space-y-2 text-sm">
           <div className="flex items-center gap-2">
-            <div className="w-4 h-4 rounded-full bg-blue-500"></div>
-            <span>Technology</span>
+            <div className="w-4 h-4 rounded-full" style={{ backgroundColor: dataService.getCategoryColor('AI/ML') }}></div>
+            <span>AI/ML</span>
           </div>
           <div className="flex items-center gap-2">
-            <div className="w-4 h-4 rounded-full bg-purple-500"></div>
-            <span>AI</span>
+            <div className="w-4 h-4 rounded-full" style={{ backgroundColor: dataService.getCategoryColor('Fintech') }}></div>
+            <span>Fintech</span>
           </div>
           <div className="flex items-center gap-2">
-            <div className="w-4 h-4 rounded-full bg-red-500"></div>
-            <span>Social Media</span>
+            <div className="w-4 h-4 rounded-full" style={{ backgroundColor: dataService.getCategoryColor('Consumer') }}></div>
+            <span>Consumer</span>
           </div>
           <div className="flex items-center gap-2">
-            <div className="w-3 h-0.5 bg-gray-600"></div>
-            <span>Completed Deal</span>
+            <div className="w-4 h-4 rounded-full" style={{ backgroundColor: dataService.getCategoryColor('SaaS') }}></div>
+            <span>SaaS</span>
           </div>
           <div className="flex items-center gap-2">
-            <div className="w-3 h-0.5 bg-yellow-500 border-dashed border-t-2"></div>
-            <span>Predicted Deal</span>
+            <div className="w-3 h-0.5 bg-blue-500"></div>
+            <span>Partnership</span>
           </div>
+          <div className="flex items-center gap-2">
+            <div className="w-3 h-0.5 bg-orange-500"></div>
+            <span>Acquisition</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Controls */}
+      <div className="absolute bottom-4 left-4 bg-black bg-opacity-80 p-4 rounded-lg text-white">
+        <div className="flex flex-col gap-2">
+          <button
+            onClick={() => window.location.reload()}
+            className="px-4 py-2 bg-[#00ff88] text-black rounded hover:bg-[#00dd77] transition-colors"
+          >
+            Refresh Data
+          </button>
+          <label className="flex items-center gap-2 text-sm">
+            <input
+              type="checkbox"
+              checked={showEnhancedData}
+              onChange={(e) => {
+                // This would trigger a re-render with enhanced data
+                console.log('Enhanced data toggle:', e.target.checked)
+              }}
+              className="rounded"
+            />
+            Show Exa Insights
+          </label>
         </div>
       </div>
     </div>

@@ -12,6 +12,7 @@ export interface Company {
   revenue?: number
   is_public: boolean
   extraordinary_score?: number
+  logo_url?: string
 }
 
 export interface Deal {
