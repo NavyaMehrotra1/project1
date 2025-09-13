@@ -4,11 +4,15 @@ import yfinance as yf
 from newsapi import NewsApiClient
 import pandas as pd
 from datetime import datetime, timedelta
+import requests
 from typing import List, Dict, Any, Optional
-import re
-import os
-from models.schemas import Company, Deal, NewsData, DealType
 import json
+import os
+import csv
+from models.schemas import Company, Deal, NewsData, DealType, CompanyProfile
+import pandas as pd
+import random
+import uuid
 
 class DataIngestionService:
     def __init__(self):
