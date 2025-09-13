@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Alert, AlertDescription } from '@/components/ui/alert';
+import NotificationToast from '@/components/NotificationToast';
 import { 
   Play, 
   Square, 
@@ -172,6 +173,9 @@ const MAAgentDashboard: React.FC = () => {
 
   return (
     <div className="p-6 space-y-6">
+      {/* Real-time Notifications */}
+      <NotificationToast onNotificationRead={fetchDashboardData} />
+      
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>

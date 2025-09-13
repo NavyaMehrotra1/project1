@@ -194,6 +194,9 @@ class MAMonitoringAgent:
                     new_impacts.append(impact)
                     self.impacts.append(impact)
             
+            # Update graph data files with new M&A events
+            await self._update_graph_data_files(recent_events)
+            
             # Log activity
             execution_time = (datetime.now() - analysis_start).total_seconds()
             await self._log_activity(
@@ -387,3 +390,105 @@ class MAMonitoringAgent:
         if event_id:
             return [impact for impact in self.impacts if impact.event_id == event_id]
         return self.impacts
+    
+    async def _update_graph_data_files(self, new_events: List):
+        """Update graph data files in data_agent/output with new M&A events"""
+        try:
+            # Path to graph data files
+            graph_data_path = Path(__file__).parent.parent.parent / "data_agent" / "data_agent" / "output" / "graph_data_for_frontend.json"
+            complete_graph_path = Path(__file__).parent.parent.parent / "data_agent" / "data_agent" / "output" / "complete_graph_data.json"
+            
+            # Load existing graph data
+            graph_data = {}
+            if graph_data_path.exists():
+                with open(graph_data_path, 'r') as f:
+                    graph_data = json.load(f)
+            
+            # Add new nodes and edges for M&A events
+            nodes = graph_data.get('nodes', [])
+            edges = graph_data.get('edges', [])
+            
+            # Track existing node IDs
+            existing_node_ids = {node['id'] for node in nodes}
+            
+            for event in new_events:
+                # Add primary company as node if not exists
+                primary_id = event.primary_company.name.lower().replace(' ', '_')
+                if primary_id not in existing_node_ids:
+                    nodes.append({
+                        "id": primary_id,
+                        "label": event.primary_company.name,
+                        "size": 50,
+                        "color": "#e74c3c",  # Red for M&A companies
+                        "data": {
+                            "name": event.primary_company.name,
+                            "industry": "M&A Activity",
+                            "status": "Active",
+                            "deal_activity_count": 1,
+                            "extraordinary_score": 50.0,
+                            "ma_event_type": event.event_type.value,
+                            "discovered_at": event.discovered_at.isoformat()
+                        }
+                    })
+                    existing_node_ids.add(primary_id)
+                
+                # Add secondary company if exists
+                if event.secondary_company:
+                    secondary_id = event.secondary_company.name.lower().replace(' ', '_')
+                    if secondary_id not in existing_node_ids:
+                        nodes.append({
+                            "id": secondary_id,
+                            "label": event.secondary_company.name,
+                            "size": 40,
+                            "color": "#f39c12",  # Orange for acquired companies
+                            "data": {
+                                "name": event.secondary_company.name,
+                                "industry": "M&A Target",
+                                "status": "Acquired",
+                                "deal_activity_count": 1,
+                                "extraordinary_score": 30.0,
+                                "ma_event_type": event.event_type.value,
+                                "discovered_at": event.discovered_at.isoformat()
+                            }
+                        })
+                        existing_node_ids.add(secondary_id)
+                    
+                    # Add edge between companies
+                    edge_id = f"ma_{event.id}"
+                    edges.append({
+                        "id": edge_id,
+                        "source": primary_id,
+                        "target": secondary_id,
+                        "type": event.event_type.value,
+                        "deal_value": event.deal_value,
+                        "confidence": event.confidence_score,
+                        "discovered_at": event.discovered_at.isoformat(),
+                        "color": "#e74c3c",
+                        "width": 3 if event.deal_value and event.deal_value > 1_000_000 else 2
+                    })
+            
+            # Update graph data
+            updated_graph_data = {
+                "nodes": nodes,
+                "edges": edges,
+                "metadata": {
+                    "last_updated": datetime.now().isoformat(),
+                    "ma_events_count": len([e for e in edges if e.get("type") in ["merger_acquisition", "business_partnership", "joint_venture", "strategic_alliance", "consolidation"]]),
+                    "total_nodes": len(nodes),
+                    "total_edges": len(edges)
+                }
+            }
+            
+            # Save updated graph data
+            with open(graph_data_path, 'w') as f:
+                json.dump(updated_graph_data, f, indent=2)
+            
+            # Also update complete graph data if it exists
+            if complete_graph_path.exists():
+                with open(complete_graph_path, 'w') as f:
+                    json.dump(updated_graph_data, f, indent=2)
+            
+            logger.info(f"Updated graph data files with {len(new_events)} new M&A events")
+            
+        except Exception as e:
+            logger.error(f"Error updating graph data files: {e}")
