@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DealFlow - YC M&A Intelligence Platform</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo i {
+            color: #ff6b35;
+        }
+
+        .nav-controls {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .mode-selector {
+            position: relative;
+        }
+
+        .dropdown-btn {
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .dropdown-btn:hover {
+            background: rgba(255, 255, 255, 0.25);
+            transform: translateY(-2px);
+        }
+
+        .dropdown-content {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            min-width: 200px;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+        }
+
+        .dropdown-content.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown-item {
+            padding: 15px 20px;
+            cursor: pointer;
+            transition: background 0.2s ease;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .dropdown-item:last-child {
+            border-bottom: none;
+        }
+
+        .dropdown-item:hover {
+            background: #f8f9fa;
+        }
+
+        .dropdown-item.active {
+            background: #ff6b35;
+            color: white;
+        }
+
+        /* Main Content */
+        .main-content {
+            display: flex;
+            gap: 30px;
+            flex: 1;
+            min-height: 0;
+        }
+
+        /* Graph Container */
+        .graph-container {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(20px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .graph-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .graph-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .graph-controls {
+            display: flex;
+            gap: 15px;
+        }
+
+        .control-btn {
+            background: #f7fafc;
+            border: 1px solid #e2e8f0;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 14px;
+            color: #4a5568;
+        }
+
+        .control-btn:hover {
+            background: #edf2f7;
+            border-color: #cbd5e0;
+        }
+
+        .control-btn.active {
+            background: #ff6b35;
+            color: white;
+            border-color: #ff6b35;
+        }
+
+        .graph-placeholder {
+            height: calc(100% - 80px);
+            background: linear-gradient(45deg, #f8f9fa 25%, transparent 25%), 
+                        linear-gradient(-45deg, #f8f9fa 25%, transparent 25%), 
+                        linear-gradient(45deg, transparent 75%, #f8f9fa 75%), 
+                        linear-gradient(-45deg, transparent 75%, #f8f9fa 75%);
+            background-size: 20px 20px;
+            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+            border: 2px dashed #cbd5e0;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #718096;
+            position: relative;
+        }
+
+        .placeholder-content {
+            text-align: center;
+            z-index: 2;
+        }
+
+        .placeholder-content i {
+            font-size: 48px;
+            margin-bottom: 15px;
+            opacity: 0.5;
+        }
+
+        .placeholder-content h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #4a5568;
+        }
+
+        .placeholder-content p {
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 350px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(20px);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-section {
+            margin-bottom: 30px;
+        }
+
+        .sidebar-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .company-profile {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            border-left: 4px solid #ff6b35;
+        }
+
+        .company-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+
+        .company-details {
+            font-size: 14px;
+            color: #718096;
+            line-height: 1.5;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #ff6b35;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .context-section {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .warning-badge {
+            background: #ff6b35;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .context-text {
+            font-size: 14px;
+            color: #856404;
+            line-height: 1.4;
+        }
+
+        /* Upload Section */
+        .upload-section {
+            border: 2px dashed #cbd5e0;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .upload-section:hover {
+            border-color: #ff6b35;
+            background: rgba(255, 107, 53, 0.05);
+        }
+
+        .upload-icon {
+            font-size: 32px;
+            color: #cbd5e0;
+            margin-bottom: 10px;
+        }
+
+        .upload-text {
+            font-size: 14px;
+            color: #718096;
+        }
+
+        /* Animations */
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .loading {
+            animation: pulse 2s infinite;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .nav-controls {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-project-diagram"></i>
+                DealFlow
+            </div>
+            <nav class="nav-controls">
+                <div class="mode-selector">
+                    <button class="dropdown-btn" id="modeBtn">
+                        <i class="fas fa-brain"></i>
+                        <span id="currentMode">Prediction</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="modeDropdown">
+                        <div class="dropdown-item active" data-mode="prediction">
+                            <strong>Prediction</strong><br>
+                            <small>AI-powered M&A forecasting</small>
+                        </div>
+                        <div class="dropdown-item" data-mode="reaction">
+                            <strong>Reaction</strong><br>
+                            <small>Real-time market analysis</small>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Graph Container -->
+            <div class="graph-container">
+                <div class="graph-header">
+                    <h2 class="graph-title">YC Company Network</h2>
+                    <div class="graph-controls">
+                        <button class="control-btn active">
+                            <i class="fas fa-eye"></i> View
+                        </button>
+                        <button class="control-btn">
+                            <i class="fas fa-filter"></i> Filter
+                        </button>
+                        <button class="control-btn">
+                            <i class="fas fa-search-plus"></i> Zoom
+                        </button>
+                    </div>
+                </div>
+                <div class="graph-placeholder">
+                    <div class="placeholder-content">
+                        <i class="fas fa-sitemap"></i>
+                        <h3>Interactive Network Graph</h3>
+                        <p>100 YC companies • 200 relationships • Real-time updates</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- Company Profile Section -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">
+                        <i class="fas fa-building"></i>
+                        Company Profile
+                    </h3>
+                    <div class="company-profile">
+                        <div class="company-name">Microsoft</div>
+                        <div class="company-details">
+                            • Important figures<br>
+                            • Recent announcements<br>
+                            • In the news...
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats Section -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">
+                        <i class="fas fa-chart-bar"></i>
+                        Network Stats
+                    </h3>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">100</div>
+                            <div class="stat-label">Companies</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">200</div>
+                            <div class="stat-label">Relationships</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">44</div>
+                            <div class="stat-label">Industries</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">$10.1B</div>
+                            <div class="stat-label">Deal Value</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Context Section -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">
+                        <i class="fas fa-info-circle"></i>
+                        Add Context
+                    </h3>
+                    <div class="upload-section" id="uploadSection">
+                        <div class="upload-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <div class="upload-text">
+                            Users can upload data<br>
+                            <small>Drag & drop files or click to browse</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Warning Section -->
+                <div class="context-section">
+                    <div class="warning-badge">⚠️ Warning</div>
+                    <div class="context-text">
+                        This is a demo visualization. Data may not reflect real-time market conditions.
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <script>
+        // Dropdown functionality
+        const modeBtn = document.getElementById('modeBtn');
+        const modeDropdown = document.getElementById('modeDropdown');
+        const currentMode = document.getElementById('currentMode');
+        const dropdownItems = document.querySelectorAll('.dropdown-item');
+
+        modeBtn.addEventListener('click', () => {
+            modeDropdown.classList.toggle('active');
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!modeBtn.contains(e.target) && !modeDropdown.contains(e.target)) {
+                modeDropdown.classList.remove('active');
+            }
+        });
+
+        // Handle mode selection
+        dropdownItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const mode = item.dataset.mode;
+                const modeName = item.querySelector('strong').textContent;
+                
+                // Update active state
+                dropdownItems.forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+                
+                // Update button text
+                currentMode.textContent = modeName;
+                
+                // Close dropdown
+                modeDropdown.classList.remove('active');
+                
+                // Update icon based on mode
+                const icon = modeBtn.querySelector('.fas:first-child');
+                if (mode === 'prediction') {
+                    icon.className = 'fas fa-brain';
+                } else {
+                    icon.className = 'fas fa-chart-line';
+                }
+                
+                console.log(`Switched to ${modeName} mode`);
+            });
+        });
+
+        // Graph controls
+        const controlBtns = document.querySelectorAll('.control-btn');
+        controlBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                controlBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                console.log(`Activated: ${btn.textContent.trim()}`);
+            });
+        });
+
+        // Upload section
+        const uploadSection = document.getElementById('uploadSection');
+        uploadSection.addEventListener('click', () => {
+            console.log('Upload section clicked');
+            // Here you would implement file upload functionality
+        });
+
+        // Simulate loading data
+        setTimeout(() => {
+            console.log('YC Company data loaded: 100 companies, 200 relationships');
+        }, 1000);
+    </script>
+</body>
+</html>
