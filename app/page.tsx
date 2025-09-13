@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { NetworkGraph } from '@/components/NetworkGraph'
+import { SimpleNetworkGraph } from '@/components/SimpleNetworkGraph'
 import { WhatIfSimulator } from '@/components/WhatIfSimulator'
 import { EducationChat } from '@/components/EducationChat'
 import { DataIngestion } from '@/components/DataIngestion'
@@ -76,7 +76,7 @@ export default function Home() {
       case 'graph':
         return (
           <div className="relative h-full">
-            <NetworkGraph
+            <SimpleNetworkGraph
               data={graphData}
               onNodeClick={setSelectedCompany}
               showPredictions={showPredictions}

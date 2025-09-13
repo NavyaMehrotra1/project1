@@ -2,7 +2,7 @@
 
 > **"In 2008, nobody saw Lehman Brothers coming. In 2024, FTX shocked everyone. What if you could predict these events months in advance?"**
 
-DealFlow is the AI-native successor to Crunchbase, built for the modern era of predictive M&A intelligence. It combines real-time data ingestion, network graph visualization, and LLM-powered predictions to help users understand, analyze, and forecast corporate deals.
+DealFlow is the AI-native successor to FundersClub, built for the modern era of predictive M&A intelligence. It combines real-time data ingestion, network graph visualization, and LLM-powered predictions to help users understand, analyze, and forecast corporate deals.
 
 ## 🚀 Features
 
