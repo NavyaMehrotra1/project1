@@ -26,7 +26,7 @@ class YCCompaniesScraper:
         Fetch YC companies from their public API.
         Returns a list of company dictionaries with basic information.
         """
-        print("Fetching YC companies from public API...")
+        print("🔍 Fetching YC companies from public API...")
         
         try:
             # YC's public companies endpoint
@@ -37,9 +37,38 @@ class YCCompaniesScraper:
             )
             
             if response.status_code == 200:
-                companies = response.json()
-                print(f"✅ Successfully fetched {len(companies)} YC companies")
-                return companies
+                data = response.json()
+                print(f"✅ Successfully fetched {len(data)} YC companies")
+                
+                # Convert API format to our expected format
+                companies = []
+                for company in data:
+                    if isinstance(company, dict):
+                        # Extract relevant fields from API response
+                        formatted_company = {
+                            'name': company.get('name', ''),
+                            'batch': company.get('batch', ''),
+                            'status': company.get('status', 'Unknown'),
+                            'valuation': company.get('valuation', 0),
+                            'industry': company.get('industry', 'Technology')
+                        }
+                        companies.append(formatted_company)
+                    elif isinstance(company, str):
+                        # Handle case where API returns just company names
+                        companies.append({
+                            'name': company,
+                            'batch': 'Unknown',
+                            'status': 'Unknown',
+                            'valuation': 0,
+                            'industry': 'Technology'
+                        })
+                
+                # If we got valid data, return it, otherwise use fallback
+                if companies:
+                    return companies
+                else:
+                    print("🔄 API data format unexpected, using fallback...")
+                    return self._get_fallback_yc_companies()
             else:
                 print(f"❌ API request failed with status {response.status_code}")
                 return self._get_fallback_yc_companies()
