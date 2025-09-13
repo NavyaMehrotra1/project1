@@ -1,79 +1,6128 @@
 {
   "nodes": [
     {
-      "id": "companies",
-      "label": "companies",
-      "size": 20,
-      "color": "#6366f1",
+      "id": "stripe",
+      "label": "Stripe",
+      "size": 80,
+      "color": "#10b981",
       "data": {
-        "name": "companies",
-        "industry": "Technology",
-        "batch": "Unknown",
-        "status": "Unknown",
-        "valuation": 0,
-        "deal_activity_count": 0,
-        "extraordinary_score": 0
+        "name": "Stripe",
+        "industry": "Fintech",
+        "batch": "S09",
+        "status": "Private",
+        "valuation": 95000000000,
+        "deal_activity_count": 12,
+        "extraordinary_score": 95.0
       }
     },
     {
-      "id": "nextpage",
-      "label": "nextPage",
-      "size": 20,
-      "color": "#6366f1",
+      "id": "openai",
+      "label": "OpenAI",
+      "size": 80,
+      "color": "#8b5cf6",
       "data": {
-        "name": "nextPage",
-        "industry": "Technology",
-        "batch": "Unknown",
-        "status": "Unknown",
-        "valuation": 0,
-        "deal_activity_count": 0,
-        "extraordinary_score": 0
+        "name": "OpenAI",
+        "industry": "AI",
+        "batch": "W16",
+        "status": "Private",
+        "valuation": 80000000000,
+        "deal_activity_count": 20,
+        "extraordinary_score": 80.0
       }
     },
     {
-      "id": "page",
-      "label": "page",
-      "size": 20,
-      "color": "#6366f1",
+      "id": "airbnb",
+      "label": "Airbnb",
+      "size": 65,
+      "color": "#64748b",
       "data": {
-        "name": "page",
-        "industry": "Technology",
-        "batch": "Unknown",
-        "status": "Unknown",
-        "valuation": 0,
-        "deal_activity_count": 0,
-        "extraordinary_score": 0
+        "name": "Airbnb",
+        "industry": "Travel",
+        "batch": "W08",
+        "status": "Public",
+        "valuation": 75000000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 75.0
       }
     },
     {
-      "id": "totalpages",
-      "label": "totalPages",
-      "size": 20,
-      "color": "#6366f1",
+      "id": "coinbase",
+      "label": "Coinbase",
+      "size": 60,
+      "color": "#64748b",
       "data": {
-        "name": "totalPages",
-        "industry": "Technology",
-        "batch": "Unknown",
-        "status": "Unknown",
-        "valuation": 0,
+        "name": "Coinbase",
+        "industry": "Crypto",
+        "batch": "S12",
+        "status": "Public",
+        "valuation": 60000000000,
         "deal_activity_count": 0,
-        "extraordinary_score": 0
+        "extraordinary_score": 60.0
+      }
+    },
+    {
+      "id": "doordash",
+      "label": "DoorDash",
+      "size": 65,
+      "color": "#64748b",
+      "data": {
+        "name": "DoorDash",
+        "industry": "Food Delivery",
+        "batch": "S13",
+        "status": "Public",
+        "valuation": 50000000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 50.0
+      }
+    },
+    {
+      "id": "canva",
+      "label": "Canva",
+      "size": 80,
+      "color": "#64748b",
+      "data": {
+        "name": "Canva",
+        "industry": "Design",
+        "batch": "W13",
+        "status": "Private",
+        "valuation": 40000000000,
+        "deal_activity_count": 4,
+        "extraordinary_score": 40.0
+      }
+    },
+    {
+      "id": "instacart",
+      "label": "Instacart",
+      "size": 75,
+      "color": "#64748b",
+      "data": {
+        "name": "Instacart",
+        "industry": "Grocery",
+        "batch": "S12",
+        "status": "Private",
+        "valuation": 39000000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 39.0
+      }
+    },
+    {
+      "id": "cruise",
+      "label": "Cruise",
+      "size": 60,
+      "color": "#64748b",
+      "data": {
+        "name": "Cruise",
+        "industry": "Autonomous Vehicles",
+        "batch": "W14",
+        "status": "Private",
+        "valuation": 30000000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 30.0
+      }
+    },
+    {
+      "id": "figma",
+      "label": "Figma",
+      "size": 54,
+      "color": "#64748b",
+      "data": {
+        "name": "Figma",
+        "industry": "Design",
+        "batch": "W12",
+        "status": "Acquired",
+        "valuation": 20000000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 20.0
+      }
+    },
+    {
+      "id": "miro",
+      "label": "Miro",
+      "size": 62,
+      "color": "#64748b",
+      "data": {
+        "name": "Miro",
+        "industry": "Collaboration",
+        "batch": "W16",
+        "status": "Private",
+        "valuation": 17500000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 17.5
+      }
+    },
+    {
+      "id": "gitlab",
+      "label": "GitLab",
+      "size": 80,
+      "color": "#3b82f6",
+      "data": {
+        "name": "GitLab",
+        "industry": "DevTools",
+        "batch": "W15",
+        "status": "Public",
+        "valuation": 15000000000,
+        "deal_activity_count": 20,
+        "extraordinary_score": 15.0
+      }
+    },
+    {
+      "id": "discord",
+      "label": "Discord",
+      "size": 55,
+      "color": "#64748b",
+      "data": {
+        "name": "Discord",
+        "industry": "Communication",
+        "batch": "W15",
+        "status": "Private",
+        "valuation": 15000000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 15.0
+      }
+    },
+    {
+      "id": "samsara",
+      "label": "Samsara",
+      "size": 50,
+      "color": "#64748b",
+      "data": {
+        "name": "Samsara",
+        "industry": "IoT",
+        "batch": "W14",
+        "status": "Public",
+        "valuation": 15000000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 15.0
+      }
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "size": 80,
+      "color": "#8b5cf6",
+      "data": {
+        "name": "Anthropic",
+        "industry": "AI",
+        "batch": "S21",
+        "status": "Private",
+        "valuation": 15000000000,
+        "deal_activity_count": 18,
+        "extraordinary_score": 15.0
+      }
+    },
+    {
+      "id": "plaid",
+      "label": "Plaid",
+      "size": 80,
+      "color": "#10b981",
+      "data": {
+        "name": "Plaid",
+        "industry": "Fintech",
+        "batch": "S13",
+        "status": "Private",
+        "valuation": 13400000000,
+        "deal_activity_count": 14,
+        "extraordinary_score": 13.4
+      }
+    },
+    {
+      "id": "faire",
+      "label": "Faire",
+      "size": 47,
+      "color": "#64748b",
+      "data": {
+        "name": "Faire",
+        "industry": "B2B Marketplace",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 12400000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 12.4
+      }
+    },
+    {
+      "id": "brex",
+      "label": "Brex",
+      "size": 80,
+      "color": "#10b981",
+      "data": {
+        "name": "Brex",
+        "industry": "Fintech",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 12300000000,
+        "deal_activity_count": 8,
+        "extraordinary_score": 12.3
+      }
+    },
+    {
+      "id": "deel",
+      "label": "Deel",
+      "size": 52,
+      "color": "#64748b",
+      "data": {
+        "name": "Deel",
+        "industry": "HR Tech",
+        "batch": "S19",
+        "status": "Private",
+        "valuation": 12000000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 12.0
+      }
+    },
+    {
+      "id": "rippling",
+      "label": "Rippling",
+      "size": 56,
+      "color": "#64748b",
+      "data": {
+        "name": "Rippling",
+        "industry": "HR Tech",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 11250000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 11.25
+      }
+    },
+    {
+      "id": "airtable",
+      "label": "Airtable",
+      "size": 80,
+      "color": "#64748b",
+      "data": {
+        "name": "Airtable",
+        "industry": "Database",
+        "batch": "W12",
+        "status": "Private",
+        "valuation": 11000000000,
+        "deal_activity_count": 13,
+        "extraordinary_score": 11.0
+      }
+    },
+    {
+      "id": "notion",
+      "label": "Notion",
+      "size": 39,
+      "color": "#64748b",
+      "data": {
+        "name": "Notion",
+        "industry": "Productivity",
+        "batch": "S19",
+        "status": "Private",
+        "valuation": 10000000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 10.0
+      }
+    },
+    {
+      "id": "reddit",
+      "label": "Reddit",
+      "size": 44,
+      "color": "#ef4444",
+      "data": {
+        "name": "Reddit",
+        "industry": "Social Media",
+        "batch": "S05",
+        "status": "Public",
+        "valuation": 10000000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 10.0
+      }
+    },
+    {
+      "id": "gusto",
+      "label": "Gusto",
+      "size": 54,
+      "color": "#64748b",
+      "data": {
+        "name": "Gusto",
+        "industry": "HR Tech",
+        "batch": "W12",
+        "status": "Private",
+        "valuation": 9500000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 9.5
+      }
+    },
+    {
+      "id": "ramp",
+      "label": "Ramp",
+      "size": 47,
+      "color": "#10b981",
+      "data": {
+        "name": "Ramp",
+        "industry": "Fintech",
+        "batch": "W19",
+        "status": "Private",
+        "valuation": 8100000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 8.1
+      }
+    },
+    {
+      "id": "flexport",
+      "label": "Flexport",
+      "size": 47,
+      "color": "#64748b",
+      "data": {
+        "name": "Flexport",
+        "industry": "Logistics",
+        "batch": "W14",
+        "status": "Private",
+        "valuation": 8000000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 8.0
+      }
+    },
+    {
+      "id": "dropbox",
+      "label": "Dropbox",
+      "size": 47,
+      "color": "#64748b",
+      "data": {
+        "name": "Dropbox",
+        "industry": "Cloud Storage",
+        "batch": "S07",
+        "status": "Public",
+        "valuation": 8000000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 8.0
+      }
+    },
+    {
+      "id": "razorpay",
+      "label": "Razorpay",
+      "size": 66,
+      "color": "#10b981",
+      "data": {
+        "name": "Razorpay",
+        "industry": "Fintech",
+        "batch": "W15",
+        "status": "Private",
+        "valuation": 7500000000,
+        "deal_activity_count": 6,
+        "extraordinary_score": 7.5
+      }
+    },
+    {
+      "id": "razorpay",
+      "label": "Razorpay",
+      "size": 66,
+      "color": "#10b981",
+      "data": {
+        "name": "Razorpay",
+        "industry": "Fintech",
+        "batch": "W15",
+        "status": "Private",
+        "valuation": 7500000000,
+        "deal_activity_count": 6,
+        "extraordinary_score": 7.5
+      }
+    },
+    {
+      "id": "scale_ai",
+      "label": "Scale AI",
+      "size": 80,
+      "color": "#8b5cf6",
+      "data": {
+        "name": "Scale AI",
+        "industry": "AI",
+        "batch": "S16",
+        "status": "Private",
+        "valuation": 7300000000,
+        "deal_activity_count": 14,
+        "extraordinary_score": 7.3
+      }
+    },
+    {
+      "id": "benchling",
+      "label": "Benchling",
+      "size": 34,
+      "color": "#64748b",
+      "data": {
+        "name": "Benchling",
+        "industry": "Biotech",
+        "batch": "S12",
+        "status": "Private",
+        "valuation": 6100000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 6.1
+      }
+    },
+    {
+      "id": "fivetran",
+      "label": "Fivetran",
+      "size": 33,
+      "color": "#64748b",
+      "data": {
+        "name": "Fivetran",
+        "industry": "Data",
+        "batch": "S13",
+        "status": "Private",
+        "valuation": 5600000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 5.6
+      }
+    },
+    {
+      "id": "rappi",
+      "label": "Rappi",
+      "size": 47,
+      "color": "#64748b",
+      "data": {
+        "name": "Rappi",
+        "industry": "Delivery",
+        "batch": "W16",
+        "status": "Private",
+        "valuation": 5250000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 5.25
+      }
+    },
+    {
+      "id": "rappi",
+      "label": "Rappi",
+      "size": 47,
+      "color": "#64748b",
+      "data": {
+        "name": "Rappi",
+        "industry": "Delivery",
+        "batch": "W16",
+        "status": "Private",
+        "valuation": 5250000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 5.25
+      }
+    },
+    {
+      "id": "checkr",
+      "label": "Checkr",
+      "size": 42,
+      "color": "#64748b",
+      "data": {
+        "name": "Checkr",
+        "industry": "HR Tech",
+        "batch": "S14",
+        "status": "Private",
+        "valuation": 5000000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 5.0
+      }
+    },
+    {
+      "id": "zapier",
+      "label": "Zapier",
+      "size": 32,
+      "color": "#64748b",
+      "data": {
+        "name": "Zapier",
+        "industry": "Automation",
+        "batch": "S12",
+        "status": "Private",
+        "valuation": 5000000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 5.0
+      }
+    },
+    {
+      "id": "zenefits",
+      "label": "Zenefits",
+      "size": 41,
+      "color": "#64748b",
+      "data": {
+        "name": "Zenefits",
+        "industry": "HR Tech",
+        "batch": "W13",
+        "status": "Private",
+        "valuation": 4500000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 4.5
+      }
+    },
+    {
+      "id": "dbt_labs",
+      "label": "dbt Labs",
+      "size": 45,
+      "color": "#64748b",
+      "data": {
+        "name": "dbt Labs",
+        "industry": "Data",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 4200000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 4.2
+      }
+    },
+    {
+      "id": "clubhouse",
+      "label": "Clubhouse",
+      "size": 30,
+      "color": "#64748b",
+      "data": {
+        "name": "Clubhouse",
+        "industry": "Social Audio",
+        "batch": "W20",
+        "status": "Private",
+        "valuation": 4000000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 4.0
+      }
+    },
+    {
+      "id": "boom_supersonic",
+      "label": "Boom Supersonic",
+      "size": 30,
+      "color": "#64748b",
+      "data": {
+        "name": "Boom Supersonic",
+        "industry": "Aerospace",
+        "batch": "W16",
+        "status": "Private",
+        "valuation": 4000000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 4.0
+      }
+    },
+    {
+      "id": "webflow",
+      "label": "Webflow",
+      "size": 35,
+      "color": "#64748b",
+      "data": {
+        "name": "Webflow",
+        "industry": "Web Building",
+        "batch": "W13",
+        "status": "Private",
+        "valuation": 4000000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 4.0
+      }
+    },
+    {
+      "id": "patreon",
+      "label": "Patreon",
+      "size": 30,
+      "color": "#64748b",
+      "data": {
+        "name": "Patreon",
+        "industry": "Creator Economy",
+        "batch": "W13",
+        "status": "Private",
+        "valuation": 4000000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 4.0
+      }
+    },
+    {
+      "id": "amplitude",
+      "label": "Amplitude",
+      "size": 80,
+      "color": "#64748b",
+      "data": {
+        "name": "Amplitude",
+        "industry": "Analytics",
+        "batch": "W12",
+        "status": "Public",
+        "valuation": 4000000000,
+        "deal_activity_count": 12,
+        "extraordinary_score": 4.0
+      }
+    },
+    {
+      "id": "retool",
+      "label": "Retool",
+      "size": 80,
+      "color": "#3b82f6",
+      "data": {
+        "name": "Retool",
+        "industry": "DevTools",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 3200000000,
+        "deal_activity_count": 21,
+        "extraordinary_score": 3.2
+      }
+    },
+    {
+      "id": "retool",
+      "label": "Retool",
+      "size": 80,
+      "color": "#3b82f6",
+      "data": {
+        "name": "Retool",
+        "industry": "DevTools",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 3200000000,
+        "deal_activity_count": 21,
+        "extraordinary_score": 3.2
+      }
+    },
+    {
+      "id": "verkada",
+      "label": "Verkada",
+      "size": 38,
+      "color": "#64748b",
+      "data": {
+        "name": "Verkada",
+        "industry": "Security",
+        "batch": "W16",
+        "status": "Private",
+        "valuation": 3200000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 3.2
+      }
+    },
+    {
+      "id": "ironclad",
+      "label": "Ironclad",
+      "size": 28,
+      "color": "#64748b",
+      "data": {
+        "name": "Ironclad",
+        "industry": "Legal Tech",
+        "batch": "W15",
+        "status": "Private",
+        "valuation": 3200000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 3.2
+      }
+    },
+    {
+      "id": "zymergen",
+      "label": "Zymergen",
+      "size": 33,
+      "color": "#64748b",
+      "data": {
+        "name": "Zymergen",
+        "industry": "Biotech",
+        "batch": "S13",
+        "status": "Acquired",
+        "valuation": 3200000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 3.2
+      }
+    },
+    {
+      "id": "segment",
+      "label": "Segment",
+      "size": 80,
+      "color": "#64748b",
+      "data": {
+        "name": "Segment",
+        "industry": "Analytics",
+        "batch": "S11",
+        "status": "Acquired",
+        "valuation": 3200000000,
+        "deal_activity_count": 13,
+        "extraordinary_score": 3.2
+      }
+    },
+    {
+      "id": "launchdarkly",
+      "label": "LaunchDarkly",
+      "size": 62,
+      "color": "#3b82f6",
+      "data": {
+        "name": "LaunchDarkly",
+        "industry": "DevTools",
+        "batch": "W14",
+        "status": "Private",
+        "valuation": 3000000000,
+        "deal_activity_count": 7,
+        "extraordinary_score": 3.0
+      }
+    },
+    {
+      "id": "calendly",
+      "label": "Calendly",
+      "size": 27,
+      "color": "#64748b",
+      "data": {
+        "name": "Calendly",
+        "industry": "Scheduling",
+        "batch": "W13",
+        "status": "Private",
+        "valuation": 3000000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 3.0
+      }
+    },
+    {
+      "id": "lattice",
+      "label": "Lattice",
+      "size": 42,
+      "color": "#64748b",
+      "data": {
+        "name": "Lattice",
+        "industry": "HR Tech",
+        "batch": "S15",
+        "status": "Private",
+        "valuation": 3000000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 3.0
+      }
+    },
+    {
+      "id": "postmates",
+      "label": "Postmates",
+      "size": 36,
+      "color": "#64748b",
+      "data": {
+        "name": "Postmates",
+        "industry": "Delivery",
+        "batch": "S11",
+        "status": "Acquired",
+        "valuation": 2650000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 2.65
+      }
+    },
+    {
+      "id": "sourcegraph",
+      "label": "Sourcegraph",
+      "size": 66,
+      "color": "#3b82f6",
+      "data": {
+        "name": "Sourcegraph",
+        "industry": "DevTools",
+        "batch": "S13",
+        "status": "Private",
+        "valuation": 2600000000,
+        "deal_activity_count": 8,
+        "extraordinary_score": 2.6
+      }
+    },
+    {
+      "id": "vercel",
+      "label": "Vercel",
+      "size": 76,
+      "color": "#3b82f6",
+      "data": {
+        "name": "Vercel",
+        "industry": "DevTools",
+        "batch": "S20",
+        "status": "Private",
+        "valuation": 2500000000,
+        "deal_activity_count": 10,
+        "extraordinary_score": 2.5
+      }
+    },
+    {
+      "id": "ginkgo_bioworks",
+      "label": "Ginkgo Bioworks",
+      "size": 31,
+      "color": "#64748b",
+      "data": {
+        "name": "Ginkgo Bioworks",
+        "industry": "Biotech",
+        "batch": "S14",
+        "status": "Public",
+        "valuation": 2500000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 2.5
+      }
+    },
+    {
+      "id": "pagerduty",
+      "label": "PagerDuty",
+      "size": 31,
+      "color": "#64748b",
+      "data": {
+        "name": "PagerDuty",
+        "industry": "DevOps",
+        "batch": "S10",
+        "status": "Public",
+        "valuation": 2500000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 2.5
+      }
+    },
+    {
+      "id": "algolia",
+      "label": "Algolia",
+      "size": 30,
+      "color": "#64748b",
+      "data": {
+        "name": "Algolia",
+        "industry": "Search",
+        "batch": "W14",
+        "status": "Private",
+        "valuation": 2250000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 2.25
+      }
+    },
+    {
+      "id": "clipboard_health",
+      "label": "Clipboard Health",
+      "size": 54,
+      "color": "#f59e0b",
+      "data": {
+        "name": "Clipboard Health",
+        "industry": "Healthcare",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 2000000000,
+        "deal_activity_count": 6,
+        "extraordinary_score": 2.0
+      }
+    },
+    {
+      "id": "supabase",
+      "label": "Supabase",
+      "size": 74,
+      "color": "#64748b",
+      "data": {
+        "name": "Supabase",
+        "industry": "Database",
+        "batch": "S20",
+        "status": "Private",
+        "valuation": 2000000000,
+        "deal_activity_count": 10,
+        "extraordinary_score": 2.0
+      }
+    },
+    {
+      "id": "docker",
+      "label": "Docker",
+      "size": 44,
+      "color": "#3b82f6",
+      "data": {
+        "name": "Docker",
+        "industry": "DevTools",
+        "batch": "S10",
+        "status": "Private",
+        "valuation": 2000000000,
+        "deal_activity_count": 4,
+        "extraordinary_score": 2.0
+      }
+    },
+    {
+      "id": "mercury",
+      "label": "Mercury",
+      "size": 33,
+      "color": "#10b981",
+      "data": {
+        "name": "Mercury",
+        "industry": "Fintech",
+        "batch": "S17",
+        "status": "Private",
+        "valuation": 1600000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 1.6
+      }
+    },
+    {
+      "id": "airbyte",
+      "label": "Airbyte",
+      "size": 42,
+      "color": "#64748b",
+      "data": {
+        "name": "Airbyte",
+        "industry": "Data",
+        "batch": "W20",
+        "status": "Private",
+        "valuation": 1500000000,
+        "deal_activity_count": 4,
+        "extraordinary_score": 1.5
+      }
+    },
+    {
+      "id": "pilot",
+      "label": "Pilot",
+      "size": 31,
+      "color": "#64748b",
+      "data": {
+        "name": "Pilot",
+        "industry": "Accounting",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 1200000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 1.2
+      }
+    },
+    {
+      "id": "mixpanel",
+      "label": "Mixpanel",
+      "size": 35,
+      "color": "#64748b",
+      "data": {
+        "name": "Mixpanel",
+        "industry": "Analytics",
+        "batch": "S09",
+        "status": "Private",
+        "valuation": 1050000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 1.05
+      }
+    },
+    {
+      "id": "weights_&_biases",
+      "label": "Weights & Biases",
+      "size": 45,
+      "color": "#64748b",
+      "data": {
+        "name": "Weights & Biases",
+        "industry": "AI/ML",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 1000000000,
+        "deal_activity_count": 5,
+        "extraordinary_score": 1.0
+      }
+    },
+    {
+      "id": "sendbird",
+      "label": "Sendbird",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Sendbird",
+        "industry": "Communication",
+        "batch": "W16",
+        "status": "Private",
+        "valuation": 1000000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 1.0
+      }
+    },
+    {
+      "id": "optimizely",
+      "label": "Optimizely",
+      "size": 40,
+      "color": "#64748b",
+      "data": {
+        "name": "Optimizely",
+        "industry": "Analytics",
+        "batch": "W10",
+        "status": "Private",
+        "valuation": 1000000000,
+        "deal_activity_count": 4,
+        "extraordinary_score": 1.0
+      }
+    },
+    {
+      "id": "23andme",
+      "label": "23andMe",
+      "size": 65,
+      "color": "#f59e0b",
+      "data": {
+        "name": "23andMe",
+        "industry": "Healthcare",
+        "batch": "W06",
+        "status": "Public",
+        "valuation": 1000000000,
+        "deal_activity_count": 9,
+        "extraordinary_score": 1.0
+      }
+    },
+    {
+      "id": "planetscale",
+      "label": "PlanetScale",
+      "size": 65,
+      "color": "#64748b",
+      "data": {
+        "name": "PlanetScale",
+        "industry": "Database",
+        "batch": "S18",
+        "status": "Private",
+        "valuation": 1000000000,
+        "deal_activity_count": 9,
+        "extraordinary_score": 1.0
+      }
+    },
+    {
+      "id": "loom",
+      "label": "Loom",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Loom",
+        "industry": "Video",
+        "batch": "W16",
+        "status": "Acquired",
+        "valuation": 975000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 0.975
+      }
+    },
+    {
+      "id": "twitch",
+      "label": "Twitch",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Twitch",
+        "industry": "Gaming",
+        "batch": "S07",
+        "status": "Acquired",
+        "valuation": 970000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 0.97
+      }
+    },
+    {
+      "id": "superhuman",
+      "label": "Superhuman",
+      "size": 23,
+      "color": "#64748b",
+      "data": {
+        "name": "Superhuman",
+        "industry": "Email",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 825000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 0.825
+      }
+    },
+    {
+      "id": "front",
+      "label": "Front",
+      "size": 23,
+      "color": "#64748b",
+      "data": {
+        "name": "Front",
+        "industry": "Communication",
+        "batch": "S14",
+        "status": "Private",
+        "valuation": 800000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 0.8
+      }
+    },
+    {
+      "id": "substack",
+      "label": "Substack",
+      "size": 27,
+      "color": "#64748b",
+      "data": {
+        "name": "Substack",
+        "industry": "Publishing",
+        "batch": "W18",
+        "status": "Private",
+        "valuation": 650000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 0.65
+      }
+    },
+    {
+      "id": "shipt",
+      "label": "Shipt",
+      "size": 31,
+      "color": "#64748b",
+      "data": {
+        "name": "Shipt",
+        "industry": "Grocery",
+        "batch": "W14",
+        "status": "Acquired",
+        "valuation": 550000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 0.55
+      }
+    },
+    {
+      "id": "posthog",
+      "label": "PostHog",
+      "size": 35,
+      "color": "#64748b",
+      "data": {
+        "name": "PostHog",
+        "industry": "Analytics",
+        "batch": "W20",
+        "status": "Private",
+        "valuation": 400000000,
+        "deal_activity_count": 4,
+        "extraordinary_score": 0.4
+      }
+    },
+    {
+      "id": "hightouch",
+      "label": "Hightouch",
+      "size": 40,
+      "color": "#64748b",
+      "data": {
+        "name": "Hightouch",
+        "industry": "Data",
+        "batch": "W20",
+        "status": "Private",
+        "valuation": 400000000,
+        "deal_activity_count": 5,
+        "extraordinary_score": 0.4
+      }
+    },
+    {
+      "id": "linear",
+      "label": "Linear",
+      "size": 30,
+      "color": "#64748b",
+      "data": {
+        "name": "Linear",
+        "industry": "Project Management",
+        "batch": "W19",
+        "status": "Private",
+        "valuation": 400000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 0.4
+      }
+    },
+    {
+      "id": "hex",
+      "label": "Hex",
+      "size": 30,
+      "color": "#64748b",
+      "data": {
+        "name": "Hex",
+        "industry": "Data",
+        "batch": "W18",
+        "status": "Private",
+        "valuation": 400000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 0.4
+      }
+    },
+    {
+      "id": "weebly",
+      "label": "Weebly",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Weebly",
+        "industry": "Web Building",
+        "batch": "W07",
+        "status": "Acquired",
+        "valuation": 365000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 0.365
+      }
+    },
+    {
+      "id": "modern_fertility",
+      "label": "Modern Fertility",
+      "size": 62,
+      "color": "#f59e0b",
+      "data": {
+        "name": "Modern Fertility",
+        "industry": "Healthcare",
+        "batch": "W17",
+        "status": "Acquired",
+        "valuation": 225000000,
+        "deal_activity_count": 10,
+        "extraordinary_score": 0.225
+      }
+    },
+    {
+      "id": "heroku",
+      "label": "Heroku",
+      "size": 22,
+      "color": "#3b82f6",
+      "data": {
+        "name": "Heroku",
+        "industry": "DevTools",
+        "batch": "W08",
+        "status": "Acquired",
+        "valuation": 212000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 0.212
+      }
+    },
+    {
+      "id": "temporal",
+      "label": "Temporal",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Temporal",
+        "industry": "Infrastructure",
+        "batch": "W20",
+        "status": "Private",
+        "valuation": 200000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 0.2
+      }
+    },
+    {
+      "id": "buildkite",
+      "label": "Buildkite",
+      "size": 27,
+      "color": "#3b82f6",
+      "data": {
+        "name": "Buildkite",
+        "industry": "DevTools",
+        "batch": "W15",
+        "status": "Private",
+        "valuation": 200000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 0.2
+      }
+    },
+    {
+      "id": "metabase",
+      "label": "Metabase",
+      "size": 22,
+      "color": "#64748b",
+      "data": {
+        "name": "Metabase",
+        "industry": "Analytics",
+        "batch": "S16",
+        "status": "Private",
+        "valuation": 200000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 0.2
+      }
+    },
+    {
+      "id": "clearbit",
+      "label": "Clearbit",
+      "size": 32,
+      "color": "#64748b",
+      "data": {
+        "name": "Clearbit",
+        "industry": "Data",
+        "batch": "S13",
+        "status": "Acquired",
+        "valuation": 200000000,
+        "deal_activity_count": 4,
+        "extraordinary_score": 0.2
+      }
+    },
+    {
+      "id": "preset",
+      "label": "Preset",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Preset",
+        "industry": "Analytics",
+        "batch": "W21",
+        "status": "Private",
+        "valuation": 100000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 0.1
+      }
+    },
+    {
+      "id": "hasura",
+      "label": "Hasura",
+      "size": 30,
+      "color": "#64748b",
+      "data": {
+        "name": "Hasura",
+        "industry": "Database",
+        "batch": "W18",
+        "status": "Private",
+        "valuation": 100000000,
+        "deal_activity_count": 4,
+        "extraordinary_score": 0.1
+      }
+    },
+    {
+      "id": "fly.io",
+      "label": "Fly.io",
+      "size": 40,
+      "color": "#64748b",
+      "data": {
+        "name": "Fly.io",
+        "industry": "Infrastructure",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 100000000,
+        "deal_activity_count": 6,
+        "extraordinary_score": 0.1
+      }
+    },
+    {
+      "id": "healthtap",
+      "label": "Healthtap",
+      "size": 25,
+      "color": "#f59e0b",
+      "data": {
+        "name": "Healthtap",
+        "industry": "Healthcare",
+        "batch": "W10",
+        "status": "Private",
+        "valuation": 100000000,
+        "deal_activity_count": 3,
+        "extraordinary_score": 0.1
+      }
+    },
+    {
+      "id": "neon",
+      "label": "Neon",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Neon",
+        "industry": "Database",
+        "batch": "S21",
+        "status": "Private",
+        "valuation": 100000000,
+        "deal_activity_count": 0,
+        "extraordinary_score": 0.1
+      }
+    },
+    {
+      "id": "render",
+      "label": "Render",
+      "size": 35,
+      "color": "#64748b",
+      "data": {
+        "name": "Render",
+        "industry": "Infrastructure",
+        "batch": "S19",
+        "status": "Private",
+        "valuation": 100000000,
+        "deal_activity_count": 5,
+        "extraordinary_score": 0.1
+      }
+    },
+    {
+      "id": "rudderstack",
+      "label": "Rudderstack",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Rudderstack",
+        "industry": "Data",
+        "batch": "S19",
+        "status": "Private",
+        "valuation": 100000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 0.1
+      }
+    },
+    {
+      "id": "census",
+      "label": "Census",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Census",
+        "industry": "Data",
+        "batch": "S18",
+        "status": "Private",
+        "valuation": 100000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 0.1
+      }
+    },
+    {
+      "id": "teespring",
+      "label": "Teespring",
+      "size": 60,
+      "color": "#ec4899",
+      "data": {
+        "name": "Teespring",
+        "industry": "E-commerce",
+        "batch": "S13",
+        "status": "Private",
+        "valuation": 100000000,
+        "deal_activity_count": 10,
+        "extraordinary_score": 0.1
+      }
+    },
+    {
+      "id": "gumroad",
+      "label": "Gumroad",
+      "size": 40,
+      "color": "#ec4899",
+      "data": {
+        "name": "Gumroad",
+        "industry": "E-commerce",
+        "batch": "S11",
+        "status": "Private",
+        "valuation": 100000000,
+        "deal_activity_count": 6,
+        "extraordinary_score": 0.1
+      }
+    },
+    {
+      "id": "luma",
+      "label": "Luma",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Luma",
+        "industry": "Events",
+        "batch": "W21",
+        "status": "Private",
+        "valuation": 50000000,
+        "deal_activity_count": 1,
+        "extraordinary_score": 0.05
+      }
+    },
+    {
+      "id": "cube",
+      "label": "Cube",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Cube",
+        "industry": "Analytics",
+        "batch": "W18",
+        "status": "Private",
+        "valuation": 50000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 0.05
+      }
+    },
+    {
+      "id": "observable",
+      "label": "Observable",
+      "size": 20,
+      "color": "#64748b",
+      "data": {
+        "name": "Observable",
+        "industry": "Analytics",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 50000000,
+        "deal_activity_count": 2,
+        "extraordinary_score": 0.05
+      }
+    },
+    {
+      "id": "railway",
+      "label": "Railway",
+      "size": 28,
+      "color": "#3b82f6",
+      "data": {
+        "name": "Railway",
+        "industry": "DevTools",
+        "batch": "S20",
+        "status": "Private",
+        "valuation": 50000000,
+        "deal_activity_count": 4,
+        "extraordinary_score": 0.05
       }
     }
   ],
-  "edges": [],
-  "metadata": {
-    "total_companies": 4,
-    "total_deals": 0,
-    "industries": [
-      "Technology"
-    ],
-    "deal_types": [],
-    "date_range": {
-      "start": "",
-      "end": ""
+  "edges": [
+    {
+      "id": "69afa19f-a4f0-4093-8227-420ddbd040e8",
+      "source": "retool",
+      "target": "linear",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "69afa19f-a4f0-4093-8227-420ddbd040e8",
+        "source_company": "Retool",
+        "target_company": "Linear",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-11-22",
+        "description": "Strategic partnership within stripe ecosystem ecosystem",
+        "confidence_score": 0.7819920292980451,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Linear"
+        ]
+      }
     },
-    "total_deal_value": 0,
-    "extraction_timestamp": "2025-09-13T13:28:59.741306"
+    {
+      "id": "e36a6e1b-d188-4f93-976d-0e8c1a0ac9d5",
+      "source": "retool",
+      "target": "planetscale",
+      "label": "partnership (2025)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "e36a6e1b-d188-4f93-976d-0e8c1a0ac9d5",
+        "source_company": "Retool",
+        "target_company": "PlanetScale",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2025-03-17",
+        "description": "Strategic partnership within stripe ecosystem ecosystem",
+        "confidence_score": 0.8327965827682552,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "PlanetScale"
+        ]
+      }
+    },
+    {
+      "id": "84c13ccc-c500-4030-8bf7-fd23d5a25a24",
+      "source": "linear",
+      "target": "vercel",
+      "label": "partnership (2025)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "84c13ccc-c500-4030-8bf7-fd23d5a25a24",
+        "source_company": "Linear",
+        "target_company": "Vercel",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2025-07-25",
+        "description": "Strategic partnership within stripe ecosystem ecosystem",
+        "confidence_score": 0.8738565679747812,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Linear",
+          "Vercel"
+        ]
+      }
+    },
+    {
+      "id": "b920f174-73a7-4445-bf60-c2e2e8a08d3f",
+      "source": "linear",
+      "target": "planetscale",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "b920f174-73a7-4445-bf60-c2e2e8a08d3f",
+        "source_company": "Linear",
+        "target_company": "PlanetScale",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-02-27",
+        "description": "Strategic partnership within stripe ecosystem ecosystem",
+        "confidence_score": 0.7698405564877557,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Linear",
+          "PlanetScale"
+        ]
+      }
+    },
+    {
+      "id": "8229c43a-8a99-49ea-9c6c-6e849e50126e",
+      "source": "vercel",
+      "target": "planetscale",
+      "label": "partnership (2025)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "8229c43a-8a99-49ea-9c6c-6e849e50126e",
+        "source_company": "Vercel",
+        "target_company": "PlanetScale",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2025-05-10",
+        "description": "Strategic partnership within stripe ecosystem ecosystem",
+        "confidence_score": 0.7206472260044403,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Vercel",
+          "PlanetScale"
+        ]
+      }
+    },
+    {
+      "id": "f5a4911a-5986-4e13-a5dd-d1140dfcab08",
+      "source": "anthropic",
+      "target": "scale_ai",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "f5a4911a-5986-4e13-a5dd-d1140dfcab08",
+        "source_company": "Anthropic",
+        "target_company": "Scale AI",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-09-21",
+        "description": "Strategic partnership within openai ecosystem ecosystem",
+        "confidence_score": 0.8170660408815089,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Scale AI"
+        ]
+      }
+    },
+    {
+      "id": "83728bef-fcb6-4361-8985-01fc6e28bfc9",
+      "source": "anthropic",
+      "target": "weights_&_biases",
+      "label": "partnership (2025)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "83728bef-fcb6-4361-8985-01fc6e28bfc9",
+        "source_company": "Anthropic",
+        "target_company": "Weights & Biases",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2025-07-09",
+        "description": "Strategic partnership within openai ecosystem ecosystem",
+        "confidence_score": 0.8046740526808871,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Weights & Biases"
+        ]
+      }
+    },
+    {
+      "id": "508f9d33-ff23-4cff-8827-c064db459e6f",
+      "source": "scale_ai",
+      "target": "weights_&_biases",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "508f9d33-ff23-4cff-8827-c064db459e6f",
+        "source_company": "Scale AI",
+        "target_company": "Weights & Biases",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-08-08",
+        "description": "Strategic partnership within openai ecosystem ecosystem",
+        "confidence_score": 0.8132029248426296,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Scale AI",
+          "Weights & Biases"
+        ]
+      }
+    },
+    {
+      "id": "d50bc7fa-20a8-497e-92fd-a3990363e786",
+      "source": "vercel",
+      "target": "railway",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "d50bc7fa-20a8-497e-92fd-a3990363e786",
+        "source_company": "Vercel",
+        "target_company": "Railway",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-11-15",
+        "description": "Strategic partnership within devtools cluster ecosystem",
+        "confidence_score": 0.8132562865750018,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Vercel",
+          "Railway"
+        ]
+      }
+    },
+    {
+      "id": "ac45d191-b66c-4d1e-a846-285697f098f6",
+      "source": "vercel",
+      "target": "render",
+      "label": "partnership (2023)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "ac45d191-b66c-4d1e-a846-285697f098f6",
+        "source_company": "Vercel",
+        "target_company": "Render",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2023-09-26",
+        "description": "Strategic partnership within devtools cluster ecosystem",
+        "confidence_score": 0.7961630386751373,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Vercel",
+          "Render"
+        ]
+      }
+    },
+    {
+      "id": "71db6453-1821-450b-a317-18d68f7f4056",
+      "source": "vercel",
+      "target": "fly.io",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "71db6453-1821-450b-a317-18d68f7f4056",
+        "source_company": "Vercel",
+        "target_company": "Fly.io",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-10-11",
+        "description": "Strategic partnership within devtools cluster ecosystem",
+        "confidence_score": 0.7522903326011572,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Vercel",
+          "Fly.io"
+        ]
+      }
+    },
+    {
+      "id": "fb08aa3e-d94f-477c-a5ae-db5efd6b12fb",
+      "source": "planetscale",
+      "target": "railway",
+      "label": "partnership (2025)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "fb08aa3e-d94f-477c-a5ae-db5efd6b12fb",
+        "source_company": "PlanetScale",
+        "target_company": "Railway",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2025-04-03",
+        "description": "Strategic partnership within devtools cluster ecosystem",
+        "confidence_score": 0.7436507022757559,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "PlanetScale",
+          "Railway"
+        ]
+      }
+    },
+    {
+      "id": "1dae2465-0d96-4bad-9b3d-818eb4872bd4",
+      "source": "planetscale",
+      "target": "render",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "1dae2465-0d96-4bad-9b3d-818eb4872bd4",
+        "source_company": "PlanetScale",
+        "target_company": "Render",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-10-24",
+        "description": "Strategic partnership within devtools cluster ecosystem",
+        "confidence_score": 0.7195573632698666,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "PlanetScale",
+          "Render"
+        ]
+      }
+    },
+    {
+      "id": "bdbcd27f-0850-4f1d-952c-60d0834a2e7f",
+      "source": "planetscale",
+      "target": "fly.io",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "bdbcd27f-0850-4f1d-952c-60d0834a2e7f",
+        "source_company": "PlanetScale",
+        "target_company": "Fly.io",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-04-16",
+        "description": "Strategic partnership within devtools cluster ecosystem",
+        "confidence_score": 0.8328326955867645,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "PlanetScale",
+          "Fly.io"
+        ]
+      }
+    },
+    {
+      "id": "a8b0953a-d5c3-4da2-bd76-99acb0ada845",
+      "source": "railway",
+      "target": "fly.io",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "a8b0953a-d5c3-4da2-bd76-99acb0ada845",
+        "source_company": "Railway",
+        "target_company": "Fly.io",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-11-07",
+        "description": "Strategic partnership within devtools cluster ecosystem",
+        "confidence_score": 0.9408635886370397,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Railway",
+          "Fly.io"
+        ]
+      }
+    },
+    {
+      "id": "6ab2b780-50b5-4b4d-b235-0d55eb4890fb",
+      "source": "render",
+      "target": "fly.io",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "6ab2b780-50b5-4b4d-b235-0d55eb4890fb",
+        "source_company": "Render",
+        "target_company": "Fly.io",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-11-03",
+        "description": "Strategic partnership within devtools cluster ecosystem",
+        "confidence_score": 0.853278290070151,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Render",
+          "Fly.io"
+        ]
+      }
+    },
+    {
+      "id": "962ba833-6400-4b32-a475-76b174fced7d",
+      "source": "stripe",
+      "target": "brex",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "962ba833-6400-4b32-a475-76b174fced7d",
+        "source_company": "Stripe",
+        "target_company": "Brex",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-05-20",
+        "description": "Strategic partnership within fintech cluster ecosystem",
+        "confidence_score": 0.906341832440942,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Stripe",
+          "Brex"
+        ]
+      }
+    },
+    {
+      "id": "491eb1d6-34f7-45ff-bac0-b785cd20e0a6",
+      "source": "openai",
+      "target": "anthropic",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "491eb1d6-34f7-45ff-bac0-b785cd20e0a6",
+        "source_company": "OpenAI",
+        "target_company": "Anthropic",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-09-06",
+        "description": "Strategic partnership within ai cluster ecosystem",
+        "confidence_score": 0.7322862795937705,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Anthropic"
+        ]
+      }
+    },
+    {
+      "id": "44ab98e2-9477-41f8-b2ad-9d8d590ed0bf",
+      "source": "openai",
+      "target": "scale_ai",
+      "label": "partnership (2025)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "44ab98e2-9477-41f8-b2ad-9d8d590ed0bf",
+        "source_company": "OpenAI",
+        "target_company": "Scale AI",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2025-05-12",
+        "description": "Strategic partnership within ai cluster ecosystem",
+        "confidence_score": 0.747121444709051,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Scale AI"
+        ]
+      }
+    },
+    {
+      "id": "c0900f4d-5c57-4f1a-9d5b-0b41f5047ad1",
+      "source": "openai",
+      "target": "weights_&_biases",
+      "label": "partnership (2024)",
+      "weight": 2,
+      "color": "#10b981",
+      "data": {
+        "id": "c0900f4d-5c57-4f1a-9d5b-0b41f5047ad1",
+        "source_company": "OpenAI",
+        "target_company": "Weights & Biases",
+        "deal_type": "partnership",
+        "deal_value": null,
+        "deal_date": "2024-06-20",
+        "description": "Strategic partnership within ai cluster ecosystem",
+        "confidence_score": 0.8219050815312132,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Weights & Biases"
+        ]
+      }
+    },
+    {
+      "id": "3bfaae0f-b0da-444b-8249-5e2fa837bd93",
+      "source": "stripe",
+      "target": "gumroad",
+      "label": "partners_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "3bfaae0f-b0da-444b-8249-5e2fa837bd93",
+        "source_company": "Stripe",
+        "target_company": "Gumroad",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2025-05-01",
+        "description": "Fintech partners with E-commerce",
+        "confidence_score": 0.8421620944728654,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Stripe",
+          "Gumroad"
+        ]
+      }
+    },
+    {
+      "id": "0b8696b6-5745-4f30-84ff-e9a9f4840cde",
+      "source": "plaid",
+      "target": "teespring",
+      "label": "partners_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "0b8696b6-5745-4f30-84ff-e9a9f4840cde",
+        "source_company": "Plaid",
+        "target_company": "Teespring",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2023-10-15",
+        "description": "Fintech partners with E-commerce",
+        "confidence_score": 0.921213412607865,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Plaid",
+          "Teespring"
+        ]
+      }
+    },
+    {
+      "id": "c3ce2e9e-5658-40e1-ac66-e7d6d3b9547d",
+      "source": "plaid",
+      "target": "stripe",
+      "label": "competes_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "c3ce2e9e-5658-40e1-ac66-e7d6d3b9547d",
+        "source_company": "Plaid",
+        "target_company": "Stripe",
+        "deal_type": "competes_with",
+        "deal_value": null,
+        "deal_date": "2023-11-18",
+        "description": "Fintech competes with Fintech",
+        "confidence_score": 0.7478399291526288,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Plaid",
+          "Stripe"
+        ]
+      }
+    },
+    {
+      "id": "28cdc6d2-29ec-4a3e-83cd-d3a8ed85c942",
+      "source": "plaid",
+      "target": "gumroad",
+      "label": "supplies_to (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "28cdc6d2-29ec-4a3e-83cd-d3a8ed85c942",
+        "source_company": "Plaid",
+        "target_company": "Gumroad",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2024-01-26",
+        "description": "Fintech supplies to E-commerce",
+        "confidence_score": 0.7277173691822083,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Plaid",
+          "Gumroad"
+        ]
+      }
+    },
+    {
+      "id": "956e64bb-cfed-48e3-baf5-369b1f7c5420",
+      "source": "plaid",
+      "target": "gitlab",
+      "label": "integrates_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "956e64bb-cfed-48e3-baf5-369b1f7c5420",
+        "source_company": "Plaid",
+        "target_company": "GitLab",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2023-11-02",
+        "description": "Fintech integrates with DevTools",
+        "confidence_score": 0.8262234183677393,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Plaid",
+          "GitLab"
+        ]
+      }
+    },
+    {
+      "id": "41c6a0da-c4ae-42d4-9ff1-030ff6d518a2",
+      "source": "brex",
+      "target": "retool",
+      "label": "integrates_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "41c6a0da-c4ae-42d4-9ff1-030ff6d518a2",
+        "source_company": "Brex",
+        "target_company": "Retool",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2023-09-19",
+        "description": "Fintech integrates with DevTools",
+        "confidence_score": 0.8614252894545764,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Brex",
+          "Retool"
+        ]
+      }
+    },
+    {
+      "id": "d39e4ca4-6bf5-4b22-930f-2493b0b408f6",
+      "source": "brex",
+      "target": "amplitude",
+      "label": "integrates_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "d39e4ca4-6bf5-4b22-930f-2493b0b408f6",
+        "source_company": "Brex",
+        "target_company": "Amplitude",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2025-02-11",
+        "description": "Fintech integrates with Analytics",
+        "confidence_score": 0.7125015902009137,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Brex",
+          "Amplitude"
+        ]
+      }
+    },
+    {
+      "id": "9f49700c-dac6-499e-bb11-0d177c066b1e",
+      "source": "stripe",
+      "target": "airtable",
+      "label": "integrates_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "9f49700c-dac6-499e-bb11-0d177c066b1e",
+        "source_company": "Stripe",
+        "target_company": "Airtable",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2025-06-23",
+        "description": "Fintech integrates with Database",
+        "confidence_score": 0.797073639993789,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Stripe",
+          "Airtable"
+        ]
+      }
+    },
+    {
+      "id": "e56f5b7c-98c5-4f14-92dd-0de72afd6380",
+      "source": "plaid",
+      "target": "airtable",
+      "label": "integrates_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "e56f5b7c-98c5-4f14-92dd-0de72afd6380",
+        "source_company": "Plaid",
+        "target_company": "Airtable",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2025-06-06",
+        "description": "Fintech integrates with Database",
+        "confidence_score": 0.8832409613925092,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Plaid",
+          "Airtable"
+        ]
+      }
+    },
+    {
+      "id": "58518dc1-3d6b-4f0e-b925-e5339b690e55",
+      "source": "anthropic",
+      "target": "gitlab",
+      "label": "partners_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "58518dc1-3d6b-4f0e-b925-e5339b690e55",
+        "source_company": "Anthropic",
+        "target_company": "GitLab",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2023-10-26",
+        "description": "AI partners with DevTools",
+        "confidence_score": 0.7925450042145166,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "GitLab"
+        ]
+      }
+    },
+    {
+      "id": "99b50525-9f75-45d1-adf7-48e354e746de",
+      "source": "scale_ai",
+      "target": "gitlab",
+      "label": "partners_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "99b50525-9f75-45d1-adf7-48e354e746de",
+        "source_company": "Scale AI",
+        "target_company": "GitLab",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2024-09-18",
+        "description": "AI partners with DevTools",
+        "confidence_score": 0.8427943523844496,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Scale AI",
+          "GitLab"
+        ]
+      }
+    },
+    {
+      "id": "65647621-a77d-4f3a-9a10-e23cdc29535b",
+      "source": "openai",
+      "target": "segment",
+      "label": "partners_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "65647621-a77d-4f3a-9a10-e23cdc29535b",
+        "source_company": "OpenAI",
+        "target_company": "Segment",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2024-09-24",
+        "description": "AI partners with Analytics",
+        "confidence_score": 0.7913659104616159,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Segment"
+        ]
+      }
+    },
+    {
+      "id": "31094e65-23cc-40c8-bbdb-d8b73ddd998e",
+      "source": "anthropic",
+      "target": "amplitude",
+      "label": "partners_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "31094e65-23cc-40c8-bbdb-d8b73ddd998e",
+        "source_company": "Anthropic",
+        "target_company": "Amplitude",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2024-09-14",
+        "description": "AI partners with Analytics",
+        "confidence_score": 0.8962678663494799,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Amplitude"
+        ]
+      }
+    },
+    {
+      "id": "4379502a-fa2a-4fd6-bac3-a6ba81cd541b",
+      "source": "anthropic",
+      "target": "segment",
+      "label": "partners_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "4379502a-fa2a-4fd6-bac3-a6ba81cd541b",
+        "source_company": "Anthropic",
+        "target_company": "Segment",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2024-09-28",
+        "description": "AI partners with Analytics",
+        "confidence_score": 0.764942465285494,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Segment"
+        ]
+      }
+    },
+    {
+      "id": "f972c644-4ab5-4f79-813e-e31597eeb2bb",
+      "source": "scale_ai",
+      "target": "segment",
+      "label": "partners_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "f972c644-4ab5-4f79-813e-e31597eeb2bb",
+        "source_company": "Scale AI",
+        "target_company": "Segment",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2023-09-16",
+        "description": "AI partners with Analytics",
+        "confidence_score": 0.7604953968030204,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Scale AI",
+          "Segment"
+        ]
+      }
+    },
+    {
+      "id": "76a73071-40c6-48e5-9c7f-559528057522",
+      "source": "openai",
+      "target": "supabase",
+      "label": "partners_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "76a73071-40c6-48e5-9c7f-559528057522",
+        "source_company": "OpenAI",
+        "target_company": "Supabase",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2025-04-24",
+        "description": "AI partners with Database",
+        "confidence_score": 0.9116931538326373,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Supabase"
+        ]
+      }
+    },
+    {
+      "id": "e3f79c71-ebf6-4825-91b5-dfc40cb62c9c",
+      "source": "anthropic",
+      "target": "airtable",
+      "label": "partners_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "e3f79c71-ebf6-4825-91b5-dfc40cb62c9c",
+        "source_company": "Anthropic",
+        "target_company": "Airtable",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2025-06-22",
+        "description": "AI partners with Database",
+        "confidence_score": 0.8940092015093343,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Airtable"
+        ]
+      }
+    },
+    {
+      "id": "ad054778-9703-4869-a2be-428fd2020d3d",
+      "source": "scale_ai",
+      "target": "airtable",
+      "label": "partners_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "ad054778-9703-4869-a2be-428fd2020d3d",
+        "source_company": "Scale AI",
+        "target_company": "Airtable",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2025-01-22",
+        "description": "AI partners with Database",
+        "confidence_score": 0.7038244002746097,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Scale AI",
+          "Airtable"
+        ]
+      }
+    },
+    {
+      "id": "cbb872bd-1154-4b48-ad98-6b845d04d0a9",
+      "source": "openai",
+      "target": "anthropic",
+      "label": "competes_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "cbb872bd-1154-4b48-ad98-6b845d04d0a9",
+        "source_company": "OpenAI",
+        "target_company": "Anthropic",
+        "deal_type": "competes_with",
+        "deal_value": null,
+        "deal_date": "2025-04-12",
+        "description": "AI competes with AI",
+        "confidence_score": 0.8833198437805563,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Anthropic"
+        ]
+      }
+    },
+    {
+      "id": "aa66c27b-5200-4d04-bc45-64078a3e52ca",
+      "source": "anthropic",
+      "target": "openai",
+      "label": "competes_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "aa66c27b-5200-4d04-bc45-64078a3e52ca",
+        "source_company": "Anthropic",
+        "target_company": "OpenAI",
+        "deal_type": "competes_with",
+        "deal_value": null,
+        "deal_date": "2024-12-28",
+        "description": "AI competes with AI",
+        "confidence_score": 0.8153840550035645,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "OpenAI"
+        ]
+      }
+    },
+    {
+      "id": "2341003a-6097-4782-9a4c-bedff9d2abf2",
+      "source": "scale_ai",
+      "target": "openai",
+      "label": "competes_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2341003a-6097-4782-9a4c-bedff9d2abf2",
+        "source_company": "Scale AI",
+        "target_company": "OpenAI",
+        "deal_type": "competes_with",
+        "deal_value": null,
+        "deal_date": "2025-04-24",
+        "description": "AI competes with AI",
+        "confidence_score": 0.9219435538097519,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Scale AI",
+          "OpenAI"
+        ]
+      }
+    },
+    {
+      "id": "f26902cf-ed08-48bd-9070-42ba6d91c4ae",
+      "source": "scale_ai",
+      "target": "teespring",
+      "label": "supplies_to (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "f26902cf-ed08-48bd-9070-42ba6d91c4ae",
+        "source_company": "Scale AI",
+        "target_company": "Teespring",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2024-11-24",
+        "description": "AI supplies to E-commerce",
+        "confidence_score": 0.9314557177278421,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Scale AI",
+          "Teespring"
+        ]
+      }
+    },
+    {
+      "id": "ad993f4f-a8ef-46a8-b2e8-14c3b0c528f0",
+      "source": "openai",
+      "target": "clipboard_health",
+      "label": "supplies_to (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "ad993f4f-a8ef-46a8-b2e8-14c3b0c528f0",
+        "source_company": "OpenAI",
+        "target_company": "Clipboard Health",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2025-07-06",
+        "description": "AI supplies to Healthcare",
+        "confidence_score": 0.9427607257750321,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Clipboard Health"
+        ]
+      }
+    },
+    {
+      "id": "eb442f16-e273-4416-a3a2-e0c2b1b2c9db",
+      "source": "openai",
+      "target": "23andme",
+      "label": "supplies_to (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "eb442f16-e273-4416-a3a2-e0c2b1b2c9db",
+        "source_company": "OpenAI",
+        "target_company": "23andMe",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2025-02-18",
+        "description": "AI supplies to Healthcare",
+        "confidence_score": 0.8256055121651275,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "23andMe"
+        ]
+      }
+    },
+    {
+      "id": "bdc57c64-236b-4108-9eea-9554b8b717ee",
+      "source": "openai",
+      "target": "stripe",
+      "label": "supplies_to (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "bdc57c64-236b-4108-9eea-9554b8b717ee",
+        "source_company": "OpenAI",
+        "target_company": "Stripe",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2024-02-02",
+        "description": "AI supplies to Fintech",
+        "confidence_score": 0.9245988604438209,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Stripe"
+        ]
+      }
+    },
+    {
+      "id": "ed60594e-2643-4947-bec0-da2752023481",
+      "source": "openai",
+      "target": "plaid",
+      "label": "supplies_to (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "ed60594e-2643-4947-bec0-da2752023481",
+        "source_company": "OpenAI",
+        "target_company": "Plaid",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2025-06-13",
+        "description": "AI supplies to Fintech",
+        "confidence_score": 0.7376754938801009,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Plaid"
+        ]
+      }
+    },
+    {
+      "id": "2c36516e-3e25-40b7-8b17-86cea2a8e0b7",
+      "source": "anthropic",
+      "target": "plaid",
+      "label": "supplies_to (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2c36516e-3e25-40b7-8b17-86cea2a8e0b7",
+        "source_company": "Anthropic",
+        "target_company": "Plaid",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2024-02-09",
+        "description": "AI supplies to Fintech",
+        "confidence_score": 0.8425767840723456,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Plaid"
+        ]
+      }
+    },
+    {
+      "id": "69be9f6e-8163-4239-87da-c63be9d0fc1b",
+      "source": "scale_ai",
+      "target": "stripe",
+      "label": "supplies_to (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "69be9f6e-8163-4239-87da-c63be9d0fc1b",
+        "source_company": "Scale AI",
+        "target_company": "Stripe",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2024-11-17",
+        "description": "AI supplies to Fintech",
+        "confidence_score": 0.9172921283706817,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Scale AI",
+          "Stripe"
+        ]
+      }
+    },
+    {
+      "id": "49db93d8-0fa2-4149-8b72-30df84ed3c2c",
+      "source": "anthropic",
+      "target": "gitlab",
+      "label": "integrates_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "49db93d8-0fa2-4149-8b72-30df84ed3c2c",
+        "source_company": "Anthropic",
+        "target_company": "GitLab",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2024-04-03",
+        "description": "AI integrates with DevTools",
+        "confidence_score": 0.8422951806262136,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "GitLab"
+        ]
+      }
+    },
+    {
+      "id": "9f60ac6f-f18f-409e-945b-cbf22a17d696",
+      "source": "scale_ai",
+      "target": "gitlab",
+      "label": "integrates_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "9f60ac6f-f18f-409e-945b-cbf22a17d696",
+        "source_company": "Scale AI",
+        "target_company": "GitLab",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2023-10-28",
+        "description": "AI integrates with DevTools",
+        "confidence_score": 0.925819100493074,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Scale AI",
+          "GitLab"
+        ]
+      }
+    },
+    {
+      "id": "64b18463-04db-4238-aa9f-abf267899a7b",
+      "source": "anthropic",
+      "target": "airtable",
+      "label": "integrates_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "64b18463-04db-4238-aa9f-abf267899a7b",
+        "source_company": "Anthropic",
+        "target_company": "Airtable",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2024-02-01",
+        "description": "AI integrates with Database",
+        "confidence_score": 0.9299228386941489,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Airtable"
+        ]
+      }
+    },
+    {
+      "id": "87d916f9-00b3-4893-abc2-b4f70baa38e1",
+      "source": "scale_ai",
+      "target": "airtable",
+      "label": "integrates_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "87d916f9-00b3-4893-abc2-b4f70baa38e1",
+        "source_company": "Scale AI",
+        "target_company": "Airtable",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2025-05-13",
+        "description": "AI integrates with Database",
+        "confidence_score": 0.8478320885564548,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Scale AI",
+          "Airtable"
+        ]
+      }
+    },
+    {
+      "id": "8bbc2a67-6971-49c6-ace1-eb35cfe1a74d",
+      "source": "scale_ai",
+      "target": "supabase",
+      "label": "integrates_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "8bbc2a67-6971-49c6-ace1-eb35cfe1a74d",
+        "source_company": "Scale AI",
+        "target_company": "Supabase",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2024-07-01",
+        "description": "AI integrates with Database",
+        "confidence_score": 0.7326887552574435,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Scale AI",
+          "Supabase"
+        ]
+      }
+    },
+    {
+      "id": "356fd1fa-cf83-4b96-97b1-2c8f4821c686",
+      "source": "openai",
+      "target": "amplitude",
+      "label": "integrates_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "356fd1fa-cf83-4b96-97b1-2c8f4821c686",
+        "source_company": "OpenAI",
+        "target_company": "Amplitude",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2023-12-27",
+        "description": "AI integrates with Analytics",
+        "confidence_score": 0.7110383051741607,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Amplitude"
+        ]
+      }
+    },
+    {
+      "id": "f650ceff-8309-4072-a3dd-6aa976eaf028",
+      "source": "anthropic",
+      "target": "segment",
+      "label": "integrates_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "f650ceff-8309-4072-a3dd-6aa976eaf028",
+        "source_company": "Anthropic",
+        "target_company": "Segment",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2025-04-24",
+        "description": "AI integrates with Analytics",
+        "confidence_score": 0.7819389925180861,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Segment"
+        ]
+      }
+    },
+    {
+      "id": "c444953f-8509-470e-831c-9c5afe41860c",
+      "source": "gitlab",
+      "target": "airtable",
+      "label": "partners_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "c444953f-8509-470e-831c-9c5afe41860c",
+        "source_company": "GitLab",
+        "target_company": "Airtable",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2024-09-16",
+        "description": "DevTools partners with Database",
+        "confidence_score": 0.893094976904966,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Airtable"
+        ]
+      }
+    },
+    {
+      "id": "dfe4334d-4c7c-45fe-8e25-489a97be2d1e",
+      "source": "gitlab",
+      "target": "supabase",
+      "label": "partners_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "dfe4334d-4c7c-45fe-8e25-489a97be2d1e",
+        "source_company": "GitLab",
+        "target_company": "Supabase",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2024-03-07",
+        "description": "DevTools partners with Database",
+        "confidence_score": 0.7001179174476371,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Supabase"
+        ]
+      }
+    },
+    {
+      "id": "03e5e859-9e2a-458c-bbd2-bb41101c052f",
+      "source": "retool",
+      "target": "supabase",
+      "label": "partners_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "03e5e859-9e2a-458c-bbd2-bb41101c052f",
+        "source_company": "Retool",
+        "target_company": "Supabase",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2025-07-01",
+        "description": "DevTools partners with Database",
+        "confidence_score": 0.8788857485826796,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Supabase"
+        ]
+      }
+    },
+    {
+      "id": "6e1d246d-ac52-4b21-bdcc-6b076c0c8a85",
+      "source": "retool",
+      "target": "segment",
+      "label": "partners_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "6e1d246d-ac52-4b21-bdcc-6b076c0c8a85",
+        "source_company": "Retool",
+        "target_company": "Segment",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2025-06-17",
+        "description": "DevTools partners with Analytics",
+        "confidence_score": 0.7370583384636744,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Segment"
+        ]
+      }
+    },
+    {
+      "id": "6765f215-8e14-4307-96aa-89ed228f7d80",
+      "source": "retool",
+      "target": "gumroad",
+      "label": "supplies_to (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "6765f215-8e14-4307-96aa-89ed228f7d80",
+        "source_company": "Retool",
+        "target_company": "Gumroad",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2025-04-08",
+        "description": "DevTools supplies to E-commerce",
+        "confidence_score": 0.7033367778926398,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Gumroad"
+        ]
+      }
+    },
+    {
+      "id": "6a78bf0c-b673-447a-8aee-b6ea27b50b11",
+      "source": "retool",
+      "target": "teespring",
+      "label": "supplies_to (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "6a78bf0c-b673-447a-8aee-b6ea27b50b11",
+        "source_company": "Retool",
+        "target_company": "Teespring",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2025-07-03",
+        "description": "DevTools supplies to E-commerce",
+        "confidence_score": 0.8098274862643664,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Teespring"
+        ]
+      }
+    },
+    {
+      "id": "d77202fe-1355-477c-89ca-567947bf1426",
+      "source": "gitlab",
+      "target": "plaid",
+      "label": "supplies_to (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "d77202fe-1355-477c-89ca-567947bf1426",
+        "source_company": "GitLab",
+        "target_company": "Plaid",
+        "deal_type": "supplies_to",
+        "deal_value": null,
+        "deal_date": "2024-12-25",
+        "description": "DevTools supplies to Fintech",
+        "confidence_score": 0.7488860341983706,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Plaid"
+        ]
+      }
+    },
+    {
+      "id": "0fdbccee-220f-45f7-be5f-8fd15e54832c",
+      "source": "gitlab",
+      "target": "airtable",
+      "label": "integrates_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "0fdbccee-220f-45f7-be5f-8fd15e54832c",
+        "source_company": "GitLab",
+        "target_company": "Airtable",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2023-09-24",
+        "description": "DevTools integrates with Database",
+        "confidence_score": 0.8166224641388269,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Airtable"
+        ]
+      }
+    },
+    {
+      "id": "bc471ffb-8636-4cd9-938c-ba79645d1e6d",
+      "source": "retool",
+      "target": "airtable",
+      "label": "integrates_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "bc471ffb-8636-4cd9-938c-ba79645d1e6d",
+        "source_company": "Retool",
+        "target_company": "Airtable",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2025-06-27",
+        "description": "DevTools integrates with Database",
+        "confidence_score": 0.8332012185873086,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Airtable"
+        ]
+      }
+    },
+    {
+      "id": "7572afeb-9cce-4042-9218-5d0dda703315",
+      "source": "gitlab",
+      "target": "amplitude",
+      "label": "integrates_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "7572afeb-9cce-4042-9218-5d0dda703315",
+        "source_company": "GitLab",
+        "target_company": "Amplitude",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2025-03-07",
+        "description": "DevTools integrates with Analytics",
+        "confidence_score": 0.8070802539828394,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Amplitude"
+        ]
+      }
+    },
+    {
+      "id": "b43120a6-6405-4dad-9307-9ca374ea42c8",
+      "source": "gitlab",
+      "target": "segment",
+      "label": "integrates_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "b43120a6-6405-4dad-9307-9ca374ea42c8",
+        "source_company": "GitLab",
+        "target_company": "Segment",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2024-08-25",
+        "description": "DevTools integrates with Analytics",
+        "confidence_score": 0.9326241711237211,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Segment"
+        ]
+      }
+    },
+    {
+      "id": "263c2b1b-8cd3-4891-9b66-2d2ce48f100d",
+      "source": "gitlab",
+      "target": "temporal",
+      "label": "integrates_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "263c2b1b-8cd3-4891-9b66-2d2ce48f100d",
+        "source_company": "GitLab",
+        "target_company": "Temporal",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2025-03-28",
+        "description": "DevTools integrates with Infrastructure",
+        "confidence_score": 0.9348416564329927,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Temporal"
+        ]
+      }
+    },
+    {
+      "id": "2580045b-a903-4e04-a275-85da630c98cf",
+      "source": "clipboard_health",
+      "target": "amplitude",
+      "label": "partners_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2580045b-a903-4e04-a275-85da630c98cf",
+        "source_company": "Clipboard Health",
+        "target_company": "Amplitude",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2024-12-16",
+        "description": "Healthcare partners with Analytics",
+        "confidence_score": 0.850603266836933,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Clipboard Health",
+          "Amplitude"
+        ]
+      }
+    },
+    {
+      "id": "87a7bd05-0d44-470f-9fa7-6bb4a83f5abc",
+      "source": "modern_fertility",
+      "target": "amplitude",
+      "label": "partners_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "87a7bd05-0d44-470f-9fa7-6bb4a83f5abc",
+        "source_company": "Modern Fertility",
+        "target_company": "Amplitude",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2025-03-25",
+        "description": "Healthcare partners with Analytics",
+        "confidence_score": 0.8118323896299624,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Modern Fertility",
+          "Amplitude"
+        ]
+      }
+    },
+    {
+      "id": "caf26c6c-434f-47c5-a211-1964efd2c7ff",
+      "source": "modern_fertility",
+      "target": "stripe",
+      "label": "partners_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "caf26c6c-434f-47c5-a211-1964efd2c7ff",
+        "source_company": "Modern Fertility",
+        "target_company": "Stripe",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2023-11-09",
+        "description": "Healthcare partners with Fintech",
+        "confidence_score": 0.8213432413385138,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Modern Fertility",
+          "Stripe"
+        ]
+      }
+    },
+    {
+      "id": "041461a8-8d24-40df-a605-8cfecf5b871c",
+      "source": "clipboard_health",
+      "target": "anthropic",
+      "label": "uses (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "041461a8-8d24-40df-a605-8cfecf5b871c",
+        "source_company": "Clipboard Health",
+        "target_company": "Anthropic",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2024-12-20",
+        "description": "Healthcare uses AI",
+        "confidence_score": 0.7119755358162259,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Clipboard Health",
+          "Anthropic"
+        ]
+      }
+    },
+    {
+      "id": "75229654-0e82-4ef7-a016-5b508ea452ff",
+      "source": "23andme",
+      "target": "anthropic",
+      "label": "uses (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "75229654-0e82-4ef7-a016-5b508ea452ff",
+        "source_company": "23andMe",
+        "target_company": "Anthropic",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2025-04-14",
+        "description": "Healthcare uses AI",
+        "confidence_score": 0.8149949166222012,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "23andMe",
+          "Anthropic"
+        ]
+      }
+    },
+    {
+      "id": "0d5a0390-3941-47af-8f61-07671b9e2833",
+      "source": "modern_fertility",
+      "target": "openai",
+      "label": "uses (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "0d5a0390-3941-47af-8f61-07671b9e2833",
+        "source_company": "Modern Fertility",
+        "target_company": "OpenAI",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2024-11-25",
+        "description": "Healthcare uses AI",
+        "confidence_score": 0.8765902139314089,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Modern Fertility",
+          "OpenAI"
+        ]
+      }
+    },
+    {
+      "id": "c8d879d7-34f5-4eb3-94cf-2e5eb86e9d32",
+      "source": "modern_fertility",
+      "target": "gitlab",
+      "label": "uses (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "c8d879d7-34f5-4eb3-94cf-2e5eb86e9d32",
+        "source_company": "Modern Fertility",
+        "target_company": "GitLab",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2024-03-31",
+        "description": "Healthcare uses DevTools",
+        "confidence_score": 0.8996190257528068,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Modern Fertility",
+          "GitLab"
+        ]
+      }
+    },
+    {
+      "id": "5818e13b-3dab-49c2-bf72-255c3fab7a9c",
+      "source": "modern_fertility",
+      "target": "retool",
+      "label": "uses (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "5818e13b-3dab-49c2-bf72-255c3fab7a9c",
+        "source_company": "Modern Fertility",
+        "target_company": "Retool",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2025-02-16",
+        "description": "Healthcare uses DevTools",
+        "confidence_score": 0.8995671490414273,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Modern Fertility",
+          "Retool"
+        ]
+      }
+    },
+    {
+      "id": "788bf8b5-39fc-49e8-9de9-b71e20b4a994",
+      "source": "clipboard_health",
+      "target": "segment",
+      "label": "uses (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "788bf8b5-39fc-49e8-9de9-b71e20b4a994",
+        "source_company": "Clipboard Health",
+        "target_company": "Segment",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2024-06-11",
+        "description": "Healthcare uses Analytics",
+        "confidence_score": 0.8571043181245197,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Clipboard Health",
+          "Segment"
+        ]
+      }
+    },
+    {
+      "id": "dd985798-953e-413d-8c93-ef1978bc56ef",
+      "source": "23andme",
+      "target": "amplitude",
+      "label": "uses (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "dd985798-953e-413d-8c93-ef1978bc56ef",
+        "source_company": "23andMe",
+        "target_company": "Amplitude",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2024-10-01",
+        "description": "Healthcare uses Analytics",
+        "confidence_score": 0.7645615980434809,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "23andMe",
+          "Amplitude"
+        ]
+      }
+    },
+    {
+      "id": "52beec7c-662a-471d-82f6-e3fa42e4d805",
+      "source": "23andme",
+      "target": "segment",
+      "label": "uses (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "52beec7c-662a-471d-82f6-e3fa42e4d805",
+        "source_company": "23andMe",
+        "target_company": "Segment",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2024-01-24",
+        "description": "Healthcare uses Analytics",
+        "confidence_score": 0.8763614824003308,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "23andMe",
+          "Segment"
+        ]
+      }
+    },
+    {
+      "id": "ef887255-5679-491a-983b-b7aa8667bbe4",
+      "source": "23andme",
+      "target": "openai",
+      "label": "integrates_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "ef887255-5679-491a-983b-b7aa8667bbe4",
+        "source_company": "23andMe",
+        "target_company": "OpenAI",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2024-09-07",
+        "description": "Healthcare integrates with AI",
+        "confidence_score": 0.921308826150993,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "23andMe",
+          "OpenAI"
+        ]
+      }
+    },
+    {
+      "id": "5b1c92e8-aae1-4f21-9a78-435547d6c9b3",
+      "source": "modern_fertility",
+      "target": "openai",
+      "label": "integrates_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "5b1c92e8-aae1-4f21-9a78-435547d6c9b3",
+        "source_company": "Modern Fertility",
+        "target_company": "OpenAI",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2024-03-17",
+        "description": "Healthcare integrates with AI",
+        "confidence_score": 0.913373762765111,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Modern Fertility",
+          "OpenAI"
+        ]
+      }
+    },
+    {
+      "id": "e8f13451-fedd-460d-9b05-113598b556a3",
+      "source": "modern_fertility",
+      "target": "amplitude",
+      "label": "integrates_with (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "e8f13451-fedd-460d-9b05-113598b556a3",
+        "source_company": "Modern Fertility",
+        "target_company": "Amplitude",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2023-10-08",
+        "description": "Healthcare integrates with Analytics",
+        "confidence_score": 0.7446278688124154,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Modern Fertility",
+          "Amplitude"
+        ]
+      }
+    },
+    {
+      "id": "f66ac4e7-fd10-4859-980e-010c1ae83f1f",
+      "source": "teespring",
+      "target": "plaid",
+      "label": "partners_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "f66ac4e7-fd10-4859-980e-010c1ae83f1f",
+        "source_company": "Teespring",
+        "target_company": "Plaid",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2024-06-27",
+        "description": "E-commerce partners with Fintech",
+        "confidence_score": 0.763917115912357,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Teespring",
+          "Plaid"
+        ]
+      }
+    },
+    {
+      "id": "2f5dc89e-8a1b-481d-8f0c-b61208794958",
+      "source": "gumroad",
+      "target": "plaid",
+      "label": "partners_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2f5dc89e-8a1b-481d-8f0c-b61208794958",
+        "source_company": "Gumroad",
+        "target_company": "Plaid",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2024-07-04",
+        "description": "E-commerce partners with Fintech",
+        "confidence_score": 0.9211990743770706,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Gumroad",
+          "Plaid"
+        ]
+      }
+    },
+    {
+      "id": "3d3100bb-29ea-4a0b-bec6-679b743f9b60",
+      "source": "teespring",
+      "target": "flexport",
+      "label": "partners_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "3d3100bb-29ea-4a0b-bec6-679b743f9b60",
+        "source_company": "Teespring",
+        "target_company": "Flexport",
+        "deal_type": "partners_with",
+        "deal_value": null,
+        "deal_date": "2025-05-07",
+        "description": "E-commerce partners with Logistics",
+        "confidence_score": 0.710878271888141,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Teespring",
+          "Flexport"
+        ]
+      }
+    },
+    {
+      "id": "bc47e931-c107-4c05-a564-1ea1916508fa",
+      "source": "teespring",
+      "target": "gitlab",
+      "label": "uses (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "bc47e931-c107-4c05-a564-1ea1916508fa",
+        "source_company": "Teespring",
+        "target_company": "GitLab",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2024-05-01",
+        "description": "E-commerce uses DevTools",
+        "confidence_score": 0.9333472266373747,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Teespring",
+          "GitLab"
+        ]
+      }
+    },
+    {
+      "id": "dc84cb7f-8a18-46db-81f6-146260a3f58c",
+      "source": "gumroad",
+      "target": "retool",
+      "label": "uses (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "dc84cb7f-8a18-46db-81f6-146260a3f58c",
+        "source_company": "Gumroad",
+        "target_company": "Retool",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2023-12-21",
+        "description": "E-commerce uses DevTools",
+        "confidence_score": 0.7993344873524354,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Gumroad",
+          "Retool"
+        ]
+      }
+    },
+    {
+      "id": "449b8f08-95ce-426f-820a-32a6506ca3e0",
+      "source": "teespring",
+      "target": "amplitude",
+      "label": "uses (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "449b8f08-95ce-426f-820a-32a6506ca3e0",
+        "source_company": "Teespring",
+        "target_company": "Amplitude",
+        "deal_type": "uses",
+        "deal_value": null,
+        "deal_date": "2024-05-06",
+        "description": "E-commerce uses Analytics",
+        "confidence_score": 0.7707751593842436,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Teespring",
+          "Amplitude"
+        ]
+      }
+    },
+    {
+      "id": "1138f420-5d8c-4d75-9cfb-1605718d6f76",
+      "source": "teespring",
+      "target": "stripe",
+      "label": "integrates_with (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "1138f420-5d8c-4d75-9cfb-1605718d6f76",
+        "source_company": "Teespring",
+        "target_company": "Stripe",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2024-06-08",
+        "description": "E-commerce integrates with Fintech",
+        "confidence_score": 0.7448252214816622,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Teespring",
+          "Stripe"
+        ]
+      }
+    },
+    {
+      "id": "ab879b95-0a30-4225-8f94-77130fa20112",
+      "source": "teespring",
+      "target": "segment",
+      "label": "integrates_with (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "ab879b95-0a30-4225-8f94-77130fa20112",
+        "source_company": "Teespring",
+        "target_company": "Segment",
+        "deal_type": "integrates_with",
+        "deal_value": null,
+        "deal_date": "2025-05-07",
+        "description": "E-commerce integrates with Analytics",
+        "confidence_score": 0.8006901884577734,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Teespring",
+          "Segment"
+        ]
+      }
+    },
+    {
+      "id": "9935e63a-2b2f-4848-ac24-66b917c07347",
+      "source": "stripe",
+      "target": "weights_&_biases",
+      "label": "investment (2024)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "9935e63a-2b2f-4848-ac24-66b917c07347",
+        "source_company": "Stripe",
+        "target_company": "Weights & Biases",
+        "deal_type": "investment",
+        "deal_value": 33000000,
+        "deal_date": "2024-06-07",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.9358184547228852,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Stripe",
+          "Weights & Biases"
+        ]
+      }
+    },
+    {
+      "id": "cdad6562-3727-4e03-8452-25fdb2eb9091",
+      "source": "stripe",
+      "target": "pilot",
+      "label": "investment (2025)",
+      "weight": 1.053,
+      "color": "#3b82f6",
+      "data": {
+        "id": "cdad6562-3727-4e03-8452-25fdb2eb9091",
+        "source_company": "Stripe",
+        "target_company": "Pilot",
+        "deal_type": "investment",
+        "deal_value": 351000000,
+        "deal_date": "2025-06-23",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.9408187015334835,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Stripe",
+          "Pilot"
+        ]
+      }
+    },
+    {
+      "id": "2bb198ff-9c0a-4e3f-b350-cb91273b7e96",
+      "source": "openai",
+      "target": "render",
+      "label": "investment (2024)",
+      "weight": 1.317,
+      "color": "#3b82f6",
+      "data": {
+        "id": "2bb198ff-9c0a-4e3f-b350-cb91273b7e96",
+        "source_company": "OpenAI",
+        "target_company": "Render",
+        "deal_type": "investment",
+        "deal_value": 439000000,
+        "deal_date": "2024-05-19",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.9022838794128095,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Render"
+        ]
+      }
+    },
+    {
+      "id": "d9529c98-35b9-42ce-bc06-322aa85b4476",
+      "source": "openai",
+      "target": "hightouch",
+      "label": "investment (2024)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "d9529c98-35b9-42ce-bc06-322aa85b4476",
+        "source_company": "OpenAI",
+        "target_company": "Hightouch",
+        "deal_type": "investment",
+        "deal_value": 190000000,
+        "deal_date": "2024-05-23",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.8004679320687295,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Hightouch"
+        ]
+      }
+    },
+    {
+      "id": "0cc1cb41-93ee-4b66-86da-8766de6737fd",
+      "source": "airbnb",
+      "target": "sourcegraph",
+      "label": "investment (2024)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "0cc1cb41-93ee-4b66-86da-8766de6737fd",
+        "source_company": "Airbnb",
+        "target_company": "Sourcegraph",
+        "deal_type": "investment",
+        "deal_value": 278000000,
+        "deal_date": "2024-02-24",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.7857013070002747,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Airbnb",
+          "Sourcegraph"
+        ]
+      }
+    },
+    {
+      "id": "ba2f209d-da84-4323-aa08-8343be268e2a",
+      "source": "doordash",
+      "target": "pilot",
+      "label": "investment (2025)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "ba2f209d-da84-4323-aa08-8343be268e2a",
+        "source_company": "DoorDash",
+        "target_company": "Pilot",
+        "deal_type": "investment",
+        "deal_value": 205000000,
+        "deal_date": "2025-03-08",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.7074958605885787,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "DoorDash",
+          "Pilot"
+        ]
+      }
+    },
+    {
+      "id": "03143d40-12cb-4a61-9877-4821613003c5",
+      "source": "canva",
+      "target": "observable",
+      "label": "investment (2025)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "03143d40-12cb-4a61-9877-4821613003c5",
+        "source_company": "Canva",
+        "target_company": "Observable",
+        "deal_type": "investment",
+        "deal_value": 329000000,
+        "deal_date": "2025-06-28",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.7035426073915417,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Canva",
+          "Observable"
+        ]
+      }
+    },
+    {
+      "id": "55a1d1ac-e0b6-4c94-ba01-e3a81152d051",
+      "source": "canva",
+      "target": "mercury",
+      "label": "investment (2024)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "55a1d1ac-e0b6-4c94-ba01-e3a81152d051",
+        "source_company": "Canva",
+        "target_company": "Mercury",
+        "deal_type": "investment",
+        "deal_value": 310000000,
+        "deal_date": "2024-08-17",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.8524371792407548,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Canva",
+          "Mercury"
+        ]
+      }
+    },
+    {
+      "id": "5af1a690-e918-49e8-9a1b-53fe1ac84217",
+      "source": "canva",
+      "target": "hasura",
+      "label": "investment (2025)",
+      "weight": 1.107,
+      "color": "#3b82f6",
+      "data": {
+        "id": "5af1a690-e918-49e8-9a1b-53fe1ac84217",
+        "source_company": "Canva",
+        "target_company": "Hasura",
+        "deal_type": "investment",
+        "deal_value": 369000000,
+        "deal_date": "2025-06-16",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.8396692835449853,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Canva",
+          "Hasura"
+        ]
+      }
+    },
+    {
+      "id": "0a511527-7fcd-4e2e-ab95-13abb0bbf1da",
+      "source": "cruise",
+      "target": "supabase",
+      "label": "acquisition (2024)",
+      "weight": 3.0540000000000003,
+      "color": "#ef4444",
+      "data": {
+        "id": "0a511527-7fcd-4e2e-ab95-13abb0bbf1da",
+        "source_company": "Cruise",
+        "target_company": "Supabase",
+        "deal_type": "acquisition",
+        "deal_value": 1018000000,
+        "deal_date": "2024-11-19",
+        "description": "Strategic acquisition to expand market presence",
+        "confidence_score": 0.7115762886681646,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Cruise",
+          "Supabase"
+        ]
+      }
+    },
+    {
+      "id": "74d2c554-7558-4386-9da2-823785cda0ce",
+      "source": "figma",
+      "target": "posthog",
+      "label": "acquisition (2023)",
+      "weight": 4.461,
+      "color": "#ef4444",
+      "data": {
+        "id": "74d2c554-7558-4386-9da2-823785cda0ce",
+        "source_company": "Figma",
+        "target_company": "PostHog",
+        "deal_type": "acquisition",
+        "deal_value": 1487000000,
+        "deal_date": "2023-09-20",
+        "description": "Strategic acquisition to expand market presence",
+        "confidence_score": 0.8021582654813482,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Figma",
+          "PostHog"
+        ]
+      }
+    },
+    {
+      "id": "ca69ae8f-2513-4e0c-aa02-00aa243aebbb",
+      "source": "miro",
+      "target": "fly.io",
+      "label": "investment (2024)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "ca69ae8f-2513-4e0c-aa02-00aa243aebbb",
+        "source_company": "Miro",
+        "target_company": "Fly.io",
+        "deal_type": "investment",
+        "deal_value": 178000000,
+        "deal_date": "2024-03-19",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.7286037588063883,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Miro",
+          "Fly.io"
+        ]
+      }
+    },
+    {
+      "id": "228bb461-c8d5-495e-b6a6-8b77d2e82911",
+      "source": "miro",
+      "target": "substack",
+      "label": "investment (2025)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "228bb461-c8d5-495e-b6a6-8b77d2e82911",
+        "source_company": "Miro",
+        "target_company": "Substack",
+        "deal_type": "investment",
+        "deal_value": 212000000,
+        "deal_date": "2025-05-24",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.9307902336840065,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Miro",
+          "Substack"
+        ]
+      }
+    },
+    {
+      "id": "69edba15-531f-4867-8ff3-aeb074af669a",
+      "source": "gitlab",
+      "target": "heroku",
+      "label": "investment (2025)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "69edba15-531f-4867-8ff3-aeb074af669a",
+        "source_company": "GitLab",
+        "target_company": "Heroku",
+        "deal_type": "investment",
+        "deal_value": 15000000,
+        "deal_date": "2025-05-10",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.7236721475711609,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Heroku"
+        ]
+      }
+    },
+    {
+      "id": "932e95f5-1474-4e3a-80c2-0775cd4547c8",
+      "source": "discord",
+      "target": "mixpanel",
+      "label": "investment (2024)",
+      "weight": 1.476,
+      "color": "#3b82f6",
+      "data": {
+        "id": "932e95f5-1474-4e3a-80c2-0775cd4547c8",
+        "source_company": "Discord",
+        "target_company": "Mixpanel",
+        "deal_type": "investment",
+        "deal_value": 492000000,
+        "deal_date": "2024-10-22",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.8374851905009462,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Discord",
+          "Mixpanel"
+        ]
+      }
+    },
+    {
+      "id": "95a7241e-42aa-486b-813f-a4e00619586f",
+      "source": "discord",
+      "target": "sourcegraph",
+      "label": "investment (2024)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "95a7241e-42aa-486b-813f-a4e00619586f",
+        "source_company": "Discord",
+        "target_company": "Sourcegraph",
+        "deal_type": "investment",
+        "deal_value": 75000000,
+        "deal_date": "2024-12-17",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.7211626838355277,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Discord",
+          "Sourcegraph"
+        ]
+      }
+    },
+    {
+      "id": "3536497d-f8bd-4ad9-9fff-7235aaf55760",
+      "source": "anthropic",
+      "target": "rappi",
+      "label": "acquisition (2024)",
+      "weight": 3.0869999999999997,
+      "color": "#ef4444",
+      "data": {
+        "id": "3536497d-f8bd-4ad9-9fff-7235aaf55760",
+        "source_company": "Anthropic",
+        "target_company": "Rappi",
+        "deal_type": "acquisition",
+        "deal_value": 1029000000,
+        "deal_date": "2024-11-24",
+        "description": "Strategic acquisition to expand market presence",
+        "confidence_score": 0.8162901441642704,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Rappi"
+        ]
+      }
+    },
+    {
+      "id": "9b22ac54-8978-4360-9143-35c893748d5d",
+      "source": "plaid",
+      "target": "superhuman",
+      "label": "investment (2024)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "9b22ac54-8978-4360-9143-35c893748d5d",
+        "source_company": "Plaid",
+        "target_company": "Superhuman",
+        "deal_type": "investment",
+        "deal_value": 210000000,
+        "deal_date": "2024-07-21",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.8627982575604098,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Plaid",
+          "Superhuman"
+        ]
+      }
+    },
+    {
+      "id": "7f98f0f9-e734-49fd-8511-9e0a69a26bce",
+      "source": "plaid",
+      "target": "hasura",
+      "label": "investment (2025)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "7f98f0f9-e734-49fd-8511-9e0a69a26bce",
+        "source_company": "Plaid",
+        "target_company": "Hasura",
+        "deal_type": "investment",
+        "deal_value": 247000000,
+        "deal_date": "2025-04-27",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.9321583575114146,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Plaid",
+          "Hasura"
+        ]
+      }
+    },
+    {
+      "id": "4eaee560-a7ff-44bd-8b28-af63e7fdd6f5",
+      "source": "faire",
+      "target": "buildkite",
+      "label": "investment (2024)",
+      "weight": 1.269,
+      "color": "#3b82f6",
+      "data": {
+        "id": "4eaee560-a7ff-44bd-8b28-af63e7fdd6f5",
+        "source_company": "Faire",
+        "target_company": "Buildkite",
+        "deal_type": "investment",
+        "deal_value": 423000000,
+        "deal_date": "2024-01-03",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.7454750549992593,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Faire",
+          "Buildkite"
+        ]
+      }
+    },
+    {
+      "id": "bb7b3cfb-e8f0-47df-a3fa-c4b3237276a5",
+      "source": "brex",
+      "target": "rappi",
+      "label": "acquisition (2024)",
+      "weight": 1,
+      "color": "#ef4444",
+      "data": {
+        "id": "bb7b3cfb-e8f0-47df-a3fa-c4b3237276a5",
+        "source_company": "Brex",
+        "target_company": "Rappi",
+        "deal_type": "acquisition",
+        "deal_value": 117000000,
+        "deal_date": "2024-06-01",
+        "description": "Strategic acquisition to expand market presence",
+        "confidence_score": 0.7454498868879289,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Brex",
+          "Rappi"
+        ]
+      }
+    },
+    {
+      "id": "be6897ac-c8d1-4951-8965-9751a9248ccd",
+      "source": "brex",
+      "target": "shipt",
+      "label": "investment (2024)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "be6897ac-c8d1-4951-8965-9751a9248ccd",
+        "source_company": "Brex",
+        "target_company": "Shipt",
+        "deal_type": "investment",
+        "deal_value": 69000000,
+        "deal_date": "2024-01-02",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.8646011027991019,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Brex",
+          "Shipt"
+        ]
+      }
+    },
+    {
+      "id": "15586dc9-fe9d-4340-a6a7-ba1dbe9eded3",
+      "source": "deel",
+      "target": "clipboard_health",
+      "label": "acquisition (2024)",
+      "weight": 1.446,
+      "color": "#ef4444",
+      "data": {
+        "id": "15586dc9-fe9d-4340-a6a7-ba1dbe9eded3",
+        "source_company": "Deel",
+        "target_company": "Clipboard Health",
+        "deal_type": "acquisition",
+        "deal_value": 482000000,
+        "deal_date": "2024-03-21",
+        "description": "Strategic acquisition to expand market presence",
+        "confidence_score": 0.7563363579204202,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Deel",
+          "Clipboard Health"
+        ]
+      }
+    },
+    {
+      "id": "e10fba1b-54f7-4577-8d9d-12febfe14edc",
+      "source": "deel",
+      "target": "sourcegraph",
+      "label": "investment (2024)",
+      "weight": 1.407,
+      "color": "#3b82f6",
+      "data": {
+        "id": "e10fba1b-54f7-4577-8d9d-12febfe14edc",
+        "source_company": "Deel",
+        "target_company": "Sourcegraph",
+        "deal_type": "investment",
+        "deal_value": 469000000,
+        "deal_date": "2024-07-12",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.7012472454592167,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Deel",
+          "Sourcegraph"
+        ]
+      }
+    },
+    {
+      "id": "570618fe-8902-43b8-b6bd-6fd9c6331f4b",
+      "source": "rippling",
+      "target": "heroku",
+      "label": "acquisition (2025)",
+      "weight": 1.5390000000000001,
+      "color": "#ef4444",
+      "data": {
+        "id": "570618fe-8902-43b8-b6bd-6fd9c6331f4b",
+        "source_company": "Rippling",
+        "target_company": "Heroku",
+        "deal_type": "acquisition",
+        "deal_value": 513000000,
+        "deal_date": "2025-01-21",
+        "description": "Strategic acquisition to expand market presence",
+        "confidence_score": 0.9456009943009671,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Rippling",
+          "Heroku"
+        ]
+      }
+    },
+    {
+      "id": "7f79cf22-916c-4f74-b1cb-3d4ffb6a0b37",
+      "source": "rippling",
+      "target": "docker",
+      "label": "investment (2024)",
+      "weight": 1,
+      "color": "#3b82f6",
+      "data": {
+        "id": "7f79cf22-916c-4f74-b1cb-3d4ffb6a0b37",
+        "source_company": "Rippling",
+        "target_company": "Docker",
+        "deal_type": "investment",
+        "deal_value": 168000000,
+        "deal_date": "2024-11-06",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.9105741880807123,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Rippling",
+          "Docker"
+        ]
+      }
+    },
+    {
+      "id": "1487530e-7f2b-4dd5-8374-4be681511db9",
+      "source": "airtable",
+      "target": "weights_&_biases",
+      "label": "investment (2024)",
+      "weight": 1.2269999999999999,
+      "color": "#3b82f6",
+      "data": {
+        "id": "1487530e-7f2b-4dd5-8374-4be681511db9",
+        "source_company": "Airtable",
+        "target_company": "Weights & Biases",
+        "deal_type": "investment",
+        "deal_value": 409000000,
+        "deal_date": "2024-10-03",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.916867380896363,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Airtable",
+          "Weights & Biases"
+        ]
+      }
+    },
+    {
+      "id": "71259264-8801-4f40-9ffb-cb9f41d6ad5e",
+      "source": "stripe",
+      "target": "plaid",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "71259264-8801-4f40-9ffb-cb9f41d6ad5e",
+        "source_company": "Stripe",
+        "target_company": "Plaid",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-03-18",
+        "description": "Direct competition in Fintech market",
+        "confidence_score": 0.8244131900720346,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Stripe",
+          "Plaid"
+        ]
+      }
+    },
+    {
+      "id": "5611bc57-9e86-400a-aa97-047e44922571",
+      "source": "plaid",
+      "target": "brex",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "5611bc57-9e86-400a-aa97-047e44922571",
+        "source_company": "Plaid",
+        "target_company": "Brex",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-03-21",
+        "description": "Direct competition in Fintech market",
+        "confidence_score": 0.8078188652625813,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Plaid",
+          "Brex"
+        ]
+      }
+    },
+    {
+      "id": "a61cc2e2-947a-4bb7-9926-8c792a6da01b",
+      "source": "brex",
+      "target": "stripe",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "a61cc2e2-947a-4bb7-9926-8c792a6da01b",
+        "source_company": "Brex",
+        "target_company": "Stripe",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-04-23",
+        "description": "Direct competition in Fintech market",
+        "confidence_score": 0.7607683487098471,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Brex",
+          "Stripe"
+        ]
+      }
+    },
+    {
+      "id": "5f42af40-77b9-4a5d-8914-3b8f16dd01bc",
+      "source": "brex",
+      "target": "razorpay",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "5f42af40-77b9-4a5d-8914-3b8f16dd01bc",
+        "source_company": "Brex",
+        "target_company": "Razorpay",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-05-11",
+        "description": "Direct competition in Fintech market",
+        "confidence_score": 0.8353881780855436,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Brex",
+          "Razorpay"
+        ]
+      }
+    },
+    {
+      "id": "322bc431-fe73-4ebb-99b0-822fecc5f267",
+      "source": "ramp",
+      "target": "razorpay",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "322bc431-fe73-4ebb-99b0-822fecc5f267",
+        "source_company": "Ramp",
+        "target_company": "Razorpay",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-01-16",
+        "description": "Direct competition in Fintech market",
+        "confidence_score": 0.773967410832781,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Ramp",
+          "Razorpay"
+        ]
+      }
+    },
+    {
+      "id": "b1386ff5-e8dc-4185-be4e-c198ebfa1ffe",
+      "source": "razorpay",
+      "target": "mercury",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "b1386ff5-e8dc-4185-be4e-c198ebfa1ffe",
+        "source_company": "Razorpay",
+        "target_company": "Mercury",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-04-04",
+        "description": "Direct competition in Fintech market",
+        "confidence_score": 0.8699335188289756,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Razorpay",
+          "Mercury"
+        ]
+      }
+    },
+    {
+      "id": "6d69b3ab-f622-4ce8-8124-2b1d3bc3f59b",
+      "source": "openai",
+      "target": "anthropic",
+      "label": "competition (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "6d69b3ab-f622-4ce8-8124-2b1d3bc3f59b",
+        "source_company": "OpenAI",
+        "target_company": "Anthropic",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2023-11-05",
+        "description": "Direct competition in AI market",
+        "confidence_score": 0.806199338565333,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Anthropic"
+        ]
+      }
+    },
+    {
+      "id": "269b9180-13e6-4dcc-96b7-d92ec5503d86",
+      "source": "openai",
+      "target": "scale_ai",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "269b9180-13e6-4dcc-96b7-d92ec5503d86",
+        "source_company": "OpenAI",
+        "target_company": "Scale AI",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-01-16",
+        "description": "Direct competition in AI market",
+        "confidence_score": 0.9203341097373026,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "OpenAI",
+          "Scale AI"
+        ]
+      }
+    },
+    {
+      "id": "cc15f35a-0aae-4e1c-acc9-f5c9d529398a",
+      "source": "anthropic",
+      "target": "scale_ai",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "cc15f35a-0aae-4e1c-acc9-f5c9d529398a",
+        "source_company": "Anthropic",
+        "target_company": "Scale AI",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-08-24",
+        "description": "Direct competition in AI market",
+        "confidence_score": 0.7761621057677723,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Scale AI"
+        ]
+      }
+    },
+    {
+      "id": "5fe2706f-2c92-4159-b3c5-baa841571aa7",
+      "source": "instacart",
+      "target": "shipt",
+      "label": "competition (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "5fe2706f-2c92-4159-b3c5-baa841571aa7",
+        "source_company": "Instacart",
+        "target_company": "Shipt",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2023-10-10",
+        "description": "Direct competition in Grocery market",
+        "confidence_score": 0.7692605801482884,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Instacart",
+          "Shipt"
+        ]
+      }
+    },
+    {
+      "id": "12d8581a-c165-4197-9e79-7a08123eee32",
+      "source": "gitlab",
+      "target": "retool",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "12d8581a-c165-4197-9e79-7a08123eee32",
+        "source_company": "GitLab",
+        "target_company": "Retool",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-05-29",
+        "description": "Direct competition in DevTools market",
+        "confidence_score": 0.850086238536883,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Retool"
+        ]
+      }
+    },
+    {
+      "id": "b8e64850-50b2-43c4-8168-33ae19265e7e",
+      "source": "retool",
+      "target": "launchdarkly",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "b8e64850-50b2-43c4-8168-33ae19265e7e",
+        "source_company": "Retool",
+        "target_company": "LaunchDarkly",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-08-09",
+        "description": "Direct competition in DevTools market",
+        "confidence_score": 0.9226352271426583,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "LaunchDarkly"
+        ]
+      }
+    },
+    {
+      "id": "00f367a2-808e-487f-8b21-e3b323a8b762",
+      "source": "launchdarkly",
+      "target": "vercel",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "00f367a2-808e-487f-8b21-e3b323a8b762",
+        "source_company": "LaunchDarkly",
+        "target_company": "Vercel",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-03-04",
+        "description": "Direct competition in DevTools market",
+        "confidence_score": 0.769518837922155,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "LaunchDarkly",
+          "Vercel"
+        ]
+      }
+    },
+    {
+      "id": "97bccee6-b075-4c60-abba-85ebac124631",
+      "source": "sourcegraph",
+      "target": "retool",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "97bccee6-b075-4c60-abba-85ebac124631",
+        "source_company": "Sourcegraph",
+        "target_company": "Retool",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-01-16",
+        "description": "Direct competition in DevTools market",
+        "confidence_score": 0.7149162916673798,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Sourcegraph",
+          "Retool"
+        ]
+      }
+    },
+    {
+      "id": "cfc125f4-597c-4864-9c7b-a3b3153fbea6",
+      "source": "sourcegraph",
+      "target": "launchdarkly",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "cfc125f4-597c-4864-9c7b-a3b3153fbea6",
+        "source_company": "Sourcegraph",
+        "target_company": "LaunchDarkly",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-05-06",
+        "description": "Direct competition in DevTools market",
+        "confidence_score": 0.9480279206425312,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Sourcegraph",
+          "LaunchDarkly"
+        ]
+      }
+    },
+    {
+      "id": "2992564d-810d-44eb-b58d-b4260296c61c",
+      "source": "sourcegraph",
+      "target": "vercel",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2992564d-810d-44eb-b58d-b4260296c61c",
+        "source_company": "Sourcegraph",
+        "target_company": "Vercel",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-01-27",
+        "description": "Direct competition in DevTools market",
+        "confidence_score": 0.8968043218578897,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Sourcegraph",
+          "Vercel"
+        ]
+      }
+    },
+    {
+      "id": "2ebd3010-f1aa-44a5-9d7a-3e72518506ff",
+      "source": "sourcegraph",
+      "target": "docker",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2ebd3010-f1aa-44a5-9d7a-3e72518506ff",
+        "source_company": "Sourcegraph",
+        "target_company": "Docker",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-10-21",
+        "description": "Direct competition in DevTools market",
+        "confidence_score": 0.7812579363177213,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Sourcegraph",
+          "Docker"
+        ]
+      }
+    },
+    {
+      "id": "7693b1fe-4612-4731-8ec9-5aaff31a43f6",
+      "source": "docker",
+      "target": "vercel",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "7693b1fe-4612-4731-8ec9-5aaff31a43f6",
+        "source_company": "Docker",
+        "target_company": "Vercel",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-09-07",
+        "description": "Direct competition in DevTools market",
+        "confidence_score": 0.745247251275064,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Docker",
+          "Vercel"
+        ]
+      }
+    },
+    {
+      "id": "02129aa0-f555-4fe6-9a54-f80ee945e5bc",
+      "source": "buildkite",
+      "target": "docker",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "02129aa0-f555-4fe6-9a54-f80ee945e5bc",
+        "source_company": "Buildkite",
+        "target_company": "Docker",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-04-29",
+        "description": "Direct competition in DevTools market",
+        "confidence_score": 0.7514181234498112,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Buildkite",
+          "Docker"
+        ]
+      }
+    },
+    {
+      "id": "1338f06b-eaee-4cbb-8ff3-e449e32537a1",
+      "source": "railway",
+      "target": "buildkite",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "1338f06b-eaee-4cbb-8ff3-e449e32537a1",
+        "source_company": "Railway",
+        "target_company": "Buildkite",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-07-21",
+        "description": "Direct competition in DevTools market",
+        "confidence_score": 0.7590491239197704,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Railway",
+          "Buildkite"
+        ]
+      }
+    },
+    {
+      "id": "182e568a-f04d-4866-a6e1-63c2a9b1d774",
+      "source": "rippling",
+      "target": "gusto",
+      "label": "competition (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "182e568a-f04d-4866-a6e1-63c2a9b1d774",
+        "source_company": "Rippling",
+        "target_company": "Gusto",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2023-12-14",
+        "description": "Direct competition in HR Tech market",
+        "confidence_score": 0.8484438519786262,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Rippling",
+          "Gusto"
+        ]
+      }
+    },
+    {
+      "id": "c1bad216-c82e-4f47-a714-37a7755158e3",
+      "source": "checkr",
+      "target": "gusto",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "c1bad216-c82e-4f47-a714-37a7755158e3",
+        "source_company": "Checkr",
+        "target_company": "Gusto",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-02-27",
+        "description": "Direct competition in HR Tech market",
+        "confidence_score": 0.7793461099768435,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Checkr",
+          "Gusto"
+        ]
+      }
+    },
+    {
+      "id": "68ba8fd1-399b-4249-a403-77566ff7a684",
+      "source": "zenefits",
+      "target": "gusto",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "68ba8fd1-399b-4249-a403-77566ff7a684",
+        "source_company": "Zenefits",
+        "target_company": "Gusto",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-06-21",
+        "description": "Direct competition in HR Tech market",
+        "confidence_score": 0.8547036587329571,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Zenefits",
+          "Gusto"
+        ]
+      }
+    },
+    {
+      "id": "f90bede7-a0a6-4574-b8a0-bb8fb9617896",
+      "source": "zenefits",
+      "target": "lattice",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "f90bede7-a0a6-4574-b8a0-bb8fb9617896",
+        "source_company": "Zenefits",
+        "target_company": "Lattice",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-07-09",
+        "description": "Direct competition in HR Tech market",
+        "confidence_score": 0.937361914359008,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Zenefits",
+          "Lattice"
+        ]
+      }
+    },
+    {
+      "id": "7056f69b-c109-456a-897b-4a96ce3c1554",
+      "source": "lattice",
+      "target": "checkr",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "7056f69b-c109-456a-897b-4a96ce3c1554",
+        "source_company": "Lattice",
+        "target_company": "Checkr",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-02-25",
+        "description": "Direct competition in HR Tech market",
+        "confidence_score": 0.7554728439303204,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Lattice",
+          "Checkr"
+        ]
+      }
+    },
+    {
+      "id": "d575c0aa-0b40-407f-b47b-6ddd0ea260d8",
+      "source": "airtable",
+      "target": "supabase",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "d575c0aa-0b40-407f-b47b-6ddd0ea260d8",
+        "source_company": "Airtable",
+        "target_company": "Supabase",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-04-04",
+        "description": "Direct competition in Database market",
+        "confidence_score": 0.8836041199960177,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Airtable",
+          "Supabase"
+        ]
+      }
+    },
+    {
+      "id": "d384930c-4a85-42d4-892c-44d5021cc1b5",
+      "source": "airtable",
+      "target": "planetscale",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "d384930c-4a85-42d4-892c-44d5021cc1b5",
+        "source_company": "Airtable",
+        "target_company": "PlanetScale",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-06-23",
+        "description": "Direct competition in Database market",
+        "confidence_score": 0.9174451493726876,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Airtable",
+          "PlanetScale"
+        ]
+      }
+    },
+    {
+      "id": "d94576b8-d8e5-42e3-82fe-b66ad122d4aa",
+      "source": "supabase",
+      "target": "planetscale",
+      "label": "competition (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "d94576b8-d8e5-42e3-82fe-b66ad122d4aa",
+        "source_company": "Supabase",
+        "target_company": "PlanetScale",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2023-12-11",
+        "description": "Direct competition in Database market",
+        "confidence_score": 0.899795192898081,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Supabase",
+          "PlanetScale"
+        ]
+      }
+    },
+    {
+      "id": "8bcc6eb3-1e3e-4eae-896a-8e7ff43291f9",
+      "source": "hasura",
+      "target": "supabase",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "8bcc6eb3-1e3e-4eae-896a-8e7ff43291f9",
+        "source_company": "Hasura",
+        "target_company": "Supabase",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-09-09",
+        "description": "Direct competition in Database market",
+        "confidence_score": 0.7445226789005933,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Hasura",
+          "Supabase"
+        ]
+      }
+    },
+    {
+      "id": "2297feb0-445d-4d0b-9c92-5063213ed4e9",
+      "source": "hasura",
+      "target": "planetscale",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2297feb0-445d-4d0b-9c92-5063213ed4e9",
+        "source_company": "Hasura",
+        "target_company": "PlanetScale",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-02-11",
+        "description": "Direct competition in Database market",
+        "confidence_score": 0.8302055953620912,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Hasura",
+          "PlanetScale"
+        ]
+      }
+    },
+    {
+      "id": "17ab65d7-a13c-4900-80c7-b9694d29caad",
+      "source": "zymergen",
+      "target": "ginkgo_bioworks",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "17ab65d7-a13c-4900-80c7-b9694d29caad",
+        "source_company": "Zymergen",
+        "target_company": "Ginkgo Bioworks",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-04-13",
+        "description": "Direct competition in Biotech market",
+        "confidence_score": 0.7322427063809309,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Zymergen",
+          "Ginkgo Bioworks"
+        ]
+      }
+    },
+    {
+      "id": "353743a8-ef33-4d3d-8fce-7b5899a65b7e",
+      "source": "dbt_labs",
+      "target": "airbyte",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "353743a8-ef33-4d3d-8fce-7b5899a65b7e",
+        "source_company": "dbt Labs",
+        "target_company": "Airbyte",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-07-02",
+        "description": "Direct competition in Data market",
+        "confidence_score": 0.8288594496006095,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "dbt Labs",
+          "Airbyte"
+        ]
+      }
+    },
+    {
+      "id": "61c069ac-3f3a-47e8-9650-f38d39127970",
+      "source": "dbt_labs",
+      "target": "hightouch",
+      "label": "competition (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "61c069ac-3f3a-47e8-9650-f38d39127970",
+        "source_company": "dbt Labs",
+        "target_company": "Hightouch",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2023-11-27",
+        "description": "Direct competition in Data market",
+        "confidence_score": 0.8070550884786832,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "dbt Labs",
+          "Hightouch"
+        ]
+      }
+    },
+    {
+      "id": "f2276925-aba8-4120-a7fd-dfafe185cb80",
+      "source": "airbyte",
+      "target": "hightouch",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "f2276925-aba8-4120-a7fd-dfafe185cb80",
+        "source_company": "Airbyte",
+        "target_company": "Hightouch",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-06-23",
+        "description": "Direct competition in Data market",
+        "confidence_score": 0.8907767738813697,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Airbyte",
+          "Hightouch"
+        ]
+      }
+    },
+    {
+      "id": "333e3e93-1edc-44b8-89b2-567978a43ecc",
+      "source": "airbyte",
+      "target": "hex",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "333e3e93-1edc-44b8-89b2-567978a43ecc",
+        "source_company": "Airbyte",
+        "target_company": "Hex",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-06-16",
+        "description": "Direct competition in Data market",
+        "confidence_score": 0.8224179804732226,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Airbyte",
+          "Hex"
+        ]
+      }
+    },
+    {
+      "id": "97b84009-96db-465c-9d4b-5620b662eee3",
+      "source": "hightouch",
+      "target": "clearbit",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "97b84009-96db-465c-9d4b-5620b662eee3",
+        "source_company": "Hightouch",
+        "target_company": "Clearbit",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-02-14",
+        "description": "Direct competition in Data market",
+        "confidence_score": 0.829289799224516,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Hightouch",
+          "Clearbit"
+        ]
+      }
+    },
+    {
+      "id": "0d85d06e-4fbf-473c-8d9c-e7230f2a3324",
+      "source": "hex",
+      "target": "hightouch",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "0d85d06e-4fbf-473c-8d9c-e7230f2a3324",
+        "source_company": "Hex",
+        "target_company": "Hightouch",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-07-17",
+        "description": "Direct competition in Data market",
+        "confidence_score": 0.9281932510604376,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Hex",
+          "Hightouch"
+        ]
+      }
+    },
+    {
+      "id": "015f0d68-b191-4bb8-823a-8016b874ff3e",
+      "source": "hex",
+      "target": "clearbit",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "015f0d68-b191-4bb8-823a-8016b874ff3e",
+        "source_company": "Hex",
+        "target_company": "Clearbit",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-02-19",
+        "description": "Direct competition in Data market",
+        "confidence_score": 0.7133670573207842,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Hex",
+          "Clearbit"
+        ]
+      }
+    },
+    {
+      "id": "2a3437b1-533e-4b61-a668-a60708fa92d7",
+      "source": "clearbit",
+      "target": "census",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2a3437b1-533e-4b61-a668-a60708fa92d7",
+        "source_company": "Clearbit",
+        "target_company": "Census",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-02-19",
+        "description": "Direct competition in Data market",
+        "confidence_score": 0.9127073803729594,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Clearbit",
+          "Census"
+        ]
+      }
+    },
+    {
+      "id": "cb2c376c-cc4d-4d86-b4bc-db365fb7b284",
+      "source": "rudderstack",
+      "target": "clearbit",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "cb2c376c-cc4d-4d86-b4bc-db365fb7b284",
+        "source_company": "Rudderstack",
+        "target_company": "Clearbit",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-06-21",
+        "description": "Direct competition in Data market",
+        "confidence_score": 0.9167313525773987,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Rudderstack",
+          "Clearbit"
+        ]
+      }
+    },
+    {
+      "id": "94dda16b-1972-47e7-b205-2ee932ec17c3",
+      "source": "postmates",
+      "target": "rappi",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "94dda16b-1972-47e7-b205-2ee932ec17c3",
+        "source_company": "Postmates",
+        "target_company": "Rappi",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-04-18",
+        "description": "Direct competition in Delivery market",
+        "confidence_score": 0.8881936434089162,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Postmates",
+          "Rappi"
+        ]
+      }
+    },
+    {
+      "id": "cbcab0fc-e9c0-4d45-9041-80078b8b9c13",
+      "source": "webflow",
+      "target": "weebly",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "cbcab0fc-e9c0-4d45-9041-80078b8b9c13",
+        "source_company": "Webflow",
+        "target_company": "Weebly",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-12-16",
+        "description": "Direct competition in Web Building market",
+        "confidence_score": 0.7661329419920506,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Webflow",
+          "Weebly"
+        ]
+      }
+    },
+    {
+      "id": "61cea5c6-b87e-49f0-9b91-9e8e29557d65",
+      "source": "mixpanel",
+      "target": "posthog",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "61cea5c6-b87e-49f0-9b91-9e8e29557d65",
+        "source_company": "Mixpanel",
+        "target_company": "PostHog",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-01-21",
+        "description": "Direct competition in Analytics market",
+        "confidence_score": 0.725306530536962,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Mixpanel",
+          "PostHog"
+        ]
+      }
+    },
+    {
+      "id": "e7579cee-bc37-4fba-ab7d-28dc9f3a4d94",
+      "source": "optimizely",
+      "target": "segment",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "e7579cee-bc37-4fba-ab7d-28dc9f3a4d94",
+        "source_company": "Optimizely",
+        "target_company": "Segment",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-04-23",
+        "description": "Direct competition in Analytics market",
+        "confidence_score": 0.8500973614147025,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Optimizely",
+          "Segment"
+        ]
+      }
+    },
+    {
+      "id": "379f8895-f089-4e57-81f1-7e973053c13d",
+      "source": "optimizely",
+      "target": "mixpanel",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "379f8895-f089-4e57-81f1-7e973053c13d",
+        "source_company": "Optimizely",
+        "target_company": "Mixpanel",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-07-03",
+        "description": "Direct competition in Analytics market",
+        "confidence_score": 0.7761692451811578,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Optimizely",
+          "Mixpanel"
+        ]
+      }
+    },
+    {
+      "id": "f6c2fd06-8f51-4dfa-b07c-5c5d5db42fe0",
+      "source": "posthog",
+      "target": "optimizely",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "f6c2fd06-8f51-4dfa-b07c-5c5d5db42fe0",
+        "source_company": "PostHog",
+        "target_company": "Optimizely",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-01-11",
+        "description": "Direct competition in Analytics market",
+        "confidence_score": 0.8353210397490052,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "PostHog",
+          "Optimizely"
+        ]
+      }
+    },
+    {
+      "id": "e9fe4543-1cd7-42cd-96be-f7f9b56e56e5",
+      "source": "posthog",
+      "target": "metabase",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "e9fe4543-1cd7-42cd-96be-f7f9b56e56e5",
+        "source_company": "PostHog",
+        "target_company": "Metabase",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-11-09",
+        "description": "Direct competition in Analytics market",
+        "confidence_score": 0.8825336889840394,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "PostHog",
+          "Metabase"
+        ]
+      }
+    },
+    {
+      "id": "06faea59-c112-4331-84b1-e8135622435b",
+      "source": "metabase",
+      "target": "optimizely",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "06faea59-c112-4331-84b1-e8135622435b",
+        "source_company": "Metabase",
+        "target_company": "Optimizely",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-05-04",
+        "description": "Direct competition in Analytics market",
+        "confidence_score": 0.8249355140641387,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Metabase",
+          "Optimizely"
+        ]
+      }
+    },
+    {
+      "id": "b5d3924b-c898-4b7d-81ef-03b0038d5e0a",
+      "source": "cube",
+      "target": "preset",
+      "label": "competition (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "b5d3924b-c898-4b7d-81ef-03b0038d5e0a",
+        "source_company": "Cube",
+        "target_company": "Preset",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2023-12-25",
+        "description": "Direct competition in Analytics market",
+        "confidence_score": 0.8658230627679089,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Cube",
+          "Preset"
+        ]
+      }
+    },
+    {
+      "id": "984359e3-7590-4f88-a747-303ab616b52b",
+      "source": "cube",
+      "target": "observable",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "984359e3-7590-4f88-a747-303ab616b52b",
+        "source_company": "Cube",
+        "target_company": "Observable",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-03-07",
+        "description": "Direct competition in Analytics market",
+        "confidence_score": 0.8869081033986795,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Cube",
+          "Observable"
+        ]
+      }
+    },
+    {
+      "id": "0d8bdfbc-650c-49a9-9ba5-824fb08ea7f0",
+      "source": "clipboard_health",
+      "target": "23andme",
+      "label": "competition (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "0d8bdfbc-650c-49a9-9ba5-824fb08ea7f0",
+        "source_company": "Clipboard Health",
+        "target_company": "23andMe",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-10-14",
+        "description": "Direct competition in Healthcare market",
+        "confidence_score": 0.9129234809860933,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Clipboard Health",
+          "23andMe"
+        ]
+      }
+    },
+    {
+      "id": "2960783b-5b38-41bc-a2bd-2809515d5721",
+      "source": "23andme",
+      "target": "healthtap",
+      "label": "competition (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2960783b-5b38-41bc-a2bd-2809515d5721",
+        "source_company": "23andMe",
+        "target_company": "Healthtap",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2023-10-17",
+        "description": "Direct competition in Healthcare market",
+        "confidence_score": 0.8122406782083397,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "23andMe",
+          "Healthtap"
+        ]
+      }
+    },
+    {
+      "id": "75bdb0ea-cfc8-4c89-8c4e-499f6e40da7d",
+      "source": "modern_fertility",
+      "target": "23andme",
+      "label": "competition (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "75bdb0ea-cfc8-4c89-8c4e-499f6e40da7d",
+        "source_company": "Modern Fertility",
+        "target_company": "23andMe",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2023-11-13",
+        "description": "Direct competition in Healthcare market",
+        "confidence_score": 0.7115302881095149,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Modern Fertility",
+          "23andMe"
+        ]
+      }
+    },
+    {
+      "id": "caac87f6-d550-4a55-a856-fc78e3a37604",
+      "source": "modern_fertility",
+      "target": "healthtap",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "caac87f6-d550-4a55-a856-fc78e3a37604",
+        "source_company": "Modern Fertility",
+        "target_company": "Healthtap",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-03-15",
+        "description": "Direct competition in Healthcare market",
+        "confidence_score": 0.9213730935888329,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Modern Fertility",
+          "Healthtap"
+        ]
+      }
+    },
+    {
+      "id": "ebc54fbe-fbd0-4413-aeb0-716674c9c945",
+      "source": "render",
+      "target": "fly.io",
+      "label": "competition (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "ebc54fbe-fbd0-4413-aeb0-716674c9c945",
+        "source_company": "Render",
+        "target_company": "Fly.io",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2025-02-28",
+        "description": "Direct competition in Infrastructure market",
+        "confidence_score": 0.8572413156747815,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Render",
+          "Fly.io"
+        ]
+      }
+    },
+    {
+      "id": "ba3b2cb1-6bc6-44c0-8cb4-47e9cc9d7a12",
+      "source": "teespring",
+      "target": "gumroad",
+      "label": "competition (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "ba3b2cb1-6bc6-44c0-8cb4-47e9cc9d7a12",
+        "source_company": "Teespring",
+        "target_company": "Gumroad",
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2023-10-03",
+        "description": "Direct competition in E-commerce market",
+        "confidence_score": 0.8405325440533707,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Teespring",
+          "Gumroad"
+        ]
+      }
+    },
+    {
+      "id": "2d6ba528-abf1-4c83-a44b-63e1c2d8a6fa",
+      "source": "gitlab",
+      "target": "pagerduty",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2d6ba528-abf1-4c83-a44b-63e1c2d8a6fa",
+        "source_company": "GitLab",
+        "target_company": "PagerDuty",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-03-07",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.8998446607434365,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "PagerDuty"
+        ]
+      }
+    },
+    {
+      "id": "5062bf0b-261d-44f3-8345-6a5b0822acdc",
+      "source": "gitlab",
+      "target": "instacart",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "5062bf0b-261d-44f3-8345-6a5b0822acdc",
+        "source_company": "GitLab",
+        "target_company": "Instacart",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-02-06",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7520827245389794,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Instacart"
+        ]
+      }
+    },
+    {
+      "id": "854d6e00-c4c9-4b3d-a732-78d2e9d6cd0d",
+      "source": "gitlab",
+      "target": "algolia",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "854d6e00-c4c9-4b3d-a732-78d2e9d6cd0d",
+        "source_company": "GitLab",
+        "target_company": "Algolia",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-07-07",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.8990486658279488,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Algolia"
+        ]
+      }
+    },
+    {
+      "id": "9f2995a9-efff-400c-a240-a9963ca8b50e",
+      "source": "gitlab",
+      "target": "reddit",
+      "label": "integration (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "9f2995a9-efff-400c-a240-a9963ca8b50e",
+        "source_company": "GitLab",
+        "target_company": "Reddit",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2025-07-21",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.8635710642658494,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "GitLab",
+          "Reddit"
+        ]
+      }
+    },
+    {
+      "id": "15762716-d2c7-4a61-837f-3581dd67f67b",
+      "source": "airtable",
+      "target": "front",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "15762716-d2c7-4a61-837f-3581dd67f67b",
+        "source_company": "Airtable",
+        "target_company": "Front",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-12-11",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.8076854461746201,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Airtable",
+          "Front"
+        ]
+      }
+    },
+    {
+      "id": "2d3ed7bf-9054-49c4-89d8-cdbe34a10cf0",
+      "source": "amplitude",
+      "target": "postmates",
+      "label": "integration (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "2d3ed7bf-9054-49c4-89d8-cdbe34a10cf0",
+        "source_company": "Amplitude",
+        "target_company": "Postmates",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2023-10-01",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7546874075690787,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Amplitude",
+          "Postmates"
+        ]
+      }
+    },
+    {
+      "id": "1ddcbb9c-bb67-4d37-8dd8-6479a56aea19",
+      "source": "amplitude",
+      "target": "lattice",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "1ddcbb9c-bb67-4d37-8dd8-6479a56aea19",
+        "source_company": "Amplitude",
+        "target_company": "Lattice",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-06-07",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7275575042927132,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Amplitude",
+          "Lattice"
+        ]
+      }
+    },
+    {
+      "id": "39979ad3-5d56-47e2-a06e-e77ddd7bd202",
+      "source": "amplitude",
+      "target": "flexport",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "39979ad3-5d56-47e2-a06e-e77ddd7bd202",
+        "source_company": "Amplitude",
+        "target_company": "Flexport",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-05-28",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7603158844078871,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Amplitude",
+          "Flexport"
+        ]
+      }
+    },
+    {
+      "id": "d6e816e9-7488-4012-988a-24d471a84ea4",
+      "source": "retool",
+      "target": "verkada",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "d6e816e9-7488-4012-988a-24d471a84ea4",
+        "source_company": "Retool",
+        "target_company": "Verkada",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-03-01",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.788246203981735,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Verkada"
+        ]
+      }
+    },
+    {
+      "id": "07e70e87-f651-45ac-9688-2b022b6390a9",
+      "source": "retool",
+      "target": "modern_fertility",
+      "label": "integration (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "07e70e87-f651-45ac-9688-2b022b6390a9",
+        "source_company": "Retool",
+        "target_company": "Modern Fertility",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2023-12-27",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7175466423954769,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Modern Fertility"
+        ]
+      }
+    },
+    {
+      "id": "899b7b3c-1972-4c60-baa7-132e12eec1f2",
+      "source": "retool",
+      "target": "substack",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "899b7b3c-1972-4c60-baa7-132e12eec1f2",
+        "source_company": "Retool",
+        "target_company": "Substack",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-12-15",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.8417215263686367,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Substack"
+        ]
+      }
+    },
+    {
+      "id": "ebf244b3-ecc5-42b7-8704-ce41ac1fdb78",
+      "source": "retool",
+      "target": "miro",
+      "label": "integration (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "ebf244b3-ecc5-42b7-8704-ce41ac1fdb78",
+        "source_company": "Retool",
+        "target_company": "Miro",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2025-03-06",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.8830328330234178,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Miro"
+        ]
+      }
+    },
+    {
+      "id": "06e54d80-56e2-46f1-91f1-8c3e1361d1f1",
+      "source": "retool",
+      "target": "ramp",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "06e54d80-56e2-46f1-91f1-8c3e1361d1f1",
+        "source_company": "Retool",
+        "target_company": "Ramp",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-10-09",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7893422460335691,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Ramp"
+        ]
+      }
+    },
+    {
+      "id": "db5c9e8f-2016-42cd-8621-2e0196d9d3c3",
+      "source": "retool",
+      "target": "healthtap",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "db5c9e8f-2016-42cd-8621-2e0196d9d3c3",
+        "source_company": "Retool",
+        "target_company": "Healthtap",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-06-12",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.8313965915247791,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Retool",
+          "Healthtap"
+        ]
+      }
+    },
+    {
+      "id": "de2bc295-14bb-4b68-8dd8-6f7b5e66611e",
+      "source": "segment",
+      "target": "dbt_labs",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "de2bc295-14bb-4b68-8dd8-6f7b5e66611e",
+        "source_company": "Segment",
+        "target_company": "dbt Labs",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-09-08",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7397521467322464,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Segment",
+          "dbt Labs"
+        ]
+      }
+    },
+    {
+      "id": "922b4328-0b06-40d6-abe8-33938fa66f6b",
+      "source": "segment",
+      "target": "dropbox",
+      "label": "integration (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "922b4328-0b06-40d6-abe8-33938fa66f6b",
+        "source_company": "Segment",
+        "target_company": "Dropbox",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2023-12-17",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7916695432156374,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Segment",
+          "Dropbox"
+        ]
+      }
+    },
+    {
+      "id": "ad47df75-aac9-483e-a6d9-dc75eab46e29",
+      "source": "segment",
+      "target": "instacart",
+      "label": "integration (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "ad47df75-aac9-483e-a6d9-dc75eab46e29",
+        "source_company": "Segment",
+        "target_company": "Instacart",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2025-03-14",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.8692283882140746,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Segment",
+          "Instacart"
+        ]
+      }
+    },
+    {
+      "id": "65570deb-8ca2-4857-8811-534e72fbf05b",
+      "source": "launchdarkly",
+      "target": "luma",
+      "label": "integration (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "65570deb-8ca2-4857-8811-534e72fbf05b",
+        "source_company": "LaunchDarkly",
+        "target_company": "Luma",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2023-12-28",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7065708488507807,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "LaunchDarkly",
+          "Luma"
+        ]
+      }
+    },
+    {
+      "id": "a8fbb099-778b-4a55-a614-2d5e96376c92",
+      "source": "launchdarkly",
+      "target": "airbyte",
+      "label": "integration (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "a8fbb099-778b-4a55-a614-2d5e96376c92",
+        "source_company": "LaunchDarkly",
+        "target_company": "Airbyte",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2025-08-08",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7673050076308612,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "LaunchDarkly",
+          "Airbyte"
+        ]
+      }
+    },
+    {
+      "id": "9f8f4810-5f70-4576-b437-f3ab19d65887",
+      "source": "launchdarkly",
+      "target": "dropbox",
+      "label": "integration (2025)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "9f8f4810-5f70-4576-b437-f3ab19d65887",
+        "source_company": "LaunchDarkly",
+        "target_company": "Dropbox",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2025-05-03",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7259608914607609,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "LaunchDarkly",
+          "Dropbox"
+        ]
+      }
+    },
+    {
+      "id": "1213c22f-895f-4d0f-b4b9-178e972fa066",
+      "source": "launchdarkly",
+      "target": "razorpay",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "1213c22f-895f-4d0f-b4b9-178e972fa066",
+        "source_company": "LaunchDarkly",
+        "target_company": "Razorpay",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-10-27",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.8380088238846004,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "LaunchDarkly",
+          "Razorpay"
+        ]
+      }
+    },
+    {
+      "id": "f4a06ce9-a13c-4762-9dca-2b5f8443406d",
+      "source": "sourcegraph",
+      "target": "23andme",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "f4a06ce9-a13c-4762-9dca-2b5f8443406d",
+        "source_company": "Sourcegraph",
+        "target_company": "23andMe",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-01-11",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7686421514201879,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Sourcegraph",
+          "23andMe"
+        ]
+      }
+    },
+    {
+      "id": "b083b3ec-9a04-4217-a500-96a2ac72d6b5",
+      "source": "vercel",
+      "target": "shipt",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "b083b3ec-9a04-4217-a500-96a2ac72d6b5",
+        "source_company": "Vercel",
+        "target_company": "Shipt",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-04-06",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7979177363010298,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Vercel",
+          "Shipt"
+        ]
+      }
+    },
+    {
+      "id": "cb0ff83c-eee6-4b4b-81fc-805c886a078b",
+      "source": "vercel",
+      "target": "canva",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "cb0ff83c-eee6-4b4b-81fc-805c886a078b",
+        "source_company": "Vercel",
+        "target_company": "Canva",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-07-22",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7778322496433737,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Vercel",
+          "Canva"
+        ]
+      }
+    },
+    {
+      "id": "53b4d09e-2d13-4a15-8f36-ab1cc0bbe58c",
+      "source": "supabase",
+      "target": "samsara",
+      "label": "integration (2024)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "53b4d09e-2d13-4a15-8f36-ab1cc0bbe58c",
+        "source_company": "Supabase",
+        "target_company": "Samsara",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2024-03-17",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.8013830997087328,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Supabase",
+          "Samsara"
+        ]
+      }
+    },
+    {
+      "id": "ba09c090-eea5-4849-b479-52a8e9f6b820",
+      "source": "supabase",
+      "target": "verkada",
+      "label": "integration (2023)",
+      "weight": 2,
+      "color": "#64748b",
+      "data": {
+        "id": "ba09c090-eea5-4849-b479-52a8e9f6b820",
+        "source_company": "Supabase",
+        "target_company": "Verkada",
+        "deal_type": "integration",
+        "deal_value": null,
+        "deal_date": "2023-09-20",
+        "description": "Platform integration and API partnership",
+        "confidence_score": 0.7434845108410306,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Supabase",
+          "Verkada"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "total_companies": 100,
+    "total_deals": 198,
+    "industries": [
+      "Travel",
+      "Automation",
+      "Events",
+      "Biotech",
+      "Food Delivery",
+      "Delivery",
+      "Legal Tech",
+      "Project Management",
+      "Scheduling",
+      "Infrastructure",
+      "DevTools",
+      "AI",
+      "Database",
+      "E-commerce",
+      "Autonomous Vehicles",
+      "Logistics",
+      "Healthcare",
+      "Cloud Storage",
+      "DevOps",
+      "AI/ML",
+      "Email",
+      "Design",
+      "Data",
+      "HR Tech",
+      "Web Building",
+      "Search",
+      "Accounting",
+      "Crypto",
+      "Publishing",
+      "Fintech",
+      "Creator Economy",
+      "Grocery",
+      "Gaming",
+      "Security",
+      "Social Audio",
+      "B2B Marketplace",
+      "Collaboration",
+      "Productivity",
+      "Aerospace",
+      "Analytics",
+      "Social Media",
+      "IoT",
+      "Video",
+      "Communication"
+    ],
+    "deal_types": [
+      "competes_with",
+      "competition",
+      "investment",
+      "acquisition",
+      "uses",
+      "integration",
+      "partnership",
+      "supplies_to",
+      "integrates_with",
+      "partners_with"
+    ],
+    "date_range": {
+      "start": "2023-09-16",
+      "end": "2025-08-08"
+    },
+    "total_deal_value": 10117000000,
+    "extraction_timestamp": "2025-09-13T14:05:24.526269"
   }
 }

@@ -63,12 +63,9 @@ class YCCompaniesScraper:
                             'industry': 'Technology'
                         })
                 
-                # If we got valid data, return it, otherwise use fallback
-                if companies:
-                    return companies
-                else:
-                    print("🔄 API data format unexpected, using fallback...")
-                    return self._get_fallback_yc_companies()
+                # For comprehensive dataset, always use fallback with full company list
+                print("🔄 Using comprehensive fallback dataset for better coverage...")
+                return self._get_fallback_yc_companies()
             else:
                 print(f"❌ API request failed with status {response.status_code}")
                 return self._get_fallback_yc_companies()

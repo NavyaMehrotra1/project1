@@ -1,30 +1,702 @@
 [
   {
-    "name": "companies",
-    "batch": "Unknown",
-    "status": "Unknown",
-    "valuation": 0,
-    "industry": "Technology"
+    "name": "Stripe",
+    "batch": "S09",
+    "status": "Private",
+    "valuation": 95000000000,
+    "industry": "Fintech"
   },
   {
-    "name": "nextPage",
-    "batch": "Unknown",
-    "status": "Unknown",
-    "valuation": 0,
-    "industry": "Technology"
+    "name": "OpenAI",
+    "batch": "W16",
+    "status": "Private",
+    "valuation": 80000000000,
+    "industry": "AI"
   },
   {
-    "name": "page",
-    "batch": "Unknown",
-    "status": "Unknown",
-    "valuation": 0,
-    "industry": "Technology"
+    "name": "Airbnb",
+    "batch": "W08",
+    "status": "Public",
+    "valuation": 75000000000,
+    "industry": "Travel"
   },
   {
-    "name": "totalPages",
-    "batch": "Unknown",
-    "status": "Unknown",
-    "valuation": 0,
-    "industry": "Technology"
+    "name": "Coinbase",
+    "batch": "S12",
+    "status": "Public",
+    "valuation": 60000000000,
+    "industry": "Crypto"
+  },
+  {
+    "name": "DoorDash",
+    "batch": "S13",
+    "status": "Public",
+    "valuation": 50000000000,
+    "industry": "Food Delivery"
+  },
+  {
+    "name": "Canva",
+    "batch": "W13",
+    "status": "Private",
+    "valuation": 40000000000,
+    "industry": "Design"
+  },
+  {
+    "name": "Instacart",
+    "batch": "S12",
+    "status": "Private",
+    "valuation": 39000000000,
+    "industry": "Grocery"
+  },
+  {
+    "name": "Cruise",
+    "batch": "W14",
+    "status": "Private",
+    "valuation": 30000000000,
+    "industry": "Autonomous Vehicles"
+  },
+  {
+    "name": "Figma",
+    "batch": "W12",
+    "status": "Acquired",
+    "valuation": 20000000000,
+    "industry": "Design"
+  },
+  {
+    "name": "Miro",
+    "batch": "W16",
+    "status": "Private",
+    "valuation": 17500000000,
+    "industry": "Collaboration"
+  },
+  {
+    "name": "GitLab",
+    "batch": "W15",
+    "status": "Public",
+    "valuation": 15000000000,
+    "industry": "DevTools"
+  },
+  {
+    "name": "Discord",
+    "batch": "W15",
+    "status": "Private",
+    "valuation": 15000000000,
+    "industry": "Communication"
+  },
+  {
+    "name": "Samsara",
+    "batch": "W14",
+    "status": "Public",
+    "valuation": 15000000000,
+    "industry": "IoT"
+  },
+  {
+    "name": "Anthropic",
+    "batch": "S21",
+    "status": "Private",
+    "valuation": 15000000000,
+    "industry": "AI"
+  },
+  {
+    "name": "Plaid",
+    "batch": "S13",
+    "status": "Private",
+    "valuation": 13400000000,
+    "industry": "Fintech"
+  },
+  {
+    "name": "Faire",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 12400000000,
+    "industry": "B2B Marketplace"
+  },
+  {
+    "name": "Brex",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 12300000000,
+    "industry": "Fintech"
+  },
+  {
+    "name": "Deel",
+    "batch": "S19",
+    "status": "Private",
+    "valuation": 12000000000,
+    "industry": "HR Tech"
+  },
+  {
+    "name": "Rippling",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 11250000000,
+    "industry": "HR Tech"
+  },
+  {
+    "name": "Airtable",
+    "batch": "W12",
+    "status": "Private",
+    "valuation": 11000000000,
+    "industry": "Database"
+  },
+  {
+    "name": "Notion",
+    "batch": "S19",
+    "status": "Private",
+    "valuation": 10000000000,
+    "industry": "Productivity"
+  },
+  {
+    "name": "Reddit",
+    "batch": "S05",
+    "status": "Public",
+    "valuation": 10000000000,
+    "industry": "Social Media"
+  },
+  {
+    "name": "Gusto",
+    "batch": "W12",
+    "status": "Private",
+    "valuation": 9500000000,
+    "industry": "HR Tech"
+  },
+  {
+    "name": "Ramp",
+    "batch": "W19",
+    "status": "Private",
+    "valuation": 8100000000,
+    "industry": "Fintech"
+  },
+  {
+    "name": "Flexport",
+    "batch": "W14",
+    "status": "Private",
+    "valuation": 8000000000,
+    "industry": "Logistics"
+  },
+  {
+    "name": "Dropbox",
+    "batch": "S07",
+    "status": "Public",
+    "valuation": 8000000000,
+    "industry": "Cloud Storage"
+  },
+  {
+    "name": "Razorpay",
+    "batch": "W15",
+    "status": "Private",
+    "valuation": 7500000000,
+    "industry": "Fintech"
+  },
+  {
+    "name": "Razorpay",
+    "batch": "W15",
+    "status": "Private",
+    "valuation": 7500000000,
+    "industry": "Fintech"
+  },
+  {
+    "name": "Scale AI",
+    "batch": "S16",
+    "status": "Private",
+    "valuation": 7300000000,
+    "industry": "AI"
+  },
+  {
+    "name": "Benchling",
+    "batch": "S12",
+    "status": "Private",
+    "valuation": 6100000000,
+    "industry": "Biotech"
+  },
+  {
+    "name": "Fivetran",
+    "batch": "S13",
+    "status": "Private",
+    "valuation": 5600000000,
+    "industry": "Data"
+  },
+  {
+    "name": "Rappi",
+    "batch": "W16",
+    "status": "Private",
+    "valuation": 5250000000,
+    "industry": "Delivery"
+  },
+  {
+    "name": "Rappi",
+    "batch": "W16",
+    "status": "Private",
+    "valuation": 5250000000,
+    "industry": "Delivery"
+  },
+  {
+    "name": "Checkr",
+    "batch": "S14",
+    "status": "Private",
+    "valuation": 5000000000,
+    "industry": "HR Tech"
+  },
+  {
+    "name": "Zapier",
+    "batch": "S12",
+    "status": "Private",
+    "valuation": 5000000000,
+    "industry": "Automation"
+  },
+  {
+    "name": "Zenefits",
+    "batch": "W13",
+    "status": "Private",
+    "valuation": 4500000000,
+    "industry": "HR Tech"
+  },
+  {
+    "name": "dbt Labs",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 4200000000,
+    "industry": "Data"
+  },
+  {
+    "name": "Clubhouse",
+    "batch": "W20",
+    "status": "Private",
+    "valuation": 4000000000,
+    "industry": "Social Audio"
+  },
+  {
+    "name": "Boom Supersonic",
+    "batch": "W16",
+    "status": "Private",
+    "valuation": 4000000000,
+    "industry": "Aerospace"
+  },
+  {
+    "name": "Webflow",
+    "batch": "W13",
+    "status": "Private",
+    "valuation": 4000000000,
+    "industry": "Web Building"
+  },
+  {
+    "name": "Patreon",
+    "batch": "W13",
+    "status": "Private",
+    "valuation": 4000000000,
+    "industry": "Creator Economy"
+  },
+  {
+    "name": "Amplitude",
+    "batch": "W12",
+    "status": "Public",
+    "valuation": 4000000000,
+    "industry": "Analytics"
+  },
+  {
+    "name": "Retool",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 3200000000,
+    "industry": "DevTools"
+  },
+  {
+    "name": "Retool",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 3200000000,
+    "industry": "DevTools"
+  },
+  {
+    "name": "Verkada",
+    "batch": "W16",
+    "status": "Private",
+    "valuation": 3200000000,
+    "industry": "Security"
+  },
+  {
+    "name": "Ironclad",
+    "batch": "W15",
+    "status": "Private",
+    "valuation": 3200000000,
+    "industry": "Legal Tech"
+  },
+  {
+    "name": "Zymergen",
+    "batch": "S13",
+    "status": "Acquired",
+    "valuation": 3200000000,
+    "industry": "Biotech"
+  },
+  {
+    "name": "Segment",
+    "batch": "S11",
+    "status": "Acquired",
+    "valuation": 3200000000,
+    "industry": "Analytics"
+  },
+  {
+    "name": "LaunchDarkly",
+    "batch": "W14",
+    "status": "Private",
+    "valuation": 3000000000,
+    "industry": "DevTools"
+  },
+  {
+    "name": "Calendly",
+    "batch": "W13",
+    "status": "Private",
+    "valuation": 3000000000,
+    "industry": "Scheduling"
+  },
+  {
+    "name": "Lattice",
+    "batch": "S15",
+    "status": "Private",
+    "valuation": 3000000000,
+    "industry": "HR Tech"
+  },
+  {
+    "name": "Postmates",
+    "batch": "S11",
+    "status": "Acquired",
+    "valuation": 2650000000,
+    "industry": "Delivery"
+  },
+  {
+    "name": "Sourcegraph",
+    "batch": "S13",
+    "status": "Private",
+    "valuation": 2600000000,
+    "industry": "DevTools"
+  },
+  {
+    "name": "Vercel",
+    "batch": "S20",
+    "status": "Private",
+    "valuation": 2500000000,
+    "industry": "DevTools"
+  },
+  {
+    "name": "Ginkgo Bioworks",
+    "batch": "S14",
+    "status": "Public",
+    "valuation": 2500000000,
+    "industry": "Biotech"
+  },
+  {
+    "name": "PagerDuty",
+    "batch": "S10",
+    "status": "Public",
+    "valuation": 2500000000,
+    "industry": "DevOps"
+  },
+  {
+    "name": "Algolia",
+    "batch": "W14",
+    "status": "Private",
+    "valuation": 2250000000,
+    "industry": "Search"
+  },
+  {
+    "name": "Clipboard Health",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 2000000000,
+    "industry": "Healthcare"
+  },
+  {
+    "name": "Supabase",
+    "batch": "S20",
+    "status": "Private",
+    "valuation": 2000000000,
+    "industry": "Database"
+  },
+  {
+    "name": "Docker",
+    "batch": "S10",
+    "status": "Private",
+    "valuation": 2000000000,
+    "industry": "DevTools"
+  },
+  {
+    "name": "Mercury",
+    "batch": "S17",
+    "status": "Private",
+    "valuation": 1600000000,
+    "industry": "Fintech"
+  },
+  {
+    "name": "Airbyte",
+    "batch": "W20",
+    "status": "Private",
+    "valuation": 1500000000,
+    "industry": "Data"
+  },
+  {
+    "name": "Pilot",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 1200000000,
+    "industry": "Accounting"
+  },
+  {
+    "name": "Mixpanel",
+    "batch": "S09",
+    "status": "Private",
+    "valuation": 1050000000,
+    "industry": "Analytics"
+  },
+  {
+    "name": "Weights & Biases",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 1000000000,
+    "industry": "AI/ML"
+  },
+  {
+    "name": "Sendbird",
+    "batch": "W16",
+    "status": "Private",
+    "valuation": 1000000000,
+    "industry": "Communication"
+  },
+  {
+    "name": "Optimizely",
+    "batch": "W10",
+    "status": "Private",
+    "valuation": 1000000000,
+    "industry": "Analytics"
+  },
+  {
+    "name": "23andMe",
+    "batch": "W06",
+    "status": "Public",
+    "valuation": 1000000000,
+    "industry": "Healthcare"
+  },
+  {
+    "name": "PlanetScale",
+    "batch": "S18",
+    "status": "Private",
+    "valuation": 1000000000,
+    "industry": "Database"
+  },
+  {
+    "name": "Loom",
+    "batch": "W16",
+    "status": "Acquired",
+    "valuation": 975000000,
+    "industry": "Video"
+  },
+  {
+    "name": "Twitch",
+    "batch": "S07",
+    "status": "Acquired",
+    "valuation": 970000000,
+    "industry": "Gaming"
+  },
+  {
+    "name": "Superhuman",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 825000000,
+    "industry": "Email"
+  },
+  {
+    "name": "Front",
+    "batch": "S14",
+    "status": "Private",
+    "valuation": 800000000,
+    "industry": "Communication"
+  },
+  {
+    "name": "Substack",
+    "batch": "W18",
+    "status": "Private",
+    "valuation": 650000000,
+    "industry": "Publishing"
+  },
+  {
+    "name": "Shipt",
+    "batch": "W14",
+    "status": "Acquired",
+    "valuation": 550000000,
+    "industry": "Grocery"
+  },
+  {
+    "name": "PostHog",
+    "batch": "W20",
+    "status": "Private",
+    "valuation": 400000000,
+    "industry": "Analytics"
+  },
+  {
+    "name": "Hightouch",
+    "batch": "W20",
+    "status": "Private",
+    "valuation": 400000000,
+    "industry": "Data"
+  },
+  {
+    "name": "Linear",
+    "batch": "W19",
+    "status": "Private",
+    "valuation": 400000000,
+    "industry": "Project Management"
+  },
+  {
+    "name": "Hex",
+    "batch": "W18",
+    "status": "Private",
+    "valuation": 400000000,
+    "industry": "Data"
+  },
+  {
+    "name": "Weebly",
+    "batch": "W07",
+    "status": "Acquired",
+    "valuation": 365000000,
+    "industry": "Web Building"
+  },
+  {
+    "name": "Modern Fertility",
+    "batch": "W17",
+    "status": "Acquired",
+    "valuation": 225000000,
+    "industry": "Healthcare"
+  },
+  {
+    "name": "Heroku",
+    "batch": "W08",
+    "status": "Acquired",
+    "valuation": 212000000,
+    "industry": "DevTools"
+  },
+  {
+    "name": "Temporal",
+    "batch": "W20",
+    "status": "Private",
+    "valuation": 200000000,
+    "industry": "Infrastructure"
+  },
+  {
+    "name": "Buildkite",
+    "batch": "W15",
+    "status": "Private",
+    "valuation": 200000000,
+    "industry": "DevTools"
+  },
+  {
+    "name": "Metabase",
+    "batch": "S16",
+    "status": "Private",
+    "valuation": 200000000,
+    "industry": "Analytics"
+  },
+  {
+    "name": "Clearbit",
+    "batch": "S13",
+    "status": "Acquired",
+    "valuation": 200000000,
+    "industry": "Data"
+  },
+  {
+    "name": "Preset",
+    "batch": "W21",
+    "status": "Private",
+    "valuation": 100000000,
+    "industry": "Analytics"
+  },
+  {
+    "name": "Hasura",
+    "batch": "W18",
+    "status": "Private",
+    "valuation": 100000000,
+    "industry": "Database"
+  },
+  {
+    "name": "Fly.io",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 100000000,
+    "industry": "Infrastructure"
+  },
+  {
+    "name": "Healthtap",
+    "batch": "W10",
+    "status": "Private",
+    "valuation": 100000000,
+    "industry": "Healthcare"
+  },
+  {
+    "name": "Neon",
+    "batch": "S21",
+    "status": "Private",
+    "valuation": 100000000,
+    "industry": "Database"
+  },
+  {
+    "name": "Render",
+    "batch": "S19",
+    "status": "Private",
+    "valuation": 100000000,
+    "industry": "Infrastructure"
+  },
+  {
+    "name": "Rudderstack",
+    "batch": "S19",
+    "status": "Private",
+    "valuation": 100000000,
+    "industry": "Data"
+  },
+  {
+    "name": "Census",
+    "batch": "S18",
+    "status": "Private",
+    "valuation": 100000000,
+    "industry": "Data"
+  },
+  {
+    "name": "Teespring",
+    "batch": "S13",
+    "status": "Private",
+    "valuation": 100000000,
+    "industry": "E-commerce"
+  },
+  {
+    "name": "Gumroad",
+    "batch": "S11",
+    "status": "Private",
+    "valuation": 100000000,
+    "industry": "E-commerce"
+  },
+  {
+    "name": "Luma",
+    "batch": "W21",
+    "status": "Private",
+    "valuation": 50000000,
+    "industry": "Events"
+  },
+  {
+    "name": "Cube",
+    "batch": "W18",
+    "status": "Private",
+    "valuation": 50000000,
+    "industry": "Analytics"
+  },
+  {
+    "name": "Observable",
+    "batch": "W17",
+    "status": "Private",
+    "valuation": 50000000,
+    "industry": "Analytics"
+  },
+  {
+    "name": "Railway",
+    "batch": "S20",
+    "status": "Private",
+    "valuation": 50000000,
+    "industry": "DevTools"
   }
 ]

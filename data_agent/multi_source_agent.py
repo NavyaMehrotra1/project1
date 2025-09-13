@@ -40,14 +40,18 @@ class MultiSourceDataAgent:
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         })
         
-        # Deal type keywords for classification
+        # Enhanced deal type keywords for comprehensive relationship detection
         self.deal_keywords = {
-            'acquisition': ['acquire', 'acquisition', 'bought', 'purchase', 'takeover', 'buyout'],
-            'merger': ['merge', 'merger', 'combining', 'join forces', 'unite'],
-            'investment': ['invest', 'investment', 'funding', 'round', 'capital', 'series', 'seed'],
-            'partnership': ['partner', 'partnership', 'collaborate', 'alliance', 'joint venture'],
-            'ipo': ['ipo', 'public offering', 'goes public', 'listing', 'debut'],
-            'exit': ['exit', 'sold', 'divest', 'spin off', 'spun off']
+            'acquisition': ['acquire', 'acquisition', 'bought', 'purchase', 'takeover', 'buyout', 'acquires', 'purchasing', 'acquired by'],
+            'merger': ['merge', 'merger', 'combining', 'join forces', 'unite', 'merging with', 'merged with'],
+            'investment': ['invest', 'investment', 'funding', 'round', 'capital', 'series', 'seed', 'led by', 'participated in', 'backs', 'invests in'],
+            'partnership': ['partner', 'partnership', 'collaborate', 'alliance', 'joint venture', 'teams up', 'partners with', 'collaboration'],
+            'ipo': ['ipo', 'public offering', 'goes public', 'listing', 'debut', 'public debut', 'stock market'],
+            'exit': ['exit', 'sold', 'divest', 'spin off', 'spun off', 'exits'],
+            'competition': ['competes with', 'rival', 'competitor', 'competing against', 'vs', 'versus'],
+            'integration': ['integrates', 'integration', 'api partnership', 'platform integration', 'connects with'],
+            'supplier': ['supplier', 'vendor', 'provides services', 'service provider', 'supplies'],
+            'customer': ['customer', 'client', 'uses', 'adopts', 'implements']
         }
         
         print("🤖 Multi-Source AI Data Agent initialized")
@@ -55,25 +59,37 @@ class MultiSourceDataAgent:
     
     def extract_deal_info(self, text: str, companies: List[str]) -> Dict[str, Any]:
         """
-        Use AI-like pattern matching to extract deal information from text.
+        Enhanced AI-like pattern matching to extract comprehensive relationship information.
         
         Args:
             text: Text to analyze
             companies: List of company names to look for
             
         Returns:
-            Dictionary with extracted deal information
+            Dictionary with extracted deal information and relationships
         """
         text_lower = text.lower()
         
-        # Find deal type
-        deal_type = None
-        for deal, keywords in self.deal_keywords.items():
-            if any(keyword in text_lower for keyword in keywords):
-                deal_type = deal
-                break
+        # Find all mentioned companies in the text
+        mentioned_companies = []
+        for company in companies:
+            if company.lower() in text_lower:
+                mentioned_companies.append(company)
         
-        # Extract deal value using regex
+        # Find deal type with priority scoring
+        deal_type = None
+        deal_confidence = 0
+        for deal, keywords in self.deal_keywords.items():
+            for keyword in keywords:
+                if keyword in text_lower:
+                    # Score based on keyword specificity
+                    confidence = len(keyword) / 20.0  # Longer keywords = higher confidence
+                    if confidence > deal_confidence:
+                        deal_type = deal
+                        deal_confidence = confidence
+                    break
+        
+        # Extract deal value using enhanced regex patterns
         deal_value = None
         value_patterns = [
             r'\$(\d+(?:\.\d+)?)\s*billion',
@@ -81,7 +97,11 @@ class MultiSourceDataAgent:
             r'\$(\d+(?:\.\d+)?)\s*million',
             r'\$(\d+(?:\.\d+)?)\s*m\b',
             r'(\d+(?:\.\d+)?)\s*billion\s*dollars?',
-            r'(\d+(?:\.\d+)?)\s*million\s*dollars?'
+            r'(\d+(?:\.\d+)?)\s*million\s*dollars?',
+            r'valued\s+at\s+\$(\d+(?:\.\d+)?)\s*billion',
+            r'worth\s+\$(\d+(?:\.\d+)?)\s*billion',
+            r'(\d+(?:\.\d+)?)\s*bn',
+            r'(\d+(?:\.\d+)?)\s*mil'
         ]
         
         for pattern in value_patterns:
@@ -100,10 +120,45 @@ class MultiSourceDataAgent:
             if company.lower() in text_lower:
                 mentioned_companies.append(company)
         
+        # Determine source and target companies based on deal type and context
+        source_company = None
+        target_company = None
+        
+        if len(mentioned_companies) >= 2:
+            # For acquisitions, try to determine acquirer vs acquired
+            if deal_type == 'acquisition':
+                # Look for patterns like "Company A acquires Company B"
+                for i, company in enumerate(mentioned_companies):
+                    if any(f"{company.lower()} {keyword}" in text_lower for keyword in ['acquires', 'bought', 'purchased']):
+                        source_company = company
+                        target_company = mentioned_companies[1-i] if i < 2 else mentioned_companies[0]
+                        break
+            elif deal_type == 'investment':
+                # For investments, investor is source, company is target
+                for keyword in ['led by', 'invested by', 'backed by']:
+                    if keyword in text_lower:
+                        # Find which company is mentioned after the keyword
+                        for company in mentioned_companies:
+                            if f"{keyword} {company.lower()}" in text_lower:
+                                source_company = company
+                                target_company = next((c for c in mentioned_companies if c != company), None)
+                                break
+            
+            # Default assignment if no specific pattern found
+            if not source_company:
+                source_company = mentioned_companies[0]
+                target_company = mentioned_companies[1]
+        elif len(mentioned_companies) == 1:
+            source_company = mentioned_companies[0]
+        
         return {
+            'companies_mentioned': mentioned_companies,
             'deal_type': deal_type,
             'deal_value': deal_value,
-            'companies_mentioned': mentioned_companies
+            'source_company': source_company,
+            'target_company': target_company,
+            'confidence_score': deal_confidence,
+            'relationship_strength': len(mentioned_companies) * deal_confidence
         }
     
     async def search_newsapi(self, company_names: List[str], days_back: int = 30) -> List[NewsItem]:
@@ -118,13 +173,23 @@ class MultiSourceDataAgent:
         
         news_items = []
         
-        # Search for general M&A terms plus company names
-        search_queries = [
-            "merger acquisition startup",
-            "funding round investment",
-            "IPO public offering",
-            "partnership collaboration"
-        ]
+        # Create comprehensive search queries for different types of relationships
+        # Split companies into smaller batches for better API results
+        batch_size = 5
+        company_batches = [company_names[i:i+batch_size] for i in range(0, len(company_names), batch_size)]
+        
+        search_queries = []
+        for batch in company_batches:
+            batch_query = ' OR '.join([f'"{company}"' for company in batch])
+            search_queries.extend([
+                f"({batch_query}) AND (acquisition OR merger OR acquires OR acquired)",
+                f"({batch_query}) AND (investment OR funding OR series OR round OR raised)",
+                f"({batch_query}) AND (partnership OR collaboration OR partners with)",
+                f"({batch_query}) AND (IPO OR public offering OR goes public)",
+                f"({batch_query}) AND (exit OR sold OR divest)",
+                f"({batch_query}) AND (competes OR competitor OR rival)",
+                f"({batch_query}) AND (integration OR API OR platform)"
+            ])
         
         for query in search_queries:
             try:

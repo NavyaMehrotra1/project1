@@ -1,58 +1,197 @@
 {
   "extraction_metadata": {
-    "start_time": "2025-09-13T13:28:39.902817",
-    "end_time": "2025-09-13T13:28:59.743317",
-    "duration_seconds": 19.8405,
+    "start_time": "2025-09-13T14:04:39.886035",
+    "end_time": "2025-09-13T14:05:24.543657",
+    "duration_seconds": 44.657622,
     "extraction_date": "2025-09-13"
   },
   "yc_companies_stats": {
-    "total_companies": 4,
-    "total_valuation": 0,
-    "average_valuation": 0,
+    "total_companies": 100,
+    "total_valuation": 844372000000,
+    "average_valuation": 8443720000.0,
     "industry_breakdown": {
-      "Technology": 4
+      "Fintech": 7,
+      "AI": 3,
+      "Travel": 1,
+      "Crypto": 1,
+      "Food Delivery": 1,
+      "Design": 2,
+      "Grocery": 2,
+      "Autonomous Vehicles": 1,
+      "Collaboration": 1,
+      "DevTools": 10,
+      "Communication": 3,
+      "IoT": 1,
+      "B2B Marketplace": 1,
+      "HR Tech": 6,
+      "Database": 5,
+      "Productivity": 1,
+      "Social Media": 1,
+      "Logistics": 1,
+      "Cloud Storage": 1,
+      "Biotech": 3,
+      "Data": 8,
+      "Delivery": 3,
+      "Automation": 1,
+      "Social Audio": 1,
+      "Aerospace": 1,
+      "Web Building": 2,
+      "Creator Economy": 1,
+      "Analytics": 9,
+      "Security": 1,
+      "Legal Tech": 1,
+      "Scheduling": 1,
+      "DevOps": 1,
+      "Search": 1,
+      "Healthcare": 4,
+      "Accounting": 1,
+      "AI/ML": 1,
+      "Video": 1,
+      "Gaming": 1,
+      "Email": 1,
+      "Publishing": 1,
+      "Project Management": 1,
+      "Infrastructure": 3,
+      "E-commerce": 2,
+      "Events": 1
     },
     "top_5_by_valuation": [
       {
-        "name": "companies",
-        "batch": "Unknown",
-        "status": "Unknown",
-        "valuation": 0,
-        "industry": "Technology"
+        "name": "Stripe",
+        "batch": "S09",
+        "status": "Private",
+        "valuation": 95000000000,
+        "industry": "Fintech"
       },
       {
-        "name": "nextPage",
-        "batch": "Unknown",
-        "status": "Unknown",
-        "valuation": 0,
-        "industry": "Technology"
+        "name": "OpenAI",
+        "batch": "W16",
+        "status": "Private",
+        "valuation": 80000000000,
+        "industry": "AI"
       },
       {
-        "name": "page",
-        "batch": "Unknown",
-        "status": "Unknown",
-        "valuation": 0,
-        "industry": "Technology"
+        "name": "Airbnb",
+        "batch": "W08",
+        "status": "Public",
+        "valuation": 75000000000,
+        "industry": "Travel"
       },
       {
-        "name": "totalPages",
-        "batch": "Unknown",
-        "status": "Unknown",
-        "valuation": 0,
-        "industry": "Technology"
+        "name": "Coinbase",
+        "batch": "S12",
+        "status": "Public",
+        "valuation": 60000000000,
+        "industry": "Crypto"
+      },
+      {
+        "name": "DoorDash",
+        "batch": "S13",
+        "status": "Public",
+        "valuation": 50000000000,
+        "industry": "Food Delivery"
       }
     ]
   },
   "news_collection_stats": {
-    "total_news_items": 0,
-    "source_breakdown": {},
-    "unique_companies_mentioned": 0
+    "total_news_items": 2,
+    "source_breakdown": {
+      "SEC EDGAR": 2
+    },
+    "unique_companies_mentioned": 2
   },
   "deals_stats": {
-    "total_deals_found": 0,
-    "total_deal_value": 0,
-    "average_deal_value": 0,
-    "deal_type_breakdown": {},
-    "largest_deals": []
+    "total_deals_found": 200,
+    "total_deal_value": 10117000000,
+    "average_deal_value": 374703703.7037037,
+    "deal_type_breakdown": {
+      "partnership": 20,
+      "partners_with": 21,
+      "competes_with": 4,
+      "supplies_to": 11,
+      "integrates_with": 22,
+      "uses": 11,
+      "investment": 21,
+      "acquisition": 6,
+      "competition": 58,
+      "integration": 26
+    },
+    "largest_deals": [
+      {
+        "id": "74d2c554-7558-4386-9da2-823785cda0ce",
+        "source_company": "Figma",
+        "target_company": "PostHog",
+        "deal_type": "acquisition",
+        "deal_value": 1487000000,
+        "deal_date": "2023-09-20",
+        "description": "Strategic acquisition to expand market presence",
+        "confidence_score": 0.8021582654813482,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Figma",
+          "PostHog"
+        ]
+      },
+      {
+        "id": "3536497d-f8bd-4ad9-9fff-7235aaf55760",
+        "source_company": "Anthropic",
+        "target_company": "Rappi",
+        "deal_type": "acquisition",
+        "deal_value": 1029000000,
+        "deal_date": "2024-11-24",
+        "description": "Strategic acquisition to expand market presence",
+        "confidence_score": 0.8162901441642704,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Anthropic",
+          "Rappi"
+        ]
+      },
+      {
+        "id": "0a511527-7fcd-4e2e-ab95-13abb0bbf1da",
+        "source_company": "Cruise",
+        "target_company": "Supabase",
+        "deal_type": "acquisition",
+        "deal_value": 1018000000,
+        "deal_date": "2024-11-19",
+        "description": "Strategic acquisition to expand market presence",
+        "confidence_score": 0.7115762886681646,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Cruise",
+          "Supabase"
+        ]
+      },
+      {
+        "id": "570618fe-8902-43b8-b6bd-6fd9c6331f4b",
+        "source_company": "Rippling",
+        "target_company": "Heroku",
+        "deal_type": "acquisition",
+        "deal_value": 513000000,
+        "deal_date": "2025-01-21",
+        "description": "Strategic acquisition to expand market presence",
+        "confidence_score": 0.9456009943009671,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Rippling",
+          "Heroku"
+        ]
+      },
+      {
+        "id": "932e95f5-1474-4e3a-80c2-0775cd4547c8",
+        "source_company": "Discord",
+        "target_company": "Mixpanel",
+        "deal_type": "investment",
+        "deal_value": 492000000,
+        "deal_date": "2024-10-22",
+        "description": "Strategic investment in emerging technology",
+        "confidence_score": 0.8374851905009462,
+        "source": "YC_Relationship_Generator",
+        "companies_mentioned": [
+          "Discord",
+          "Mixpanel"
+        ]
+      }
+    ]
   }
 }

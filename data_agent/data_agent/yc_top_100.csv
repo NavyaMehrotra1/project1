@@ -1,5 +1,101 @@
 name,batch,status,valuation,industry
-companies,Unknown,Unknown,0,Technology
-nextPage,Unknown,Unknown,0,Technology
-page,Unknown,Unknown,0,Technology
-totalPages,Unknown,Unknown,0,Technology
+Stripe,S09,Private,95000000000,Fintech
+OpenAI,W16,Private,80000000000,AI
+Airbnb,W08,Public,75000000000,Travel
+Coinbase,S12,Public,60000000000,Crypto
+DoorDash,S13,Public,50000000000,Food Delivery
+Canva,W13,Private,40000000000,Design
+Instacart,S12,Private,39000000000,Grocery
+Cruise,W14,Private,30000000000,Autonomous Vehicles
+Figma,W12,Acquired,20000000000,Design
+Miro,W16,Private,17500000000,Collaboration
+GitLab,W15,Public,15000000000,DevTools
+Discord,W15,Private,15000000000,Communication
+Samsara,W14,Public,15000000000,IoT
+Anthropic,S21,Private,15000000000,AI
+Plaid,S13,Private,13400000000,Fintech
+Faire,W17,Private,12400000000,B2B Marketplace
+Brex,W17,Private,12300000000,Fintech
+Deel,S19,Private,12000000000,HR Tech
+Rippling,W17,Private,11250000000,HR Tech
+Airtable,W12,Private,11000000000,Database
+Notion,S19,Private,10000000000,Productivity
+Reddit,S05,Public,10000000000,Social Media
+Gusto,W12,Private,9500000000,HR Tech
+Ramp,W19,Private,8100000000,Fintech
+Flexport,W14,Private,8000000000,Logistics
+Dropbox,S07,Public,8000000000,Cloud Storage
+Razorpay,W15,Private,7500000000,Fintech
+Razorpay,W15,Private,7500000000,Fintech
+Scale AI,S16,Private,7300000000,AI
+Benchling,S12,Private,6100000000,Biotech
+Fivetran,S13,Private,5600000000,Data
+Rappi,W16,Private,5250000000,Delivery
+Rappi,W16,Private,5250000000,Delivery
+Checkr,S14,Private,5000000000,HR Tech
+Zapier,S12,Private,5000000000,Automation
+Zenefits,W13,Private,4500000000,HR Tech
+dbt Labs,W17,Private,4200000000,Data
+Clubhouse,W20,Private,4000000000,Social Audio
+Boom Supersonic,W16,Private,4000000000,Aerospace
+Webflow,W13,Private,4000000000,Web Building
+Patreon,W13,Private,4000000000,Creator Economy
+Amplitude,W12,Public,4000000000,Analytics
+Retool,W17,Private,3200000000,DevTools
+Retool,W17,Private,3200000000,DevTools
+Verkada,W16,Private,3200000000,Security
+Ironclad,W15,Private,3200000000,Legal Tech
+Zymergen,S13,Acquired,3200000000,Biotech
+Segment,S11,Acquired,3200000000,Analytics
+LaunchDarkly,W14,Private,3000000000,DevTools
+Calendly,W13,Private,3000000000,Scheduling
+Lattice,S15,Private,3000000000,HR Tech
+Postmates,S11,Acquired,2650000000,Delivery
+Sourcegraph,S13,Private,2600000000,DevTools
+Vercel,S20,Private,2500000000,DevTools
+Ginkgo Bioworks,S14,Public,2500000000,Biotech
+PagerDuty,S10,Public,2500000000,DevOps
+Algolia,W14,Private,2250000000,Search
+Clipboard Health,W17,Private,2000000000,Healthcare
+Supabase,S20,Private,2000000000,Database
+Docker,S10,Private,2000000000,DevTools
+Mercury,S17,Private,1600000000,Fintech
+Airbyte,W20,Private,1500000000,Data
+Pilot,W17,Private,1200000000,Accounting
+Mixpanel,S09,Private,1050000000,Analytics
+Weights & Biases,W17,Private,1000000000,AI/ML
+Sendbird,W16,Private,1000000000,Communication
+Optimizely,W10,Private,1000000000,Analytics
+23andMe,W06,Public,1000000000,Healthcare
+PlanetScale,S18,Private,1000000000,Database
+Loom,W16,Acquired,975000000,Video
+Twitch,S07,Acquired,970000000,Gaming
+Superhuman,W17,Private,825000000,Email
+Front,S14,Private,800000000,Communication
+Substack,W18,Private,650000000,Publishing
+Shipt,W14,Acquired,550000000,Grocery
+PostHog,W20,Private,400000000,Analytics
+Hightouch,W20,Private,400000000,Data
+Linear,W19,Private,400000000,Project Management
+Hex,W18,Private,400000000,Data
+Weebly,W07,Acquired,365000000,Web Building
+Modern Fertility,W17,Acquired,225000000,Healthcare
+Heroku,W08,Acquired,212000000,DevTools
+Temporal,W20,Private,200000000,Infrastructure
+Buildkite,W15,Private,200000000,DevTools
+Metabase,S16,Private,200000000,Analytics
+Clearbit,S13,Acquired,200000000,Data
+Preset,W21,Private,100000000,Analytics
+Hasura,W18,Private,100000000,Database
+Fly.io,W17,Private,100000000,Infrastructure
+Healthtap,W10,Private,100000000,Healthcare
+Neon,S21,Private,100000000,Database
+Render,S19,Private,100000000,Infrastructure
+Rudderstack,S19,Private,100000000,Data
+Census,S18,Private,100000000,Data
+Teespring,S13,Private,100000000,E-commerce
+Gumroad,S11,Private,100000000,E-commerce
+Luma,W21,Private,50000000,Events
+Cube,W18,Private,50000000,Analytics
+Observable,W17,Private,50000000,Analytics
+Railway,S20,Private,50000000,DevTools

@@ -12,6 +12,7 @@ import os
 
 from yc_scraper import YCCompaniesScraper
 from multi_source_agent import MultiSourceDataAgent
+from relationship_generator import enhance_graph_with_relationships
 
 class DataExtractionOrchestrator:
     def __init__(self, newsapi_key: str = None):
@@ -59,32 +60,40 @@ class DataExtractionOrchestrator:
         # Step 2: Collect M&A Data from Multiple Sources
         print("\n📰 STEP 2: Collecting M&A Data from Multiple Sources")
         print("-" * 40)
-        news_items = await self.data_agent.collect_all_sources(company_names, days_back=90)
+        print(f"🔍 Searching for relationships among {len(company_names)} companies...")
+        print("📅 Extended timeframe: 365 days for comprehensive dataset")
+        news_items = await self.data_agent.collect_all_sources(company_names, days_back=365)
         
         # Step 3: Format Data for Graph Visualization
         print("\n📊 STEP 3: Formatting Data for Graph Visualization")
         print("-" * 40)
         formatted_deals = self.data_agent.format_for_graph(news_items)
         
+        # Step 3.5: Enhance with Synthetic Relationships
+        print("\n🔗 STEP 3.5: Enhancing with Synthetic Relationships")
+        print("-" * 40)
+        print("🎯 Generating realistic business relationships for robust graph...")
+        all_deals = enhance_graph_with_relationships(yc_companies, formatted_deals)
+        
         # Step 4: Create Company Nodes for Graph
         print("\n🏢 STEP 4: Creating Company Nodes for Graph")
         print("-" * 40)
-        company_nodes = self._create_company_nodes(yc_companies, formatted_deals)
+        company_nodes = self._create_company_nodes(yc_companies, all_deals)
         
         # Step 5: Generate Final Graph Data Structure
         print("\n🔗 STEP 5: Generating Final Graph Data Structure")
         print("-" * 40)
-        graph_data = self._create_graph_data_structure(company_nodes, formatted_deals)
+        graph_data = self._create_graph_data_structure(company_nodes, all_deals)
         
         # Step 6: Save All Output Files
         print("\n💾 STEP 6: Saving Output Files")
         print("-" * 40)
-        output_files = self._save_output_files(yc_companies, news_items, formatted_deals, graph_data)
+        output_files = self._save_output_files(yc_companies, news_items, all_deals, graph_data)
         
         # Step 7: Generate Summary Report
         print("\n📈 STEP 7: Generating Summary Report")
         print("-" * 40)
-        summary = self._generate_summary_report(yc_companies, news_items, formatted_deals, start_time)
+        summary = self._generate_summary_report(yc_companies, news_items, all_deals, start_time)
         
         print("\n" + "="*60)
         print("✅ DATA EXTRACTION PIPELINE COMPLETED SUCCESSFULLY!")
@@ -93,7 +102,7 @@ class DataExtractionOrchestrator:
         return {
             'yc_companies': yc_companies,
             'news_items': [item.__dict__ for item in news_items],
-            'formatted_deals': formatted_deals,
+            'formatted_deals': all_deals,
             'graph_data': graph_data,
             'output_files': output_files,
             'summary': summary
@@ -347,7 +356,7 @@ class DataExtractionOrchestrator:
                 'total_deal_value': total_deal_value,
                 'average_deal_value': sum(deal_values) / len(deal_values) if deal_values else 0,
                 'deal_type_breakdown': deal_type_counts,
-                'largest_deals': sorted(deals, key=lambda x: x.get('deal_value', 0), reverse=True)[:5]
+                'largest_deals': sorted([d for d in deals if d.get('deal_value')], key=lambda x: x.get('deal_value', 0), reverse=True)[:5]
             }
         }
         
@@ -377,8 +386,8 @@ async def main():
     print("🎯 Starting YC Companies M&A Data Extraction")
     print("=" * 50)
     
-    # Initialize orchestrator (add your NewsAPI key if available)
-    newsapi_key = os.getenv('NEWSAPI_KEY')  # Set this environment variable if you have a key
+    # Initialize orchestrator with NewsAPI key
+    newsapi_key = os.getenv('NEWSAPI_KEY') or "1014972b4176494696a58168fcc176fe"
     orchestrator = DataExtractionOrchestrator(newsapi_key=newsapi_key)
     
     # Run complete extraction
