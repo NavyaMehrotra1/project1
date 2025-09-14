@@ -1,4 +1,4 @@
-#!/Users/navyamehrotra/project1/backend/venv/bin/python
+#!/Users/sutharsikakumar/project1-1/backend/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -1,0 +1,101 @@
+batch,color,deal_activity_count,extraordinary_score,id,industry,label,last_extraordinary_update,logo_source,logo_updated,logo_url,name,size,status,valuation
+S09,#4ecdc4,12,55,stripe_1757805824_1,Fintech,Stripe,2024-01-13T18:30:00,improved_scraper,1757803705.034213,https://images.ctfassets.net/fzn2n1nzq965/HTTOloNPhisV9P4hlMPNA/cacf1bb88b9fc492dfad34378d844280/Stripe_icon_-_square.svg,Stripe,80,Private,95000000000
+W16,#4ecdc4,20,55,openai_1757805824_2,AI,OpenAI,2024-01-13T18:30:00,,1757803446.910902,https://logo.clearbit.com/openai.com,OpenAI,80,Private,80000000000
+W08,#4ecdc4,1,50,airbnb_1757805824_3,Travel,Airbnb,2024-01-13T18:30:00,improved_scraper,1757803705.535709,https://a0.muscache.com/airbnb/static/logos/belo-200.png,Airbnb,65,Public,75000000000
+S12,#95a5a6,0,35,coinbase_1757805824_4,Crypto,Coinbase,2024-01-13T18:30:00,improved_scraper,1757803706.037148,https://images.ctfassets.net/q5ulk4bp65r7/3TBS4oVkD1ghowTqVQJlqj/2dfd4ea3b623a7c0d8deb2ff445dee9e/Consumer_Wordmark.svg,Coinbase,60,Public,60000000000
+S13,#95a5a6,1,35,doordash_1757805824_5,Food Delivery,DoorDash,2024-01-13T18:30:00,improved_scraper,1757803706.538419,https://cdn.doordash.com/media/consumer/home/landing/new/DoorDash_Logo_Red.svg,DoorDash,65,Public,50000000000
+W13,#95a5a6,4,30,canva_1757805824_6,Design,Canva,2024-01-13T18:30:00,,1757803452.643977,https://logo.clearbit.com/canva.com,Canva,80,Private,40000000000
+S12,#95a5a6,3,30,instacart_1757805824_7,Grocery,Instacart,2024-01-13T18:30:00,improved_scraper,1757803707.201859,https://logo.clearbit.com/instacart.com,Instacart,75,Private,39000000000
+W14,#95a5a6,1,30,cruise_1757805824_8,Autonomous Vehicles,Cruise,2024-01-13T18:30:00,improved_scraper,1757803707.716682,https://logo.clearbit.com/cruise.com,Cruise,60,Private,30000000000
+W12,#95a5a6,1,35,figma_1757805824_9,Design,Figma,2024-01-13T18:30:00,,1757803457.049703,https://logo.clearbit.com/figma.com,Figma,54,Acquired,20000000000
+W16,#95a5a6,3,30,miro_1757805824_10,Collaboration,Miro,2024-01-13T18:30:00,,1757803459.779781,https://logo.clearbit.com/miro.com,Miro,62,Private,17500000000
+W15,#95a5a6,20,35,gitlab_1757805824_11,DevTools,GitLab,2024-01-13T18:30:00,improved_scraper,1757803708.217984,https://about.gitlab.com/images/press/logo/svg/gitlab-logo-gray-rgb.svg,GitLab,80,Public,15000000000
+W15,#95a5a6,2,30,discord_1757805824_12,Communication,Discord,2024-01-13T18:30:00,,1757803463.69505,https://logo.clearbit.com/discord.com,Discord,55,Private,15000000000
+W14,#95a5a6,1,35,samsara_1757805824_13,IoT,Samsara,2024-01-13T18:30:00,,1757803466.157583,https://logo.clearbit.com/samsara.com,Samsara,50,Public,15000000000
+S21,#4ecdc4,18,40,anthropic_1757805824_14,AI,Anthropic,2024-01-13T18:30:00,,1757803469.0432582,https://logo.clearbit.com/anthropic.com,Anthropic,80,Private,15000000000
+S13,#4ecdc4,14,40,plaid_1757805824_15,Fintech,Plaid,2024-01-13T18:30:00,,1757803471.508715,https://logo.clearbit.com/plaid.com,Plaid,80,Private,13400000000
+W17,#95a5a6,1,30,faire_1757805824_16,B2B Marketplace,Faire,2024-01-13T18:30:00,improved_scraper,1757803708.735759,https://logo.clearbit.com/faire.com,Faire,50,Private,12400000000
+W17,#4ecdc4,8,40,brex_1757805824_17,Fintech,Brex,2024-01-13T18:30:00,improved_scraper,1757803709.2530491,https://logo.clearbit.com/brex.com,Brex,80,Private,12300000000
+S19,#95a5a6,2,30,deel_1757805824_18,HR Tech,Deel,2024-01-13T18:30:00,improved_scraper,1757803709.7724538,https://logo.clearbit.com/deel.com,Deel,52,Private,12000000000
+W17,#95a5a6,3,30,rippling_1757805824_19,HR Tech,Rippling,2024-01-13T18:30:00,improved_scraper,1757803710.285888,https://logo.clearbit.com/rippling.com,Rippling,56,Private,11250000000
+W12,#95a5a6,13,30,airtable_1757805824_20,Database,Airtable,2024-01-13T18:30:00,,1757803477.5308301,https://logo.clearbit.com/airtable.com,Airtable,80,Private,11000000000
+S19,#4ecdc4,0,45,notion_1757805824_21,Productivity,Notion,2024-01-13T18:30:00,,1757803479.979845,https://logo.clearbit.com/notion.com,Notion,60,Private,10000000000
+S05,#95a5a6,1,35,reddit_1757805824_22,Social Media,Reddit,2024-01-13T18:30:00,improved_scraper,1757803710.787137,https://www.redditstatic.com/shreddit/assets/favicon/192x192.png,Reddit,50,Public,10000000000
+W12,#95a5a6,3,30,gusto_1757805824_23,HR Tech,Gusto,2024-01-13T18:30:00,improved_scraper,1757803711.306205,https://logo.clearbit.com/gusto.com,Gusto,54,Private,9500000000
+W19,#4ecdc4,2,40,ramp_1757805824_24,Fintech,Ramp,2024-01-13T18:30:00,,1757803482.278807,https://bookface-images.s3.amazonaws.com/small_logos/d5d9ef305fdb2a6449bfa11545604de1f338a4ff.png,Ramp,60,Private,8100000000
+W14,#95a5a6,2,30,flexport_1757805824_25,Logistics,Flexport,2024-01-13T18:30:00,improved_scraper,1757803711.827965,https://logo.clearbit.com/flexport.com,Flexport,50,Private,8000000000
+S07,#ff6b6b,2,60,dropbox_1757805824_26,Cloud Storage,Dropbox,2024-01-13T18:30:00,improved_scraper,1757803712.329172,https://cfl.dropboxstatic.com/static/images/logo_catalog/dropbox_logo_glyph_blue_m1@2x-vflJ5vCl4.png,Dropbox,70,Public,8000000000
+W15,#4ecdc4,6,40,razorpay_1757805824_27,Fintech,Razorpay,2024-01-13T18:30:00,improved_scraper,1757803712.846572,https://logo.clearbit.com/razorpay.com,Razorpay,66,Private,7500000000
+W15,#4ecdc4,6,40,razorpay_2_1757805824_28,Fintech,Razorpay,2024-01-13T18:30:00,improved_scraper,1757803713.360467,https://logo.clearbit.com/razorpay.com,Razorpay,66,Private,7500000000
+S16,#4ecdc4,14,40,scale_ai_1757805824_29,AI,Scale AI,2024-01-13T18:30:00,improved_scraper,1757803716.171606,https://img.logo.dev/scaleai.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ,Scale AI,80,Private,7300000000
+S12,#4ecdc4,0,40,benchling_1757805824_30,Biotech,Benchling,2024-01-13T18:30:00,improved_scraper,1757803716.7880929,https://logo.clearbit.com/benchling.com,Benchling,60,Private,6100000000
+S13,#95a5a6,0,30,fivetran_1757805824_31,Data,Fivetran,2024-01-13T18:30:00,improved_scraper,1757803717.379309,https://logo.clearbit.com/fivetran.com,Fivetran,50,Private,5600000000
+W16,#95a5a6,3,30,rappi_1757805824_32,Delivery,Rappi,2024-01-13T18:30:00,improved_scraper,1757803717.965222,https://logo.clearbit.com/rappi.com,Rappi,50,Private,5250000000
+W16,#95a5a6,3,30,rappi_2_1757805824_33,Delivery,Rappi,2024-01-13T18:30:00,improved_scraper,1757803718.566114,https://logo.clearbit.com/rappi.com,Rappi,50,Private,5250000000
+S14,#95a5a6,2,30,checkr_1757805824_34,HR Tech,Checkr,2024-01-13T18:30:00,improved_scraper,1757803719.1348522,https://logo.clearbit.com/checkr.com,Checkr,50,Private,5000000000
+S12,#95a5a6,0,30,zapier_1757805824_35,Automation,Zapier,2024-01-13T18:30:00,improved_scraper,1757803719.956332,https://logo.clearbit.com/zapier.com,Zapier,50,Private,5000000000
+W13,#95a5a6,2,30,zenefits_1757805824_36,HR Tech,Zenefits,2024-01-13T18:30:00,improved_scraper,1757803720.575563,https://logo.clearbit.com/zenefits.com,Zenefits,50,Private,4500000000
+W17,#95a5a6,3,30,dbt_labs_1757805824_37,Data,dbt Labs,2024-01-13T18:30:00,,1757803493.5345001,https://logo.clearbit.com/dbtlabs.com,dbt Labs,50,Private,4200000000
+W20,#95a5a6,0,30,clubhouse_1757805824_38,Social Audio,Clubhouse,2024-01-13T18:30:00,,1757803495.987534,https://logo.clearbit.com/clubhouse.com,Clubhouse,50,Private,4000000000
+W16,#95a5a6,0,30,boom_supersonic_1757805824_39,Aerospace,Boom Supersonic,2024-01-13T18:30:00,,1757803498.40331,https://logo.clearbit.com/boomsupersonic.com,Boom Supersonic,50,Private,4000000000
+W13,#95a5a6,1,30,webflow_1757805824_40,Web Building,Webflow,2024-01-13T18:30:00,improved_scraper,1757803721.2641978,https://logo.clearbit.com/webflow.com,Webflow,50,Private,4000000000
+W13,#95a5a6,0,30,patreon_1757805824_41,Creator Economy,Patreon,2024-01-13T18:30:00,,1757803501.7649128,https://logo.clearbit.com/patreon.com,Patreon,50,Private,4000000000
+W12,#95a5a6,12,35,amplitude_1757805824_42,Analytics,Amplitude,2024-01-13T18:30:00,improved_scraper,1757803721.8794482,https://logo.clearbit.com/amplitude.com,Amplitude,80,Public,4000000000
+W17,#95a5a6,21,30,retool_1757805824_43,DevTools,Retool,2024-01-13T18:30:00,,1757803504.113007,https://bookface-images.s3.amazonaws.com/small_logos/ecc14f4467de840a1f3cab7b6be0c2d1c0ab785c.png,Retool,80,Private,3200000000
+W17,#95a5a6,21,30,retool_2_1757805824_44,DevTools,Retool,2024-01-13T18:30:00,,1757803504.113007,https://bookface-images.s3.amazonaws.com/small_logos/ecc14f4467de840a1f3cab7b6be0c2d1c0ab785c.png,Retool,80,Private,3200000000
+W16,#95a5a6,2,30,verkada_1757805824_45,Security,Verkada,2024-01-13T18:30:00,,1757803506.5809631,https://logo.clearbit.com/verkada.com,Verkada,50,Private,3200000000
+W15,#95a5a6,0,30,ironclad_1757805824_46,Legal Tech,Ironclad,2024-01-13T18:30:00,improved_scraper,1757803722.520712,https://logo.clearbit.com/ironclad.com,Ironclad,50,Private,3200000000
+S13,#95a5a6,1,30,zymergen_1757805824_47,Biotech,Zymergen,2024-01-13T18:30:00,,1757803509.795846,https://logo.clearbit.com/zymergen.com,Zymergen,50,Acquired,3200000000
+S11,#95a5a6,13,20,segment_1757805824_48,Analytics,Segment,2024-01-13T18:30:00,improved_scraper,1757803723.388757,https://logo.clearbit.com/segment.com,Segment,80,Acquired,3200000000
+W14,#95a5a6,7,30,launchdarkly_1757805824_49,DevTools,LaunchDarkly,2024-01-13T18:30:00,,1757803512.995012,https://logo.clearbit.com/launchdarkly.com,LaunchDarkly,62,Private,3000000000
+W13,#95a5a6,0,30,calendly_1757805824_50,Scheduling,Calendly,2024-01-13T18:30:00,,1757803515.402493,https://logo.clearbit.com/calendly.com,Calendly,50,Private,3000000000
+S15,#95a5a6,3,30,lattice_1757805824_51,HR Tech,Lattice,2024-01-13T18:30:00,improved_scraper,1757803724.020649,https://logo.clearbit.com/lattice.com,Lattice,50,Private,3000000000
+S11,#95a5a6,2,20,postmates_1757805824_52,Delivery,Postmates,2024-01-13T18:30:00,,1757803518.527309,https://logo.clearbit.com/postmates.com,Postmates,50,Acquired,2650000000
+S13,#95a5a6,8,30,sourcegraph_1757805824_53,DevTools,Sourcegraph,2024-01-13T18:30:00,,1757803520.937946,https://logo.clearbit.com/sourcegraph.com,Sourcegraph,66,Private,2600000000
+S20,#95a5a6,10,30,vercel_1757805824_54,DevTools,Vercel,2024-01-13T18:30:00,,1757803523.410354,https://logo.clearbit.com/vercel.com,Vercel,76,Private,2500000000
+S14,#4ecdc4,1,45,ginkgo_bioworks_1757805824_55,Biotech,Ginkgo Bioworks,2024-01-13T18:30:00,improved_scraper,1757803725.7265012,https://img.logo.dev/ginkgobioworks.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ,Ginkgo Bioworks,60,Public,2500000000
+S10,#95a5a6,1,35,pagerduty_1757805824_56,DevOps,PagerDuty,2024-01-13T18:30:00,,1757803524.891867,https://bookface-images.s3.amazonaws.com/small_logos/18fd6f870541d2398827dedc9e57678e8770c424.png,PagerDuty,50,Public,2500000000
+W14,#95a5a6,1,30,algolia_1757805824_57,Search,Algolia,2024-01-13T18:30:00,improved_scraper,1757803726.298622,https://logo.clearbit.com/algolia.com,Algolia,50,Private,2250000000
+W17,#95a5a6,6,30,clipboard_health_1757805824_58,Healthcare,Clipboard Health,2024-01-13T18:30:00,improved_scraper,1757803726.834526,https://logo.clearbit.com/clipboardhealth.com,Clipboard Health,54,Private,2000000000
+S20,#95a5a6,10,30,supabase_1757805824_59,Database,Supabase,2024-01-13T18:30:00,improved_scraper,1757803727.380078,https://logo.clearbit.com/supabase.com,Supabase,74,Private,2000000000
+S10,#95a5a6,4,30,docker_1757805824_60,DevTools,Docker,2024-01-13T18:30:00,,1757803528.3460999,https://bookface-images.s3.amazonaws.com/small_logos/8f74c3796e1b7675bab6c99118bcf9dd7b94ceec.png,Docker,50,Private,2000000000
+S17,#4ecdc4,2,40,mercury_1757805824_61,Fintech,Mercury,2024-01-13T18:30:00,,1757803530.799275,https://logo.clearbit.com/mercury.com,Mercury,60,Private,1600000000
+W20,#95a5a6,4,30,airbyte_1757805824_62,Data,Airbyte,2024-01-13T18:30:00,improved_scraper,1757803727.901673,https://logo.clearbit.com/airbyte.com,Airbyte,50,Private,1500000000
+W17,#95a5a6,2,30,pilot_1757805824_63,Accounting,Pilot,2024-01-13T18:30:00,improved_scraper,1757803728.44546,https://logo.clearbit.com/pilot.com,Pilot,50,Private,1200000000
+S09,#95a5a6,3,30,mixpanel_1757805824_64,Analytics,Mixpanel,2024-01-13T18:30:00,improved_scraper,1757803729.024588,https://logo.clearbit.com/mixpanel.com,Mixpanel,50,Private,1050000000
+W17,#4ecdc4,5,40,weights_&_biases_1757805824_65,AI/ML,Weights & Biases,2024-01-13T18:30:00,improved_scraper,1757803730.8990211,https://img.logo.dev/weights&biases.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ,Weights & Biases,60,Private,1000000000
+W16,#95a5a6,0,30,sendbird_1757805824_66,Communication,Sendbird,2024-01-13T18:30:00,improved_scraper,1757803731.425803,https://logo.clearbit.com/sendbird.com,Sendbird,50,Private,1000000000
+W10,#95a5a6,4,30,optimizely_1757805824_67,Analytics,Optimizely,2024-01-13T18:30:00,,1757803537.728431,https://bookface-images.s3.amazonaws.com/small_logos/0d8d48fc3d7aa043a1e1d86d30f84a388f342454.png,Optimizely,50,Private,1000000000
+W06,#95a5a6,9,35,23andme_1757805824_68,Healthcare,23andMe,2024-01-13T18:30:00,,1757803538.9063349,https://www.ycombinator.com/logos/medium/missing.png,23andMe,65,Public,1000000000
+S18,#95a5a6,9,30,planetscale_1757805824_69,Database,PlanetScale,2024-01-13T18:30:00,,1757803541.6901388,https://logo.clearbit.com/planetscale.com,PlanetScale,65,Private,1000000000
+W16,#95a5a6,0,20,loom_1757805824_70,Video,Loom,2024-01-13T18:30:00,,1757803542.422335,https://www.ycombinator.com/logos/medium/missing.png,Loom,50,Acquired,975000000
+S07,#95a5a6,0,20,twitch_1757805824_71,Gaming,Twitch,2024-01-13T18:30:00,improved_scraper,1757803731.984108,https://logo.clearbit.com/twitch.com,Twitch,50,Acquired,970000000
+W17,#4ecdc4,1,40,superhuman_1757805824_72,Email,Superhuman,2024-01-13T18:30:00,,1757803545.501448,https://logo.clearbit.com/superhuman.com,Superhuman,60,Private,825000000
+S14,#95a5a6,1,30,front_1757805824_73,Communication,Front,2024-01-13T18:30:00,improved_scraper,1757803732.675529,https://logo.clearbit.com/front.com,Front,50,Private,800000000
+W18,#95a5a6,2,30,substack_1757805824_74,Publishing,Substack,2024-01-13T18:30:00,improved_scraper,1757803733.3477209,https://logo.clearbit.com/substack.com,Substack,50,Private,650000000
+W14,#95a5a6,3,20,shipt_1757805824_75,Grocery,Shipt,2024-01-13T18:30:00,,1757803549.443955,https://logo.clearbit.com/shipt.com,Shipt,50,Acquired,550000000
+W20,#95a5a6,4,30,posthog_1757805824_76,Analytics,PostHog,2024-01-13T18:30:00,improved_scraper,1757803734.0400572,https://logo.clearbit.com/posthog.com,PostHog,50,Private,400000000
+W20,#95a5a6,5,30,hightouch_1757805824_77,Data,Hightouch,2024-01-13T18:30:00,improved_scraper,1757803734.7485409,https://logo.clearbit.com/hightouch.com,Hightouch,50,Private,400000000
+W19,#95a5a6,3,30,linear_1757805824_78,Project Management,Linear,2024-01-13T18:30:00,,1757803553.6283488,https://logo.clearbit.com/linear.com,Linear,50,Private,400000000
+W18,#95a5a6,3,30,hex_1757805824_79,Data,Hex,2024-01-13T18:30:00,,1757803556.016922,https://logo.clearbit.com/hex.com,Hex,50,Private,400000000
+W07,#95a5a6,1,20,weebly_1757805824_80,Web Building,Weebly,2024-01-13T18:30:00,improved_scraper,1757803735.4913988,https://logo.clearbit.com/weebly.com,Weebly,50,Acquired,365000000
+W17,#95a5a6,10,20,modern_fertility_1757805824_81,Healthcare,Modern Fertility,2024-01-13T18:30:00,improved_scraper,1757803736.2160242,https://logo.clearbit.com/modernfertility.com,Modern Fertility,62,Acquired,225000000
+W08,#95a5a6,2,20,heroku_1757805824_82,DevTools,Heroku,2024-01-13T18:30:00,improved_scraper,1757803736.7544682,https://logo.clearbit.com/heroku.com,Heroku,50,Acquired,212000000
+W20,#95a5a6,1,30,temporal_1757805824_83,Infrastructure,Temporal,2024-01-13T18:30:00,,1757803560.710631,https://logo.clearbit.com/temporal.com,Temporal,50,Private,200000000
+W15,#95a5a6,3,30,buildkite_1757805824_84,DevTools,Buildkite,2024-01-13T18:30:00,,1757803563.418874,https://logo.clearbit.com/buildkite.com,Buildkite,50,Private,200000000
+S16,#95a5a6,2,30,metabase_1757805824_85,Analytics,Metabase,2024-01-13T18:30:00,,1757803565.8068962,https://logo.clearbit.com/metabase.com,Metabase,50,Private,200000000
+S13,#95a5a6,4,20,clearbit_1757805824_86,Data,Clearbit,2024-01-13T18:30:00,,1757803568.196209,https://logo.clearbit.com/clearbit.com,Clearbit,50,Acquired,200000000
+W21,#95a5a6,1,30,preset_1757805824_87,Analytics,Preset,2024-01-13T18:30:00,,1757803571.70812,https://logo.clearbit.com/preset.com,Preset,50,Private,100000000
+W18,#95a5a6,4,30,hasura_1757805824_88,Database,Hasura,2024-01-13T18:30:00,,1757803574.4938009,https://logo.clearbit.com/hasura.com,Hasura,50,Private,100000000
+W17,#95a5a6,6,30,fly.io_1757805824_89,Infrastructure,Fly.io,2024-01-13T18:30:00,,1757803577.2317069,https://logo.clearbit.com/fly.io.com,Fly.io,50,Private,100000000
+W10,#95a5a6,3,30,healthtap_1757805824_90,Healthcare,Healthtap,2024-01-13T18:30:00,,1757803579.646404,https://logo.clearbit.com/healthtap.com,Healthtap,50,Private,100000000
+S21,#95a5a6,0,30,neon_1757805824_91,Database,Neon,2024-01-13T18:30:00,,1757803582.397011,https://logo.clearbit.com/neon.com,Neon,50,Private,100000000
+S19,#95a5a6,5,30,render_1757805824_92,Infrastructure,Render,2024-01-13T18:30:00,,1757803584.830456,https://logo.clearbit.com/render.com,Render,50,Private,100000000
+S19,#95a5a6,1,30,rudderstack_1757805824_93,Data,Rudderstack,2024-01-13T18:30:00,,1757803587.286748,https://logo.clearbit.com/rudderstack.com,Rudderstack,50,Private,100000000
+S18,#95a5a6,1,30,census_1757805824_94,Data,Census,2024-01-13T18:30:00,,1757803589.91258,https://logo.clearbit.com/census.com,Census,50,Private,100000000
+S13,#95a5a6,10,30,teespring_1757805824_95,E-commerce,Teespring,2024-01-13T18:30:00,improved_scraper,1757803737.3079429,https://logo.clearbit.com/teespring.com,Teespring,60,Private,100000000
+S11,#95a5a6,6,30,gumroad_1757805824_96,E-commerce,Gumroad,2024-01-13T18:30:00,,1757803593.3197849,https://logo.clearbit.com/gumroad.com,Gumroad,50,Private,100000000
+W21,#95a5a6,1,30,luma_1757805824_97,Events,Luma,2024-01-13T18:30:00,,1757803595.7476108,https://logo.clearbit.com/luma.com,Luma,50,Private,50000000
+W18,#95a5a6,2,30,cube_1757805824_98,Analytics,Cube,2024-01-13T18:30:00,,1757803596.711322,https://bookface-images.s3.amazonaws.com/small_logos/39ebc48cd35c22d4c08ba48f40dd02101c10e35a.png,Cube,50,Private,50000000
+W17,#95a5a6,2,30,observable_1757805824_99,Analytics,Observable,2024-01-13T18:30:00,improved_scraper,1757803738.560246,https://img.logo.dev/observable.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ,Observable,50,Private,50000000
+S20,#95a5a6,4,30,railway_1757805824_100,DevTools,Railway,2024-01-13T18:30:00,,1757803601.80559,https://logo.clearbit.com/railway.com,Railway,50,Private,50000000
