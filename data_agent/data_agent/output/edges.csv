@@ -1,0 +1,199 @@
+color,companies_mentioned,confidence_score,deal_date,deal_type,deal_value,description,label,source,source_company,target,target_company,weight
+#10b981,"Retool, Linear",0.7819920292980451,2024-11-22,partnership,,Strategic partnership within stripe ecosystem ecosystem,partnership (2024),YC_Relationship_Generator,Retool,linear,Linear,2
+#10b981,"Retool, PlanetScale",0.8327965827682552,2025-03-17,partnership,,Strategic partnership within stripe ecosystem ecosystem,partnership (2025),YC_Relationship_Generator,Retool,planetscale,PlanetScale,2
+#10b981,"Linear, Vercel",0.8738565679747812,2025-07-25,partnership,,Strategic partnership within stripe ecosystem ecosystem,partnership (2025),YC_Relationship_Generator,Linear,vercel,Vercel,2
+#10b981,"Linear, PlanetScale",0.7698405564877557,2024-02-27,partnership,,Strategic partnership within stripe ecosystem ecosystem,partnership (2024),YC_Relationship_Generator,Linear,planetscale,PlanetScale,2
+#10b981,"Vercel, PlanetScale",0.7206472260044403,2025-05-10,partnership,,Strategic partnership within stripe ecosystem ecosystem,partnership (2025),YC_Relationship_Generator,Vercel,planetscale,PlanetScale,2
+#10b981,"Anthropic, Scale AI",0.8170660408815089,2024-09-21,partnership,,Strategic partnership within openai ecosystem ecosystem,partnership (2024),YC_Relationship_Generator,Anthropic,scale_ai,Scale AI,2
+#10b981,"Anthropic, Weights & Biases",0.8046740526808871,2025-07-09,partnership,,Strategic partnership within openai ecosystem ecosystem,partnership (2025),YC_Relationship_Generator,Anthropic,weights_&_biases,Weights & Biases,2
+#10b981,"Scale AI, Weights & Biases",0.8132029248426296,2024-08-08,partnership,,Strategic partnership within openai ecosystem ecosystem,partnership (2024),YC_Relationship_Generator,Scale AI,weights_&_biases,Weights & Biases,2
+#10b981,"Vercel, Railway",0.8132562865750018,2024-11-15,partnership,,Strategic partnership within devtools cluster ecosystem,partnership (2024),YC_Relationship_Generator,Vercel,railway,Railway,2
+#10b981,"Vercel, Render",0.7961630386751373,2023-09-26,partnership,,Strategic partnership within devtools cluster ecosystem,partnership (2023),YC_Relationship_Generator,Vercel,render,Render,2
+#10b981,"Vercel, Fly.io",0.7522903326011572,2024-10-11,partnership,,Strategic partnership within devtools cluster ecosystem,partnership (2024),YC_Relationship_Generator,Vercel,fly.io,Fly.io,2
+#10b981,"PlanetScale, Railway",0.7436507022757559,2025-04-03,partnership,,Strategic partnership within devtools cluster ecosystem,partnership (2025),YC_Relationship_Generator,PlanetScale,railway,Railway,2
+#10b981,"PlanetScale, Render",0.7195573632698666,2024-10-24,partnership,,Strategic partnership within devtools cluster ecosystem,partnership (2024),YC_Relationship_Generator,PlanetScale,render,Render,2
+#10b981,"PlanetScale, Fly.io",0.8328326955867645,2024-04-16,partnership,,Strategic partnership within devtools cluster ecosystem,partnership (2024),YC_Relationship_Generator,PlanetScale,fly.io,Fly.io,2
+#10b981,"Railway, Fly.io",0.9408635886370397,2024-11-07,partnership,,Strategic partnership within devtools cluster ecosystem,partnership (2024),YC_Relationship_Generator,Railway,fly.io,Fly.io,2
+#10b981,"Render, Fly.io",0.853278290070151,2024-11-03,partnership,,Strategic partnership within devtools cluster ecosystem,partnership (2024),YC_Relationship_Generator,Render,fly.io,Fly.io,2
+#10b981,"Stripe, Brex",0.906341832440942,2024-05-20,partnership,,Strategic partnership within fintech cluster ecosystem,partnership (2024),YC_Relationship_Generator,Stripe,brex,Brex,2
+#10b981,"OpenAI, Anthropic",0.7322862795937705,2024-09-06,partnership,,Strategic partnership within ai cluster ecosystem,partnership (2024),YC_Relationship_Generator,OpenAI,anthropic,Anthropic,2
+#10b981,"OpenAI, Scale AI",0.747121444709051,2025-05-12,partnership,,Strategic partnership within ai cluster ecosystem,partnership (2025),YC_Relationship_Generator,OpenAI,scale_ai,Scale AI,2
+#10b981,"OpenAI, Weights & Biases",0.8219050815312132,2024-06-20,partnership,,Strategic partnership within ai cluster ecosystem,partnership (2024),YC_Relationship_Generator,OpenAI,weights_&_biases,Weights & Biases,2
+#64748b,"Stripe, Gumroad",0.8421620944728654,2025-05-01,partners_with,,Fintech partners with E-commerce,partners_with (2025),YC_Relationship_Generator,Stripe,gumroad,Gumroad,2
+#64748b,"Plaid, Teespring",0.921213412607865,2023-10-15,partners_with,,Fintech partners with E-commerce,partners_with (2023),YC_Relationship_Generator,Plaid,teespring,Teespring,2
+#64748b,"Plaid, Stripe",0.7478399291526288,2023-11-18,competes_with,,Fintech competes with Fintech,competes_with (2023),YC_Relationship_Generator,Plaid,stripe,Stripe,2
+#64748b,"Plaid, Gumroad",0.7277173691822083,2024-01-26,supplies_to,,Fintech supplies to E-commerce,supplies_to (2024),YC_Relationship_Generator,Plaid,gumroad,Gumroad,2
+#64748b,"Plaid, GitLab",0.8262234183677393,2023-11-02,integrates_with,,Fintech integrates with DevTools,integrates_with (2023),YC_Relationship_Generator,Plaid,gitlab,GitLab,2
+#64748b,"Brex, Retool",0.8614252894545764,2023-09-19,integrates_with,,Fintech integrates with DevTools,integrates_with (2023),YC_Relationship_Generator,Brex,retool,Retool,2
+#64748b,"Brex, Amplitude",0.7125015902009137,2025-02-11,integrates_with,,Fintech integrates with Analytics,integrates_with (2025),YC_Relationship_Generator,Brex,amplitude,Amplitude,2
+#64748b,"Stripe, Airtable",0.797073639993789,2025-06-23,integrates_with,,Fintech integrates with Database,integrates_with (2025),YC_Relationship_Generator,Stripe,airtable,Airtable,2
+#64748b,"Plaid, Airtable",0.8832409613925092,2025-06-06,integrates_with,,Fintech integrates with Database,integrates_with (2025),YC_Relationship_Generator,Plaid,airtable,Airtable,2
+#64748b,"Anthropic, GitLab",0.7925450042145166,2023-10-26,partners_with,,AI partners with DevTools,partners_with (2023),YC_Relationship_Generator,Anthropic,gitlab,GitLab,2
+#64748b,"Scale AI, GitLab",0.8427943523844496,2024-09-18,partners_with,,AI partners with DevTools,partners_with (2024),YC_Relationship_Generator,Scale AI,gitlab,GitLab,2
+#64748b,"OpenAI, Segment",0.7913659104616159,2024-09-24,partners_with,,AI partners with Analytics,partners_with (2024),YC_Relationship_Generator,OpenAI,segment,Segment,2
+#64748b,"Anthropic, Amplitude",0.8962678663494799,2024-09-14,partners_with,,AI partners with Analytics,partners_with (2024),YC_Relationship_Generator,Anthropic,amplitude,Amplitude,2
+#64748b,"Anthropic, Segment",0.764942465285494,2024-09-28,partners_with,,AI partners with Analytics,partners_with (2024),YC_Relationship_Generator,Anthropic,segment,Segment,2
+#64748b,"Scale AI, Segment",0.7604953968030204,2023-09-16,partners_with,,AI partners with Analytics,partners_with (2023),YC_Relationship_Generator,Scale AI,segment,Segment,2
+#64748b,"OpenAI, Supabase",0.9116931538326373,2025-04-24,partners_with,,AI partners with Database,partners_with (2025),YC_Relationship_Generator,OpenAI,supabase,Supabase,2
+#64748b,"Anthropic, Airtable",0.8940092015093343,2025-06-22,partners_with,,AI partners with Database,partners_with (2025),YC_Relationship_Generator,Anthropic,airtable,Airtable,2
+#64748b,"Scale AI, Airtable",0.7038244002746097,2025-01-22,partners_with,,AI partners with Database,partners_with (2025),YC_Relationship_Generator,Scale AI,airtable,Airtable,2
+#64748b,"OpenAI, Anthropic",0.8833198437805563,2025-04-12,competes_with,,AI competes with AI,competes_with (2025),YC_Relationship_Generator,OpenAI,anthropic,Anthropic,2
+#64748b,"Anthropic, OpenAI",0.8153840550035645,2024-12-28,competes_with,,AI competes with AI,competes_with (2024),YC_Relationship_Generator,Anthropic,openai,OpenAI,2
+#64748b,"Scale AI, OpenAI",0.9219435538097519,2025-04-24,competes_with,,AI competes with AI,competes_with (2025),YC_Relationship_Generator,Scale AI,openai,OpenAI,2
+#64748b,"Scale AI, Teespring",0.9314557177278421,2024-11-24,supplies_to,,AI supplies to E-commerce,supplies_to (2024),YC_Relationship_Generator,Scale AI,teespring,Teespring,2
+#64748b,"OpenAI, Clipboard Health",0.9427607257750321,2025-07-06,supplies_to,,AI supplies to Healthcare,supplies_to (2025),YC_Relationship_Generator,OpenAI,clipboard_health,Clipboard Health,2
+#64748b,"OpenAI, 23andMe",0.8256055121651275,2025-02-18,supplies_to,,AI supplies to Healthcare,supplies_to (2025),YC_Relationship_Generator,OpenAI,23andme,23andMe,2
+#64748b,"OpenAI, Stripe",0.9245988604438209,2024-02-02,supplies_to,,AI supplies to Fintech,supplies_to (2024),YC_Relationship_Generator,OpenAI,stripe,Stripe,2
+#64748b,"OpenAI, Plaid",0.7376754938801009,2025-06-13,supplies_to,,AI supplies to Fintech,supplies_to (2025),YC_Relationship_Generator,OpenAI,plaid,Plaid,2
+#64748b,"Anthropic, Plaid",0.8425767840723456,2024-02-09,supplies_to,,AI supplies to Fintech,supplies_to (2024),YC_Relationship_Generator,Anthropic,plaid,Plaid,2
+#64748b,"Scale AI, Stripe",0.9172921283706817,2024-11-17,supplies_to,,AI supplies to Fintech,supplies_to (2024),YC_Relationship_Generator,Scale AI,stripe,Stripe,2
+#64748b,"Anthropic, GitLab",0.8422951806262136,2024-04-03,integrates_with,,AI integrates with DevTools,integrates_with (2024),YC_Relationship_Generator,Anthropic,gitlab,GitLab,2
+#64748b,"Scale AI, GitLab",0.925819100493074,2023-10-28,integrates_with,,AI integrates with DevTools,integrates_with (2023),YC_Relationship_Generator,Scale AI,gitlab,GitLab,2
+#64748b,"Anthropic, Airtable",0.9299228386941489,2024-02-01,integrates_with,,AI integrates with Database,integrates_with (2024),YC_Relationship_Generator,Anthropic,airtable,Airtable,2
+#64748b,"Scale AI, Airtable",0.8478320885564548,2025-05-13,integrates_with,,AI integrates with Database,integrates_with (2025),YC_Relationship_Generator,Scale AI,airtable,Airtable,2
+#64748b,"Scale AI, Supabase",0.7326887552574435,2024-07-01,integrates_with,,AI integrates with Database,integrates_with (2024),YC_Relationship_Generator,Scale AI,supabase,Supabase,2
+#64748b,"OpenAI, Amplitude",0.7110383051741607,2023-12-27,integrates_with,,AI integrates with Analytics,integrates_with (2023),YC_Relationship_Generator,OpenAI,amplitude,Amplitude,2
+#64748b,"Anthropic, Segment",0.7819389925180861,2025-04-24,integrates_with,,AI integrates with Analytics,integrates_with (2025),YC_Relationship_Generator,Anthropic,segment,Segment,2
+#64748b,"GitLab, Airtable",0.893094976904966,2024-09-16,partners_with,,DevTools partners with Database,partners_with (2024),YC_Relationship_Generator,GitLab,airtable,Airtable,2
+#64748b,"GitLab, Supabase",0.7001179174476371,2024-03-07,partners_with,,DevTools partners with Database,partners_with (2024),YC_Relationship_Generator,GitLab,supabase,Supabase,2
+#64748b,"Retool, Supabase",0.8788857485826796,2025-07-01,partners_with,,DevTools partners with Database,partners_with (2025),YC_Relationship_Generator,Retool,supabase,Supabase,2
+#64748b,"Retool, Segment",0.7370583384636744,2025-06-17,partners_with,,DevTools partners with Analytics,partners_with (2025),YC_Relationship_Generator,Retool,segment,Segment,2
+#64748b,"Retool, Gumroad",0.7033367778926398,2025-04-08,supplies_to,,DevTools supplies to E-commerce,supplies_to (2025),YC_Relationship_Generator,Retool,gumroad,Gumroad,2
+#64748b,"Retool, Teespring",0.8098274862643664,2025-07-03,supplies_to,,DevTools supplies to E-commerce,supplies_to (2025),YC_Relationship_Generator,Retool,teespring,Teespring,2
+#64748b,"GitLab, Plaid",0.7488860341983706,2024-12-25,supplies_to,,DevTools supplies to Fintech,supplies_to (2024),YC_Relationship_Generator,GitLab,plaid,Plaid,2
+#64748b,"GitLab, Airtable",0.8166224641388269,2023-09-24,integrates_with,,DevTools integrates with Database,integrates_with (2023),YC_Relationship_Generator,GitLab,airtable,Airtable,2
+#64748b,"Retool, Airtable",0.8332012185873086,2025-06-27,integrates_with,,DevTools integrates with Database,integrates_with (2025),YC_Relationship_Generator,Retool,airtable,Airtable,2
+#64748b,"GitLab, Amplitude",0.8070802539828394,2025-03-07,integrates_with,,DevTools integrates with Analytics,integrates_with (2025),YC_Relationship_Generator,GitLab,amplitude,Amplitude,2
+#64748b,"GitLab, Segment",0.9326241711237211,2024-08-25,integrates_with,,DevTools integrates with Analytics,integrates_with (2024),YC_Relationship_Generator,GitLab,segment,Segment,2
+#64748b,"GitLab, Temporal",0.9348416564329927,2025-03-28,integrates_with,,DevTools integrates with Infrastructure,integrates_with (2025),YC_Relationship_Generator,GitLab,temporal,Temporal,2
+#64748b,"Clipboard Health, Amplitude",0.850603266836933,2024-12-16,partners_with,,Healthcare partners with Analytics,partners_with (2024),YC_Relationship_Generator,Clipboard Health,amplitude,Amplitude,2
+#64748b,"Modern Fertility, Amplitude",0.8118323896299624,2025-03-25,partners_with,,Healthcare partners with Analytics,partners_with (2025),YC_Relationship_Generator,Modern Fertility,amplitude,Amplitude,2
+#64748b,"Modern Fertility, Stripe",0.8213432413385138,2023-11-09,partners_with,,Healthcare partners with Fintech,partners_with (2023),YC_Relationship_Generator,Modern Fertility,stripe,Stripe,2
+#64748b,"Clipboard Health, Anthropic",0.7119755358162259,2024-12-20,uses,,Healthcare uses AI,uses (2024),YC_Relationship_Generator,Clipboard Health,anthropic,Anthropic,2
+#64748b,"23andMe, Anthropic",0.8149949166222012,2025-04-14,uses,,Healthcare uses AI,uses (2025),YC_Relationship_Generator,23andMe,anthropic,Anthropic,2
+#64748b,"Modern Fertility, OpenAI",0.8765902139314089,2024-11-25,uses,,Healthcare uses AI,uses (2024),YC_Relationship_Generator,Modern Fertility,openai,OpenAI,2
+#64748b,"Modern Fertility, GitLab",0.8996190257528068,2024-03-31,uses,,Healthcare uses DevTools,uses (2024),YC_Relationship_Generator,Modern Fertility,gitlab,GitLab,2
+#64748b,"Modern Fertility, Retool",0.8995671490414273,2025-02-16,uses,,Healthcare uses DevTools,uses (2025),YC_Relationship_Generator,Modern Fertility,retool,Retool,2
+#64748b,"Clipboard Health, Segment",0.8571043181245197,2024-06-11,uses,,Healthcare uses Analytics,uses (2024),YC_Relationship_Generator,Clipboard Health,segment,Segment,2
+#64748b,"23andMe, Amplitude",0.7645615980434809,2024-10-01,uses,,Healthcare uses Analytics,uses (2024),YC_Relationship_Generator,23andMe,amplitude,Amplitude,2
+#64748b,"23andMe, Segment",0.8763614824003308,2024-01-24,uses,,Healthcare uses Analytics,uses (2024),YC_Relationship_Generator,23andMe,segment,Segment,2
+#64748b,"23andMe, OpenAI",0.921308826150993,2024-09-07,integrates_with,,Healthcare integrates with AI,integrates_with (2024),YC_Relationship_Generator,23andMe,openai,OpenAI,2
+#64748b,"Modern Fertility, OpenAI",0.913373762765111,2024-03-17,integrates_with,,Healthcare integrates with AI,integrates_with (2024),YC_Relationship_Generator,Modern Fertility,openai,OpenAI,2
+#64748b,"Modern Fertility, Amplitude",0.7446278688124154,2023-10-08,integrates_with,,Healthcare integrates with Analytics,integrates_with (2023),YC_Relationship_Generator,Modern Fertility,amplitude,Amplitude,2
+#64748b,"Teespring, Plaid",0.763917115912357,2024-06-27,partners_with,,E-commerce partners with Fintech,partners_with (2024),YC_Relationship_Generator,Teespring,plaid,Plaid,2
+#64748b,"Gumroad, Plaid",0.9211990743770706,2024-07-04,partners_with,,E-commerce partners with Fintech,partners_with (2024),YC_Relationship_Generator,Gumroad,plaid,Plaid,2
+#64748b,"Teespring, Flexport",0.710878271888141,2025-05-07,partners_with,,E-commerce partners with Logistics,partners_with (2025),YC_Relationship_Generator,Teespring,flexport,Flexport,2
+#64748b,"Teespring, GitLab",0.9333472266373747,2024-05-01,uses,,E-commerce uses DevTools,uses (2024),YC_Relationship_Generator,Teespring,gitlab,GitLab,2
+#64748b,"Gumroad, Retool",0.7993344873524354,2023-12-21,uses,,E-commerce uses DevTools,uses (2023),YC_Relationship_Generator,Gumroad,retool,Retool,2
+#64748b,"Teespring, Amplitude",0.7707751593842436,2024-05-06,uses,,E-commerce uses Analytics,uses (2024),YC_Relationship_Generator,Teespring,amplitude,Amplitude,2
+#64748b,"Teespring, Stripe",0.7448252214816622,2024-06-08,integrates_with,,E-commerce integrates with Fintech,integrates_with (2024),YC_Relationship_Generator,Teespring,stripe,Stripe,2
+#64748b,"Teespring, Segment",0.8006901884577734,2025-05-07,integrates_with,,E-commerce integrates with Analytics,integrates_with (2025),YC_Relationship_Generator,Teespring,segment,Segment,2
+#3b82f6,"Stripe, Weights & Biases",0.9358184547228852,2024-06-07,investment,33000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Stripe,weights_&_biases,Weights & Biases,1
+#3b82f6,"Stripe, Pilot",0.9408187015334835,2025-06-23,investment,351000000,Strategic investment in emerging technology,investment (2025),YC_Relationship_Generator,Stripe,pilot,Pilot,1.053
+#3b82f6,"OpenAI, Render",0.9022838794128095,2024-05-19,investment,439000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,OpenAI,render,Render,1.317
+#3b82f6,"OpenAI, Hightouch",0.8004679320687295,2024-05-23,investment,190000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,OpenAI,hightouch,Hightouch,1
+#3b82f6,"Airbnb, Sourcegraph",0.7857013070002747,2024-02-24,investment,278000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Airbnb,sourcegraph,Sourcegraph,1
+#3b82f6,"DoorDash, Pilot",0.7074958605885787,2025-03-08,investment,205000000,Strategic investment in emerging technology,investment (2025),YC_Relationship_Generator,DoorDash,pilot,Pilot,1
+#3b82f6,"Canva, Observable",0.7035426073915417,2025-06-28,investment,329000000,Strategic investment in emerging technology,investment (2025),YC_Relationship_Generator,Canva,observable,Observable,1
+#3b82f6,"Canva, Mercury",0.8524371792407548,2024-08-17,investment,310000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Canva,mercury,Mercury,1
+#3b82f6,"Canva, Hasura",0.8396692835449853,2025-06-16,investment,369000000,Strategic investment in emerging technology,investment (2025),YC_Relationship_Generator,Canva,hasura,Hasura,1.107
+#ef4444,"Cruise, Supabase",0.7115762886681646,2024-11-19,acquisition,1018000000,Strategic acquisition to expand market presence,acquisition (2024),YC_Relationship_Generator,Cruise,supabase,Supabase,3.0540000000000003
+#ef4444,"Figma, PostHog",0.8021582654813482,2023-09-20,acquisition,1487000000,Strategic acquisition to expand market presence,acquisition (2023),YC_Relationship_Generator,Figma,posthog,PostHog,4.461
+#3b82f6,"Miro, Fly.io",0.7286037588063883,2024-03-19,investment,178000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Miro,fly.io,Fly.io,1
+#3b82f6,"Miro, Substack",0.9307902336840065,2025-05-24,investment,212000000,Strategic investment in emerging technology,investment (2025),YC_Relationship_Generator,Miro,substack,Substack,1
+#3b82f6,"GitLab, Heroku",0.7236721475711609,2025-05-10,investment,15000000,Strategic investment in emerging technology,investment (2025),YC_Relationship_Generator,GitLab,heroku,Heroku,1
+#3b82f6,"Discord, Mixpanel",0.8374851905009462,2024-10-22,investment,492000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Discord,mixpanel,Mixpanel,1.476
+#3b82f6,"Discord, Sourcegraph",0.7211626838355277,2024-12-17,investment,75000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Discord,sourcegraph,Sourcegraph,1
+#ef4444,"Anthropic, Rappi",0.8162901441642704,2024-11-24,acquisition,1029000000,Strategic acquisition to expand market presence,acquisition (2024),YC_Relationship_Generator,Anthropic,rappi,Rappi,3.0869999999999997
+#3b82f6,"Plaid, Superhuman",0.8627982575604098,2024-07-21,investment,210000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Plaid,superhuman,Superhuman,1
+#3b82f6,"Plaid, Hasura",0.9321583575114146,2025-04-27,investment,247000000,Strategic investment in emerging technology,investment (2025),YC_Relationship_Generator,Plaid,hasura,Hasura,1
+#3b82f6,"Faire, Buildkite",0.7454750549992593,2024-01-03,investment,423000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Faire,buildkite,Buildkite,1.269
+#ef4444,"Brex, Rappi",0.7454498868879289,2024-06-01,acquisition,117000000,Strategic acquisition to expand market presence,acquisition (2024),YC_Relationship_Generator,Brex,rappi,Rappi,1
+#3b82f6,"Brex, Shipt",0.8646011027991019,2024-01-02,investment,69000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Brex,shipt,Shipt,1
+#ef4444,"Deel, Clipboard Health",0.7563363579204202,2024-03-21,acquisition,482000000,Strategic acquisition to expand market presence,acquisition (2024),YC_Relationship_Generator,Deel,clipboard_health,Clipboard Health,1.446
+#3b82f6,"Deel, Sourcegraph",0.7012472454592167,2024-07-12,investment,469000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Deel,sourcegraph,Sourcegraph,1.407
+#ef4444,"Rippling, Heroku",0.9456009943009671,2025-01-21,acquisition,513000000,Strategic acquisition to expand market presence,acquisition (2025),YC_Relationship_Generator,Rippling,heroku,Heroku,1.5390000000000001
+#3b82f6,"Rippling, Docker",0.9105741880807123,2024-11-06,investment,168000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Rippling,docker,Docker,1
+#3b82f6,"Airtable, Weights & Biases",0.916867380896363,2024-10-03,investment,409000000,Strategic investment in emerging technology,investment (2024),YC_Relationship_Generator,Airtable,weights_&_biases,Weights & Biases,1.2269999999999999
+#64748b,"Stripe, Plaid",0.8244131900720346,2024-03-18,competition,,Direct competition in Fintech market,competition (2024),YC_Relationship_Generator,Stripe,plaid,Plaid,2
+#64748b,"Plaid, Brex",0.8078188652625813,2024-03-21,competition,,Direct competition in Fintech market,competition (2024),YC_Relationship_Generator,Plaid,brex,Brex,2
+#64748b,"Brex, Stripe",0.7607683487098471,2025-04-23,competition,,Direct competition in Fintech market,competition (2025),YC_Relationship_Generator,Brex,stripe,Stripe,2
+#64748b,"Brex, Razorpay",0.8353881780855436,2025-05-11,competition,,Direct competition in Fintech market,competition (2025),YC_Relationship_Generator,Brex,razorpay,Razorpay,2
+#64748b,"Ramp, Razorpay",0.773967410832781,2024-01-16,competition,,Direct competition in Fintech market,competition (2024),YC_Relationship_Generator,Ramp,razorpay,Razorpay,2
+#64748b,"Razorpay, Mercury",0.8699335188289756,2025-04-04,competition,,Direct competition in Fintech market,competition (2025),YC_Relationship_Generator,Razorpay,mercury,Mercury,2
+#64748b,"OpenAI, Anthropic",0.806199338565333,2023-11-05,competition,,Direct competition in AI market,competition (2023),YC_Relationship_Generator,OpenAI,anthropic,Anthropic,2
+#64748b,"OpenAI, Scale AI",0.9203341097373026,2025-01-16,competition,,Direct competition in AI market,competition (2025),YC_Relationship_Generator,OpenAI,scale_ai,Scale AI,2
+#64748b,"Anthropic, Scale AI",0.7761621057677723,2024-08-24,competition,,Direct competition in AI market,competition (2024),YC_Relationship_Generator,Anthropic,scale_ai,Scale AI,2
+#64748b,"Instacart, Shipt",0.7692605801482884,2023-10-10,competition,,Direct competition in Grocery market,competition (2023),YC_Relationship_Generator,Instacart,shipt,Shipt,2
+#64748b,"GitLab, Retool",0.850086238536883,2025-05-29,competition,,Direct competition in DevTools market,competition (2025),YC_Relationship_Generator,GitLab,retool,Retool,2
+#64748b,"Retool, LaunchDarkly",0.9226352271426583,2024-08-09,competition,,Direct competition in DevTools market,competition (2024),YC_Relationship_Generator,Retool,launchdarkly,LaunchDarkly,2
+#64748b,"LaunchDarkly, Vercel",0.769518837922155,2024-03-04,competition,,Direct competition in DevTools market,competition (2024),YC_Relationship_Generator,LaunchDarkly,vercel,Vercel,2
+#64748b,"Sourcegraph, Retool",0.7149162916673798,2024-01-16,competition,,Direct competition in DevTools market,competition (2024),YC_Relationship_Generator,Sourcegraph,retool,Retool,2
+#64748b,"Sourcegraph, LaunchDarkly",0.9480279206425312,2025-05-06,competition,,Direct competition in DevTools market,competition (2025),YC_Relationship_Generator,Sourcegraph,launchdarkly,LaunchDarkly,2
+#64748b,"Sourcegraph, Vercel",0.8968043218578897,2025-01-27,competition,,Direct competition in DevTools market,competition (2025),YC_Relationship_Generator,Sourcegraph,vercel,Vercel,2
+#64748b,"Sourcegraph, Docker",0.7812579363177213,2024-10-21,competition,,Direct competition in DevTools market,competition (2024),YC_Relationship_Generator,Sourcegraph,docker,Docker,2
+#64748b,"Docker, Vercel",0.745247251275064,2024-09-07,competition,,Direct competition in DevTools market,competition (2024),YC_Relationship_Generator,Docker,vercel,Vercel,2
+#64748b,"Buildkite, Docker",0.7514181234498112,2024-04-29,competition,,Direct competition in DevTools market,competition (2024),YC_Relationship_Generator,Buildkite,docker,Docker,2
+#64748b,"Railway, Buildkite",0.7590491239197704,2024-07-21,competition,,Direct competition in DevTools market,competition (2024),YC_Relationship_Generator,Railway,buildkite,Buildkite,2
+#64748b,"Rippling, Gusto",0.8484438519786262,2023-12-14,competition,,Direct competition in HR Tech market,competition (2023),YC_Relationship_Generator,Rippling,gusto,Gusto,2
+#64748b,"Checkr, Gusto",0.7793461099768435,2024-02-27,competition,,Direct competition in HR Tech market,competition (2024),YC_Relationship_Generator,Checkr,gusto,Gusto,2
+#64748b,"Zenefits, Gusto",0.8547036587329571,2024-06-21,competition,,Direct competition in HR Tech market,competition (2024),YC_Relationship_Generator,Zenefits,gusto,Gusto,2
+#64748b,"Zenefits, Lattice",0.937361914359008,2025-07-09,competition,,Direct competition in HR Tech market,competition (2025),YC_Relationship_Generator,Zenefits,lattice,Lattice,2
+#64748b,"Lattice, Checkr",0.7554728439303204,2024-02-25,competition,,Direct competition in HR Tech market,competition (2024),YC_Relationship_Generator,Lattice,checkr,Checkr,2
+#64748b,"Airtable, Supabase",0.8836041199960177,2025-04-04,competition,,Direct competition in Database market,competition (2025),YC_Relationship_Generator,Airtable,supabase,Supabase,2
+#64748b,"Airtable, PlanetScale",0.9174451493726876,2025-06-23,competition,,Direct competition in Database market,competition (2025),YC_Relationship_Generator,Airtable,planetscale,PlanetScale,2
+#64748b,"Supabase, PlanetScale",0.899795192898081,2023-12-11,competition,,Direct competition in Database market,competition (2023),YC_Relationship_Generator,Supabase,planetscale,PlanetScale,2
+#64748b,"Hasura, Supabase",0.7445226789005933,2024-09-09,competition,,Direct competition in Database market,competition (2024),YC_Relationship_Generator,Hasura,supabase,Supabase,2
+#64748b,"Hasura, PlanetScale",0.8302055953620912,2024-02-11,competition,,Direct competition in Database market,competition (2024),YC_Relationship_Generator,Hasura,planetscale,PlanetScale,2
+#64748b,"Zymergen, Ginkgo Bioworks",0.7322427063809309,2025-04-13,competition,,Direct competition in Biotech market,competition (2025),YC_Relationship_Generator,Zymergen,ginkgo_bioworks,Ginkgo Bioworks,2
+#64748b,"dbt Labs, Airbyte",0.8288594496006095,2024-07-02,competition,,Direct competition in Data market,competition (2024),YC_Relationship_Generator,dbt Labs,airbyte,Airbyte,2
+#64748b,"dbt Labs, Hightouch",0.8070550884786832,2023-11-27,competition,,Direct competition in Data market,competition (2023),YC_Relationship_Generator,dbt Labs,hightouch,Hightouch,2
+#64748b,"Airbyte, Hightouch",0.8907767738813697,2025-06-23,competition,,Direct competition in Data market,competition (2025),YC_Relationship_Generator,Airbyte,hightouch,Hightouch,2
+#64748b,"Airbyte, Hex",0.8224179804732226,2025-06-16,competition,,Direct competition in Data market,competition (2025),YC_Relationship_Generator,Airbyte,hex,Hex,2
+#64748b,"Hightouch, Clearbit",0.829289799224516,2024-02-14,competition,,Direct competition in Data market,competition (2024),YC_Relationship_Generator,Hightouch,clearbit,Clearbit,2
+#64748b,"Hex, Hightouch",0.9281932510604376,2024-07-17,competition,,Direct competition in Data market,competition (2024),YC_Relationship_Generator,Hex,hightouch,Hightouch,2
+#64748b,"Hex, Clearbit",0.7133670573207842,2025-02-19,competition,,Direct competition in Data market,competition (2025),YC_Relationship_Generator,Hex,clearbit,Clearbit,2
+#64748b,"Clearbit, Census",0.9127073803729594,2025-02-19,competition,,Direct competition in Data market,competition (2025),YC_Relationship_Generator,Clearbit,census,Census,2
+#64748b,"Rudderstack, Clearbit",0.9167313525773987,2025-06-21,competition,,Direct competition in Data market,competition (2025),YC_Relationship_Generator,Rudderstack,clearbit,Clearbit,2
+#64748b,"Postmates, Rappi",0.8881936434089162,2025-04-18,competition,,Direct competition in Delivery market,competition (2025),YC_Relationship_Generator,Postmates,rappi,Rappi,2
+#64748b,"Webflow, Weebly",0.7661329419920506,2024-12-16,competition,,Direct competition in Web Building market,competition (2024),YC_Relationship_Generator,Webflow,weebly,Weebly,2
+#64748b,"Mixpanel, PostHog",0.725306530536962,2024-01-21,competition,,Direct competition in Analytics market,competition (2024),YC_Relationship_Generator,Mixpanel,posthog,PostHog,2
+#64748b,"Optimizely, Segment",0.8500973614147025,2025-04-23,competition,,Direct competition in Analytics market,competition (2025),YC_Relationship_Generator,Optimizely,segment,Segment,2
+#64748b,"Optimizely, Mixpanel",0.7761692451811578,2024-07-03,competition,,Direct competition in Analytics market,competition (2024),YC_Relationship_Generator,Optimizely,mixpanel,Mixpanel,2
+#64748b,"PostHog, Optimizely",0.8353210397490052,2024-01-11,competition,,Direct competition in Analytics market,competition (2024),YC_Relationship_Generator,PostHog,optimizely,Optimizely,2
+#64748b,"PostHog, Metabase",0.8825336889840394,2024-11-09,competition,,Direct competition in Analytics market,competition (2024),YC_Relationship_Generator,PostHog,metabase,Metabase,2
+#64748b,"Metabase, Optimizely",0.8249355140641387,2024-05-04,competition,,Direct competition in Analytics market,competition (2024),YC_Relationship_Generator,Metabase,optimizely,Optimizely,2
+#64748b,"Cube, Preset",0.8658230627679089,2023-12-25,competition,,Direct competition in Analytics market,competition (2023),YC_Relationship_Generator,Cube,preset,Preset,2
+#64748b,"Cube, Observable",0.8869081033986795,2024-03-07,competition,,Direct competition in Analytics market,competition (2024),YC_Relationship_Generator,Cube,observable,Observable,2
+#64748b,"Clipboard Health, 23andMe",0.9129234809860933,2024-10-14,competition,,Direct competition in Healthcare market,competition (2024),YC_Relationship_Generator,Clipboard Health,23andme,23andMe,2
+#64748b,"23andMe, Healthtap",0.8122406782083397,2023-10-17,competition,,Direct competition in Healthcare market,competition (2023),YC_Relationship_Generator,23andMe,healthtap,Healthtap,2
+#64748b,"Modern Fertility, 23andMe",0.7115302881095149,2023-11-13,competition,,Direct competition in Healthcare market,competition (2023),YC_Relationship_Generator,Modern Fertility,23andme,23andMe,2
+#64748b,"Modern Fertility, Healthtap",0.9213730935888329,2025-03-15,competition,,Direct competition in Healthcare market,competition (2025),YC_Relationship_Generator,Modern Fertility,healthtap,Healthtap,2
+#64748b,"Render, Fly.io",0.8572413156747815,2025-02-28,competition,,Direct competition in Infrastructure market,competition (2025),YC_Relationship_Generator,Render,fly.io,Fly.io,2
+#64748b,"Teespring, Gumroad",0.8405325440533707,2023-10-03,competition,,Direct competition in E-commerce market,competition (2023),YC_Relationship_Generator,Teespring,gumroad,Gumroad,2
+#64748b,"GitLab, PagerDuty",0.8998446607434365,2024-03-07,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,GitLab,pagerduty,PagerDuty,2
+#64748b,"GitLab, Instacart",0.7520827245389794,2024-02-06,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,GitLab,instacart,Instacart,2
+#64748b,"GitLab, Algolia",0.8990486658279488,2024-07-07,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,GitLab,algolia,Algolia,2
+#64748b,"GitLab, Reddit",0.8635710642658494,2025-07-21,integration,,Platform integration and API partnership,integration (2025),YC_Relationship_Generator,GitLab,reddit,Reddit,2
+#64748b,"Airtable, Front",0.8076854461746201,2024-12-11,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Airtable,front,Front,2
+#64748b,"Amplitude, Postmates",0.7546874075690787,2023-10-01,integration,,Platform integration and API partnership,integration (2023),YC_Relationship_Generator,Amplitude,postmates,Postmates,2
+#64748b,"Amplitude, Lattice",0.7275575042927132,2024-06-07,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Amplitude,lattice,Lattice,2
+#64748b,"Amplitude, Flexport",0.7603158844078871,2024-05-28,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Amplitude,flexport,Flexport,2
+#64748b,"Retool, Verkada",0.788246203981735,2024-03-01,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Retool,verkada,Verkada,2
+#64748b,"Retool, Modern Fertility",0.7175466423954769,2023-12-27,integration,,Platform integration and API partnership,integration (2023),YC_Relationship_Generator,Retool,modern_fertility,Modern Fertility,2
+#64748b,"Retool, Substack",0.8417215263686367,2024-12-15,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Retool,substack,Substack,2
+#64748b,"Retool, Miro",0.8830328330234178,2025-03-06,integration,,Platform integration and API partnership,integration (2025),YC_Relationship_Generator,Retool,miro,Miro,2
+#64748b,"Retool, Ramp",0.7893422460335691,2024-10-09,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Retool,ramp,Ramp,2
+#64748b,"Retool, Healthtap",0.8313965915247791,2024-06-12,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Retool,healthtap,Healthtap,2
+#64748b,"Segment, dbt Labs",0.7397521467322464,2024-09-08,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Segment,dbt_labs,dbt Labs,2
+#64748b,"Segment, Dropbox",0.7916695432156374,2023-12-17,integration,,Platform integration and API partnership,integration (2023),YC_Relationship_Generator,Segment,dropbox,Dropbox,2
+#64748b,"Segment, Instacart",0.8692283882140746,2025-03-14,integration,,Platform integration and API partnership,integration (2025),YC_Relationship_Generator,Segment,instacart,Instacart,2
+#64748b,"LaunchDarkly, Luma",0.7065708488507807,2023-12-28,integration,,Platform integration and API partnership,integration (2023),YC_Relationship_Generator,LaunchDarkly,luma,Luma,2
+#64748b,"LaunchDarkly, Airbyte",0.7673050076308612,2025-08-08,integration,,Platform integration and API partnership,integration (2025),YC_Relationship_Generator,LaunchDarkly,airbyte,Airbyte,2
+#64748b,"LaunchDarkly, Dropbox",0.7259608914607609,2025-05-03,integration,,Platform integration and API partnership,integration (2025),YC_Relationship_Generator,LaunchDarkly,dropbox,Dropbox,2
+#64748b,"LaunchDarkly, Razorpay",0.8380088238846004,2024-10-27,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,LaunchDarkly,razorpay,Razorpay,2
+#64748b,"Sourcegraph, 23andMe",0.7686421514201879,2024-01-11,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Sourcegraph,23andme,23andMe,2
+#64748b,"Vercel, Shipt",0.7979177363010298,2024-04-06,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Vercel,shipt,Shipt,2
+#64748b,"Vercel, Canva",0.7778322496433737,2024-07-22,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Vercel,canva,Canva,2
+#64748b,"Supabase, Samsara",0.8013830997087328,2024-03-17,integration,,Platform integration and API partnership,integration (2024),YC_Relationship_Generator,Supabase,samsara,Samsara,2
+#64748b,"Supabase, Verkada",0.7434845108410306,2023-09-20,integration,,Platform integration and API partnership,integration (2023),YC_Relationship_Generator,Supabase,verkada,Verkada,2
