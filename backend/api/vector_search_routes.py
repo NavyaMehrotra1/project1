@@ -9,6 +9,7 @@ from pydantic import BaseModel
 import logging
 
 from services.vector_database_service import VectorDatabaseService, load_vector_db
+from services.vector_db_integration_service import get_vector_db_integration
 
 logger = logging.getLogger(__name__)
 
@@ -235,6 +236,73 @@ async def rebuild_database():
         raise HTTPException(status_code=500, detail=str(e))
 
 # Example queries for testing
+@router.post("/ma-events/search", response_model=SearchResponse)
+async def search_ma_events(request: SearchRequest):
+    """
+    Search specifically for M&A events
+    """
+    try:
+        db = get_vector_db()
+        results = db.search_ma_events(query=request.query, k=request.k)
+        
+        return SearchResponse(
+            results=results,
+            query=request.query,
+            total_results=len(results),
+            search_type="ma_event"
+        )
+        
+    except Exception as e:
+        logger.error(f"Error searching MA events: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/ma-events/recent")
+async def get_recent_ma_events(
+    hours: int = Query(24, description="Hours to look back for recent events"),
+    k: int = Query(10, description="Number of events to return")
+):
+    """
+    Get recent M&A events from the vector database
+    """
+    try:
+        integration_service = get_vector_db_integration()
+        results = await integration_service.get_recent_ma_events(hours=hours, k=k)
+        
+        return {
+            "recent_ma_events": results,
+            "hours_back": hours,
+            "total_results": len(results)
+        }
+        
+    except Exception as e:
+        logger.error(f"Error getting recent MA events: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/sync-ma-events")
+async def sync_ma_events():
+    """
+    Manually sync existing M&A events with vector database
+    """
+    try:
+        integration_service = get_vector_db_integration()
+        success = await integration_service.sync_with_ma_data()
+        
+        if success:
+            stats = integration_service.get_vector_db_stats()
+            return {
+                "message": "M&A events synced successfully",
+                "stats": stats
+            }
+        else:
+            raise HTTPException(
+                status_code=500,
+                detail="Failed to sync M&A events"
+            )
+        
+    except Exception as e:
+        logger.error(f"Error syncing MA events: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @router.get("/examples")
 async def get_example_queries():
     """
@@ -252,6 +320,13 @@ async def get_example_queries():
             "partnerships between AI companies",
             "connections in the fintech space",
             "companies that work together"
+        ],
+        "ma_event_searches": [
+            "recent acquisitions in AI space",
+            "merger and acquisition deals",
+            "partnerships between fintech companies",
+            "joint ventures in healthcare",
+            "high value acquisition deals"
         ],
         "similarity_searches": [
             "OpenAI",

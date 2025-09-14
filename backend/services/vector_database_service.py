@@ -8,6 +8,7 @@ import os
 from typing import List, Dict, Any, Optional
 from datetime import datetime
 import logging
+from pathlib import Path
 
 try:
     from langchain_openai import OpenAIEmbeddings
@@ -332,6 +333,130 @@ class VectorDatabaseService:
         
         return filtered_results[:k]
     
+    def add_ma_events_to_database(self, ma_events: List[Any]) -> bool:
+        """Add new MA events to the vector database incrementally"""
+        if not LANGCHAIN_AVAILABLE or not self.embeddings or not self.vectorstore:
+            logger.error("Cannot add MA events: Vector database not properly initialized")
+            return False
+        
+        try:
+            # Create documents from MA events
+            ma_documents = self.create_ma_event_documents(ma_events)
+            
+            if not ma_documents:
+                logger.info("No new MA event documents to add")
+                return True
+            
+            # Add documents to existing vector store
+            self.vectorstore.add_documents(ma_documents)
+            
+            logger.info(f"Added {len(ma_documents)} MA event documents to vector database")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Error adding MA events to vector database: {e}")
+            return False
+    
+    def create_ma_event_documents(self, ma_events: List[Any]) -> List[Any]:
+        """Convert MA events to LangChain documents"""
+        documents = []
+        
+        for event in ma_events:
+            # Create comprehensive text representation of MA event
+            event_text = self._format_ma_event_text(event)
+            
+            # Create document with metadata
+            if LANGCHAIN_AVAILABLE:
+                doc = LangChainDocument(
+                    page_content=event_text,
+                    metadata={
+                        'event_id': event.id,
+                        'event_type': event.event_type.value if hasattr(event.event_type, 'value') else str(event.event_type),
+                        'primary_company': event.primary_company.name if event.primary_company else 'Unknown',
+                        'secondary_company': event.secondary_company.name if event.secondary_company else None,
+                        'deal_value': event.deal_value if hasattr(event, 'deal_value') else None,
+                        'confidence_score': event.confidence_score if hasattr(event, 'confidence_score') else 0,
+                        'discovered_at': event.discovered_at.isoformat() if hasattr(event, 'discovered_at') else datetime.now().isoformat(),
+                        'type': 'ma_event'
+                    }
+                )
+                documents.append(doc)
+        
+        return documents
+    
+    def _format_ma_event_text(self, event: Any) -> str:
+        """Format MA event data as searchable text"""
+        parts = []
+        
+        # Event type and title
+        event_type = event.event_type.value if hasattr(event.event_type, 'value') else str(event.event_type)
+        parts.append(f"M&A Event: {event_type.replace('_', ' ').title()}")
+        
+        if hasattr(event, 'title') and event.title:
+            parts.append(f"Title: {event.title}")
+        
+        # Companies involved
+        if event.primary_company:
+            parts.append(f"Primary Company: {event.primary_company.name}")
+            if hasattr(event.primary_company, 'industry') and event.primary_company.industry:
+                parts.append(f"Primary Industry: {event.primary_company.industry}")
+        
+        if event.secondary_company:
+            parts.append(f"Secondary Company: {event.secondary_company.name}")
+            if hasattr(event.secondary_company, 'industry') and event.secondary_company.industry:
+                parts.append(f"Secondary Industry: {event.secondary_company.industry}")
+        
+        # Deal details
+        if hasattr(event, 'deal_value') and event.deal_value:
+            if event.deal_value >= 1_000_000_000:
+                parts.append(f"Deal Value: ${event.deal_value/1_000_000_000:.1f}B")
+            elif event.deal_value >= 1_000_000:
+                parts.append(f"Deal Value: ${event.deal_value/1_000_000:.1f}M")
+            else:
+                parts.append(f"Deal Value: ${event.deal_value:,.0f}")
+        
+        # Confidence and timing
+        if hasattr(event, 'confidence_score') and event.confidence_score:
+            confidence_pct = int(event.confidence_score * 100)
+            parts.append(f"Confidence: {confidence_pct}%")
+        
+        if hasattr(event, 'discovered_at') and event.discovered_at:
+            parts.append(f"Discovered: {event.discovered_at.strftime('%Y-%m-%d %H:%M')}")
+        
+        # Description
+        if hasattr(event, 'description') and event.description:
+            parts.append(f"Description: {event.description}")
+        
+        # Add searchable keywords based on event type
+        keywords = self._get_ma_event_keywords(event_type)
+        if keywords:
+            parts.append(f"Related terms: {', '.join(keywords)}")
+        
+        return ". ".join(parts) + "."
+    
+    def _get_ma_event_keywords(self, event_type: str) -> List[str]:
+        """Get additional searchable keywords for MA event types"""
+        keyword_map = {
+            'merger_acquisition': ['merger', 'acquisition', 'buyout', 'takeover', 'consolidation'],
+            'business_partnership': ['partnership', 'collaboration', 'alliance', 'cooperation'],
+            'joint_venture': ['joint venture', 'JV', 'partnership', 'collaboration'],
+            'strategic_alliance': ['strategic alliance', 'partnership', 'cooperation', 'collaboration'],
+            'consolidation': ['consolidation', 'merger', 'combination', 'integration'],
+            'funding_round': ['funding', 'investment', 'capital', 'financing', 'round'],
+            'ipo': ['IPO', 'public offering', 'going public', 'listing'],
+            'spin_off': ['spin-off', 'spinoff', 'divestiture', 'separation']
+        }
+        return keyword_map.get(event_type, [])
+    
+    def search_ma_events(self, query: str, k: int = 5) -> List[Dict[str, Any]]:
+        """Search specifically for MA events"""
+        return self.semantic_search(query, k=k, filter_type='ma_event')
+    
+    def get_recent_ma_events(self, hours: int = 24, k: int = 10) -> List[Dict[str, Any]]:
+        """Get recent MA events from the vector database"""
+        query = f"recent M&A events deals acquisitions partnerships discovered in last {hours} hours"
+        return self.search_ma_events(query, k=k)
+    
     def get_database_stats(self) -> Dict[str, Any]:
         """Get statistics about the vector database"""
         if not self.vectorstore:
@@ -342,11 +467,23 @@ class VectorDatabaseService:
             collection = self.vectorstore._collection
             count = collection.count()
             
+            # Try to get counts by document type
+            try:
+                # Get all documents to count types
+                all_docs = self.vectorstore.similarity_search("", k=count)
+                type_counts = {}
+                for doc in all_docs:
+                    doc_type = doc.metadata.get('type', 'unknown')
+                    type_counts[doc_type] = type_counts.get(doc_type, 0) + 1
+            except:
+                type_counts = {"total": count}
+            
             return {
                 "total_documents": count,
+                "document_types": type_counts,
                 "persist_directory": self.persist_directory,
                 "embedding_model": type(self.embeddings).__name__ if self.embeddings else "None",
-                "created_at": datetime.now().isoformat()
+                "last_updated": datetime.now().isoformat()
             }
         except Exception as e:
             return {"error": str(e)}
