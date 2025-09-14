@@ -1,14 +1,15 @@
 'use client'
 
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect, useCallback, useRef } from 'react'
 import { GraphVisualization } from './GraphVisualization'
 import { NodeDetailsPanel } from './NodeDetailsPanel'
 import { WhatIfSimulationPanel } from './WhatIfSimulationPanel'
 import { GraphData, SimulationResult } from '@/types'
 import { useWebSocket } from '@/services/websocket'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Settings, Wifi, WifiOff, Eye, EyeOff, BarChart3, Zap } from 'lucide-react'
+import { Settings, Wifi, WifiOff, Eye, EyeOff, BarChart3, Zap, Crown, Trophy, Star } from 'lucide-react'
 import toast from 'react-hot-toast'
+import * as d3 from 'd3'
 
 interface EnhancedGraphVisualizationProps {
   data: GraphData | null

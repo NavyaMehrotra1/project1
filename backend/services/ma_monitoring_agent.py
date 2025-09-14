@@ -8,6 +8,7 @@ import uuid
 
 from models.ma_events import MAEvent, AgentActivity, NotificationEvent, EcosystemImpact
 from services.ma_intelligence_service import MAIntelligenceService
+from services.vector_db_integration_service import get_vector_db_integration
 
 logger = logging.getLogger(__name__)
 
@@ -38,6 +39,7 @@ class MAMonitoringAgent:
         
         # Initialize services
         self.intelligence_service = None
+        self.vector_db_integration = get_vector_db_integration()
     
     async def start_monitoring(self):
         """Start the continuous monitoring process"""
@@ -157,6 +159,17 @@ class MAMonitoringAgent:
                     message=f"{event.primary_company.name} - {event.title}",
                     priority="high" if event.confidence_score > 0.7 else "medium"
                 )
+            
+            # Update vector database with new events
+            if truly_new_events:
+                try:
+                    vector_success = await self.vector_db_integration.process_new_ma_events(truly_new_events)
+                    if vector_success:
+                        logger.info(f"✅ Added {len(truly_new_events)} new MA events to vector database")
+                    else:
+                        logger.warning("⚠️ Failed to update vector database with new MA events")
+                except Exception as e:
+                    logger.error(f"Error updating vector database: {e}")
             
             self.last_search_time = datetime.now()
             
