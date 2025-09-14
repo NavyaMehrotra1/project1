@@ -101,6 +101,76 @@ npm run dev
 - Upload CSV files with deal data
 - Configure API keys for real-time updates
 
+## 🎯 HackMIT Rox Challenge: Real-World Messy Data Intelligence
+
+### Challenge Requirements
+> "Build a system that leverages large language models to operate on real-world, messy data and take meaningful actions. Qualifying teams must build agents that can handle unstructured information, incomplete datasets, conflicting sources, or noisy data - the kind of messy reality that exists in customer databases, support tickets, financial records, or operational systems."
+
+### Our Approach: Real-World M&A Intelligence Agent
+
+We've transformed our M&A intelligence platform into a sophisticated agent that demonstrates advanced handling of real-world data messiness:
+
+#### 🔄 Multi-Source Conflict Resolution
+- **Problem**: Different news sources report conflicting deal values, dates, and company names
+- **Solution**: Intelligent conflict resolution with source reliability weighting
+- **Example**: Resolving Microsoft-Activision reports ($68.7B vs $69B from Reuters vs TechCrunch)
+- **Techniques**: Fuzzy string matching, temporal logic, weighted voting systems
+
+#### 🎯 Dynamic Confidence Scoring
+- **Problem**: Static confidence scores don't reflect real data quality variations
+- **Solution**: 6-factor dynamic confidence based on source reliability, completeness, freshness
+- **Example**: SEC filing (0.95 confidence) vs Reddit rumor (0.30 confidence)
+- **Techniques**: Multi-dimensional quality assessment, transparent scoring explanations
+
+#### 📝 Unstructured Text Processing
+- **Problem**: M&A information buried in messy press releases, social media, SEC filings
+- **Solution**: Advanced NLP pipeline extracting structured data from chaos
+- **Example**: Processing poorly formatted press releases to extract deal terms
+- **Techniques**: Pattern matching, entity recognition, semantic consistency validation
+
+#### 🔍 Real-Time Noise Filtering
+- **Problem**: Social media filled with rumors, speculation, and false information
+- **Solution**: Intelligent signal detection separating real news from noise
+- **Example**: Filtering 5 chaotic social posts to identify 2 legitimate M&A events
+- **Techniques**: Credibility scoring, cross-source validation, semantic analysis
+
+#### 🌐 Robust Decision-Making Under Uncertainty
+- **Problem**: Making investment decisions with incomplete, conflicting information
+- **Solution**: Confidence propagation through entire processing pipeline
+- **Example**: Providing actionable intelligence even with partial data
+- **Techniques**: Uncertainty quantification, risk-aware recommendations
+
+### Technical Complexity Highlights
+- **Entity Resolution**: Handles "Microsoft" vs "MSFT" vs "Microsoft Corp"
+- **Financial Parsing**: Extracts "$2.5B" vs "2500 million dollars" vs "2.5 billion"
+- **Date Normalization**: Processes "Jan 15, 2024" vs "2024-01-15" vs "January 15th"
+- **Source Weighting**: Reuters (0.95) > TechCrunch (0.80) > Twitter (0.60) > Reddit (0.30)
+- **Confidence Propagation**: Tracks uncertainty through multi-stage processing
+
+### Real-World Messiness Demonstrated
+✅ **Conflicting Sources**: Same deal reported with different values across outlets  
+✅ **Incomplete Data**: Missing deal values, dates, or company information  
+✅ **Unstructured Text**: Poorly formatted press releases and social media posts  
+✅ **Noisy Signals**: Separating legitimate news from speculation and rumors  
+✅ **Inconsistent Formats**: Various date formats, currency notations, company names  
+✅ **Multi-Language**: Processing international sources with different conventions  
+
+### Practical Business Impact
+- **Investment Firms**: Track M&A activity with confidence-weighted intelligence
+- **Corporate Development**: Monitor competitor moves with noise-filtered alerts
+- **Financial News**: Aggregate and verify reports from multiple conflicting sources
+- **Regulatory Compliance**: Generate reliable reports from messy operational data
+- **Market Intelligence**: Make decisions under uncertainty with quantified confidence
+
+### Demo Scenarios
+1. **Conflicting Reports**: Resolve 3 different versions of Microsoft-Activision deal
+2. **Quality Assessment**: Compare high-quality SEC filing vs low-quality social media
+3. **Text Extraction**: Extract structured data from messy press release
+4. **Noise Filtering**: Process 5 chaotic social posts, identify 2 real events
+5. **System Integration**: Enhance existing platform with dynamic confidence
+
+This isn't just a clean demo - it's an agent that actually operates in the chaotic data environments that businesses deal with every day.
+
 ## 🎯 Hackathon Tracks
 
 ### YC Track: FundersClub 2.0

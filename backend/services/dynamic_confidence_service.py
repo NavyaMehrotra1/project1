@@ -350,17 +350,19 @@ class DynamicConfidenceService:
         """Count how many other sources confirm this event"""
         confirming_count = 0
         
-        event_companies = {
-            event.get('source_company', '').lower(),
-            event.get('target_company', '').lower()
-        }
+        event_companies = set()
+        if event.get('source_company'):
+            event_companies.add(event.get('source_company', '').lower())
+        if event.get('target_company'):
+            event_companies.add(event.get('target_company', '').lower())
         event_companies.discard('')
         
         for related_event in related_events:
-            related_companies = {
-                related_event.get('source_company', '').lower(),
-                related_event.get('target_company', '').lower()
-            }
+            related_companies = set()
+            if related_event.get('source_company'):
+                related_companies.add(related_event.get('source_company', '').lower())
+            if related_event.get('target_company'):
+                related_companies.add(related_event.get('target_company', '').lower())
             related_companies.discard('')
             
             # Check if events involve same companies
