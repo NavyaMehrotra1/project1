@@ -120,7 +120,7 @@ class ExtraordinaryProfile(BaseModel):
     profile_id: str
     generated_at: datetime = Field(default_factory=datetime.now)
     last_updated: datetime = Field(default_factory=datetime.now)
-    research_depth_score: float = Field(ge=0, le=1)
+    research_depth_score: float = Field(default=0.0, ge=0, le=1)
     
     # Core profile data
     notable_articles: List[NotableArticle] = []
