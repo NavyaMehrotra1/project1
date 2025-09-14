@@ -11,26 +11,25 @@ import logging
 from pathlib import Path
 
 try:
-    from langchain_openai import OpenAIEmbeddings
-    from langchain_chroma import Chroma
+    from langchain_community.embeddings import HuggingFaceEmbeddings
+    from langchain_community.vectorstores import Chroma
     from langchain_text_splitters import RecursiveCharacterTextSplitter
     from langchain_core.documents import Document as LangChainDocument
     LANGCHAIN_AVAILABLE = True
 except ImportError:
     try:
-        # Fallback to older imports
-        from langchain.embeddings import OpenAIEmbeddings
-        from langchain.vectorstores import Chroma
-        from langchain.text_splitter import RecursiveCharacterTextSplitter
-        from langchain.schema import Document as LangChainDocument
+        from langchain_openai import OpenAIEmbeddings
+        from langchain_chroma import Chroma
+        from langchain_text_splitters import RecursiveCharacterTextSplitter
+        from langchain_core.documents import Document as LangChainDocument
         LANGCHAIN_AVAILABLE = True
     except ImportError:
         try:
-            # Try community embeddings
-            from langchain_community.embeddings import HuggingFaceEmbeddings
-            from langchain_community.vectorstores import Chroma
-            from langchain_text_splitters import RecursiveCharacterTextSplitter
-            from langchain_core.documents import Document as LangChainDocument
+            # Fallback to older imports
+            from langchain.embeddings import OpenAIEmbeddings
+            from langchain.vectorstores import Chroma
+            from langchain.text_splitter import RecursiveCharacterTextSplitter
+            from langchain.schema import Document as LangChainDocument
             LANGCHAIN_AVAILABLE = True
         except ImportError:
             LANGCHAIN_AVAILABLE = False
@@ -53,28 +52,28 @@ class VectorDatabaseService:
     def _initialize_embeddings(self):
         """Initialize OpenAI embeddings or fallback to sentence transformers"""
         try:
-            # Try OpenAI embeddings first
+            # Try HuggingFace embeddings first (no API key required)
+            try:
+                self.embeddings = HuggingFaceEmbeddings(
+                    model_name="sentence-transformers/all-MiniLM-L6-v2"
+                )
+                logger.info("Using HuggingFace sentence transformers embeddings")
+                return
+            except ImportError:
+                pass
+            
+            # Try OpenAI embeddings if API key is available
             if os.getenv("OPENAI_API_KEY"):
-                self.embeddings = OpenAIEmbeddings()
-                logger.info("Using OpenAI embeddings")
-            else:
-                # Fallback to sentence transformers
                 try:
-                    from langchain_community.embeddings import HuggingFaceEmbeddings
-                    self.embeddings = HuggingFaceEmbeddings(
-                        model_name="sentence-transformers/all-MiniLM-L6-v2"
-                    )
-                    logger.info("Using HuggingFace sentence transformers embeddings")
+                    from langchain_openai import OpenAIEmbeddings
+                    self.embeddings = OpenAIEmbeddings()
+                    logger.info("Using OpenAI embeddings")
+                    return
                 except ImportError:
-                    try:
-                        from langchain.embeddings import HuggingFaceEmbeddings
-                        self.embeddings = HuggingFaceEmbeddings(
-                            model_name="sentence-transformers/all-MiniLM-L6-v2"
-                        )
-                        logger.info("Using HuggingFace sentence transformers embeddings")
-                    except ImportError:
-                        logger.error("No embedding model available. Install openai or sentence-transformers")
-                        return
+                    pass
+            
+            logger.error("No embedding model available. Install sentence-transformers or set OPENAI_API_KEY")
+            
         except Exception as e:
             logger.error(f"Error initializing embeddings: {e}")
     

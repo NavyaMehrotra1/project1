@@ -14,6 +14,7 @@ from services.logo_service import LogoService
 from api.exa_routes import router as exa_router
 from api.ma_agent_routes import router as ma_agent_router
 from api.extraordinary_routes import router as extraordinary_router
+from api.extraordinary_profile_routes import router as extraordinary_profile_router
 from api.impact_simulation_routes import router as impact_simulation_router
 from api.vector_search_routes import router as vector_search_router
 from models.schemas import (
@@ -43,6 +44,7 @@ graph_service = GraphService()
 app.include_router(exa_router)
 app.include_router(ma_agent_router)
 app.include_router(extraordinary_router)
+app.include_router(extraordinary_profile_router)
 app.include_router(impact_simulation_router)
 app.include_router(vector_search_router)
 

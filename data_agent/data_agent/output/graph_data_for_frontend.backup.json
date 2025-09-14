@@ -12,122 +12,37 @@
         "status": "Private",
         "valuation": 95000000000,
         "deal_activity_count": 12,
-        "extraordinary_score": 52,
+        "extraordinary_score": 30,
         "logo_url": "https://images.ctfassets.net/fzn2n1nzq965/HTTOloNPhisV9P4hlMPNA/cacf1bb88b9fc492dfad34378d844280/Stripe_icon_-_square.svg",
-        "last_extraordinary_update": "2025-09-13T20:55:26.615260",
+        "last_extraordinary_update": "2025-09-13T20:53:09.608890",
         "logo_updated": 1757803705.034213,
         "logo_source": "improved_scraper",
         "extraordinary_profile_generated": true,
-        "extraordinary_profile_score": 0.5226666666666667,
-        "research_depth_score": 0.46,
+        "extraordinary_profile_score": 0.3066666666666667,
+        "research_depth_score": 0.26,
         "data_completeness_score": 0.875,
         "research_metadata": {
-          "sources_analyzed": 61,
+          "sources_analyzed": 0,
           "queries_performed": 26,
           "ai_enhanced": false,
           "exa_api_used": true,
-          "research_timestamp": "2025-09-13T20:55:26.615319"
+          "research_timestamp": "2025-09-13T20:53:09.608916"
         },
-        "extraordinary_summary": "\ud83c\udfc6 Fortune 100 Best Companies to Work For (Fortune) | \ud83d\udcb0 $95.0B valuation | \ud83d\udc65 4,000 employees | \ud83d\udcf0 19 high-impact articles",
+        "extraordinary_summary": "\ud83c\udfc6 Fortune 100 Best Companies to Work For (Fortune) | \ud83d\udcb0 $95.0B valuation | \ud83d\udc65 4,000 employees",
         "notable_articles": [
           {
-            "title": "VC on 2 strategies that drove $95 billion Stripe's success",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/stripe-startup-successful-strategies-openview-sanjivkalevar-vc-2021-4",
-            "summary": "com/enterprise)\n\n# A VC lays out the 2 strategies he believes have made $95 billion Stripe so wildly successful\n\n[Rosalie Chan](https://www. com%2Fstripe-startup-successful-strategies-openview-sanjivk...",
-            "relevance_score": 0.85,
+            "title": "Stripe Achieves Major Milestone",
+            "source": "TechCrunch",
+            "url": "https://example.com/stripe-milestone",
+            "summary": "Stripe has achieved significant growth and recognition in the Fintech industry.",
+            "relevance_score": 0.8,
             "sentiment": "positive",
             "key_quotes": [
-              "strategy and its usage-based product pricing.\n\nAdvertisement",
-              "Basically the balance of power has shifted from the vendor to the customer, and usage-based pricing is the perfect alignment,"
+              "'Stripe is revolutionizing the industry'"
             ]
-          },
-          {
-            "title": "Stripe picks $1 million in carbon-removal projects to spur industry",
-            "source": "reuters.com",
-            "url": "https://www.reuters.com/article/us-climate-change-stripe/stripe-picks-1-million-in-carbon-removal-projects-to-spur-industry-idUSKBN22U1YK",
-            "summary": "com/article/us-climate-change-stripe/stripe-picks-1-million-in-carbon-removal-projects-to-spur-industry-idUSKBN22U1YK/#main-content)\n\n[Exclusive news, data and analytics for financial market professio...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "neutral",
-            "key_quotes": [
-              "It\u2019s terrific to see companies like Stripe making bold commitments about carbon removal,",
-              "It\u2019s terrific to see companies like Stripe making bold commitments about carbon removal,"
-            ]
-          },
-          {
-            "title": "Stripe\u2019s Patrick Collison Talks to MG Siegler About Vision and the Future",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/video/stripes-patrick-collison-talks-to-mg-siegler-about-vision-and-the-future/",
-            "summary": "# Stripe\u2019s Patrick Collison Talks to MG Siegler About Vision and the Future\n\n[TC Video](https://techcrunch. com/video/stripes-patrick-collison-talks-to-mg-siegler-about-vision-and-the-future/#comments...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "positive",
-            "key_quotes": []
-          },
-          {
-            "title": "Stripe, doubling down on embedded finance, de-couples payments from the rest of its stack",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2024/04/24/stripe-doubling-down-on-embedded-finance-de-couples-payments-from-the-rest-of-its-stack/?guccounter=1&guce_referrer=aHR0cHM6Ly9ob2xsYW5kZmludGVjaC5jb20v&guce_referrer_sig=AQAAAMue4MwPL7m0ZmjQMyOCTYwbEkeXgDlsSqmp3L_xPAwbL_Tp1LUHc5Qg5ooqPN9UFW7YaQtMaQ2GH0Pz-EsCiAxZ5fCiQ77tw_tk4agnBIO4mGkjITuAv060zq_IhS925Z8Xm24BfEEuJHyIluM8Anst2jGMW_cjgzS1xIR_YgKs",
-            "summary": "com/category/fintech/)\n\n# Stripe, doubling down on embedded finance, de-couples payments from the rest of its stack\n\n[Ingrid Lunden](https://techcrunch. com/author/ingrid-lunden/)\n\n11:32 AM PDT \u00b7 Apri...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "positive",
-            "key_quotes": []
-          },
-          {
-            "title": "Stripe goes beyond payments with Stripe Identity to provide AI-based ID verification for transactions and much more",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2021/06/14/stripe-goes-beyond-payments-with-stripe-identity-to-provide-ai-based-id-verification-for-transactions-and-much-more/",
-            "summary": "**Image Credits:** DKosig / Getty Images\n\n# Stripe goes beyond payments with Stripe Identity to provide AI-based ID verification for transactions and much more\n\n[Ingrid Lunden](https://techcrunch. com...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "neutral",
-            "key_quotes": []
-          },
-          {
-            "title": "Just how much cash does Stripe have?",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2024/08/27/just-how-much-cash-does-stripe-have/",
-            "summary": "com/category/fintech/)\n\n# Just how much cash does Stripe have?\n\n[Mary Ann Azevedo](https://techcrunch. com/tag/techcrunch-fintech/)! This week, we\u2019re looking at the craziness that is Bolt\u2019s proposed f...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "neutral",
-            "key_quotes": []
-          },
-          {
-            "title": "Stripe\u2019s growth continues to impress as total payment volume tops $1 trillion",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2024/03/13/stripes-growth-payment-1t-fintech/",
-            "summary": "com/category/fintech/)\n\n# Stripe\u2019s growth continues to impress as total payment volume tops $1 trillion\n\n## The payments infrastructure company says it\u2019s \u2018robustly cash flow positive\u2019\n\n[Alex Wilhelm](...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "positive",
-            "key_quotes": []
-          },
-          {
-            "title": "When foes become friends: Capital One partners with fintech giants Stripe, Adyen to prevent fraud",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2024/06/05/when-foes-become-friends-capital-one-partners-with-fintech-giants-stripe-adyen-to-prevent-fraud/?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAHhLdBcHkliHvowKXAOvoZHlrK7e0Zuv63NKt9K7dlx4KV-SDQm_USztZPlgX5FkhzXsgYNmzgsg2FwB3fQh0PPl_S0kGMqp5OXoONDuPrRUpHhtQ0TnOX5aGWCPIdTkkvtLFqJDGlDLhd0NgKG4TfsSaZfTBCz11fEUy1TTYUEm",
-            "summary": "com/category/fintech/)\n\n# When foes become friends: Capital One partners with fintech giants Stripe, Adyen to prevent fraud\n\n[Mary Ann Azevedo](https://techcrunch. In an unusual move, Capital One is t...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "neutral",
-            "key_quotes": []
-          },
-          {
-            "title": "How a tiny 4-person startup, Supaglue, caught Stripe\u2019s eye",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2024/03/29/supaglue-stripe-acquire-acquisition/",
-            "summary": "com/category/startups/)\n\n# How a tiny 4-person startup, Supaglue, caught Stripe\u2019s eye\n\n[Christine Hall](https://techcrunch. com/author/christine-hall/)\n\n6:30 AM PDT \u00b7 March 29, 2024\n\nIn [Stripe\u2019s annu...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "neutral",
-            "key_quotes": []
-          },
-          {
-            "title": "Stripe brings aboard new lead for \u2018startup and VC partnerships\u2019",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2025/02/03/stripe-brings-aboard-new-head-of-startup-and-vc-partnerships/",
-            "summary": "com/category/fintech/)\n\n# Stripe brings aboard new lead for \u2018startup and VC partnerships\u2019\n\n[Mary Ann Azevedo](https://techcrunch. com/author/mary-ann-azevedo/)\n\n3:09 PM PST \u00b7 February 3, 2025\n\nAsya Br...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "neutral",
-            "key_quotes": []
           }
         ],
-        "article_quality_score": 0.72,
+        "article_quality_score": 0.8,
         "recognitions": [
           {
             "title": "Fortune 100 Best Companies to Work For",
@@ -233,133 +148,36 @@
         "status": "Private",
         "valuation": 80000000000,
         "deal_activity_count": 20,
-        "extraordinary_score": 56,
+        "extraordinary_score": 32,
         "logo_url": "https://logo.clearbit.com/openai.com",
-        "last_extraordinary_update": "2025-09-13T20:56:05.151912",
+        "last_extraordinary_update": "2025-09-13T20:53:37.497968",
         "logo_updated": 1757803446.910902,
         "extraordinary_profile_generated": true,
-        "extraordinary_profile_score": 0.5690666666666667,
-        "research_depth_score": 0.46,
+        "extraordinary_profile_score": 0.32666666666666666,
+        "research_depth_score": 0.26,
         "data_completeness_score": 0.875,
         "research_metadata": {
-          "sources_analyzed": 74,
+          "sources_analyzed": 0,
           "queries_performed": 26,
           "ai_enhanced": false,
           "exa_api_used": true,
-          "research_timestamp": "2025-09-13T20:56:05.151959"
+          "research_timestamp": "2025-09-13T20:53:37.498003"
         },
-        "extraordinary_summary": "\ud83c\udfc6 OpenFortune is a 2024 Inc. Best Workplaces honoree! (inc.com) | \ud83d\udcb0 $80.0B valuation | \ud83d\udc65 1,500 employees | \ud83d\udcf0 25 high-impact articles",
+        "extraordinary_summary": "\ud83c\udfc6 OpenFortune is a 2024 Inc. Best Workplaces honoree! (inc.com) | \ud83d\udcb0 $80.0B valuation | \ud83d\udc65 1,500 employees",
         "notable_articles": [
           {
-            "title": "Meet Sam Altman, OpenAI's cofounder and CEO",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/sam-altman-chatgpt-openai-ceo-career-net-worth-ycombinator-prepper-2023-1?utm_medium=referral&amp;utm_source=yahoo.com",
-            "summary": "com/tech)\n\n# The rise of OpenAI's billionaire CEO, Sam Altman\n\nBy\n[Jordan Hart](https://www. com/author/britney-nguyen)\n\nSam Altman is the CEO of OpenAI, the maker of ChatGPT. me/4cpG/?af_js_web=true&...",
-            "relevance_score": 0.9,
+            "title": "OpenAI Achieves Major Milestone",
+            "source": "TechCrunch",
+            "url": "https://example.com/openai-milestone",
+            "summary": "OpenAI has achieved significant growth and recognition in the AI industry.",
+            "relevance_score": 0.8,
             "sentiment": "positive",
             "key_quotes": [
-              "Growing up gay in the Midwest in the two-thousands was not the most awesome thing,",
-              "And finding AOL chat rooms was transformative. Secrets are bad when you're eleven or twelve."
-            ]
-          },
-          {
-            "title": "Meet Sam Altman, OpenAI's cofounder and CEO",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/sam-altman-chatgpt-openai-ceo-career-net-worth-ycombinator-prepper-2023-1",
-            "summary": "com/tech)\n\n# The rise of OpenAI's billionaire CEO, Sam Altman\n\nBy\n[Jordan Hart](https://www. com/author/britney-nguyen)\n\nSam Altman is the CEO of OpenAI, the maker of ChatGPT. me/4cpG/?af_js_web=true&...",
-            "relevance_score": 0.9,
-            "sentiment": "positive",
-            "key_quotes": [
-              "Growing up gay in the Midwest in the two-thousands was not the most awesome thing,",
-              "And finding AOL chat rooms was transformative. Secrets are bad when you're eleven or twelve."
-            ]
-          },
-          {
-            "title": "OpenAI, Apple among most powerful tech companies to have on a r\u00e9sum\u00e9",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/openai-faang-anthropic-powerful-companies-on-resume-tech-jobs-2025-3",
-            "summary": "## Recruiters told us the most powerful tech companies to have on your r\u00e9sum\u00e9\n\nRecruiters said Nvidia, OpenAI, and the traditional FAANG companies are some of the most powerful names to have on a r\u00e9su...",
-            "relevance_score": 0.85,
-            "sentiment": "positive",
-            "key_quotes": [
-              "different segments, like consumer or enterprise markets. Stein said the company's partnership with OpenAI also contributed.\n\nThe head of US tech talent at global tech talent and engineering company Akkodis, Janelle Bieler, told BI that Microsoft has a",
-              "In this market, it's not just about where you worked, it's about what that brand signals to decision-makers,"
-            ]
-          },
-          {
-            "title": "Is OpenAI's Sam Altman building a tech dream or a sci-fi nightmare?",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/sam-altman-openai-chatgpt-worldcoin-helion-future-tech-2023-4?op=1",
-            "summary": "com%2Fsam-altman-openai-chatgpt-worldcoin-helion-future-tech-2023-4%3Fop=1?subject=He's played chess with Peter Thiel, sparred with Elon Musk and once, supposedly, stopped a plane crash: Inside Sam Al...",
-            "relevance_score": 0.85,
-            "sentiment": "neutral",
-            "key_quotes": [
-              "the whistleblower Edward Snowden tweeted. That evening, as the company got investors and friends up to speed on an impending launch, Altman was admittedly feeling uncertain. But,",
-              "to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return."
-            ]
-          },
-          {
-            "title": "Sam Altman on ChatGPT\u2019s First Two Years, Elon Musk and AI Under Trump",
-            "source": "bloomberg.com",
-            "url": "https://www.bloomberg.com/features/2025-sam-altman-interview/?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTczNjEyNjcwOSwiZXhwIjoxNzM2NzMxNTA5LCJhcnRpY2xlSWQiOiJTUE1ZR0FUMEFGQjQwMCIsImJjb25uZWN0SWQiOiJEQjlFREYyREVCMkE0OTVGOTgzMjczRUQxRjk1MTg0NSJ9.6jiA78jcYJ_tOJUUcSXH6nqZi5bhoKz4PqdRu4TMFyQ&amp;sref=CrGXSfHu&amp;ref=platformer.news&amp;leadSource=uverify%20wall",
-            "summary": "30, 2022, traffic to OpenAI\u2019s website peaked at a number a little north of zero. Within two months, OpenAI was being pounded by more than 100 million visitors trying, and freaking out about, [ChatGPT]...",
-            "relevance_score": 0.85,
-            "sentiment": "neutral",
-            "key_quotes": []
-          },
-          {
-            "title": "OpenAI launches GPT-4.5, its largest model to date",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2025/03/01/openai-launches-gpt-4-5-its-largest-model-to-date/",
-            "summary": "com/category/social/)\n\n# OpenAI launches GPT-4. This week we\u2019re diving into OpenAI\u2019s newest, biggest model GPT-4. **OpenAI announced the launch of GPT-4",
-            "relevance_score": 0.85,
-            "sentiment": "positive",
-            "key_quotes": []
-          },
-          {
-            "title": "OpenAI is turning its attention to \u2018superintelligence\u2019",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2025/01/05/openai-is-beginning-to-turn-its-attention-to-superintelligence/",
-            "summary": "com/category/artificial-intelligence/)\n\n# OpenAI is turning its attention to \u2018superintelligence\u2019\n\n[Kyle Wiggers](https://techcrunch. com/reflections), OpenAI CEO Sam Altman said that he believes OpenA...",
-            "relevance_score": 0.85,
-            "sentiment": "positive",
-            "key_quotes": []
-          },
-          {
-            "title": "ChatGPT doubled its weekly active users in under 6 months, thanks to new releases",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2025/03/06/chatgpt-doubled-its-weekly-active-users-in-under-6-months-thanks-to-new-releases/",
-            "summary": "com/author/sarah-perez/)\n\n1:04 PM PST \u00b7 March 6, 2025\n\nOpenAI\u2019s flagship AI chatbot, [ChatGPT](https://techcrunch. com/2023/11/06/openais-chatgpt-now-has-100-million-weekly-active-users/), which grew ...",
-            "relevance_score": 0.85,
-            "sentiment": "positive",
-            "key_quotes": []
-          },
-          {
-            "title": "Inside the mind of Sam Altman: How the OpenAI CEO sees the world",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/inside-mind-of-sam-altman-openai-ceo-worldview-interviews-writing-2024-11",
-            "summary": "com/tech)\n\n# The mind of Sam Altman\n\nFrom psychedelics to Rachmaninoff: how the CEO of OpenAI sees the world\n\nAlastair Grant/AP; Rebecca Zisser/BI\n\nBy [Adam Rogers](https://www. me/4cpG/?af_js_web=tru...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "negative",
-            "key_quotes": [
-              "OpenAI's CEO only uses 2 types of pens to take notes,",
-              "[How I Write](https://www.youtube.com/watch?v=6pxmdmlJCG0)"
-            ]
-          },
-          {
-            "title": "Exclusive: OpenAI's huge valuation hinges on upending corporate structure",
-            "source": "reuters.com",
-            "url": "https://www.reuters.com/technology/artificial-intelligence/openais-stunning-150-billion-valuation-hinges-upending-corporate-structure-2024-09-14/",
-            "summary": "com/item/the-annual-allen-and-co-sun-valley-media-and-technology-conference-in-sun-valley-idaho/dGFnOnJldXRlcnMuY29tLDIwMjQ6bmV3c21sX1JDMjVUOEFFTTdJTQ%3D%3D/?utm_medium=rcom-article-media&utm_campaign...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "positive",
-            "key_quotes": [
-              "The nonprofit is core to our mission and will continue to exist,",
-              "incentivize them to research, develop, and deploy AGI in a way that balances commerciality with safety and sustainability, rather than focusing on pure profit-maximization."
+              "'OpenAI is revolutionizing the industry'"
             ]
           }
         ],
-        "article_quality_score": 0.8079999999999999,
+        "article_quality_score": 0.8,
         "recognitions": [
           {
             "title": "OpenFortune is a 2024 Inc. Best Workplaces honoree!",
@@ -465,137 +283,37 @@
         "status": "Public",
         "valuation": 75000000000,
         "deal_activity_count": 1,
-        "extraordinary_score": 55,
+        "extraordinary_score": 32,
         "logo_url": "https://a0.muscache.com/airbnb/static/logos/belo-200.png",
-        "last_extraordinary_update": "2025-09-13T20:56:47.361761",
+        "last_extraordinary_update": "2025-09-13T20:54:03.190785",
         "logo_updated": 1757803705.535709,
         "logo_source": "improved_scraper",
         "extraordinary_profile_generated": true,
-        "extraordinary_profile_score": 0.5532,
-        "research_depth_score": 0.46,
+        "extraordinary_profile_score": 0.32999999999999996,
+        "research_depth_score": 0.26,
         "data_completeness_score": 0.875,
         "research_metadata": {
-          "sources_analyzed": 77,
+          "sources_analyzed": 0,
           "queries_performed": 26,
           "ai_enhanced": false,
           "exa_api_used": true,
-          "research_timestamp": "2025-09-13T20:56:47.361796"
+          "research_timestamp": "2025-09-13T20:54:03.190829"
         },
-        "extraordinary_summary": "\ud83c\udfc6 Fortune 100 Best Companies to Work For (Fortune) | \ud83d\udcb0 $75.0B valuation | \ud83d\udc65 6,000 employees | \ud83d\udcf0 24 high-impact articles",
+        "extraordinary_summary": "\ud83c\udfc6 Fortune 100 Best Companies to Work For (Fortune) | \ud83d\udcb0 $75.0B valuation | \ud83d\udc65 6,000 employees",
         "notable_articles": [
           {
-            "title": "Airbnb has its sights set on global dominance, beat hotels worldwide",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/airbnb-global-dominance-brazil-china-japan-chesky-cities-regulation-2024-12",
-            "summary": "com/real-estate)\n\n# Airbnb's big new push\n\nAmerican cities are cracking down on Airbnb \u2014 so it's expanding overseas. me/4cpG/?af_js_web=true&af_ss_ver=2_3_0&af_dp=insider%3A%2F%2Fbi%2Fpost%2Fairbnb-gl...",
-            "relevance_score": 0.85,
-            "sentiment": "neutral",
-            "key_quotes": [
-              "so that people think of why it's better to travel on Airbnb.",
-              "Even though those places that Airbnb could be pushing into may not have a \\[regulatory\\] framework, there's at least these examples where governments have recognized the need to protect housing and implemented successful ways of regulating it,"
-            ]
-          },
-          {
-            "title": "The life and career of Airbnb CEO Brian Chesky",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/airbnb-ceo-brian-chesky-30-billion-startup-2016-8",
-            "summary": "com/travel)\n\n# The rise of Airbnb CEO Brian Chesky, who got his start renting out air mattresses on his floor\n\nBy\n[Avery Hartmans](https://www. com/author/katherineli)\n\nAirbnb CEO Brian Chesky. me/4cp...",
-            "relevance_score": 0.85,
-            "sentiment": "neutral",
-            "key_quotes": [
-              "Earlier this year, he was happy to find out I'd be speaking at both my high school and college as the commencement speaker,",
-              "Before you get on the plane, there's something I need to tell you. We're going to start a company one day, and they're going to write a book about it,"
-            ]
-          },
-          {
-            "title": "Airbnb CEO says it\u2019s still too early for AI trip planning",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2025/02/14/airbnb-ceo-says-its-still-too-early-for-ai-trip-planning/",
-            "summary": "**Image Credits:** Airbnb\n\n[AI](https://techcrunch. com/category/artificial-intelligence/)\n\n# Airbnb CEO says it\u2019s still too early for AI trip planning\n\n[Sarah Perez](https://techcrunch. com/author/sa...",
-            "relevance_score": 0.85,
-            "sentiment": "positive",
-            "key_quotes": []
-          },
-          {
-            "title": "Airbnb CEO Brian Chesky represents a new breed of CEOs. Here's why his support for Ukrainian refugees is not surprising.",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/brian-chesky-airbnb-new-breed-ceo-2020-11",
-            "summary": "Airbnb CEO Brian Chesky. Mike Segar/Reuters\n\n- **Airbnb** **will offer free, short-term housing for up to 100,000 Ukrainians displaced by war. **\n\nAirbnb [announced on Monday](https://news",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "neutral",
-            "key_quotes": [
-              "**\n\nAt the onset of the pandemic, Chesky immediately realized that Airbnb would have to reassess how it was spending its money and make cuts where needed.",
-              "The greatest need we have is for more people who can offer their homes in nearby countries, including Poland, Germany, Hungary and Romania,"
-            ]
-          },
-          {
-            "title": "Airbnb's first investor pitch deck shows how to raise money",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/airbnb-a-13-billion-dollar-startups-first-ever-pitch-deck-2011-9?op=1&IR=T",
-            "summary": "com/tech)\n\n# Here's Airbnb's first-ever pitch deck, which helped it raise over $3 billion from investors\n\nBy\n[Ben Gilbert](https://www. com/author/alyson-shontell)\n\nAirbnb cofounders, from left: Brian...",
-            "relevance_score": 0.7999999999999999,
+            "title": "Airbnb Achieves Major Milestone",
+            "source": "TechCrunch",
+            "url": "https://example.com/airbnb-milestone",
+            "summary": "Airbnb has achieved significant growth and recognition in the Travel industry.",
+            "relevance_score": 0.8,
             "sentiment": "positive",
             "key_quotes": [
-              "## Back then, there were things like couch surfing, but there really wasn't an easy way to book a room with a local, which the founders thought could be cheaper than hotels.\n\n## The solution was a",
-              "There's no reason this couldn't be as big as Ebay. And this team is the right one to do it,"
-            ]
-          },
-          {
-            "title": "Airbnb shares jump on strong quarterly results, expansion plans",
-            "source": "reuters.com",
-            "url": "https://www.reuters.com/business/airbnb-shares-jump-strong-quarterly-results-expansion-plans-2025-02-14/",
-            "summary": "com/business/airbnb-shares-jump-strong-quarterly-results-expansion-plans-2025-02-14/#main-content)\n\n[Exclusive news, data and analytics for financial market professionalsLearn more aboutRefinitiv](htt...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "positive",
-            "key_quotes": [
-              "This instills confidence in our forecast for international markets to add tens of billions in bookings over the next several years,",
-              "I think that each business could take three to five years to scale. A great business could get to a billion dollars of revenue,"
-            ]
-          },
-          {
-            "title": "Airbnb plans to use AI, including its GamePlanner acquisition, to create the \u2018ultimate concierge\u2019",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2024/02/13/airbnb-plans-to-use-ai-including-its-gameplanner-acquisition-to-create-the-ultimate-concierge/",
-            "summary": "com/category/artificial-intelligence/)\n\n# Airbnb plans to use AI, including its GamePlanner acquisition, to create the \u2018ultimate concierge\u2019\n\n[Sarah Perez](https://techcrunch. com/author/sarah-perez/)\n...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "neutral",
-            "key_quotes": []
-          },
-          {
-            "title": "Airbnb releases group booking features as it taps into AI for customer service",
-            "source": "techcrunch.com",
-            "url": "https://techcrunch.com/2024/05/01/airbnb-releases-group-booking-features-as-it-taps-into-ai-for-customer-service/",
-            "summary": "**Image Credits:** Airbnb\n\n[Apps](https://techcrunch. com/category/apps/)\n\n# Airbnb releases group booking features as it taps into AI for customer service\n\n[Ivan Mehta](https://techcrunch. com/author...",
-            "relevance_score": 0.7999999999999999,
-            "sentiment": "neutral",
-            "key_quotes": []
-          },
-          {
-            "title": "The rise of Airbnb CEO Brian Chesky, who overcame the COVID-19 travel slump and is now leading the company through rental crackdowns",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/airbnb-ceo-brian-chesky?international=true&r=US&IR=T",
-            "summary": "com/real-estate)\n\n# The rise of Airbnb CEO Brian Chesky, who overcame the COVID-19 travel slump and is now leading the company through rental crackdowns\n\nBy\n[Jordan Hart](https://www. com/author/paige...",
-            "relevance_score": 0.75,
-            "sentiment": "neutral",
-            "key_quotes": [
-              "Before you get on the plane, there's something I need to tell you. We're going to start a company one day, and they're going to write a book about it,",
-              "Kicking up marketing spend at a moment when demand is softening tends to be the ultimate backbreaker for an internet stock in our experience,"
-            ]
-          },
-          {
-            "title": "This startup helps Airbnb hosts make a greater profit. Here's the pitch deck it used to raise $1.85 million.",
-            "source": "businessinsider.com",
-            "url": "https://www.businessinsider.com/pitch-deck-airbnb-startup-raised-million-seed-funding-2022-7",
-            "summary": "com/startups)\n\n# This startup helps Airbnb hosts make a greater profit. com%2Fpitch-deck-airbnb-startup-raised-million-seed-funding-2022-7?subject=This startup helps Airbnb hosts make a greater profit...",
-            "relevance_score": 0.75,
-            "sentiment": "neutral",
-            "key_quotes": [
-              "She added guests want to get their money's worth so they'll",
-              ".\n\nShe added it was crucial to highlight how the product would benefit the"
+              "'Airbnb is revolutionizing the industry'"
             ]
           }
         ],
-        "article_quality_score": 0.7440000000000001,
+        "article_quality_score": 0.8,
         "recognitions": [
           {
             "title": "Fortune 100 Best Companies to Work For",
@@ -2499,7 +2217,7 @@
         "deal_value": null,
         "deal_date": "2024-11-22",
         "description": "Strategic partnership within stripe ecosystem ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.7819920292980451,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -2522,7 +2240,7 @@
         "deal_value": null,
         "deal_date": "2025-03-17",
         "description": "Strategic partnership within stripe ecosystem ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.8327965827682552,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -2545,7 +2263,7 @@
         "deal_value": null,
         "deal_date": "2025-07-25",
         "description": "Strategic partnership within stripe ecosystem ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.8738565679747812,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Linear",
@@ -2568,7 +2286,7 @@
         "deal_value": null,
         "deal_date": "2024-02-27",
         "description": "Strategic partnership within stripe ecosystem ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.7698405564877557,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Linear",
@@ -2591,7 +2309,7 @@
         "deal_value": null,
         "deal_date": "2025-05-10",
         "description": "Strategic partnership within stripe ecosystem ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.7206472260044403,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Vercel",
@@ -2614,7 +2332,7 @@
         "deal_value": null,
         "deal_date": "2024-09-21",
         "description": "Strategic partnership within openai ecosystem ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.8170660408815089,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -2637,7 +2355,7 @@
         "deal_value": null,
         "deal_date": "2025-07-09",
         "description": "Strategic partnership within openai ecosystem ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.8046740526808871,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -2660,7 +2378,7 @@
         "deal_value": null,
         "deal_date": "2024-08-08",
         "description": "Strategic partnership within openai ecosystem ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.8132029248426296,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Scale AI",
@@ -2683,7 +2401,7 @@
         "deal_value": null,
         "deal_date": "2024-11-15",
         "description": "Strategic partnership within devtools cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.8132562865750018,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Vercel",
@@ -2706,7 +2424,7 @@
         "deal_value": null,
         "deal_date": "2023-09-26",
         "description": "Strategic partnership within devtools cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.7961630386751373,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Vercel",
@@ -2729,7 +2447,7 @@
         "deal_value": null,
         "deal_date": "2024-10-11",
         "description": "Strategic partnership within devtools cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.7522903326011572,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Vercel",
@@ -2752,7 +2470,7 @@
         "deal_value": null,
         "deal_date": "2025-04-03",
         "description": "Strategic partnership within devtools cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.7436507022757559,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "PlanetScale",
@@ -2775,7 +2493,7 @@
         "deal_value": null,
         "deal_date": "2024-10-24",
         "description": "Strategic partnership within devtools cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.7195573632698666,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "PlanetScale",
@@ -2798,7 +2516,7 @@
         "deal_value": null,
         "deal_date": "2024-04-16",
         "description": "Strategic partnership within devtools cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.8328326955867645,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "PlanetScale",
@@ -2821,7 +2539,7 @@
         "deal_value": null,
         "deal_date": "2024-11-07",
         "description": "Strategic partnership within devtools cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.9408635886370397,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Railway",
@@ -2844,7 +2562,7 @@
         "deal_value": null,
         "deal_date": "2024-11-03",
         "description": "Strategic partnership within devtools cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.853278290070151,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Render",
@@ -2867,7 +2585,7 @@
         "deal_value": null,
         "deal_date": "2024-05-20",
         "description": "Strategic partnership within fintech cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.906341832440942,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Stripe",
@@ -2890,7 +2608,7 @@
         "deal_value": null,
         "deal_date": "2024-09-06",
         "description": "Strategic partnership within ai cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.7322862795937705,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -2913,7 +2631,7 @@
         "deal_value": null,
         "deal_date": "2025-05-12",
         "description": "Strategic partnership within ai cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.747121444709051,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -2936,7 +2654,7 @@
         "deal_value": null,
         "deal_date": "2024-06-20",
         "description": "Strategic partnership within ai cluster ecosystem",
-        "confidence_score": 1,
+        "confidence_score": 0.8219050815312132,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -2959,7 +2677,7 @@
         "deal_value": null,
         "deal_date": "2025-05-01",
         "description": "Fintech partners with E-commerce",
-        "confidence_score": 1,
+        "confidence_score": 0.8421620944728654,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Stripe",
@@ -2982,7 +2700,7 @@
         "deal_value": null,
         "deal_date": "2023-10-15",
         "description": "Fintech partners with E-commerce",
-        "confidence_score": 1,
+        "confidence_score": 0.921213412607865,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Plaid",
@@ -3005,7 +2723,7 @@
         "deal_value": null,
         "deal_date": "2023-11-18",
         "description": "Fintech competes with Fintech",
-        "confidence_score": 1,
+        "confidence_score": 0.7478399291526288,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Plaid",
@@ -3028,7 +2746,7 @@
         "deal_value": null,
         "deal_date": "2024-01-26",
         "description": "Fintech supplies to E-commerce",
-        "confidence_score": 1,
+        "confidence_score": 0.7277173691822083,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Plaid",
@@ -3051,7 +2769,7 @@
         "deal_value": null,
         "deal_date": "2023-11-02",
         "description": "Fintech integrates with DevTools",
-        "confidence_score": 1,
+        "confidence_score": 0.8262234183677393,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Plaid",
@@ -3074,7 +2792,7 @@
         "deal_value": null,
         "deal_date": "2023-09-19",
         "description": "Fintech integrates with DevTools",
-        "confidence_score": 1,
+        "confidence_score": 0.8614252894545764,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Brex",
@@ -3097,7 +2815,7 @@
         "deal_value": null,
         "deal_date": "2025-02-11",
         "description": "Fintech integrates with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.7125015902009137,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Brex",
@@ -3120,7 +2838,7 @@
         "deal_value": null,
         "deal_date": "2025-06-23",
         "description": "Fintech integrates with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.797073639993789,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Stripe",
@@ -3143,7 +2861,7 @@
         "deal_value": null,
         "deal_date": "2025-06-06",
         "description": "Fintech integrates with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.8832409613925092,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Plaid",
@@ -3166,7 +2884,7 @@
         "deal_value": null,
         "deal_date": "2023-10-26",
         "description": "AI partners with DevTools",
-        "confidence_score": 1,
+        "confidence_score": 0.7925450042145166,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -3189,7 +2907,7 @@
         "deal_value": null,
         "deal_date": "2024-09-18",
         "description": "AI partners with DevTools",
-        "confidence_score": 1,
+        "confidence_score": 0.8427943523844496,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Scale AI",
@@ -3212,7 +2930,7 @@
         "deal_value": null,
         "deal_date": "2024-09-24",
         "description": "AI partners with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.7913659104616159,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -3235,7 +2953,7 @@
         "deal_value": null,
         "deal_date": "2024-09-14",
         "description": "AI partners with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.8962678663494799,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -3258,7 +2976,7 @@
         "deal_value": null,
         "deal_date": "2024-09-28",
         "description": "AI partners with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.764942465285494,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -3281,7 +2999,7 @@
         "deal_value": null,
         "deal_date": "2023-09-16",
         "description": "AI partners with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.7604953968030204,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Scale AI",
@@ -3304,7 +3022,7 @@
         "deal_value": null,
         "deal_date": "2025-04-24",
         "description": "AI partners with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.9116931538326373,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -3327,7 +3045,7 @@
         "deal_value": null,
         "deal_date": "2025-06-22",
         "description": "AI partners with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.8940092015093343,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -3350,7 +3068,7 @@
         "deal_value": null,
         "deal_date": "2025-01-22",
         "description": "AI partners with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.7038244002746097,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Scale AI",
@@ -3373,7 +3091,7 @@
         "deal_value": null,
         "deal_date": "2025-04-12",
         "description": "AI competes with AI",
-        "confidence_score": 1,
+        "confidence_score": 0.8833198437805563,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -3396,7 +3114,7 @@
         "deal_value": null,
         "deal_date": "2024-12-28",
         "description": "AI competes with AI",
-        "confidence_score": 1,
+        "confidence_score": 0.8153840550035645,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -3419,7 +3137,7 @@
         "deal_value": null,
         "deal_date": "2025-04-24",
         "description": "AI competes with AI",
-        "confidence_score": 1,
+        "confidence_score": 0.9219435538097519,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Scale AI",
@@ -3442,7 +3160,7 @@
         "deal_value": null,
         "deal_date": "2024-11-24",
         "description": "AI supplies to E-commerce",
-        "confidence_score": 1,
+        "confidence_score": 0.9314557177278421,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Scale AI",
@@ -3465,7 +3183,7 @@
         "deal_value": null,
         "deal_date": "2025-07-06",
         "description": "AI supplies to Healthcare",
-        "confidence_score": 1,
+        "confidence_score": 0.9427607257750321,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -3488,7 +3206,7 @@
         "deal_value": null,
         "deal_date": "2025-02-18",
         "description": "AI supplies to Healthcare",
-        "confidence_score": 1,
+        "confidence_score": 0.8256055121651275,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -3511,7 +3229,7 @@
         "deal_value": null,
         "deal_date": "2024-02-02",
         "description": "AI supplies to Fintech",
-        "confidence_score": 1,
+        "confidence_score": 0.9245988604438209,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -3534,7 +3252,7 @@
         "deal_value": null,
         "deal_date": "2025-06-13",
         "description": "AI supplies to Fintech",
-        "confidence_score": 1,
+        "confidence_score": 0.7376754938801009,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -3557,7 +3275,7 @@
         "deal_value": null,
         "deal_date": "2024-02-09",
         "description": "AI supplies to Fintech",
-        "confidence_score": 1,
+        "confidence_score": 0.8425767840723456,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -3580,7 +3298,7 @@
         "deal_value": null,
         "deal_date": "2024-11-17",
         "description": "AI supplies to Fintech",
-        "confidence_score": 1,
+        "confidence_score": 0.9172921283706817,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Scale AI",
@@ -3603,7 +3321,7 @@
         "deal_value": null,
         "deal_date": "2024-04-03",
         "description": "AI integrates with DevTools",
-        "confidence_score": 1,
+        "confidence_score": 0.8422951806262136,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -3626,7 +3344,7 @@
         "deal_value": null,
         "deal_date": "2023-10-28",
         "description": "AI integrates with DevTools",
-        "confidence_score": 1,
+        "confidence_score": 0.925819100493074,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Scale AI",
@@ -3649,7 +3367,7 @@
         "deal_value": null,
         "deal_date": "2024-02-01",
         "description": "AI integrates with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.9299228386941489,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -3672,7 +3390,7 @@
         "deal_value": null,
         "deal_date": "2025-05-13",
         "description": "AI integrates with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.8478320885564548,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Scale AI",
@@ -3695,7 +3413,7 @@
         "deal_value": null,
         "deal_date": "2024-07-01",
         "description": "AI integrates with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.7326887552574435,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Scale AI",
@@ -3718,7 +3436,7 @@
         "deal_value": null,
         "deal_date": "2023-12-27",
         "description": "AI integrates with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.7110383051741607,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -3741,7 +3459,7 @@
         "deal_value": null,
         "deal_date": "2025-04-24",
         "description": "AI integrates with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.7819389925180861,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -3764,7 +3482,7 @@
         "deal_value": null,
         "deal_date": "2024-09-16",
         "description": "DevTools partners with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.893094976904966,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -3787,7 +3505,7 @@
         "deal_value": null,
         "deal_date": "2024-03-07",
         "description": "DevTools partners with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.7001179174476371,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -3810,7 +3528,7 @@
         "deal_value": null,
         "deal_date": "2025-07-01",
         "description": "DevTools partners with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.8788857485826796,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -3833,7 +3551,7 @@
         "deal_value": null,
         "deal_date": "2025-06-17",
         "description": "DevTools partners with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.7370583384636744,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -3856,7 +3574,7 @@
         "deal_value": null,
         "deal_date": "2025-04-08",
         "description": "DevTools supplies to E-commerce",
-        "confidence_score": 1,
+        "confidence_score": 0.7033367778926398,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -3879,7 +3597,7 @@
         "deal_value": null,
         "deal_date": "2025-07-03",
         "description": "DevTools supplies to E-commerce",
-        "confidence_score": 1,
+        "confidence_score": 0.8098274862643664,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -3902,7 +3620,7 @@
         "deal_value": null,
         "deal_date": "2024-12-25",
         "description": "DevTools supplies to Fintech",
-        "confidence_score": 1,
+        "confidence_score": 0.7488860341983706,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -3925,7 +3643,7 @@
         "deal_value": null,
         "deal_date": "2023-09-24",
         "description": "DevTools integrates with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.8166224641388269,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -3948,7 +3666,7 @@
         "deal_value": null,
         "deal_date": "2025-06-27",
         "description": "DevTools integrates with Database",
-        "confidence_score": 1,
+        "confidence_score": 0.8332012185873086,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -3971,7 +3689,7 @@
         "deal_value": null,
         "deal_date": "2025-03-07",
         "description": "DevTools integrates with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.8070802539828394,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -3994,7 +3712,7 @@
         "deal_value": null,
         "deal_date": "2024-08-25",
         "description": "DevTools integrates with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.9326241711237211,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -4017,7 +3735,7 @@
         "deal_value": null,
         "deal_date": "2025-03-28",
         "description": "DevTools integrates with Infrastructure",
-        "confidence_score": 1,
+        "confidence_score": 0.9348416564329927,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -4040,7 +3758,7 @@
         "deal_value": null,
         "deal_date": "2024-12-16",
         "description": "Healthcare partners with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.850603266836933,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Clipboard Health",
@@ -4063,7 +3781,7 @@
         "deal_value": null,
         "deal_date": "2025-03-25",
         "description": "Healthcare partners with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.8118323896299624,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Modern Fertility",
@@ -4086,7 +3804,7 @@
         "deal_value": null,
         "deal_date": "2023-11-09",
         "description": "Healthcare partners with Fintech",
-        "confidence_score": 1,
+        "confidence_score": 0.8213432413385138,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Modern Fertility",
@@ -4109,7 +3827,7 @@
         "deal_value": null,
         "deal_date": "2024-12-20",
         "description": "Healthcare uses AI",
-        "confidence_score": 1,
+        "confidence_score": 0.7119755358162259,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Clipboard Health",
@@ -4132,7 +3850,7 @@
         "deal_value": null,
         "deal_date": "2025-04-14",
         "description": "Healthcare uses AI",
-        "confidence_score": 1,
+        "confidence_score": 0.8149949166222012,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "23andMe",
@@ -4155,7 +3873,7 @@
         "deal_value": null,
         "deal_date": "2024-11-25",
         "description": "Healthcare uses AI",
-        "confidence_score": 1,
+        "confidence_score": 0.8765902139314089,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Modern Fertility",
@@ -4178,7 +3896,7 @@
         "deal_value": null,
         "deal_date": "2024-03-31",
         "description": "Healthcare uses DevTools",
-        "confidence_score": 1,
+        "confidence_score": 0.8996190257528068,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Modern Fertility",
@@ -4201,7 +3919,7 @@
         "deal_value": null,
         "deal_date": "2025-02-16",
         "description": "Healthcare uses DevTools",
-        "confidence_score": 1,
+        "confidence_score": 0.8995671490414273,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Modern Fertility",
@@ -4224,7 +3942,7 @@
         "deal_value": null,
         "deal_date": "2024-06-11",
         "description": "Healthcare uses Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.8571043181245197,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Clipboard Health",
@@ -4247,7 +3965,7 @@
         "deal_value": null,
         "deal_date": "2024-10-01",
         "description": "Healthcare uses Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.7645615980434809,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "23andMe",
@@ -4270,7 +3988,7 @@
         "deal_value": null,
         "deal_date": "2024-01-24",
         "description": "Healthcare uses Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.8763614824003308,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "23andMe",
@@ -4293,7 +4011,7 @@
         "deal_value": null,
         "deal_date": "2024-09-07",
         "description": "Healthcare integrates with AI",
-        "confidence_score": 1,
+        "confidence_score": 0.921308826150993,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "23andMe",
@@ -4316,7 +4034,7 @@
         "deal_value": null,
         "deal_date": "2024-03-17",
         "description": "Healthcare integrates with AI",
-        "confidence_score": 1,
+        "confidence_score": 0.913373762765111,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Modern Fertility",
@@ -4339,7 +4057,7 @@
         "deal_value": null,
         "deal_date": "2023-10-08",
         "description": "Healthcare integrates with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.7446278688124154,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Modern Fertility",
@@ -4362,7 +4080,7 @@
         "deal_value": null,
         "deal_date": "2024-06-27",
         "description": "E-commerce partners with Fintech",
-        "confidence_score": 1,
+        "confidence_score": 0.763917115912357,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Teespring",
@@ -4385,7 +4103,7 @@
         "deal_value": null,
         "deal_date": "2024-07-04",
         "description": "E-commerce partners with Fintech",
-        "confidence_score": 1,
+        "confidence_score": 0.9211990743770706,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Gumroad",
@@ -4408,7 +4126,7 @@
         "deal_value": null,
         "deal_date": "2025-05-07",
         "description": "E-commerce partners with Logistics",
-        "confidence_score": 1,
+        "confidence_score": 0.710878271888141,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Teespring",
@@ -4431,7 +4149,7 @@
         "deal_value": null,
         "deal_date": "2024-05-01",
         "description": "E-commerce uses DevTools",
-        "confidence_score": 1,
+        "confidence_score": 0.9333472266373747,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Teespring",
@@ -4454,7 +4172,7 @@
         "deal_value": null,
         "deal_date": "2023-12-21",
         "description": "E-commerce uses DevTools",
-        "confidence_score": 1,
+        "confidence_score": 0.7993344873524354,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Gumroad",
@@ -4477,7 +4195,7 @@
         "deal_value": null,
         "deal_date": "2024-05-06",
         "description": "E-commerce uses Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.7707751593842436,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Teespring",
@@ -4500,7 +4218,7 @@
         "deal_value": null,
         "deal_date": "2024-06-08",
         "description": "E-commerce integrates with Fintech",
-        "confidence_score": 1,
+        "confidence_score": 0.7448252214816622,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Teespring",
@@ -4523,7 +4241,7 @@
         "deal_value": null,
         "deal_date": "2025-05-07",
         "description": "E-commerce integrates with Analytics",
-        "confidence_score": 1,
+        "confidence_score": 0.8006901884577734,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Teespring",
@@ -4546,7 +4264,7 @@
         "deal_value": 33000000,
         "deal_date": "2024-06-07",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.9358184547228852,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Stripe",
@@ -4569,7 +4287,7 @@
         "deal_value": 351000000,
         "deal_date": "2025-06-23",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.9408187015334835,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Stripe",
@@ -4592,7 +4310,7 @@
         "deal_value": 439000000,
         "deal_date": "2024-05-19",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.9022838794128095,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -4615,7 +4333,7 @@
         "deal_value": 190000000,
         "deal_date": "2024-05-23",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.8004679320687295,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -4638,7 +4356,7 @@
         "deal_value": 278000000,
         "deal_date": "2024-02-24",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.7857013070002747,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Airbnb",
@@ -4661,7 +4379,7 @@
         "deal_value": 205000000,
         "deal_date": "2025-03-08",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.7074958605885787,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "DoorDash",
@@ -4684,7 +4402,7 @@
         "deal_value": 329000000,
         "deal_date": "2025-06-28",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.7035426073915417,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Canva",
@@ -4707,7 +4425,7 @@
         "deal_value": 310000000,
         "deal_date": "2024-08-17",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.8524371792407548,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Canva",
@@ -4730,7 +4448,7 @@
         "deal_value": 369000000,
         "deal_date": "2025-06-16",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.8396692835449853,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Canva",
@@ -4753,7 +4471,7 @@
         "deal_value": 1018000000,
         "deal_date": "2024-11-19",
         "description": "Strategic acquisition to expand market presence",
-        "confidence_score": 1,
+        "confidence_score": 0.7115762886681646,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Cruise",
@@ -4776,7 +4494,7 @@
         "deal_value": 1487000000,
         "deal_date": "2023-09-20",
         "description": "Strategic acquisition to expand market presence",
-        "confidence_score": 1,
+        "confidence_score": 0.8021582654813482,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Figma",
@@ -4799,7 +4517,7 @@
         "deal_value": 178000000,
         "deal_date": "2024-03-19",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.7286037588063883,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Miro",
@@ -4822,7 +4540,7 @@
         "deal_value": 212000000,
         "deal_date": "2025-05-24",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.9307902336840065,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Miro",
@@ -4845,7 +4563,7 @@
         "deal_value": 15000000,
         "deal_date": "2025-05-10",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.7236721475711609,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -4868,7 +4586,7 @@
         "deal_value": 492000000,
         "deal_date": "2024-10-22",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.8374851905009462,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Discord",
@@ -4891,7 +4609,7 @@
         "deal_value": 75000000,
         "deal_date": "2024-12-17",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.7211626838355277,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Discord",
@@ -4914,7 +4632,7 @@
         "deal_value": 1029000000,
         "deal_date": "2024-11-24",
         "description": "Strategic acquisition to expand market presence",
-        "confidence_score": 1,
+        "confidence_score": 0.8162901441642704,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -4937,7 +4655,7 @@
         "deal_value": 210000000,
         "deal_date": "2024-07-21",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.8627982575604098,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Plaid",
@@ -4960,7 +4678,7 @@
         "deal_value": 247000000,
         "deal_date": "2025-04-27",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.9321583575114146,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Plaid",
@@ -4983,7 +4701,7 @@
         "deal_value": 423000000,
         "deal_date": "2024-01-03",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.7454750549992593,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Faire",
@@ -5006,7 +4724,7 @@
         "deal_value": 117000000,
         "deal_date": "2024-06-01",
         "description": "Strategic acquisition to expand market presence",
-        "confidence_score": 1,
+        "confidence_score": 0.7454498868879289,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Brex",
@@ -5029,7 +4747,7 @@
         "deal_value": 69000000,
         "deal_date": "2024-01-02",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.8646011027991019,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Brex",
@@ -5052,7 +4770,7 @@
         "deal_value": 482000000,
         "deal_date": "2024-03-21",
         "description": "Strategic acquisition to expand market presence",
-        "confidence_score": 1,
+        "confidence_score": 0.7563363579204202,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Deel",
@@ -5075,7 +4793,7 @@
         "deal_value": 469000000,
         "deal_date": "2024-07-12",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.7012472454592167,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Deel",
@@ -5098,7 +4816,7 @@
         "deal_value": 513000000,
         "deal_date": "2025-01-21",
         "description": "Strategic acquisition to expand market presence",
-        "confidence_score": 1,
+        "confidence_score": 0.9456009943009671,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Rippling",
@@ -5121,7 +4839,7 @@
         "deal_value": 168000000,
         "deal_date": "2024-11-06",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.9105741880807123,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Rippling",
@@ -5144,7 +4862,7 @@
         "deal_value": 409000000,
         "deal_date": "2024-10-03",
         "description": "Strategic investment in emerging technology",
-        "confidence_score": 1,
+        "confidence_score": 0.916867380896363,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Airtable",
@@ -5167,7 +4885,7 @@
         "deal_value": null,
         "deal_date": "2024-03-18",
         "description": "Direct competition in Fintech market",
-        "confidence_score": 1,
+        "confidence_score": 0.8244131900720346,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Stripe",
@@ -5190,7 +4908,7 @@
         "deal_value": null,
         "deal_date": "2024-03-21",
         "description": "Direct competition in Fintech market",
-        "confidence_score": 1,
+        "confidence_score": 0.8078188652625813,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Plaid",
@@ -5213,7 +4931,7 @@
         "deal_value": null,
         "deal_date": "2025-04-23",
         "description": "Direct competition in Fintech market",
-        "confidence_score": 1,
+        "confidence_score": 0.7607683487098471,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Brex",
@@ -5236,7 +4954,7 @@
         "deal_value": null,
         "deal_date": "2025-05-11",
         "description": "Direct competition in Fintech market",
-        "confidence_score": 1,
+        "confidence_score": 0.8353881780855436,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Brex",
@@ -5259,7 +4977,7 @@
         "deal_value": null,
         "deal_date": "2024-01-16",
         "description": "Direct competition in Fintech market",
-        "confidence_score": 1,
+        "confidence_score": 0.773967410832781,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Ramp",
@@ -5282,7 +5000,7 @@
         "deal_value": null,
         "deal_date": "2025-04-04",
         "description": "Direct competition in Fintech market",
-        "confidence_score": 1,
+        "confidence_score": 0.8699335188289756,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Razorpay",
@@ -5305,7 +5023,7 @@
         "deal_value": null,
         "deal_date": "2023-11-05",
         "description": "Direct competition in AI market",
-        "confidence_score": 1,
+        "confidence_score": 0.806199338565333,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -5328,7 +5046,7 @@
         "deal_value": null,
         "deal_date": "2025-01-16",
         "description": "Direct competition in AI market",
-        "confidence_score": 1,
+        "confidence_score": 0.9203341097373026,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "OpenAI",
@@ -5351,7 +5069,7 @@
         "deal_value": null,
         "deal_date": "2024-08-24",
         "description": "Direct competition in AI market",
-        "confidence_score": 1,
+        "confidence_score": 0.7761621057677723,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Anthropic",
@@ -5374,7 +5092,7 @@
         "deal_value": null,
         "deal_date": "2023-10-10",
         "description": "Direct competition in Grocery market",
-        "confidence_score": 1,
+        "confidence_score": 0.7692605801482884,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Instacart",
@@ -5397,7 +5115,7 @@
         "deal_value": null,
         "deal_date": "2025-05-29",
         "description": "Direct competition in DevTools market",
-        "confidence_score": 1,
+        "confidence_score": 0.850086238536883,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -5420,7 +5138,7 @@
         "deal_value": null,
         "deal_date": "2024-08-09",
         "description": "Direct competition in DevTools market",
-        "confidence_score": 1,
+        "confidence_score": 0.9226352271426583,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -5443,7 +5161,7 @@
         "deal_value": null,
         "deal_date": "2024-03-04",
         "description": "Direct competition in DevTools market",
-        "confidence_score": 1,
+        "confidence_score": 0.769518837922155,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "LaunchDarkly",
@@ -5466,7 +5184,7 @@
         "deal_value": null,
         "deal_date": "2024-01-16",
         "description": "Direct competition in DevTools market",
-        "confidence_score": 1,
+        "confidence_score": 0.7149162916673798,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Sourcegraph",
@@ -5489,7 +5207,7 @@
         "deal_value": null,
         "deal_date": "2025-05-06",
         "description": "Direct competition in DevTools market",
-        "confidence_score": 1,
+        "confidence_score": 0.9480279206425312,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Sourcegraph",
@@ -5512,7 +5230,7 @@
         "deal_value": null,
         "deal_date": "2025-01-27",
         "description": "Direct competition in DevTools market",
-        "confidence_score": 1,
+        "confidence_score": 0.8968043218578897,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Sourcegraph",
@@ -5535,7 +5253,7 @@
         "deal_value": null,
         "deal_date": "2024-10-21",
         "description": "Direct competition in DevTools market",
-        "confidence_score": 1,
+        "confidence_score": 0.7812579363177213,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Sourcegraph",
@@ -5558,7 +5276,7 @@
         "deal_value": null,
         "deal_date": "2024-09-07",
         "description": "Direct competition in DevTools market",
-        "confidence_score": 1,
+        "confidence_score": 0.745247251275064,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Docker",
@@ -5581,7 +5299,7 @@
         "deal_value": null,
         "deal_date": "2024-04-29",
         "description": "Direct competition in DevTools market",
-        "confidence_score": 1,
+        "confidence_score": 0.7514181234498112,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Buildkite",
@@ -5604,7 +5322,7 @@
         "deal_value": null,
         "deal_date": "2024-07-21",
         "description": "Direct competition in DevTools market",
-        "confidence_score": 1,
+        "confidence_score": 0.7590491239197704,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Railway",
@@ -5627,7 +5345,7 @@
         "deal_value": null,
         "deal_date": "2023-12-14",
         "description": "Direct competition in HR Tech market",
-        "confidence_score": 1,
+        "confidence_score": 0.8484438519786262,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Rippling",
@@ -5650,7 +5368,7 @@
         "deal_value": null,
         "deal_date": "2024-02-27",
         "description": "Direct competition in HR Tech market",
-        "confidence_score": 1,
+        "confidence_score": 0.7793461099768435,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Checkr",
@@ -5673,7 +5391,7 @@
         "deal_value": null,
         "deal_date": "2024-06-21",
         "description": "Direct competition in HR Tech market",
-        "confidence_score": 1,
+        "confidence_score": 0.8547036587329571,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Zenefits",
@@ -5696,7 +5414,7 @@
         "deal_value": null,
         "deal_date": "2025-07-09",
         "description": "Direct competition in HR Tech market",
-        "confidence_score": 1,
+        "confidence_score": 0.937361914359008,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Zenefits",
@@ -5719,7 +5437,7 @@
         "deal_value": null,
         "deal_date": "2024-02-25",
         "description": "Direct competition in HR Tech market",
-        "confidence_score": 1,
+        "confidence_score": 0.7554728439303204,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Lattice",
@@ -5742,7 +5460,7 @@
         "deal_value": null,
         "deal_date": "2025-04-04",
         "description": "Direct competition in Database market",
-        "confidence_score": 1,
+        "confidence_score": 0.8836041199960177,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Airtable",
@@ -5765,7 +5483,7 @@
         "deal_value": null,
         "deal_date": "2025-06-23",
         "description": "Direct competition in Database market",
-        "confidence_score": 1,
+        "confidence_score": 0.9174451493726876,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Airtable",
@@ -5788,7 +5506,7 @@
         "deal_value": null,
         "deal_date": "2023-12-11",
         "description": "Direct competition in Database market",
-        "confidence_score": 1,
+        "confidence_score": 0.899795192898081,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Supabase",
@@ -5811,7 +5529,7 @@
         "deal_value": null,
         "deal_date": "2024-09-09",
         "description": "Direct competition in Database market",
-        "confidence_score": 1,
+        "confidence_score": 0.7445226789005933,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Hasura",
@@ -5834,7 +5552,7 @@
         "deal_value": null,
         "deal_date": "2024-02-11",
         "description": "Direct competition in Database market",
-        "confidence_score": 1,
+        "confidence_score": 0.8302055953620912,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Hasura",
@@ -5857,7 +5575,7 @@
         "deal_value": null,
         "deal_date": "2025-04-13",
         "description": "Direct competition in Biotech market",
-        "confidence_score": 1,
+        "confidence_score": 0.7322427063809309,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Zymergen",
@@ -5880,7 +5598,7 @@
         "deal_value": null,
         "deal_date": "2024-07-02",
         "description": "Direct competition in Data market",
-        "confidence_score": 1,
+        "confidence_score": 0.8288594496006095,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "dbt Labs",
@@ -5903,7 +5621,7 @@
         "deal_value": null,
         "deal_date": "2023-11-27",
         "description": "Direct competition in Data market",
-        "confidence_score": 1,
+        "confidence_score": 0.8070550884786832,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "dbt Labs",
@@ -5926,7 +5644,7 @@
         "deal_value": null,
         "deal_date": "2025-06-23",
         "description": "Direct competition in Data market",
-        "confidence_score": 1,
+        "confidence_score": 0.8907767738813697,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Airbyte",
@@ -5949,7 +5667,7 @@
         "deal_value": null,
         "deal_date": "2025-06-16",
         "description": "Direct competition in Data market",
-        "confidence_score": 1,
+        "confidence_score": 0.8224179804732226,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Airbyte",
@@ -5972,7 +5690,7 @@
         "deal_value": null,
         "deal_date": "2024-02-14",
         "description": "Direct competition in Data market",
-        "confidence_score": 1,
+        "confidence_score": 0.829289799224516,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Hightouch",
@@ -5995,7 +5713,7 @@
         "deal_value": null,
         "deal_date": "2024-07-17",
         "description": "Direct competition in Data market",
-        "confidence_score": 1,
+        "confidence_score": 0.9281932510604376,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Hex",
@@ -6018,7 +5736,7 @@
         "deal_value": null,
         "deal_date": "2025-02-19",
         "description": "Direct competition in Data market",
-        "confidence_score": 1,
+        "confidence_score": 0.7133670573207842,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Hex",
@@ -6041,7 +5759,7 @@
         "deal_value": null,
         "deal_date": "2025-02-19",
         "description": "Direct competition in Data market",
-        "confidence_score": 1,
+        "confidence_score": 0.9127073803729594,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Clearbit",
@@ -6064,7 +5782,7 @@
         "deal_value": null,
         "deal_date": "2025-06-21",
         "description": "Direct competition in Data market",
-        "confidence_score": 1,
+        "confidence_score": 0.9167313525773987,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Rudderstack",
@@ -6087,7 +5805,7 @@
         "deal_value": null,
         "deal_date": "2025-04-18",
         "description": "Direct competition in Delivery market",
-        "confidence_score": 1,
+        "confidence_score": 0.8881936434089162,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Postmates",
@@ -6110,7 +5828,7 @@
         "deal_value": null,
         "deal_date": "2024-12-16",
         "description": "Direct competition in Web Building market",
-        "confidence_score": 1,
+        "confidence_score": 0.7661329419920506,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Webflow",
@@ -6133,7 +5851,7 @@
         "deal_value": null,
         "deal_date": "2024-01-21",
         "description": "Direct competition in Analytics market",
-        "confidence_score": 1,
+        "confidence_score": 0.725306530536962,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Mixpanel",
@@ -6156,7 +5874,7 @@
         "deal_value": null,
         "deal_date": "2025-04-23",
         "description": "Direct competition in Analytics market",
-        "confidence_score": 1,
+        "confidence_score": 0.8500973614147025,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Optimizely",
@@ -6179,7 +5897,7 @@
         "deal_value": null,
         "deal_date": "2024-07-03",
         "description": "Direct competition in Analytics market",
-        "confidence_score": 1,
+        "confidence_score": 0.7761692451811578,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Optimizely",
@@ -6202,7 +5920,7 @@
         "deal_value": null,
         "deal_date": "2024-01-11",
         "description": "Direct competition in Analytics market",
-        "confidence_score": 1,
+        "confidence_score": 0.8353210397490052,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "PostHog",
@@ -6225,7 +5943,7 @@
         "deal_value": null,
         "deal_date": "2024-11-09",
         "description": "Direct competition in Analytics market",
-        "confidence_score": 1,
+        "confidence_score": 0.8825336889840394,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "PostHog",
@@ -6248,7 +5966,7 @@
         "deal_value": null,
         "deal_date": "2024-05-04",
         "description": "Direct competition in Analytics market",
-        "confidence_score": 1,
+        "confidence_score": 0.8249355140641387,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Metabase",
@@ -6271,7 +5989,7 @@
         "deal_value": null,
         "deal_date": "2023-12-25",
         "description": "Direct competition in Analytics market",
-        "confidence_score": 1,
+        "confidence_score": 0.8658230627679089,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Cube",
@@ -6294,7 +6012,7 @@
         "deal_value": null,
         "deal_date": "2024-03-07",
         "description": "Direct competition in Analytics market",
-        "confidence_score": 1,
+        "confidence_score": 0.8869081033986795,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Cube",
@@ -6317,7 +6035,7 @@
         "deal_value": null,
         "deal_date": "2024-10-14",
         "description": "Direct competition in Healthcare market",
-        "confidence_score": 1,
+        "confidence_score": 0.9129234809860933,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Clipboard Health",
@@ -6340,7 +6058,7 @@
         "deal_value": null,
         "deal_date": "2023-10-17",
         "description": "Direct competition in Healthcare market",
-        "confidence_score": 1,
+        "confidence_score": 0.8122406782083397,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "23andMe",
@@ -6363,7 +6081,7 @@
         "deal_value": null,
         "deal_date": "2023-11-13",
         "description": "Direct competition in Healthcare market",
-        "confidence_score": 1,
+        "confidence_score": 0.7115302881095149,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Modern Fertility",
@@ -6386,7 +6104,7 @@
         "deal_value": null,
         "deal_date": "2025-03-15",
         "description": "Direct competition in Healthcare market",
-        "confidence_score": 1,
+        "confidence_score": 0.9213730935888329,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Modern Fertility",
@@ -6409,7 +6127,7 @@
         "deal_value": null,
         "deal_date": "2025-02-28",
         "description": "Direct competition in Infrastructure market",
-        "confidence_score": 1,
+        "confidence_score": 0.8572413156747815,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Render",
@@ -6432,7 +6150,7 @@
         "deal_value": null,
         "deal_date": "2023-10-03",
         "description": "Direct competition in E-commerce market",
-        "confidence_score": 1,
+        "confidence_score": 0.8405325440533707,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Teespring",
@@ -6455,7 +6173,7 @@
         "deal_value": null,
         "deal_date": "2024-03-07",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.8998446607434365,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -6478,7 +6196,7 @@
         "deal_value": null,
         "deal_date": "2024-02-06",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7520827245389794,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -6501,7 +6219,7 @@
         "deal_value": null,
         "deal_date": "2024-07-07",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.8990486658279488,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -6524,7 +6242,7 @@
         "deal_value": null,
         "deal_date": "2025-07-21",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.8635710642658494,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "GitLab",
@@ -6547,7 +6265,7 @@
         "deal_value": null,
         "deal_date": "2024-12-11",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.8076854461746201,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Airtable",
@@ -6570,7 +6288,7 @@
         "deal_value": null,
         "deal_date": "2023-10-01",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7546874075690787,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Amplitude",
@@ -6593,7 +6311,7 @@
         "deal_value": null,
         "deal_date": "2024-06-07",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7275575042927132,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Amplitude",
@@ -6616,7 +6334,7 @@
         "deal_value": null,
         "deal_date": "2024-05-28",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7603158844078871,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Amplitude",
@@ -6639,7 +6357,7 @@
         "deal_value": null,
         "deal_date": "2024-03-01",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.788246203981735,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -6662,7 +6380,7 @@
         "deal_value": null,
         "deal_date": "2023-12-27",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7175466423954769,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -6685,7 +6403,7 @@
         "deal_value": null,
         "deal_date": "2024-12-15",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.8417215263686367,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -6708,7 +6426,7 @@
         "deal_value": null,
         "deal_date": "2025-03-06",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.8830328330234178,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -6731,7 +6449,7 @@
         "deal_value": null,
         "deal_date": "2024-10-09",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7893422460335691,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -6754,7 +6472,7 @@
         "deal_value": null,
         "deal_date": "2024-06-12",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.8313965915247791,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Retool",
@@ -6777,7 +6495,7 @@
         "deal_value": null,
         "deal_date": "2024-09-08",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7397521467322464,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Segment",
@@ -6800,7 +6518,7 @@
         "deal_value": null,
         "deal_date": "2023-12-17",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7916695432156374,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Segment",
@@ -6823,7 +6541,7 @@
         "deal_value": null,
         "deal_date": "2025-03-14",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.8692283882140746,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Segment",
@@ -6846,7 +6564,7 @@
         "deal_value": null,
         "deal_date": "2023-12-28",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7065708488507807,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "LaunchDarkly",
@@ -6869,7 +6587,7 @@
         "deal_value": null,
         "deal_date": "2025-08-08",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7673050076308612,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "LaunchDarkly",
@@ -6892,7 +6610,7 @@
         "deal_value": null,
         "deal_date": "2025-05-03",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7259608914607609,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "LaunchDarkly",
@@ -6915,7 +6633,7 @@
         "deal_value": null,
         "deal_date": "2024-10-27",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.8380088238846004,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "LaunchDarkly",
@@ -6938,7 +6656,7 @@
         "deal_value": null,
         "deal_date": "2024-01-11",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7686421514201879,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Sourcegraph",
@@ -6961,7 +6679,7 @@
         "deal_value": null,
         "deal_date": "2024-04-06",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7979177363010298,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Vercel",
@@ -6984,7 +6702,7 @@
         "deal_value": null,
         "deal_date": "2024-07-22",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7778322496433737,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Vercel",
@@ -7007,7 +6725,7 @@
         "deal_value": null,
         "deal_date": "2024-03-17",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.8013830997087328,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Supabase",
@@ -7030,7 +6748,7 @@
         "deal_value": null,
         "deal_date": "2023-09-20",
         "description": "Platform integration and API partnership",
-        "confidence_score": 1,
+        "confidence_score": 0.7434845108410306,
         "source": "YC_Relationship_Generator",
         "companies_mentioned": [
           "Supabase",
