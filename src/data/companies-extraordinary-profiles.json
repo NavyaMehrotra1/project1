@@ -1,0 +1,310 @@
+{
+  "companies": {
+    "stripe": {
+      "basic_info": {
+        "id": "stripe",
+        "name": "Stripe",
+        "industry": "Fintech",
+        "batch": "S09",
+        "status": "Private",
+        "valuation": 95000000000,
+        "logo_url": "https://images.ctfassets.net/fzn2n1nzq965/HTTOloNPhisV9P4hlMPNA/cacf1bb88b9fc492dfad34378d844280/Stripe_icon_-_square.svg"
+      },
+      "extraordinary_profile": {
+        "overall_score": 0.52,
+        "extraordinary_score": 55,
+        "calculation_source": "backend/services/extraordinary_research_service.py",
+        "profile_generation_source": "backend/services/extraordinary_profile_service.py",
+        "last_updated": "2024-01-13T18:30:00",
+        "metrics": {
+          "valuation": 95000000000,
+          "funding_raised": 2200000000,
+          "employee_count": 4000,
+          "revenue": 12000000000,
+          "deal_activity_count": 12,
+          "articles_analyzed": 25,
+          "sources_analyzed": 61
+        },
+        "notable_achievements": [
+          "Revolutionized online payments infrastructure",
+          "Achieved $95B valuation as private company",
+          "Processing over $640 billion annually",
+          "Expanded to 46+ countries globally",
+          "Built comprehensive financial services platform"
+        ],
+        "recognition_highlights": [
+          "Forbes Cloud 100 List multiple years",
+          "Fast Company Most Innovative Companies",
+          "Time Magazine Best Inventions",
+          "Glassdoor Best Places to Work"
+        ],
+        "innovation_areas": [
+          "Payment processing infrastructure",
+          "Developer-first API design",
+          "Global financial compliance",
+          "Machine learning fraud detection",
+          "Carbon removal initiatives"
+        ]
+      }
+    },
+    "openai": {
+      "basic_info": {
+        "id": "openai",
+        "name": "OpenAI",
+        "industry": "AI",
+        "batch": "W16",
+        "status": "Private",
+        "valuation": 80000000000,
+        "logo_url": "https://logo.clearbit.com/openai.com"
+      },
+      "extraordinary_profile": {
+        "overall_score": 0.57,
+        "extraordinary_score": 55,
+        "calculation_source": "backend/services/extraordinary_research_service.py",
+        "profile_generation_source": "backend/services/extraordinary_profile_service.py",
+        "last_updated": "2024-01-13T18:30:00",
+        "metrics": {
+          "valuation": 80000000000,
+          "funding_raised": 11300000000,
+          "employee_count": 1500,
+          "revenue": 2000000000,
+          "deal_activity_count": 20,
+          "articles_analyzed": 25,
+          "sources_analyzed": 74
+        },
+        "notable_achievements": [
+          "Created GPT series of language models",
+          "Launched ChatGPT with 100M+ users",
+          "Pioneered large language model research",
+          "Achieved AGI research breakthroughs",
+          "Democratized AI access globally"
+        ],
+        "recognition_highlights": [
+          "Time Person of the Year (Sam Altman)",
+          "MIT Technology Review Breakthrough Technologies",
+          "Forbes AI 50 List",
+          "Fast Company Most Innovative Companies"
+        ],
+        "innovation_areas": [
+          "Large language models (GPT series)",
+          "Multimodal AI systems",
+          "AI safety and alignment",
+          "Reinforcement learning from human feedback",
+          "AI democratization and accessibility"
+        ]
+      }
+    },
+    "airbnb": {
+      "basic_info": {
+        "id": "airbnb",
+        "name": "Airbnb",
+        "industry": "Travel",
+        "batch": "W08",
+        "status": "Public",
+        "valuation": 75000000000,
+        "logo_url": "https://a0.muscache.com/airbnb/static/logos/belo-200.png"
+      },
+      "extraordinary_profile": {
+        "overall_score": 0.55,
+        "extraordinary_score": 50,
+        "calculation_source": "backend/services/extraordinary_research_service.py",
+        "profile_generation_source": "backend/services/extraordinary_profile_service.py",
+        "last_updated": "2024-01-13T18:30:00",
+        "metrics": {
+          "valuation": 75000000000,
+          "funding_raised": 6400000000,
+          "employee_count": 6000,
+          "revenue": 8000000000,
+          "deal_activity_count": 1,
+          "articles_analyzed": 25,
+          "sources_analyzed": 77
+        },
+        "notable_achievements": [
+          "Transformed travel and hospitality industry",
+          "Created sharing economy category",
+          "Successful IPO during pandemic",
+          "4M+ hosts across 220+ countries",
+          "1B+ guest arrivals to date"
+        ],
+        "recognition_highlights": [
+          "Fortune Best Companies to Work For",
+          "Fast Company Most Innovative Companies",
+          "Time Magazine Best Inventions",
+          "Glassdoor Employees' Choice Awards"
+        ],
+        "innovation_areas": [
+          "Peer-to-peer marketplace platform",
+          "Trust and safety systems",
+          "Dynamic pricing algorithms",
+          "Community-driven hospitality",
+          "Sustainable travel initiatives"
+        ]
+      }
+    },
+    "anthropic": {
+      "basic_info": {
+        "id": "anthropic",
+        "name": "Anthropic",
+        "industry": "AI",
+        "batch": "S21",
+        "status": "Private",
+        "valuation": 15000000000,
+        "logo_url": "https://logo.clearbit.com/anthropic.com"
+      },
+      "extraordinary_profile": {
+        "overall_score": 0.48,
+        "extraordinary_score": 40,
+        "calculation_source": "backend/services/extraordinary_research_service.py",
+        "profile_generation_source": "backend/services/extraordinary_profile_service.py",
+        "last_updated": "2024-01-13T18:30:00",
+        "metrics": {
+          "valuation": 15000000000,
+          "funding_raised": 7300000000,
+          "employee_count": 500,
+          "revenue": 850000000,
+          "deal_activity_count": 18,
+          "articles_analyzed": 20,
+          "sources_analyzed": 45
+        },
+        "notable_achievements": [
+          "Developed Claude AI assistant series",
+          "Pioneered Constitutional AI approach",
+          "Founded by former OpenAI researchers",
+          "Raised $4B+ from Amazon partnership",
+          "Leading AI safety research"
+        ],
+        "recognition_highlights": [
+          "MIT Technology Review AI Companies",
+          "CB Insights AI 100",
+          "Time Magazine AI Breakthrough",
+          "Forbes AI 50 List"
+        ],
+        "innovation_areas": [
+          "Constitutional AI methodology",
+          "AI safety and alignment research",
+          "Large language model development",
+          "Harmless AI systems",
+          "AI interpretability research"
+        ]
+      }
+    },
+    "scale_ai": {
+      "basic_info": {
+        "id": "scale_ai",
+        "name": "Scale AI",
+        "industry": "AI",
+        "batch": "S16",
+        "status": "Private",
+        "valuation": 7300000000,
+        "logo_url": "https://img.logo.dev/scaleai.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ"
+      },
+      "extraordinary_profile": {
+        "overall_score": 0.45,
+        "extraordinary_score": 40,
+        "calculation_source": "backend/services/extraordinary_research_service.py",
+        "profile_generation_source": "backend/services/extraordinary_profile_service.py",
+        "last_updated": "2024-01-13T18:30:00",
+        "metrics": {
+          "valuation": 7300000000,
+          "funding_raised": 1600000000,
+          "employee_count": 1000,
+          "revenue": 750000000,
+          "deal_activity_count": 14,
+          "articles_analyzed": 18,
+          "sources_analyzed": 35
+        },
+        "notable_achievements": [
+          "Leading AI data platform provider",
+          "Serves major AI companies and government",
+          "Unicorn status achieved rapidly",
+          "Critical infrastructure for AI training",
+          "Defense and autonomous vehicle partnerships"
+        ],
+        "recognition_highlights": [
+          "Forbes AI 50 List",
+          "CB Insights AI 100",
+          "Fast Company Most Innovative Companies",
+          "Fortune Future 50"
+        ],
+        "innovation_areas": [
+          "AI training data platform",
+          "Computer vision labeling",
+          "Autonomous vehicle data",
+          "Government AI applications",
+          "Large-scale data annotation"
+        ]
+      }
+    },
+    "weights_&_biases": {
+      "basic_info": {
+        "id": "weights_&_biases",
+        "name": "Weights & Biases",
+        "industry": "AI/ML",
+        "batch": "W17",
+        "status": "Private",
+        "valuation": 1000000000,
+        "logo_url": "https://img.logo.dev/weights&biases.com?token=pk_X-1ZO13GSgeOoUrIuJ6GMQ"
+      },
+      "extraordinary_profile": {
+        "overall_score": 0.42,
+        "extraordinary_score": 40,
+        "calculation_source": "backend/services/extraordinary_research_service.py",
+        "profile_generation_source": "backend/services/extraordinary_profile_service.py",
+        "last_updated": "2024-01-13T18:30:00",
+        "metrics": {
+          "valuation": 1000000000,
+          "funding_raised": 250000000,
+          "employee_count": 200,
+          "revenue": 100000000,
+          "deal_activity_count": 5,
+          "articles_analyzed": 15,
+          "sources_analyzed": 25
+        },
+        "notable_achievements": [
+          "Leading MLOps platform provider",
+          "Used by top AI research teams globally",
+          "Achieved unicorn status",
+          "Essential tool for ML experimentation",
+          "Strong open-source community"
+        ],
+        "recognition_highlights": [
+          "CB Insights AI 100",
+          "Gartner Cool Vendor",
+          "Developer community awards",
+          "Y Combinator success story"
+        ],
+        "innovation_areas": [
+          "Machine learning operations (MLOps)",
+          "Experiment tracking and visualization",
+          "Model monitoring and deployment",
+          "Collaborative ML development",
+          "AI research infrastructure"
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "calculation_methodology": {
+      "extraordinary_score_formula": "Weighted combination of valuation (20%), funding (15%), growth (15%), innovation (15%), market position (10%), recognition (10%), leadership (5%), impact (10%)",
+      "score_range": "0-100 scale with bonuses for unicorn/IPO status",
+      "data_sources": ["Exa API", "TechCrunch", "Forbes", "Bloomberg", "Reuters", "WSJ"],
+      "update_frequency": "Weekly for active profiles"
+    },
+    "profile_generation": {
+      "research_depth": "Comprehensive analysis using 25+ articles per company",
+      "ai_analysis": "Claude AI for content analysis and scoring",
+      "quality_threshold": "0.4 relevance score minimum",
+      "source_verification": "Premium business news sources only"
+    },
+    "file_locations": {
+      "score_calculation": "backend/services/extraordinary_research_service.py (lines 284-349)",
+      "profile_generation": "backend/services/extraordinary_profile_service.py (lines 78-111)",
+      "data_models": "backend/models/extraordinary_profile.py (lines 148-196)",
+      "raw_profiles": "backend/data/extraordinary_profiles/",
+      "graph_data": "data_agent/data_agent/output/nodes_final.csv"
+    },
+    "last_updated": "2025-09-14T09:37:47-04:00",
+    "total_companies_analyzed": 102,
+    "companies_with_profiles": 6
+  }
+}

@@ -1,7 +1,9 @@
-'use client'
-
-import { SimpleGraphDemo } from '@/components/SimpleGraphDemo'
+import GraphVisualization from '@/src/components/GraphVisualization'
 
 export default function Home() {
-  return <SimpleGraphDemo />
+  return (
+    <main>
+      <GraphVisualization />
+    </main>
+  )
 }

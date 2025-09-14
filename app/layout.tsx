@@ -1,14 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
-import { Toaster } from 'react-hot-toast'
-import { Navigation } from '@/components/Navigation'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'DealFlow - AI-Native M&A Intelligence',
-  description: 'Predict, analyze, and understand M&A deals with AI-powered insights',
+  title: 'DealFlow - M&A Intelligence Platform',
+  description: 'AI-powered M&A intelligence with graph visualization and prediction pipeline',
 }
 
 export default function RootLayout({
@@ -18,13 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navigation />
-        <main className="pt-20">
-          {children}
-        </main>
-        <Toaster position="top-right" />
-      </body>
+      <body>{children}</body>
     </html>
   )
 }

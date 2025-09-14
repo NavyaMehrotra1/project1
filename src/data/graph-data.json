@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "size": 80,
+      "color": "#3b82f6",
+      "data": {
+        "name": "OpenAI",
+        "industry": "AI/ML",
+        "batch": "N/A",
+        "status": "Private",
+        "valuation": 80000000000,
+        "deal_activity_count": 15,
+        "extraordinary_score": 95,
+        "logo_url": "https://logo.clearbit.com/openai.com"
+      }
+    },
+    {
+      "id": "stripe",
+      "label": "Stripe",
+      "size": 90,
+      "color": "#10b981",
+      "data": {
+        "name": "Stripe",
+        "industry": "Fintech",
+        "batch": "S09",
+        "status": "Private",
+        "valuation": 95000000000,
+        "deal_activity_count": 12,
+        "extraordinary_score": 92,
+        "logo_url": "https://logo.clearbit.com/stripe.com"
+      }
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "size": 75,
+      "color": "#ef4444",
+      "data": {
+        "name": "Anthropic",
+        "industry": "AI/ML",
+        "batch": "N/A",
+        "status": "Private",
+        "valuation": 15000000000,
+        "deal_activity_count": 8,
+        "extraordinary_score": 88,
+        "logo_url": "https://logo.clearbit.com/anthropic.com"
+      }
+    },
+    {
+      "id": "airbnb",
+      "label": "Airbnb",
+      "size": 85,
+      "color": "#f59e0b",
+      "data": {
+        "name": "Airbnb",
+        "industry": "Travel",
+        "batch": "W09",
+        "status": "Public",
+        "valuation": 75000000000,
+        "deal_activity_count": 20,
+        "extraordinary_score": 90,
+        "logo_url": "https://logo.clearbit.com/airbnb.com"
+      }
+    },
+    {
+      "id": "dropbox",
+      "label": "Dropbox",
+      "size": 70,
+      "color": "#8b5cf6",
+      "data": {
+        "name": "Dropbox",
+        "industry": "Cloud Storage",
+        "batch": "S07",
+        "status": "Public",
+        "valuation": 8000000000,
+        "deal_activity_count": 18,
+        "extraordinary_score": 85,
+        "logo_url": "https://logo.clearbit.com/dropbox.com"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge1",
+      "source": "openai",
+      "target": "stripe",
+      "label": "Partnership",
+      "weight": 5,
+      "color": "#10b981",
+      "data": {
+        "deal_type": "partnership",
+        "deal_value": 1000000000,
+        "deal_date": "2024-01-15",
+        "description": "Strategic AI integration partnership for payment processing",
+        "confidence_score": 0.85
+      }
+    },
+    {
+      "id": "edge2",
+      "source": "anthropic",
+      "target": "openai",
+      "label": "Competition",
+      "weight": 3,
+      "color": "#ef4444",
+      "data": {
+        "deal_type": "competition",
+        "deal_value": null,
+        "deal_date": "2024-02-01",
+        "description": "AI model competition and talent acquisition rivalry",
+        "confidence_score": 0.92
+      }
+    },
+    {
+      "id": "edge3",
+      "source": "airbnb",
+      "target": "openai",
+      "label": "Investment",
+      "weight": 4,
+      "color": "#3b82f6",
+      "data": {
+        "deal_type": "investment",
+        "deal_value": 500000000,
+        "deal_date": "2024-03-10",
+        "description": "Strategic investment in AI for travel personalization",
+        "confidence_score": 0.78
+      }
+    },
+    {
+      "id": "edge4",
+      "source": "dropbox",
+      "target": "anthropic",
+      "label": "Acquisition",
+      "weight": 6,
+      "color": "#ef4444",
+      "data": {
+        "deal_type": "acquisition",
+        "deal_value": 2000000000,
+        "deal_date": "2024-04-05",
+        "description": "Potential acquisition for AI-powered file management",
+        "confidence_score": 0.65
+      }
+    },
+    {
+      "id": "edge5",
+      "source": "stripe",
+      "target": "airbnb",
+      "label": "Collaboration",
+      "weight": 4,
+      "color": "#8b5cf6",
+      "data": {
+        "deal_type": "collaboration",
+        "deal_value": 250000000,
+        "deal_date": "2024-05-20",
+        "description": "Enhanced payment solutions for travel industry",
+        "confidence_score": 0.88
+      }
+    }
+  ],
+  "metadata": {
+    "total_companies": 5,
+    "total_deals": 5,
+    "last_updated": "2024-09-14T08:23:00Z",
+    "data_sources": ["NewsAPI", "Exa", "YC Database", "ChromaDB"],
+    "prediction_model": "Anthropic Claude + Vector Similarity"
+  }
+}
