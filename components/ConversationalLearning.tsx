@@ -14,7 +14,7 @@ import {
   Target,
   BarChart3
 } from 'lucide-react'
-import { aiTeachService, UserProfile, InteractionSignal } from '@/services/ai-teach-service'
+import { aiTeachService, UserProfile, InteractionSignal, generateAIResponse } from '@/services/ai-teach-service'
 import toast from 'react-hot-toast'
 
 interface Message {
@@ -71,71 +71,52 @@ export const ConversationalLearning: React.FC<ConversationalLearningProps> = ({
   }
 
   const handleSendMessage = async () => {
-    if (!currentMessage.trim() || !userProfile) return
+    if (!currentMessage.trim() || isTyping) return
 
     const userMessage: Message = {
-      id: `user_${Date.now()}`,
+      id: Date.now().toString(),
       type: 'user',
       content: currentMessage,
-      timestamp: new Date().toISOString()
+      timestamp: new Date().toLocaleTimeString()
     }
 
     setMessages(prev => [...prev, userMessage])
     setCurrentMessage('')
     setIsTyping(true)
 
-    try {
-      // Analyze user input for level signals
-      const signals = aiTeachService.analyzeUserInput(currentMessage, 'conversational_learning')
+    // Analyze user input for signals
+    const signals = aiTeachService.analyzeUserInput(currentMessage, 'conversational_learning')
+    
+    // Update user profile based on signals
+    if (userProfile && signals.length > 0) {
+      const updatedProfile = aiTeachService.updateUserLevel(userProfile, signals)
+      setUserProfile(updatedProfile)
+      localStorage.setItem('ai-teach-profile', JSON.stringify(updatedProfile))
       
-      // Update user profile based on signals
-      let updatedProfile = userProfile
-      if (signals.length > 0) {
-        updatedProfile = aiTeachService.updateUserLevel(userProfile, signals)
-        setUserProfile(updatedProfile)
-        localStorage.setItem('ai-teach-profile', JSON.stringify(updatedProfile))
-        onProfileUpdate?.(updatedProfile)
-        
-        // Show level adjustment feedback
-        if (updatedProfile.current_level !== userProfile.current_level) {
-          toast.success(`Adjusted to ${updatedProfile.current_level} level based on your question`)
-        }
+      // Show level change notifications
+      if (updatedProfile.current_level !== userProfile.current_level) {
+        toast.success(`Level updated to ${updatedProfile.current_level}!`)
       }
+    }
 
-      // Generate AI response based on current level
-      const aiResponse = await generateAIResponse(currentMessage, updatedProfile)
-      
+    // Generate AI response with graph data context
+    setTimeout(async () => {
+      const aiResponse = await generateAIResponse(
+        currentMessage, 
+        userProfile?.current_level || 'beginner'
+      )
+
       const aiMessage: Message = {
-        id: `ai_${Date.now()}`,
+        id: (Date.now() + 1).toString(),
         type: 'ai',
         content: aiResponse,
-        timestamp: new Date().toISOString(),
-        level_used: updatedProfile.current_level
+        timestamp: new Date().toLocaleTimeString(),
+        level_used: userProfile?.current_level || 'beginner'
       }
 
       setMessages(prev => [...prev, aiMessage])
-      
-    } catch (error) {
-      console.error('Error processing message:', error)
-      toast.error('Failed to process your question')
-    } finally {
       setIsTyping(false)
-    }
-  }
-
-  const generateAIResponse = async (question: string, profile: UserProfile): Promise<string> => {
-    // Mock AI response generation based on level
-    const level = profile.current_level
-    const confidence = profile.level_confidence
-    
-    // Detect M&A concepts in the question
-    const concepts = detectConcepts(question)
-    
-    if (concepts.length === 0) {
-      return generateGeneralResponse(question, level)
-    }
-    
-    return generateConceptResponse(concepts[0], question, level, confidence)
+    }, 1000 + Math.random() * 1000)
   }
 
   const detectConcepts = (question: string): string[] => {
