@@ -1,19 +1,5 @@
 # 🌴 Poke MCP Challenge Demo Guide
 
-## **🏆 Prize Categories We're Targeting**
-
-### **Most Technically Impressive MCP Automation** 🎯
-- **Prize**: iPhone 17 Pro + Interaction × The North Face jackets + California trip
-- **Our Edge**: Distributed inference + MCP + Multi-source intelligence fusion
-
-### **Most Practical MCP Automation** 💼
-- **Prize**: iPhone Air + Interaction × The North Face jackets + California trip  
-- **Our Edge**: Real-world M&A monitoring for investment professionals
-
-### **Most Fun MCP Automation** 🎉
-- **Prize**: Meta Raybans + Apple AirPods Pro 3 + Interaction × The North Face jackets + California trip
-- **Our Edge**: Interactive deal discovery with rich notifications
-
 ## **🚀 Our Innovation: AI-Powered M&A Intelligence Automations**
 
 We've created the **first distributed AI system for M&A intelligence** that integrates with Poke via MCP to deliver real-time deal monitoring, sentiment analysis, and competitor intelligence.
